@@ -10,16 +10,9 @@
   <meta name="keywords" content="<?php echo $pageKeywords; ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/styles.css">
-
-  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
-  <link rel="icon" href="../../favicon.ico" type="image/x-icon">
-
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-</head>
 
 <body>
 
