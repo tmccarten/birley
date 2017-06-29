@@ -1,0 +1,46 @@
+/* -- GLOBAL -- /*
+
+/* -- Skip links -- */
+
+.hide-skip {
+	margin: 0;
+}
+
+.hide-skip a {
+  color: black;
+	position: absolute;
+	overflow: hidden;
+	height: 1px;
+	z-index: 9999;
+}
+
+.hide-skip a:focus {
+	height: auto;
+}
+
+/* -- layout -- */
+
+.site-wrapper {
+  max-width: 1400px;
+  margin-left: auto;
+	margin-right: auto;
+	padding: 0 2em;
+}
+
+/* -- Links -- */
+
+a {
+	color: black;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+/* -- Base Typography -- */
+
+body {
+	line-height: 1.2em;
+	font-family: 'Calibri', Tahoma, sans-serif;
+}

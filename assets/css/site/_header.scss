@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* -- Logo -- */
+
+.logo {
+  margin: 0;
+}
+
+.logo__link {
+  display: block;
+  background-image: url('../img/header/logo.png');
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 311px;
+  height: 38px;
+}
+
+/* -- About/contact -- */
+
+.about-contact {
+  display: flex;
+}
+
+.about-contact__separator {
+  margin: 0 2.5em;
+}
+
+/* -- Main Nav -- */
+
+.main-nav {
+  margin-top: 60px;
+}
+
+.main-nav__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav__link {
+  display: block;
+  background-image: url('../img/header/nav_sprite.png');
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main-nav__link--home {
+    background-position: -3px -44px;
+    width: 43px;
+    height: 30px;
+
+    &:hover, &.current {
+      background-position: -261px -44px;
+    }
+  }
+
+.main-nav__link--health {
+    background-position: -3px -80px;
+    width: 240px;
+    height: 32px;
+
+    &:hover {
+      background-position: -261px -80px;
+    }
+  }
+
+.main-nav__link--archive {
+    background-position: -3px -152px;
+    width: 121px;
+    height: 33px;
+
+    &:hover {
+      background-position: -261px -152px;
+    }
+  }
+
+.main-nav__link--grow {
+    background-position: -3px -189px;
+    width: 95px;
+    height: 29px;
+
+    &:hover {
+      background-position: -261px -189px;
+    }
+  }
+
+.main-nav__link--my {
+    background-position: -3px -222px;
+    width: 77px;
+    height: 31px;
+
+    &:hover {
+      background-position: -261px -222px
+    }
+  }
