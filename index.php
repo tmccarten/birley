@@ -11,6 +11,8 @@ $favIcon = "favicon.ico";
 
 include('assets/includes/head.php');?>
 
+<script type="text/javascript" src="bower_components/dragscroll/dragscroll.js"></script>
+
 </head>
 
 <?php
@@ -26,8 +28,19 @@ $linkMy = "my-birley/";
 
 include('assets/includes/header.php'); ?>
 
-<section class="site-wrapper map">
+<section id="map" class="site-wrapper map dragscroll">
+
+  <div class="map__inner">
+
+    <div class="clickable"></div>
+
+  </div>
+
+
+
 </section>
 
+
+<script src="assets/js/script.js"></script>
 </body>
 </html>
