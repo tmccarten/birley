@@ -30,12 +30,25 @@
   overflow: hidden;
   width: 311px;
   height: 38px;
+
+  &:hover {
+
+  }
 }
 
 /* -- About/contact -- */
 
 .about-contact {
   display: flex;
+}
+
+.about-contact__link {
+
+  &.current, &:hover {
+    border-bottom: 1px solid black;
+    text-decoration: none;
+  }
+  
 }
 
 .about-contact__separator {

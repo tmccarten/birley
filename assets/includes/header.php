@@ -14,9 +14,9 @@
       <h1 class="logo"><a href="<?php echo $linkHome; ?>" class="logo__link">Living Lines</a></h1>
 
       <ul class="about-contact" role="navigation">
-        <li class="about-contact__item"><a href="<?php echo $linkAbout; ?>">About</a></li>
+        <li class="about-contact__item"><a href="<?php echo $linkAbout; ?>" <?php if ($activePage === "About") {?> class="about-contact__link current" <?php } ?> class="about-contact__link">About</a></li>
           <span class="about-contact__separator">|</span>
-        <li class="about-contact__item"><a href="<?php echo $linkContact; ?>">Contact</a></li>
+        <li class="about-contact__item"><a href="<?php echo $linkContact; ?>" <?php if ($activePage === "Contact") {?> class="about-contact__link current" <?php } ?> class="about-contact__link">Contact</a></li>
       </ul>
 
     </div><!-- top-wrap ends -->

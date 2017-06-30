@@ -100,6 +100,11 @@ body {
 	display: flex;
 }
 
+.about-contact__link.current, .about-contact__link:hover {
+	border-bottom: 1px solid black;
+	text-decoration: none;
+}
+
 .about-contact__separator {
 	margin: 0 2.5em;
 }
@@ -176,23 +181,52 @@ body {
 	background-position: -261px -222px;
 }
 
-.site-wrapper .map {
-	margin-top: 60px;
-}
-
 .map {
-	background-image: url("../img/maps/map_today.png");
-	background-repeat: no-repeat;
-	background-size: contain;
-	width: 90%;
-	background-position: center;
-	padding-bottom: 62.5%;
+	text-align: center;
+	margin: 60px auto;
+	overflow: scroll;
+	overflow: -moz-scrollbars-none;
+	-ms-overflow-style: none;
 	-webkit-animation-name: fadeIn;
 	        animation-name: fadeIn;
-	-webkit-animation-duration: 1.2s;
-	        animation-duration: 1.2s;
+	-webkit-animation-duration: 1.5s;
+	        animation-duration: 1.5s;
 	-webkit-animation-fill-mode: forwards;
 	        animation-fill-mode: forwards;
+	height: 600px;
+	cursor: move;
+	/* fallback: no `url()` support or images disabled */
+	cursor: url("assets/img/icons/grab.cur"), move;
+	/* fallback: Internet Explorer */
+	cursor: -webkit-grab;
+	cursor: grab;
+	/* W3C standards syntax, should come least */
+}
+
+.map.dragscroll.grab {
+	cursor: url("assets/img/icons/grab.cur"), move;
+	cursor: -webkit-grab;
+	cursor: grab;
+}
+
+.map.dragscroll.grabbing {
+	cursor: url("assets/img/icons/grabbing.cur"), move;
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+}
+
+.map::-webkit-scrollbar {
+	display: none;
+}
+
+.map__inner {
+	position: relative;
+	background-image: url("../img/maps/map_today.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 1400px;
+	height: 984px;
+	padding-right: 20px;
 }
 
 @-webkit-keyframes fadeIn {
@@ -211,6 +245,20 @@ body {
 	to {
 		opacity: 1;
 	}
+}
+
+.clickable {
+	position: absolute;
+	background-color: pink;
+	height: 10.16260162601626016260162601626%;
+	width: 18.571428571428571428571428571429%;
+	left: 39.5%;
+	top: 12%;
+}
+
+.clickable:hover {
+	opacity: 0.8;
+	cursor: pointer;
 }
 
 /*# sourceMappingURL=source-map/style.css.map */
