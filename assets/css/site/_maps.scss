@@ -1,9 +1,20 @@
 .site-wrapper .map {
-  margin: 60px 0;
+  margin-top: 60px;
 }
 
 .map {
   background-image: url('../img/maps/map_today.png');
   background-repeat: no-repeat;
-  height: 700px;
+  background-size: contain;
+  width: 90%;
+  background-position: center;
+  padding-bottom: 62.5%;
+  animation-name: fadeIn;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }

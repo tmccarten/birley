@@ -1,4 +1,12 @@
-/* -- GLOBAL -- /*
+/* -- GLOBAL -- */
+html {
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 
 /* -- Skip links -- */
 .hide-skip {
@@ -134,7 +142,7 @@ body {
 	height: 32px;
 }
 
-.main-nav__link--health:hover {
+.main-nav__link--health:hover, .main-nav__link--health.current {
 	background-position: -261px -80px;
 }
 
@@ -144,18 +152,18 @@ body {
 	height: 33px;
 }
 
-.main-nav__link--archive:hover {
+.main-nav__link--archive:hover, .main-nav__link--archive.current {
 	background-position: -261px -152px;
 }
 
 .main-nav__link--grow {
-	background-position: -3px -189px;
+	background-position: -3px -187px;
 	width: 95px;
-	height: 29px;
+	height: 33px;
 }
 
-.main-nav__link--grow:hover {
-	background-position: -261px -189px;
+.main-nav__link--grow:hover, .main-nav__link--grow.current {
+	background-position: -261px -187px;
 }
 
 .main-nav__link--my {
@@ -164,18 +172,45 @@ body {
 	height: 31px;
 }
 
-.main-nav__link--my:hover {
+.main-nav__link--my:hover, .main-nav__link--my.current {
 	background-position: -261px -222px;
 }
 
 .site-wrapper .map {
-	margin: 60px 0;
+	margin-top: 60px;
 }
 
 .map {
 	background-image: url("../img/maps/map_today.png");
 	background-repeat: no-repeat;
-	height: 700px;
+	background-size: contain;
+	width: 90%;
+	background-position: center;
+	padding-bottom: 62.5%;
+	-webkit-animation-name: fadeIn;
+	        animation-name: fadeIn;
+	-webkit-animation-duration: 1.2s;
+	        animation-duration: 1.2s;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 /*# sourceMappingURL=source-map/style.css.map */

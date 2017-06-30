@@ -8,10 +8,12 @@
 
   <meta name="description" content="<?php echo $pageDescription; ?>">
   <meta name="keywords" content="<?php echo $pageKeywords; ?>">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
-  <link rel="stylesheet" href="<?php echo $normalize; ?>">
-  <link rel="stylesheet" href="<?php echo $style; ?>">
+  <?php $cssVersion = "3" ?>
+
+  <link rel="stylesheet" href="<?php echo $css; ?>normalize.css">
+  <link rel="stylesheet" href="<?php echo $css; ?>style.css?v=<?php echo $cssVersion; ?>">
 
   <link rel="shortcut icon" href="<?php echo $favIcon; ?>" type="image/x-icon">
   <link rel="icon" href="<?php echo $favIcon; ?>" type="image/x-icon">

@@ -7,13 +7,13 @@
 
 <div class="site-wrapper">
 
-  <header class="header">
+  <header class="header" role="banner">
     <div class="header__top">
 
 
       <h1 class="logo"><a href="<?php echo $linkHome; ?>" class="logo__link">Living Lines</a></h1>
 
-      <ul class="about-contact">
+      <ul class="about-contact" role="navigation">
         <li class="about-contact__item"><a href="<?php echo $linkAbout; ?>">About</a></li>
           <span class="about-contact__separator">|</span>
         <li class="about-contact__item"><a href="<?php echo $linkContact; ?>">Contact</a></li>
@@ -23,7 +23,7 @@
 
     <div class="header__nav">
 
-      <nav class="main-nav">
+      <nav class="main-nav" role="navigation">
         <ul class="main-nav__items">
           <li class="main-nav__item"><a href="<?php echo $linkHome; ?>" <?php if ($activePage === "Home") {?> class="main-nav__link main-nav__link--home current" <?php } ?> class="main-nav__link main-nav__link--home">Home</a></li>
           <li class="main-nav__item"><a href="<?php echo $linkHealth; ?>" <?php if ($activePage === "Health") {?> class="main-nav__link main-nav__link--health current" <?php } ?> class="main-nav__link main-nav__link--health">Birley Health and Education</a></li>

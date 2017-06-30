@@ -5,8 +5,7 @@ $pageDescription = "Archives, history and information on the Birley area of Hulm
 $pageKeywords = "Birley, History, Archives";
 $activePage = "Home";
 
-$normalize = "assets/css/normalize.css";
-$style = "assets/css/style.css";
+$css = "assets/css/";
 
 $favIcon = "favicon.ico";
 
@@ -16,14 +15,14 @@ include('assets/includes/head.php');?>
 
 <?php
 
-$linkHome = "index.php";
+$linkHome = ".";
 $linkAbout = "about.php";
 $linkContact = "contact.php";
 
-$linkHealth = "birley-health-and-education";
-$linkArchive = "birley-archive";
-$linkGrow = "grow-birley";
-$linkMy = "my-birley";
+$linkHealth = "birley-health-and-education/";
+$linkArchive = "birley-archive/";
+$linkGrow = "grow-birley/";
+$linkMy = "my-birley/";
 
 include('assets/includes/header.php'); ?>
 
