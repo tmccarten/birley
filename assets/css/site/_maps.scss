@@ -1,4 +1,5 @@
 .map {
+  position: relative;
   text-align: center;
   margin: 60px auto;
   overflow: scroll;
@@ -7,11 +8,12 @@
   animation-name: fadeIn;
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
-  //padding-bottom: 70.285714285714285714285714285714%;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
   height: 600px;
+  transition: transform 700ms ease-in-out;
   cursor: move; /* fallback: no `url()` support or images disabled */
   cursor: url('assets/img/icons/grab.cur'), move; /* fallback: Internet Explorer */
-  cursor:         grab; /* W3C standards syntax, should come least */
+  cursor:         grab;
 
   &.dragscroll.grab {
     cursor: url('assets/img/icons/grab.cur'), move;
@@ -21,23 +23,32 @@
   &.dragscroll.grabbing {
     cursor: url('assets/img/icons/grabbing.cur'), move;
     cursor: grabbing;
+    transform: scale(.8);
+    transition: transform 700ms ease-in-out;
+    box-shadow: none;
   }
 
   &::-webkit-scrollbar {
     display: none;
   }
 
+
 }
 
 .map__inner {
   position: relative;
+  background-size: 100%;
+  transition: transform 700ms ease-in-out;
   background-image: url('../img/maps/map_today.png');
   background-repeat: no-repeat;
-  //background-size: contain;
-  background-position: center;
   width: 1400px;
   height: 984px;
-  padding-right: 20px;
+  transform: scale(1.2);
+
+  &:hover {
+    //transform: scale(.9);
+  }
+
 }
 
 @keyframes fadeIn {
@@ -47,14 +58,32 @@
 
 .clickable {
   position: absolute;
-  background-color: pink;
+  background-color: white;
   height: 10.16260162601626016260162601626%;
   width: 18.571428571428571428571428571429%;
   left: 39.5%;
   top: 12%;
+  opacity: 0;
 
   &:hover {
     opacity: 0.8;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 769px) {
+
+  .map {
+    height: 400px;
+  }
+
+  .map__inner {
+    height: 984px;
+    //transform: scale(.8);
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
   }
 }

@@ -10,7 +10,7 @@
   <meta name="keywords" content="<?php echo $pageKeywords; ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
-  <?php $cssVersion = "5" ?>
+  <?php $cssVersion = "8" ?>
 
   <link rel="stylesheet" href="<?php echo $css; ?>normalize.css">
   <link rel="stylesheet" href="<?php echo $css; ?>style.css?v=<?php echo $cssVersion; ?>">

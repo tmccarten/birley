@@ -118,9 +118,8 @@ body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 
 .main-nav__link {
@@ -182,6 +181,7 @@ body {
 }
 
 .map {
+	position: relative;
 	text-align: center;
 	margin: 60px auto;
 	overflow: scroll;
@@ -193,14 +193,17 @@ body {
 	        animation-duration: 1.5s;
 	-webkit-animation-fill-mode: forwards;
 	        animation-fill-mode: forwards;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
 	height: 600px;
+	transition: -webkit-transform 700ms ease-in-out;
+	transition: transform 700ms ease-in-out;
+	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
 	cursor: move;
 	/* fallback: no `url()` support or images disabled */
 	cursor: url("assets/img/icons/grab.cur"), move;
 	/* fallback: Internet Explorer */
 	cursor: -webkit-grab;
 	cursor: grab;
-	/* W3C standards syntax, should come least */
 }
 
 .map.dragscroll.grab {
@@ -213,6 +216,12 @@ body {
 	cursor: url("assets/img/icons/grabbing.cur"), move;
 	cursor: -webkit-grabbing;
 	cursor: grabbing;
+	-webkit-transform: scale(0.8);
+	        transform: scale(0.8);
+	transition: -webkit-transform 700ms ease-in-out;
+	transition: transform 700ms ease-in-out;
+	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
+	box-shadow: none;
 }
 
 .map::-webkit-scrollbar {
@@ -221,12 +230,16 @@ body {
 
 .map__inner {
 	position: relative;
+	background-size: 100%;
+	transition: -webkit-transform 700ms ease-in-out;
+	transition: transform 700ms ease-in-out;
+	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
 	background-image: url("../img/maps/map_today.png");
 	background-repeat: no-repeat;
-	background-position: center;
 	width: 1400px;
 	height: 984px;
-	padding-right: 20px;
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
 }
 
 @-webkit-keyframes fadeIn {
@@ -249,16 +262,30 @@ body {
 
 .clickable {
 	position: absolute;
-	background-color: pink;
+	background-color: white;
 	height: 10.16260162601626016260162601626%;
 	width: 18.571428571428571428571428571429%;
 	left: 39.5%;
 	top: 12%;
+	opacity: 0;
 }
 
 .clickable:hover {
 	opacity: 0.8;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+	.map {
+		height: 400px;
+	}
+	.map__inner {
+		height: 984px;
+	}
+	.map__inner:hover {
+		-webkit-transform: scale(1.2);
+		        transform: scale(1.2);
+	}
 }
 
 /*# sourceMappingURL=source-map/style.css.map */
