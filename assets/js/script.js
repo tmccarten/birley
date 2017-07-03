@@ -38,6 +38,6 @@ function scrollPosition() {
 
   if (windowWidth < 1416) {
     map.scrollLeft = (scrollMax / 2) + 100;
-    map.scrollTop = 200;
+    map.scrollTop = 100;
   }
 }
