@@ -244,16 +244,16 @@ body {
 	border: none;
 }
 
-.map.dragscroll.grabbing .map__inner {
+.grabbing > .map__inner {
 	-webkit-transform: scale(0.8);
 	        transform: scale(0.8);
 }
 
 .map__inner {
 	position: relative;
-	transition: width 700ms, height 700ms, -webkit-transform 700ms;
-	transition: transform 700ms, width 700ms, height 700ms;
-	transition: transform 700ms, width 700ms, height 700ms, -webkit-transform 700ms;
+	transition: width 700ms, height 700ms, -webkit-transform 300ms;
+	transition: transform 300ms, width 700ms, height 700ms;
+	transition: transform 300ms, width 700ms, height 700ms, -webkit-transform 300ms;
 	background-image: url("../img/maps/map_today.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -284,9 +284,9 @@ body {
 
 @media screen and (max-width: 700px) {
 	.map {
-		height: 50vh;
+		height: 80vmin;
 	}
-	.map.dragscroll.grabbing .map__inner {
+	.grabbing > .map__inner {
 		-webkit-transform: scale(1);
 		        transform: scale(1);
 	}
