@@ -28,7 +28,7 @@ $linkMy = "my-birley/";
 
 include('assets/includes/header.php'); ?>
 
-<section id="map" class="site-wrapper map dragscroll">
+<section id="map" class="map dragscroll">
 
   <div class="map__inner">
 

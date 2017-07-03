@@ -7,9 +7,8 @@
   animation-name: fadeIn;
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
-  //box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.4);
-  border-top: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+  //border: 1px solid lightgrey;
   height: 600px;
   transition: transform 700ms ease-in-out;
 
@@ -45,8 +44,8 @@
   transition: transform 700ms ease-in-out;
   background-image: url('../img/maps/map_today.png');
   background-repeat: no-repeat;
-  width: 1272px;
-  height: 894px;
+  width: 1336px;
+  height: 939px;
 }
 
 @keyframes fadeIn {
@@ -69,15 +68,19 @@
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 960px) {
 
   .map {
     //height: 400px;
+
+    &.dragscroll.grabbing .map__inner {
+      transform: scale(.8);
+    }
   }
 
   .map__inner {
-    //height: 984px;
-    //transform: scale(.8);
+    //transform: translate(-300px, -100px);
+    //transform-origin: -150% -50% 0;
 
     &:hover {
       //transform: scale(1.2);
