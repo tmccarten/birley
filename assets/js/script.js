@@ -3,13 +3,23 @@
 document.getElementById('map');
 
 map.addEventListener('mousedown', function() {
-  map.className = 'site-wrapper map dragscroll grabbing';
+  map.className = 'map dragscroll grabbing';
 });
 
 map.addEventListener('mouseup', function() {
-  map.className = 'site-wrapper map dragscroll';
+  map.className = 'map dragscroll';
 });
 
 map.addEventListener('mouseout', function() {
-  map.className = 'site-wrapper map dragscroll';
+  map.className = 'map dragscroll';
+});
+
+// -- Touch Equivalent -- //
+
+map.addEventListener('touchmove', function() {
+  map.className = 'map dragscroll grabbing';
+});
+
+map.addEventListener('touchend', function() {
+  map.className = 'map dragscroll';
 });
