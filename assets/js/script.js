@@ -28,7 +28,7 @@ map.addEventListener('mouseout', function() {
 
 /* -- Set initial scroll position of map on window resize -- */
 
-window.addEventListener("resize", function() { scrollPosition() }, false);
+//window.addEventListener("resize", function() { scrollPosition() }, false);
 
 function scrollPosition() {
   var windowWidth = window.innerWidth,
@@ -37,6 +37,7 @@ function scrollPosition() {
   scrollMax = scrollWidth - clientWidth;
 
   if (windowWidth < 1416) {
-    map.scrollLeft = (scrollMax / 2) + 17;
+    map.scrollLeft = (scrollMax / 2) + 100;
+    map.scrollTop = 200;
   }
 }
