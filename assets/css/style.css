@@ -205,6 +205,24 @@ body {
 	cursor: grab;
 }
 
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
 .map::-webkit-scrollbar {
 	display: none;
 }
@@ -233,31 +251,14 @@ body {
 
 .map__inner {
 	position: relative;
-	transition: -webkit-transform 700ms ease-in-out;
-	transition: transform 700ms ease-in-out;
-	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
+	transition: width 700ms, height 700ms, -webkit-transform 700ms;
+	transition: transform 700ms, width 700ms, height 700ms;
+	transition: transform 700ms, width 700ms, height 700ms, -webkit-transform 700ms;
 	background-image: url("../img/maps/map_today.png");
 	background-repeat: no-repeat;
-	width: 1336px;
-	height: 939px;
-}
-
-@-webkit-keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
+	background-size: 100%;
+	width: 1319px;
+	height: 927px;
 }
 
 .clickable {
@@ -275,9 +276,23 @@ body {
 }
 
 @media screen and (max-width: 960px) {
+	.map__inner {
+		width: 1121px;
+		height: 788px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.map {
+		height: 50vh;
+	}
 	.map.dragscroll.grabbing .map__inner {
-		-webkit-transform: scale(0.8);
-		        transform: scale(0.8);
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	.map__inner {
+		width: 923px;
+		height: 649px;
 	}
 }
 
