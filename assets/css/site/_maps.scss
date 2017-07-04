@@ -14,7 +14,7 @@
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
   //box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
-  border: 1px dashed darken($light, 20);
+  border: 1px dashed $lightborder;
   border-top: 0;
   height: 600px;
   transition: transform 700ms ease-in-out;
@@ -53,6 +53,10 @@
   background-size: 100%;
   width: 1319px;
   height: 927px;
+}
+
+.map__inner--pre {
+  background-image: url('../img/maps/map_pre1800s.png');
 }
 
 
