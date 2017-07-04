@@ -48,16 +48,29 @@
 .map__inner {
   position: relative;
   transition: transform 400ms, width 700ms, height 700ms;
-  background-image: url('../img/maps/map_today.png');
+  background-image: url('../img/maps/map_today2.png');
   background-repeat: no-repeat;
   background-size: 100%;
   width: 1319px;
-  height: 927px;
+  height: 833px;
+
+  &.map__inner--1960s1980s {
+    background-image: url('../img/maps/map_1960s1980s.png');
+  }
+
+  &.map__inner--1800s {
+    background-image: url('../img/maps/map_1800s.png');
+  }
+
+  &.map__inner--pre {
+    background-image: url('../img/maps/map_pre1800s.png');
+  }
+
 }
 
-.map__inner--pre {
-  background-image: url('../img/maps/map_pre1800s.png');
-}
+
+
+
 
 
 .clickable {

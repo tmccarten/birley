@@ -80,7 +80,7 @@ $(".slider")
           } else if (pipOne !== -1) {
             $(".map.dragscroll").load("assets/includes/maps/map-1800s.php");
           } else if (pipTwo !== -1) {
-            $(".map.dragscroll").load("assets/includes/maps/map-19601980s.php");
+            $(".map.dragscroll").load("assets/includes/maps/map-1960s1980s.php");
           } else if (pipThree !== -1) {
             $(".map.dragscroll").load("assets/includes/maps/map-today.php");
           }
