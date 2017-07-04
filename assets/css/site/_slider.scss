@@ -16,7 +16,7 @@
 }
 
 .ui-widget-content {
-  border-top: 2px solid black;
+  border-top: 1px dashed black;
 }
 
 .ui-slider-horizontal {
@@ -50,8 +50,20 @@
   font-size: 1em;
 }
 
+.ui-slider-pip .ui-slider-label {
+  margin-left: -1.625em;
+}
+
+.ui-slider-pip-1 .ui-slider-label {
+  margin-left: -0.875em;
+}
+
 .ui-slider-pip-2 .ui-slider-label {
-  margin-left: -2.6em;
+  margin-left: -2.25em;
+}
+
+.ui-slider-pip-3 .ui-slider-label {
+  margin-left: -1em;
 }
 
 .ui-slider-pips .ui-slider-pip-initial {
@@ -69,13 +81,13 @@
 .ui-slider-handle {
   position: absolute;
   z-index: 2;
-  width: 20px;
-  height: 20px;
-  margin-left: -3px;
-  top: -12px;
+  width: 15px;
+  height: 15px;
+  top: -8px;
+  //margin-left: -1px;
   background: #79deff;
   border-radius: 50%;
-  border: 1px solid grey;
+  border: 2px solid;
 }
 
 .ui-widget-content .ui-slider-handle.ui-state-hover {
