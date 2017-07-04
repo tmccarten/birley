@@ -18,6 +18,10 @@ map.addEventListener('mouseout', function() {
 
   // -- Touch Equivalent -- //
 
+   map.addEventListener('touchstart', function() {
+    map.className = 'map dragscroll grabbing';
+  });
+
   map.addEventListener('touchmove', function() {
     map.className = 'map dragscroll grabbing';
   });
@@ -41,3 +45,23 @@ function scrollPosition() {
     map.scrollTop = 100;
   }
 }
+
+/* -- Slider -- */
+
+// set up an array to hold the months
+var era = ["Pre­-1800s", "1800s", "1960s-1980s", "Today"];
+
+$(".slider")
+
+    // activate the slider with options
+    .slider({
+        min: 0,
+        max: era.length-1,
+        value: 3
+    })
+
+    // add pips with the labels set to "months"
+    .slider("pips", {
+        rest: "label",
+        labels: era
+    });

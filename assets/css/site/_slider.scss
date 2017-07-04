@@ -1,0 +1,65 @@
+.slider-container {
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+  border: 1px solid transparent;
+  margin-top: 2em;
+  padding: 0 2em;
+}
+.slider {
+  position: relative;
+  margin: 3em auto;
+  max-width: 700px;
+}
+
+.ui-slider-horizontal.ui-slider-pips {
+  margin-bottom: 3em;
+}
+
+.ui-widget-content {
+  border-top: 1px solid grey;
+}
+
+.ui-slider-horizontal {
+  height: .8em;
+}
+
+.ui-slider-pips .ui-slider-line {
+  background: #000;
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  top: -30px;
+}
+
+.ui-slider-pips .ui-slider-label {
+  position: absolute;
+  left: 50%;
+  margin-left: -1.4em;
+  width: auto;
+  top: 0;
+  white-space: nowrap;
+  color: black;
+  //font-weight: bold;
+}
+
+.ui-slider-pip-2 .ui-slider-label {
+  margin-left: -2.4em;
+}
+
+.ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 10px;
+  height: 25px;
+  margin-left: -5px;
+  top: -14px;
+  background-color: orange;
+  border-radius: 4px;
+}
+
+.ui-widget-content .ui-slider-handle.ui-state-active,
+.ui-widget-content .ui-slider-handle.ui-state-focus,
+.ui-widget-content .ui-slider-handle.ui-state-hover {
+  background: orange;
+  border-color: black;
+}
