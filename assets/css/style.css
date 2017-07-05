@@ -250,6 +250,10 @@ body {
 	border: none;
 }
 
+.map.dragscroll.grabbing.dragscroll--cancel {
+	overflow: hidden;
+}
+
 .grabbing > .map__inner {
 	-webkit-transform: scale(0.8);
 	        transform: scale(0.8);
@@ -260,7 +264,7 @@ body {
 	transition: width 700ms, height 700ms, -webkit-transform 400ms;
 	transition: transform 400ms, width 700ms, height 700ms;
 	transition: transform 400ms, width 700ms, height 700ms, -webkit-transform 400ms;
-	background-image: url("../img/maps/map_today2.png");
+	background-image: url("../img/maps/map_today.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 1319px;
@@ -279,18 +283,64 @@ body {
 	background-image: url("../img/maps/map_pre1800s.png");
 }
 
-.clickable {
+.icon {
 	position: absolute;
-	background-color: pink;
-	height: 10.16260162601626016260162601626%;
-	width: 19.571428571428571428571428571429%;
-	left: 36.5%;
-	top: 13.5%;
 }
 
-.clickable:hover {
-	opacity: 0.8;
+.icon:hover {
+	-webkit-transform: scale(1.05);
+	        transform: scale(1.05);
 	cursor: pointer;
+}
+
+.icon.icon__brooks {
+	position: relative;
+	background: url("../img/icons/icon_brooks.png");
+	height: 12.364945978391356542617046818727%;
+	width: 15.542077331311599696739954510993%;
+	left: 60.197119029567854435178165276725%;
+	top: 41.896758703481392557022809123649%;
+}
+
+.icon.icon__brooks .icon__brooks--hover {
+	display: none;
+}
+
+.icon.icon__brooks:hover .icon__brooks--hover {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 2em;
+	position: absolute;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	left: -300px;
+	top: -140px;
+	font-size: .8125em;
+	width: 400px;
+	height: auto;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.icon.icon__brooks:hover .icon__brooks--hover a {
+	text-decoration: underline;
+}
+
+.icon.icon__brooks:hover .icon__brooks--hover p {
+	margin: .2em 0;
 }
 
 @media screen and (max-width: 960px) {
@@ -367,7 +417,7 @@ body {
 	font-size: 1em;
 }
 
-.ui-slider-pip .ui-slider-label {
+.ui-slider-pip-0 .ui-slider-label {
 	margin-left: -1.625em;
 }
 
@@ -413,7 +463,6 @@ body {
 
 .ui-widget-content .ui-slider-handle.ui-state-active,
 .ui-widget-content .ui-slider-handle.ui-state-focus {
-	background: orange;
 	outline: none;
 }
 

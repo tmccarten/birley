@@ -38,7 +38,12 @@
     transition: transform 700ms ease-in-out;
     box-shadow: none;
     border: none;
+
+    &.dragscroll--cancel {
+      overflow: hidden;
+    }
   }
+
 }
 
 .grabbing > .map__inner {
@@ -48,7 +53,7 @@
 .map__inner {
   position: relative;
   transition: transform 400ms, width 700ms, height 700ms;
-  background-image: url('../img/maps/map_today2.png');
+  background-image: url('../img/maps/map_today.png');
   background-repeat: no-repeat;
   background-size: 100%;
   width: 1319px;
@@ -68,22 +73,55 @@
 
 }
 
-
-
-
-
-
-.clickable {
+.icon {
   position: absolute;
-  background-color: pink;
-  height: 10.16260162601626016260162601626%;
-  width: 19.571428571428571428571428571429%;
-  left: 36.5%;
-  top: 13.5%;
 
   &:hover {
-    opacity: 0.8;
+    transform: scale(1.05);
+    //filter: brightness(1.2);
     cursor: pointer;
+  }
+
+  &.icon__brooks {
+    position: relative;
+    background: url('../img/icons/icon_brooks.png');
+    height: 12.364945978391356542617046818727%;
+    width: 15.542077331311599696739954510993%;
+    left: 60.197119029567854435178165276725%;
+    top: 41.896758703481392557022809123649%;
+
+    & .icon__brooks--hover {
+      display: none;
+    }
+
+    &:hover {
+      .icon__brooks--hover {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+        position: absolute;
+        border-radius: 20px;
+        border-bottom-right-radius: 0;
+        left: -300px;
+        top: -140px;
+        font-size: .8125em;
+        width: 400px;
+        height: auto;
+        background-color: white;
+        border: 1px solid black;
+
+        a {
+          text-decoration: underline;
+        }
+
+        p {
+          margin: .2em 0
+        }
+      }
+    }
   }
 }
 
