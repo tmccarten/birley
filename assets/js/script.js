@@ -1,4 +1,5 @@
 scrollPosition();
+//window.addEventListener('load', scrollPosition);
 
 /* -- Cross-browser Map Cursors -- */
 
@@ -26,7 +27,7 @@ map.addEventListener('mouseout', function() {
 
   // -- Touch Equivalent -- //
 
-   /* map.addEventListener('touchstart', function() {
+   map.addEventListener('touchstart', function() {
     map.className = 'map dragscroll grabbing';
   });
 
@@ -36,7 +37,7 @@ map.addEventListener('mouseout', function() {
 
   map.addEventListener('touchend', function() {
     map.className = 'map dragscroll';
-  }); */
+  });
 
 /* -- Set initial scroll position of map on window resize -- */
 
@@ -51,6 +52,9 @@ function scrollPosition() {
   if (windowWidth < 1416) {
     map.scrollLeft = (scrollMax / 2) + 100;
     map.scrollTop = 100;
+  } else {
+    map.scrollTop = 331;
+    map.scrollLeft = 104;
   }
 }
 
