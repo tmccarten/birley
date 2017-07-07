@@ -48,10 +48,10 @@
     border-bottom: 1px solid black;
     text-decoration: none;
   }
-
 }
 
-.about-contact__separator {
+.about-contact__item:first-child::after {
+  content: "|";
   margin: 0 2.5em;
 }
 

@@ -4,6 +4,7 @@
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   animation-name: fadeIn;
+  background: #f9f7ef;
 
   @keyframes fadeIn {
     from {opacity: 0;}
@@ -47,7 +48,7 @@
 }
 
 .grabbing > .map__inner {
-  transform: scale(.8) //translateX(-10%)
+  //transform: scale(.8) //translateX(-10%)
   ;
 }
 
@@ -57,8 +58,9 @@
   background-image: url('../img/maps/map_today3.png');
   background-repeat: no-repeat;
   background-size: contain;
-  width: 1800px;
-  height: 1200px;
+  width: 1440px;
+  height: 960px;
+  //transform: scale(.8);
   image-rendering: -moz-crisp-edges;         /* Firefox */
   image-rendering:   -o-crisp-edges;         /* Opera */
   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */

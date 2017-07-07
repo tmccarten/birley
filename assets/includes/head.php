@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -17,6 +17,7 @@
   <?php $cssVersion = "8" ?>
 
   <link rel="stylesheet" href="<?php echo $css; ?>normalize.css">
+  <link rel="stylesheet" href="bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.css">
   <link rel="stylesheet" href="<?php echo $css; ?>style.css?v=<?php echo date('his'); ?>">
 
   <link rel="shortcut icon" href="<?php echo $favIcon; ?>" type="image/x-icon">

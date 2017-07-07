@@ -109,7 +109,8 @@ body {
 	text-decoration: none;
 }
 
-.about-contact__separator {
+.about-contact__item:first-child::after {
+	content: "|";
 	margin: 0 2.5em;
 }
 
@@ -192,6 +193,7 @@ body {
 	-ms-overflow-style: none;
 	-webkit-animation-name: fadeIn;
 	        animation-name: fadeIn;
+	background: #f9f7ef;
 	-webkit-animation-duration: 1.5s;
 	        animation-duration: 1.5s;
 	-webkit-animation-fill-mode: forwards;
@@ -254,11 +256,6 @@ body {
 	overflow: hidden;
 }
 
-.grabbing > .map__inner {
-	-webkit-transform: scale(0.8);
-	        transform: scale(0.8);
-}
-
 .map__inner {
 	position: relative;
 	transition: width 700ms, height 700ms, -webkit-transform 400ms;
@@ -267,8 +264,8 @@ body {
 	background-image: url("../img/maps/map_today3.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 1800px;
-	height: 1200px;
+	width: 1440px;
+	height: 960px;
 	image-rendering: -moz-crisp-edges;
 	/* Firefox */
 	image-rendering: -o-crisp-edges;

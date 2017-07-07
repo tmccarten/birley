@@ -7,10 +7,9 @@ $activePage = "Home";
 
 $css = "assets/css/"; ?>
 
-<link rel="stylesheet" href="bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.css">
-
 <?php
 $favIcon = "favicon.ico";
+
 
 include('assets/includes/head.php');?>
 
@@ -46,7 +45,7 @@ include('assets/includes/header.php'); ?>
 
 </section>
 
-
+</div>
 <script src="assets/js/script.js?v=<?php echo date('his'); ?>"></script>
 </body>
 </html>
