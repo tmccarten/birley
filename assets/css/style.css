@@ -199,7 +199,7 @@ body {
 	border: 1px dashed silver;
 	border-top: 0;
 	height: 600px;
-	height: 50vh;
+	height: 60vh;
 	transition: -webkit-transform 700ms ease-in-out;
 	transition: transform 700ms ease-in-out;
 	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
@@ -285,7 +285,7 @@ body {
 }
 
 .map__inner.map__inner--1800s {
-	background-image: url("../img/maps/map_1800s2.png");
+	background-image: url("../img/maps/map_1800s3.png");
 }
 
 .map__inner.map__inner--pre {
@@ -424,6 +424,58 @@ body {
 	padding: 2em;
 	background-color: #c6685a;
 	color: black;
+}
+
+.icon__crescents {
+	background: url("../img/maps/icons/icon_crescents.svg") no-repeat;
+	height: 28.89675%;
+	width: 31.657277777777777777777777777778%;
+	left: 43.107%;
+	top: 29.944833333333333333333333333333%;
+}
+
+.icon__crescents .icon__crescents--hover {
+	display: none;
+}
+
+.icon__crescents:hover .icon__crescents--hover {
+	display: inline;
+	position: absolute;
+	border: 0.14285714285714285714285714285714em dashed #8d939a;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	width: 30em;
+	right: 70%;
+	bottom: 45%;
+	padding: 2em;
+	background-color: #dededa;
+	color: #050606;
+}
+
+.icon__terraces {
+	background: url("../img/maps/icons/icon_terraces.svg") no-repeat;
+	height: 27.31275%;
+	width: 11.086277777777777777777777777778%;
+	left: 55.765555555555555555555555555556%;
+	top: 28.136333333333333333333333333333%;
+}
+
+.icon__terraces .icon__terraces--hover {
+	display: none;
+}
+
+.icon__terraces:hover .icon__terraces--hover {
+	display: inline;
+	position: absolute;
+	border: 0.14285714285714285714285714285714em dashed #8d939a;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	width: 30em;
+	right: 70%;
+	bottom: 45%;
+	padding: 2em;
+	background-color: #dededa;
+	color: #050606;
 }
 
 @media screen and (max-width: 960px) {
