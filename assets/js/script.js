@@ -7,7 +7,7 @@ document.getElementById('map');
 
 map.addEventListener('mousedown', function() {
 
-  if ( $('#icon:hover').length != 0) {
+  if ( $('.icon:hover').length != 0) {
     map.className = 'map dragscroll';
   } else {
     map.className = 'map dragscroll grabbing';

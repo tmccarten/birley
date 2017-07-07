@@ -1,5 +1,4 @@
 .map {
-  position: relative;
   margin: 0 auto;
   overflow: scroll;
   overflow: -moz-scrollbars-none;
@@ -17,6 +16,7 @@
   border: 1px dashed $lightborder;
   border-top: 0;
   height: 600px;
+  height: 50vh;
   transition: transform 700ms ease-in-out;
 
   &::-webkit-scrollbar {
@@ -54,7 +54,7 @@
 .map__inner {
   position: relative;
   transition: transform 400ms, width 700ms, height 700ms;
-  background-image: url('../img/maps/map_today2.png');
+  background-image: url('../img/maps/map_today3.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 1800px;
@@ -66,90 +66,161 @@
   -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 
   &.map__inner--1960s1980s {
-    background-image: url('../img/maps/map_1960s1980s.png');
+    background-image: url('../img/maps/map_1960s1980s2.png');
   }
 
   &.map__inner--1800s {
-    background-image: url('../img/maps/map_1800s.png');
+    background-image: url('../img/maps/map_1800s2.png');
   }
 
   &.map__inner--pre {
-    background-image: url('../img/maps/map_pre1800s.png');
+    background-image: url('../img/maps/map_pre1800s2.png');
   }
 
 }
 
 .icon {
+  position: absolute;
+  padding: 2em;
+  font-size: .875em;
+  line-height: 1.6em;
+  font-family: 'Open Sans', calibri, arial, sans-serif;
 
   a {
     text-decoration: underline;
+    word-wrap: break-word;
   }
 
   p {
-    margin: .4em 0
+    margin: .4em 0;
   }
 
   &:hover {
     transform: scale(1.05);
     cursor: pointer;
-
+    z-index: 9999;
   }
 
-  &.icon__brooks {
-    position: relative;
-    background: url('../img/maps/icons/icon_brooks.svg') no-repeat;
-    height: 16%; //192px
-    width: 15.833333333333333333333333333333%; //285px;
-    left: 59.222222222222222222222222222222%;
-    top: 36.833333333333333333333333333333%;
+}
 
-    & .icon__brooks--hover {
-      display: none;
+.icon__brooks {
+  background: url('../img/maps/icons/icon_brooks.svg') no-repeat;
+  height: 16%; //192px
+  width: 15.833333333333333333333333333333%; //285px;
+  left: 59.222222222222222222222222222222%;
+  top: 36.833333333333333333333333333333%;
+
+  & .icon__brooks--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__brooks--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #f9f7ef;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 50%;
+      bottom: 50%;
+      padding: 2em;
+      background-color: #9bd7e6;
+      color: black;
     }
+  }
+}
 
-    &:hover {
-      .icon__brooks--hover {
-        position: absolute;
-        border: 0.38461538461538461538461538461538em solid #f9f7ef;
-        border-radius: 20px;
-        border-bottom-right-radius: 0;
-        width: 30em;
-        transform: translate(-60%, -65%);
-        padding: 2em;
-        background-color: #9bd7e6;
-        font-size: .8125em;
-        font-family: 'Open Sans', calibri, arial, sans-serif;
-        color: black;
+.icon__vine {
+  background: url('../img/maps/icons/icon_vine.svg') no-repeat;
+  height: 20.583333333333333333333333333333%; //247px
+  width: 18.666666666666666666666666666667%; //336px;
+  left: 41.383777777777777777777777777778%;
+  top: 33.499%;
+
+  & .icon__vine--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__vine--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #f9f7ef;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      padding: 2em;
+      width: 30em;
+      right: 50%;
+      bottom: 50%;
+      background-color: #efdca5;
+      color: black;
+    }
+  }
+}
+
+.icon__energy {
+  background: url('../img/maps/icons/icon_energy.svg') no-repeat;
+  height: 16.5%; //198px
+  width: 10.25%; //164px;
+  left: 69.694444444444444444444444444444%;
+  top: 58.6955%;
+
+  p {
+    //text-shadow: 1px 1px 3px black;
+  }
+
+  & .icon__energy--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__energy--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #f9f7ef;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      padding: 2em;
+      width: 30em;
+      right: 50%;
+      bottom: 50%;
+      background-color: #d27c6c;
+      color: #fff5a8;
+      word-wrap: break-word;
+
+      a {
+        color: white;
+        word-wrap: break-word;
       }
     }
   }
+}
 
-  &.icon__vine {
-    position: relative;
-    background: url('../img/maps/icons/icon_vine.svg') no-repeat;
-    height: 20.583333333333333333333333333333%; //247px
-    width: 21%; //336px;
-    left: 59.222222222222222222222222222222%;
-    top: 36.833333333333333333333333333333%;
+.icon__birleyhigh {
+  background: url('../img/maps/icons/icon_birleyhigh.svg') no-repeat;
+  height: 15.424%; //185.088px
+  width: 13.562722222222222222222222222222%; //244.129px;
+  left: 62.835666666666666666666666666667%;
+  top: 60.1365%;
 
-    & .icon__vine--hover {
-      display: none;
-    }
+  & .icon__birleyhigh--hover {
+    display: none;
+  }
 
-    &:hover {
-      .icon__vine--hover {
-        position: absolute;
-        border: 0.38461538461538461538461538461538em solid #f9f7ef;
-        border-radius: 20px;
-        border-bottom-right-radius: 0;
-        width: 30em;
-        transform: translate(-60%, -65%);
-        padding: 2em;
-        background-color: #9bd7e6;
-        font-size: .8125em;
-        font-family: 'Open Sans', calibri, arial, sans-serif;
-        color: black;
-      }
+  &:hover {
+    .icon__birleyhigh--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed black;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 70%;
+      bottom: 45%;
+      padding: 2em;
+      background-color: #c6685a;
+      color: black;
     }
   }
 }
@@ -157,15 +228,15 @@
 @media screen and (max-width: 960px) {
 
   .map__inner {
-    width: 1120px;
-    height: 840px;
+    width: 1350px;
+    height: 900px;
   }
 }
 
 @media screen and (max-width: 700px) {
 
   .map {
-    height: 80vmin;
+    //height: 80vmin;
   }
 
   .grabbing > .map__inner {
