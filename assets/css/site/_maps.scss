@@ -74,7 +74,7 @@
   }
 
   &.map__inner--pre {
-    background-image: url('../img/maps/map_pre1800s2.png');
+    background-image: url('../img/maps/map_pre1800s3.png');
   }
 
 }
@@ -281,6 +281,62 @@
   }
 }
 
+.icon__church {
+  background: url('../img/maps/icons/icon_church.svg') no-repeat;
+  height: 26.0345%; //312.414px
+  width: 12.0612222222222222222222222222228%; //217.102px;
+  left: 22.959111111111111111111111111111%;
+  top: 46.346583333333333333333333333333%;
+
+  & .icon__church--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__church--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #8d939a;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 70%;
+      bottom: 45%;
+      padding: 2em;
+      background-color: #dededa;
+      color: #050606;
+    }
+  }
+}
+
+.icon__farm {
+  background: url('../img/maps/icons/icon_farm.svg') no-repeat;
+  height: 31.562083333333333333333333333333%; //378.745px
+  width: 30.855444444444444444444444444444%; //555.398px;
+  left: 40.698055555555555555555555555556%;
+  top: 29.629583333333333333333333333333%;
+
+  & .icon__farm--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__farm--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #efeae1;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 70%;
+      bottom: 45%;
+      padding: 2em;
+      background-color: #d0b36b;
+      color: black;
+    }
+  }
+}
+
 @media screen and (max-width: 960px) {
 
   .map__inner {
@@ -300,8 +356,8 @@
   }
 
   .map__inner {
-    width: 923px;
-    height: 649px;
+    width: 924px;
+    height: 616px;
   }
 
 }
