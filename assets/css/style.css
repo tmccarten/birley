@@ -266,6 +266,7 @@ body {
 	background-size: contain;
 	width: 1440px;
 	height: 960px;
+	margin: 200px;
 	image-rendering: -moz-crisp-edges;
 	/* Firefox */
 	image-rendering: -o-crisp-edges;
