@@ -5,13 +5,18 @@ $pageDescription = "Archives, history and information on the Birley area of Hulm
 $pageKeywords = "Birley, History, Archives";
 $activePage = "Home";
 
-$css = "assets/css/";
+$css = "assets/css/"; ?>
 
+<?php
 $favIcon = "favicon.ico";
+
 
 include('assets/includes/head.php');?>
 
 <script type="text/javascript" src="bower_components/dragscroll/dragscroll.js"></script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.js"></script>
 
 </head>
 
@@ -28,19 +33,19 @@ $linkMy = "my-birley/";
 
 include('assets/includes/header.php'); ?>
 
-<section id="map" class="site-wrapper map dragscroll">
+<div class="slider-container">
 
-  <div class="map__inner">
+<div class="slider"></div>
 
-    <div class="clickable"></div>
+</div>
 
-  </div>
+<section id="map" class="map dragscroll">
 
-
+  <?php include('assets/includes/maps/map-today.php'); ?>
 
 </section>
 
-
-<script src="assets/js/script.js"></script>
+</div>
+<script src="assets/js/script.js?v=<?php echo date('his'); ?>"></script>
 </body>
 </html>

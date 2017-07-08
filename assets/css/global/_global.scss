@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  height: 100%;
+}
+
 /* -- Skip links -- */
 
 .hide-skip {
@@ -50,5 +54,5 @@ a {
 
 body {
 	line-height: 1.2em;
-	font-family: 'Calibri', Tahoma, sans-serif;
+	font-family: 'Corbel', 'Calibri', 'Tahoma', sans-serif;
 }

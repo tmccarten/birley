@@ -7,29 +7,28 @@
 
 <div class="site-wrapper">
 
-  <header class="header" role="banner">
+  <header class="header">
     <div class="header__top">
 
 
       <h1 class="logo"><a href="<?php echo $linkHome; ?>" class="logo__link">Living Lines</a></h1>
 
-      <ul class="about-contact" role="navigation">
-        <li class="about-contact__item"><a href="<?php echo $linkAbout; ?>" <?php if ($activePage === "About") {?> class="about-contact__link current" <?php } ?> class="about-contact__link">About</a></li>
-          <span class="about-contact__separator">|</span>
-        <li class="about-contact__item"><a href="<?php echo $linkContact; ?>" <?php if ($activePage === "Contact") {?> class="about-contact__link current" <?php } ?> class="about-contact__link">Contact</a></li>
+      <ul class="about-contact">
+        <li class="about-contact__item"><a href="<?php echo $linkAbout; ?>" <?php if ($activePage === "About") {echo 'class="about-contact__link current"'; } else echo 'class="about-contact__link"'; ?>>About</a></li>
+        <li class="about-contact__item"><a href="<?php echo $linkContact; ?>" <?php if ($activePage === "Contact") {echo 'class="about-contact__link current"'; } else echo 'class="about-contact__link"'; ?>>Contact</a></li>
       </ul>
 
     </div><!-- top-wrap ends -->
 
     <div class="header__nav">
 
-      <nav class="main-nav" role="navigation">
+      <nav class="main-nav">
         <ul class="main-nav__items">
-          <li class="main-nav__item"><a href="<?php echo $linkHome; ?>" <?php if ($activePage === "Home") {?> class="main-nav__link main-nav__link--home current" <?php } ?> class="main-nav__link main-nav__link--home">Home</a></li>
-          <li class="main-nav__item"><a href="<?php echo $linkHealth; ?>" <?php if ($activePage === "Health") {?> class="main-nav__link main-nav__link--health current" <?php } ?> class="main-nav__link main-nav__link--health">Birley Health and Education</a></li>
-          <li class="main-nav__item"><a href="<?php echo $linkArchive; ?>" <?php if ($activePage === "Archive") {?> class="main-nav__link main-nav__link--archive current" <?php } ?>  class="main-nav__link main-nav__link--archive">Birley Archive</a></li>
-          <li class="main-nav__item"><a href="<?php echo $linkGrow; ?>" <?php if ($activePage === "Grow") {?> class="main-nav__link main-nav__link--grow current" <?php } ?>  class="main-nav__link main-nav__link--grow">Grow Birley</a></li>
-          <li class="main-nav__item"><a href="<?php echo $linkMy; ?>" <?php if ($activePage === "My") {?> class="main-nav__link main-nav__link--my current" <?php } ?>  class="main-nav__link main-nav__link--my">My Birley</a></li>
+          <li class="main-nav__item"><a href="<?php echo $linkHome; ?>" <?php if ($activePage === "Home") {echo 'class="main-nav__link main-nav__link--home current"'; } else echo 'class="main-nav__link main-nav__link--home"'; ?>>Home</a></li>
+          <li class="main-nav__item"><a href="<?php echo $linkHealth; ?>" <?php if ($activePage === "Health") {echo 'class="main-nav__link main-nav__link--health current"'; } else echo 'class="main-nav__link main-nav__link--health"'; ?>>Birley Health and Education</a></li>
+          <li class="main-nav__item"><a href="<?php echo $linkArchive; ?>" <?php if ($activePage === "Archive") {echo 'class="main-nav__link main-nav__link--archive current"'; } else echo 'class="main-nav__link main-nav__link--archive"'; ?>>Birley Archive</a></li>
+          <li class="main-nav__item"><a href="<?php echo $linkGrow; ?>" <?php if ($activePage === "Grow") {echo 'class="main-nav__link main-nav__link--grow current"'; } else echo 'class="main-nav__link main-nav__link--grow"'; ?>>Grow Birley</a></li>
+          <li class="main-nav__item"><a href="<?php echo $linkMy; ?>" <?php if ($activePage === "My") {echo 'class="main-nav__link main-nav__link--my current"'; } else echo 'class="main-nav__link main-nav__link--my"'; ?>>My Birley</a></li>
         </ul>
       </nav>
 

@@ -8,6 +8,10 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	height: 100%;
+}
+
 /* -- Skip links -- */
 .hide-skip {
 	margin: 0;
@@ -46,7 +50,7 @@ a:hover {
 /* -- Base Typography -- */
 body {
 	line-height: 1.2em;
-	font-family: 'Calibri', Tahoma, sans-serif;
+	font-family: 'Corbel', 'Calibri', 'Tahoma', sans-serif;
 }
 
 .header {
@@ -57,7 +61,7 @@ body {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 .header ul {
@@ -105,21 +109,23 @@ body {
 	text-decoration: none;
 }
 
-.about-contact__separator {
+.about-contact__item:first-child::after {
+	content: "|";
 	margin: 0 2.5em;
 }
 
 /* -- Main Nav -- */
 .main-nav {
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 .main-nav__items {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .main-nav__link {
@@ -181,20 +187,21 @@ body {
 }
 
 .map {
-	position: relative;
-	text-align: center;
-	margin: 60px auto;
+	margin: 0 auto;
 	overflow: scroll;
 	overflow: -moz-scrollbars-none;
 	-ms-overflow-style: none;
 	-webkit-animation-name: fadeIn;
 	        animation-name: fadeIn;
+	background: #f9f7ef;
 	-webkit-animation-duration: 1.5s;
 	        animation-duration: 1.5s;
 	-webkit-animation-fill-mode: forwards;
 	        animation-fill-mode: forwards;
-	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+	border: 1px dashed silver;
+	border-top: 0;
 	height: 600px;
+	height: 60vh;
 	transition: -webkit-transform 700ms ease-in-out;
 	transition: transform 700ms ease-in-out;
 	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
@@ -204,42 +211,6 @@ body {
 	/* fallback: Internet Explorer */
 	cursor: -webkit-grab;
 	cursor: grab;
-}
-
-.map.dragscroll.grab {
-	cursor: url("assets/img/icons/grab.cur"), move;
-	cursor: -webkit-grab;
-	cursor: grab;
-}
-
-.map.dragscroll.grabbing {
-	cursor: url("assets/img/icons/grabbing.cur"), move;
-	cursor: -webkit-grabbing;
-	cursor: grabbing;
-	-webkit-transform: scale(0.8);
-	        transform: scale(0.8);
-	transition: -webkit-transform 700ms ease-in-out;
-	transition: transform 700ms ease-in-out;
-	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
-	box-shadow: none;
-}
-
-.map::-webkit-scrollbar {
-	display: none;
-}
-
-.map__inner {
-	position: relative;
-	background-size: 100%;
-	transition: -webkit-transform 700ms ease-in-out;
-	transition: transform 700ms ease-in-out;
-	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
-	background-image: url("../img/maps/map_today.png");
-	background-repeat: no-repeat;
-	width: 1400px;
-	height: 984px;
-	-webkit-transform: scale(1.2);
-	        transform: scale(1.2);
 }
 
 @-webkit-keyframes fadeIn {
@@ -260,32 +231,421 @@ body {
 	}
 }
 
-.clickable {
-	position: absolute;
-	background-color: white;
-	height: 10.16260162601626016260162601626%;
-	width: 18.571428571428571428571428571429%;
-	left: 39.5%;
-	top: 12%;
-	opacity: 0;
+.map::-webkit-scrollbar {
+	display: none;
 }
 
-.clickable:hover {
-	opacity: 0.8;
+.map.dragscroll.grab {
+	cursor: url("assets/img/icons/grab.cur"), move;
+	cursor: -webkit-grab;
+	cursor: grab;
+}
+
+.map.dragscroll.grabbing {
+	cursor: url("assets/img/icons/grabbing.cur"), move;
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+	transition: -webkit-transform 700ms ease-in-out;
+	transition: transform 700ms ease-in-out;
+	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
+	box-shadow: none;
+	border: none;
+}
+
+.map.dragscroll.grabbing.dragscroll--cancel {
+	overflow: hidden;
+}
+
+.map__inner {
+	position: relative;
+	transition: width 700ms, height 700ms, -webkit-transform 400ms;
+	transition: transform 400ms, width 700ms, height 700ms;
+	transition: transform 400ms, width 700ms, height 700ms, -webkit-transform 400ms;
+	background-image: url("../img/maps/map_today3.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 1440px;
+	height: 960px;
+	margin: 200px;
+	image-rendering: -moz-crisp-edges;
+	/* Firefox */
+	image-rendering: -o-crisp-edges;
+	/* Opera */
+	image-rendering: -webkit-optimize-contrast;
+	/* Webkit (non-standard naming) */
+	image-rendering: crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor;
+	/* IE (non-standard property) */
+}
+
+.map__inner.map__inner--1960s1980s {
+	background-image: url("../img/maps/map_1960s1980s2.png");
+}
+
+.map__inner.map__inner--1800s {
+	background-image: url("../img/maps/map_1800s3.png");
+}
+
+.map__inner.map__inner--pre {
+	background-image: url("../img/maps/map_pre1800s3.png");
+}
+
+.icon {
+	position: absolute;
+	padding: 2em;
+	font-size: .875em;
+	line-height: 1.6em;
+	font-family: 'Open Sans', calibri, arial, sans-serif;
+}
+
+.icon a {
+	text-decoration: underline;
+	word-wrap: break-word;
+}
+
+.icon p {
+	margin: .4em 0;
+}
+
+.icon:hover {
+	-webkit-transform: scale(1.05);
+	        transform: scale(1.05);
+	cursor: pointer;
+	z-index: 9999;
+}
+
+.icon__brooks {
+	background: url("../img/maps/icons/icon_brooks.svg") no-repeat;
+	height: 16%;
+	width: 15.833333333333333333333333333333%;
+	left: 59.222222222222222222222222222222%;
+	top: 36.833333333333333333333333333333%;
+}
+
+.icon__brooks .icon__brooks--hover {
+	display: none;
+}
+
+.icon__brooks:hover .icon__brooks--hover {
+	display: inline;
+	position: absolute;
+	border: 0.14285714285714285714285714285714em dashed #f9f7ef;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	width: 30em;
+	right: 50%;
+	bottom: 50%;
+	padding: 2em;
+	background-color: #9bd7e6;
+	color: black;
+}
+
+.icon__vine {
+	background: url("../img/maps/icons/icon_vine.svg") no-repeat;
+	height: 20.583333333333333333333333333333%;
+	width: 18.666666666666666666666666666667%;
+	left: 41.383777777777777777777777777778%;
+	top: 33.499%;
+}
+
+.icon__vine .icon__vine--hover {
+	display: none;
+}
+
+.icon__vine:hover .icon__vine--hover {
+	display: inline;
+	position: absolute;
+	border: 0.14285714285714285714285714285714em dashed #f9f7ef;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	padding: 2em;
+	width: 30em;
+	right: 50%;
+	bottom: 50%;
+	background-color: #efdca5;
+	color: black;
+}
+
+.icon__energy {
+	background: url("../img/maps/icons/icon_energy.svg") no-repeat;
+	height: 16.5%;
+	width: 10.25%;
+	left: 69.694444444444444444444444444444%;
+	top: 58.6955%;
+}
+
+.icon__energy .icon__energy--hover {
+	display: none;
+}
+
+.icon__energy:hover .icon__energy--hover {
+	display: inline;
+	position: absolute;
+	border: 0.14285714285714285714285714285714em dashed #f9f7ef;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	padding: 2em;
+	width: 30em;
+	right: 50%;
+	bottom: 50%;
+	background-color: #d27c6c;
+	color: #fff5a8;
+	word-wrap: break-word;
+}
+
+.icon__energy:hover .icon__energy--hover a {
+	color: white;
+	word-wrap: break-word;
+}
+
+.icon__birleyhigh {
+	background: url("../img/maps/icons/icon_birleyhigh.svg") no-repeat;
+	height: 15.424%;
+	width: 13.562722222222222222222222222222%;
+	left: 62.835666666666666666666666666667%;
+	top: 60.1365%;
+}
+
+.icon__birleyhigh .icon__birleyhigh--hover {
+	display: none;
+}
+
+.icon__birleyhigh:hover .icon__birleyhigh--hover {
+	display: inline;
+	position: absolute;
+	border: 0.14285714285714285714285714285714em dashed black;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	width: 30em;
+	right: 70%;
+	bottom: 45%;
+	padding: 2em;
+	background-color: #c6685a;
+	color: black;
+}
+
+.icon__crescents {
+	background: url("../img/maps/icons/icon_crescents.svg") no-repeat;
+	height: 28.89675%;
+	width: 31.657277777777777777777777777778%;
+	left: 43.107%;
+	top: 29.944833333333333333333333333333%;
+}
+
+.icon__crescents .icon__crescents--hover {
+	display: none;
+}
+
+.icon__crescents:hover .icon__crescents--hover {
+	display: inline;
+	position: absolute;
+	border: 0.14285714285714285714285714285714em dashed #8d939a;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	width: 30em;
+	right: 70%;
+	bottom: 45%;
+	padding: 2em;
+	background-color: #dededa;
+	color: #050606;
+}
+
+.icon__terraces {
+	background: url("../img/maps/icons/icon_terraces.svg") no-repeat;
+	height: 27.31275%;
+	width: 11.086277777777777777777777777778%;
+	left: 55.765555555555555555555555555556%;
+	top: 28.136333333333333333333333333333%;
+}
+
+.icon__terraces .icon__terraces--hover {
+	display: none;
+}
+
+.icon__terraces:hover .icon__terraces--hover {
+	display: inline;
+	position: absolute;
+	border: 0.14285714285714285714285714285714em dashed #8d939a;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	width: 30em;
+	right: 70%;
+	bottom: 45%;
+	padding: 2em;
+	background-color: #dededa;
+	color: #050606;
+}
+
+.icon__church {
+	background: url("../img/maps/icons/icon_church.svg") no-repeat;
+	height: 26.0345%;
+	width: 12.0612222222222222222222222222228%;
+	left: 22.959111111111111111111111111111%;
+	top: 46.346583333333333333333333333333%;
+}
+
+.icon__church .icon__church--hover {
+	display: none;
+}
+
+.icon__church:hover .icon__church--hover {
+	display: inline;
+	position: absolute;
+	border: 0.14285714285714285714285714285714em dashed #8d939a;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	width: 30em;
+	right: 70%;
+	bottom: 45%;
+	padding: 2em;
+	background-color: #dededa;
+	color: #050606;
+}
+
+.icon__farm {
+	background: url("../img/maps/icons/icon_farm.svg") no-repeat;
+	height: 31.562083333333333333333333333333%;
+	width: 30.855444444444444444444444444444%;
+	left: 40.698055555555555555555555555556%;
+	top: 29.629583333333333333333333333333%;
+}
+
+.icon__farm .icon__farm--hover {
+	display: none;
+}
+
+.icon__farm:hover .icon__farm--hover {
+	display: inline;
+	position: absolute;
+	border: 0.14285714285714285714285714285714em dashed #efeae1;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	width: 30em;
+	right: 70%;
+	bottom: 45%;
+	padding: 2em;
+	background-color: #d0b36b;
+	color: black;
+}
+
+@media screen and (max-width: 960px) {
+	.map__inner {
+		width: 1350px;
+		height: 900px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.grabbing > .map__inner {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	.map__inner {
+		width: 924px;
+		height: 616px;
+	}
+}
+
+.slider-container {
+	border: 1px solid transparent;
+	margin-top: 2em;
+	padding: 0 3em;
+	background: #f3f3f3;
+	border-radius: 30px 30px 0 0;
+}
+
+.slider {
+	position: relative;
+	margin: 3em auto;
+	max-width: 700px;
+}
+
+.ui-slider-horizontal.ui-slider-pips {
+	margin-bottom: 3em;
+}
+
+.ui-widget-content {
+	border-top: 1px dashed black;
+}
+
+.ui-slider-horizontal {
+	height: .8em;
+}
+
+.ui-slider-pips .ui-slider-line {
+	background: #f3f3f3;
+	border: 2px solid black;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: -28px;
+}
+
+.ui-slider-pips .ui-slider-label {
+	position: absolute;
+	left: 50%;
+	margin-left: -1.4em;
+	width: auto;
+	top: -3px;
+	white-space: nowrap;
+	color: grey;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.ui-slider-pips .ui-slider-pip {
+	font-size: 1em;
+}
+
+.ui-slider-pip-0 .ui-slider-label {
+	margin-left: -1.625em;
+}
+
+.ui-slider-pip-1 .ui-slider-label {
+	margin-left: -0.875em;
+}
+
+.ui-slider-pip-2 .ui-slider-label {
+	margin-left: -2.25em;
+}
+
+.ui-slider-pip-3 .ui-slider-label {
+	margin-left: -1em;
+}
+
+.ui-slider-pips .ui-slider-pip-initial {
+	font-weight: normal;
+}
+
+.ui-slider-pips .ui-slider-pip-selected {
+	font-weight: bold;
+}
+
+.ui-slider-pips .ui-slider-pip-selected .ui-slider-label {
+	color: black;
+}
+
+.ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 15px;
+	height: 15px;
+	top: -8px;
+	background: #79deff;
+	border-radius: 50%;
+	border: 2px solid;
 	cursor: pointer;
 }
 
-@media screen and (max-width: 769px) {
-	.map {
-		height: 400px;
-	}
-	.map__inner {
-		height: 984px;
-	}
-	.map__inner:hover {
-		-webkit-transform: scale(1.2);
-		        transform: scale(1.2);
-	}
+.ui-widget-content .ui-slider-handle.ui-state-hover {
+	background: orange;
+}
+
+.ui-widget-content .ui-slider-handle.ui-state-active,
+.ui-widget-content .ui-slider-handle.ui-state-focus {
+	outline: none;
 }
 
 /*# sourceMappingURL=source-map/style.css.map */

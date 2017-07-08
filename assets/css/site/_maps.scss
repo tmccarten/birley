@@ -1,19 +1,32 @@
 .map {
-  position: relative;
-  text-align: center;
-  margin: 60px auto;
+  margin: 0 auto;
   overflow: scroll;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   animation-name: fadeIn;
+  background: #f9f7ef;
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
-  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+  //box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+  border: 1px dashed $lightborder;
+  border-top: 0;
   height: 600px;
+  height: 60vh;
   transition: transform 700ms ease-in-out;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   cursor: move; /* fallback: no `url()` support or images disabled */
   cursor: url('assets/img/icons/grab.cur'), move; /* fallback: Internet Explorer */
-  cursor:         grab;
+  cursor: grab;
 
   &.dragscroll.grab {
     cursor: url('assets/img/icons/grab.cur'), move;
@@ -23,67 +36,331 @@
   &.dragscroll.grabbing {
     cursor: url('assets/img/icons/grabbing.cur'), move;
     cursor: grabbing;
-    transform: scale(.8);
     transition: transform 700ms ease-in-out;
     box-shadow: none;
+    border: none;
+
+    &.dragscroll--cancel {
+      overflow: hidden;
+    }
   }
 
-  &::-webkit-scrollbar {
-    display: none;
-  }
+}
 
-
+.grabbing > .map__inner {
+  //transform: scale(.8) //translateX(-10%)
+  ;
 }
 
 .map__inner {
   position: relative;
-  background-size: 100%;
-  transition: transform 700ms ease-in-out;
-  background-image: url('../img/maps/map_today.png');
+  transition: transform 400ms, width 700ms, height 700ms;
+  background-image: url('../img/maps/map_today3.png');
   background-repeat: no-repeat;
-  width: 1400px;
-  height: 984px;
-  transform: scale(1.2);
+  background-size: contain;
+  width: 1440px;
+  height: 960px;
+  margin: 200px;
+  //transform: scale(.8);
+  image-rendering: -moz-crisp-edges;         /* Firefox */
+  image-rendering:   -o-crisp-edges;         /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 
-  &:hover {
-    //transform: scale(.9);
+  &.map__inner--1960s1980s {
+    background-image: url('../img/maps/map_1960s1980s2.png');
+  }
+
+  &.map__inner--1800s {
+    background-image: url('../img/maps/map_1800s3.png');
+  }
+
+  &.map__inner--pre {
+    background-image: url('../img/maps/map_pre1800s3.png');
   }
 
 }
 
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-.clickable {
+.icon {
   position: absolute;
-  background-color: white;
-  height: 10.16260162601626016260162601626%;
-  width: 18.571428571428571428571428571429%;
-  left: 39.5%;
-  top: 12%;
-  opacity: 0;
+  padding: 2em;
+  font-size: .875em;
+  line-height: 1.6em;
+  font-family: 'Open Sans', calibri, arial, sans-serif;
+
+  a {
+    text-decoration: underline;
+    word-wrap: break-word;
+  }
+
+  p {
+    margin: .4em 0;
+  }
 
   &:hover {
-    opacity: 0.8;
+    transform: scale(1.05);
     cursor: pointer;
+    z-index: 9999;
+  }
+
+}
+
+.icon__brooks {
+  background: url('../img/maps/icons/icon_brooks.svg') no-repeat;
+  height: 16%; //192px
+  width: 15.833333333333333333333333333333%; //285px;
+  left: 59.222222222222222222222222222222%;
+  top: 36.833333333333333333333333333333%;
+
+  & .icon__brooks--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__brooks--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #f9f7ef;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 50%;
+      bottom: 50%;
+      padding: 2em;
+      background-color: #9bd7e6;
+      color: black;
+    }
   }
 }
 
-@media screen and (max-width: 769px) {
+.icon__vine {
+  background: url('../img/maps/icons/icon_vine.svg') no-repeat;
+  height: 20.583333333333333333333333333333%; //247px
+  width: 18.666666666666666666666666666667%; //336px;
+  left: 41.383777777777777777777777777778%;
+  top: 33.499%;
+
+  & .icon__vine--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__vine--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #f9f7ef;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      padding: 2em;
+      width: 30em;
+      right: 50%;
+      bottom: 50%;
+      background-color: #efdca5;
+      color: black;
+    }
+  }
+}
+
+.icon__energy {
+  background: url('../img/maps/icons/icon_energy.svg') no-repeat;
+  height: 16.5%; //198px
+  width: 10.25%; //164px;
+  left: 69.694444444444444444444444444444%;
+  top: 58.6955%;
+
+  p {
+    //text-shadow: 1px 1px 3px black;
+  }
+
+  & .icon__energy--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__energy--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #f9f7ef;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      padding: 2em;
+      width: 30em;
+      right: 50%;
+      bottom: 50%;
+      background-color: #d27c6c;
+      color: #fff5a8;
+      word-wrap: break-word;
+
+      a {
+        color: white;
+        word-wrap: break-word;
+      }
+    }
+  }
+}
+
+.icon__birleyhigh {
+  background: url('../img/maps/icons/icon_birleyhigh.svg') no-repeat;
+  height: 15.424%; //185.088px
+  width: 13.562722222222222222222222222222%; //244.129px;
+  left: 62.835666666666666666666666666667%;
+  top: 60.1365%;
+
+  & .icon__birleyhigh--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__birleyhigh--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed black;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 70%;
+      bottom: 45%;
+      padding: 2em;
+      background-color: #c6685a;
+      color: black;
+    }
+  }
+}
+
+.icon__crescents {
+  background: url('../img/maps/icons/icon_crescents.svg') no-repeat;
+  height: 28.89675%; //346.761px
+  width: 31.657277777777777777777777777778%; //569.831px;
+  left: 43.107%;
+  top: 29.944833333333333333333333333333%;
+
+  & .icon__crescents--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__crescents--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #8d939a;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 70%;
+      bottom: 45%;
+      padding: 2em;
+      background-color: #dededa;
+      color: #050606;
+    }
+  }
+}
+
+.icon__terraces {
+  background: url('../img/maps/icons/icon_terraces.svg') no-repeat;
+  height: 27.31275%; //327.753px
+  width: 11.086277777777777777777777777778%; //199.553px;
+  left: 55.765555555555555555555555555556%;
+  top: 28.136333333333333333333333333333%;
+
+  & .icon__terraces--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__terraces--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #8d939a;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 70%;
+      bottom: 45%;
+      padding: 2em;
+      background-color: #dededa;
+      color: #050606;
+    }
+  }
+}
+
+.icon__church {
+  background: url('../img/maps/icons/icon_church.svg') no-repeat;
+  height: 26.0345%; //312.414px
+  width: 12.0612222222222222222222222222228%; //217.102px;
+  left: 22.959111111111111111111111111111%;
+  top: 46.346583333333333333333333333333%;
+
+  & .icon__church--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__church--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #8d939a;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 70%;
+      bottom: 45%;
+      padding: 2em;
+      background-color: #dededa;
+      color: #050606;
+    }
+  }
+}
+
+.icon__farm {
+  background: url('../img/maps/icons/icon_farm.svg') no-repeat;
+  height: 31.562083333333333333333333333333%; //378.745px
+  width: 30.855444444444444444444444444444%; //555.398px;
+  left: 40.698055555555555555555555555556%;
+  top: 29.629583333333333333333333333333%;
+
+  & .icon__farm--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__farm--hover {
+      display: inline;
+      position: absolute;
+      border: 0.14285714285714285714285714285714em dashed #efeae1;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 70%;
+      bottom: 45%;
+      padding: 2em;
+      background-color: #d0b36b;
+      color: black;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  .map__inner {
+    width: 1350px;
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 700px) {
 
   .map {
-    height: 400px;
+    //height: 80vmin;
+  }
+
+  .grabbing > .map__inner {
+    transform: scale(1);
   }
 
   .map__inner {
-    height: 984px;
-    //transform: scale(.8);
-
-    &:hover {
-      transform: scale(1.2);
-    }
-
+    width: 924px;
+    height: 616px;
   }
+
 }

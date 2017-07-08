@@ -1,0 +1,101 @@
+.slider-container {
+  border: 1px solid transparent;
+  margin-top: 2em;
+  padding: 0 3em;
+  background: $light;
+  border-radius: 30px 30px 0 0;
+}
+
+.slider {
+  position: relative;
+  margin: 3em auto;
+  max-width: 700px;
+}
+
+.ui-slider-horizontal.ui-slider-pips {
+  margin-bottom: 3em;
+}
+
+.ui-widget-content {
+  border-top: 1px dashed black;
+}
+
+.ui-slider-horizontal {
+  height: .8em;
+}
+
+.ui-slider-pips .ui-slider-line {
+  background: $light;
+  border: 2px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: -28px;
+}
+
+.ui-slider-pips .ui-slider-label {
+  position: absolute;
+  left: 50%;
+  margin-left: -1.4em;
+  width: auto;
+  top: -3px;
+  white-space: nowrap;
+  color: grey;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.ui-slider-pips .ui-slider-pip {
+  font-size: 1em;
+}
+
+.ui-slider-pip-0 .ui-slider-label {
+  margin-left: -1.625em;
+}
+
+.ui-slider-pip-1 .ui-slider-label {
+  margin-left: -0.875em;
+}
+
+.ui-slider-pip-2 .ui-slider-label {
+  margin-left: -2.25em;
+}
+
+.ui-slider-pip-3 .ui-slider-label {
+  margin-left: -1em;
+}
+
+.ui-slider-pips .ui-slider-pip-initial {
+  font-weight: normal;
+}
+
+.ui-slider-pips .ui-slider-pip-selected {
+  font-weight: bold;
+
+  & .ui-slider-label {
+    color: black;
+  }
+}
+
+.ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 15px;
+  height: 15px;
+  top: -8px;
+  background: #79deff;
+  border-radius: 50%;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.ui-widget-content .ui-slider-handle.ui-state-hover {
+  background: orange;
+}
+
+.ui-widget-content .ui-slider-handle.ui-state-active,
+.ui-widget-content .ui-slider-handle.ui-state-focus {
+  outline: none;
+}
