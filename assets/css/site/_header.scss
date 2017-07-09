@@ -24,7 +24,7 @@
 
 .logo__link {
   display: block;
-  background-image: url('../img/header/logo.png');
+  //background-image: url('../img/header/logo.png');
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -68,58 +68,57 @@
 
 .main-nav__link {
   display: block;
-  background-image: url('../img/header/nav_sprite.png');
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
 
 .main-nav__link--home {
-    background-position: -3px -44px;
-    width: 43px;
-    height: 30px;
+    background-position: -5px -45px;
+    width: 40px;
+    height: 28px;
 
     &:hover, &.current {
-      background-position: -261px -44px;
+      background-position: -263px -45px;
     }
   }
 
 .main-nav__link--health {
-    background-position: -3px -80px;
-    width: 240px;
-    height: 32px;
+    background-position: -6px -82px;
+    width: 238px;
+    height: 30px;
 
     &:hover, &.current {
-      background-position: -261px -80px;
+      background-position: -264px -82px;
     }
   }
 
 .main-nav__link--archive {
-    background-position: -3px -152px;
-    width: 121px;
-    height: 33px;
+    background-position: -6px -153px;
+    width: 115px;
+    height: 30px;
 
     &:hover, &.current {
-      background-position: -261px -152px;
+      background-position: -264px -153px;
     }
   }
 
 .main-nav__link--grow {
-    background-position: -3px -187px;
+    background-position: -7px -187px;
     width: 95px;
     height: 33px;
 
     &:hover, &.current {
-      background-position: -261px -187px;
+      background-position: -265px -187px;
     }
   }
 
 .main-nav__link--my {
-    background-position: -3px -222px;
-    width: 77px;
+    background-position: -7px -222px;
+    width: 75px;
     height: 31px;
 
     &:hover, &.current {
-      background-position: -261px -222px
+      background-position: -265px -222px
     }
   }

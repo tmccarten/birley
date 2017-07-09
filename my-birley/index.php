@@ -5,7 +5,7 @@ $pageDescription = "Community, and local business and amenities in the Birley ar
 $pageKeywords = "Birley, Community, Amenities, Business";
 $activePage = "My";
 
-$css = "../assets/css/";
+$assets = "../assets";
 
 $favIcon = "../favicon.ico";
 

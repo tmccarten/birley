@@ -5,7 +5,7 @@ $pageDescription = "Health and education around the Birley area of Hulme, Manche
 $pageKeywords = "Birley, Health, Education";
 $activePage = "Health";
 
-$css = "../assets/css/";
+$assets = "../assets";
 
 $favIcon = "../favicon.ico";
 
