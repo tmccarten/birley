@@ -13,7 +13,6 @@
 
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
-  //box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
   border: 1px dashed $lightborder;
   border-top: 0;
   height: 600px;
@@ -47,21 +46,15 @@
 
 }
 
-.grabbing > .map__inner {
-  //transform: scale(.8) //translateX(-10%)
-  ;
-}
-
 .map__inner {
   position: relative;
   transition: transform 400ms, width 700ms, height 700ms;
   background-image: url('../img/maps/map_today3.png');
   background-repeat: no-repeat;
   background-size: contain;
-  width: 1440px;
-  height: 960px;
-  margin: 200px;
-  //transform: scale(.8);
+  width: 924px;
+  height: 616px;
+  margin: 200px;  
   image-rendering: -moz-crisp-edges;         /* Firefox */
   image-rendering:   -o-crisp-edges;         /* Opera */
   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
@@ -340,27 +333,24 @@
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 700px) {
 
-  .map__inner {
-    width: 1350px;
-    height: 900px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-
-  .map {
-    //height: 80vmin;
-  }
 
   .grabbing > .map__inner {
     transform: scale(1);
   }
 
   .map__inner {
-    width: 924px;
-    height: 616px;
+    width: 1350px;
+    height: 900px;
   }
 
+}
+
+@media screen and (min-width: 960px) {
+
+  .map__inner {
+    width: 1440px;
+    height: 960px;
+  }
 }
