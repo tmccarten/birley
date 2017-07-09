@@ -5,7 +5,7 @@ $pageDescription = "Birley poetry, photography, music and stories from the archi
 $pageKeywords = "Birley, Poetry, Photography, Music, Stories";
 $activePage = "Archive";
 
-$css = "../assets/css/";
+$assets = "../assets";
 
 $favIcon = "../favicon.ico";
 

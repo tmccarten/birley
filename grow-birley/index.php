@@ -5,7 +5,7 @@ $pageDescription = "Sustainability and foraging in the Birley area of Hulme, Man
 $pageKeywords = "Birley, Foraging, Sustainability";
 $activePage = "Grow";
 
-$css = "../assets/css/";
+$assets = "../assets";
 
 $favIcon = "../favicon.ico";
 

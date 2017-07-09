@@ -5,11 +5,9 @@ $pageDescription = "Archives, history and information on the Birley area of Hulm
 $pageKeywords = "Birley, History, Archives";
 $activePage = "Home";
 
-$css = "assets/css/"; ?>
+$assets = "assets";
 
-<?php
 $favIcon = "favicon.ico";
-
 
 include('assets/includes/head.php');?>
 
