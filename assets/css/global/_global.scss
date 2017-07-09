@@ -36,7 +36,7 @@ body {
   max-width: 1400px;
   margin-left: auto;
 	margin-right: auto;
-	padding: 0 2em;
+	padding: 0 1em;
 }
 
 /* -- Links -- */
@@ -55,4 +55,12 @@ a {
 body {
 	line-height: 1.2em;
 	font-family: 'Corbel', 'Calibri', 'Tahoma', sans-serif;
+}
+
+@media screen and (min-width: 425px) {
+
+  .site-wrapper {
+    padding: 0 2em;
+}
+
 }
