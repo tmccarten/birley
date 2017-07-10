@@ -162,7 +162,7 @@
     .about-contact {
       display: flex;
       margin-top: 1em;
-      font-size: 1.125em;
+      font-size: 1em;
       margin: 0;
       padding: 0;
     }
@@ -193,12 +193,11 @@
   @media screen and (min-width: 800px) {
 
     .header {
-      margin-top: 2em;
+      margin-top: 1em;
     }
 
     .header__nav {
       background-color: transparent;
-      margin-top: 2em;
     }
 
     .button__menu {

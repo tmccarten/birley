@@ -14,7 +14,7 @@
 
       <button id="buttonMenu" class="button__menu" ></button>
 
-      <ul class="about-contact">
+      <ul class="about-contact" id="skiptonav">
         <li class="about-contact__item"><a href="<?php echo $linkAbout; ?>" <?php if ($activePage === "About") {echo 'class="about-contact__link current"'; } else echo 'class="about-contact__link"'; ?>>About</a></li>
         <li class="about-contact__item"><a href="<?php echo $linkContact; ?>" <?php if ($activePage === "Contact") {echo 'class="about-contact__link current"'; } else echo 'class="about-contact__link"'; ?>>Contact</a></li>
       </ul>
@@ -40,3 +40,5 @@
     </div><!-- nav-wrap ends -->
 
   </header><!-- header ends -->
+
+  <main id="skipnav">

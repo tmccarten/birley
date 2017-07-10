@@ -26,6 +26,8 @@ $linkMy = "my-birley/";
 
 include('assets/includes/header.php'); ?>
 
+</main>
+
 <script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
 </body>
 </html>

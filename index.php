@@ -45,6 +45,8 @@ include('assets/includes/header.php'); ?>
 
 </div>
 
+</main>
+
 <script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
 
 </body>

@@ -1,8 +1,8 @@
 <?php
 
-$pageTitle = "Birley Archive | Living Lines: Birley Archives";
-$pageDescription = "Birley poetry, photography, music and stories from the archives ";
-$pageKeywords = "Birley, Poetry, Photography, Music, Stories";
+$pageTitle = "Birley Dig | Living Lines: Birley Archives";
+$pageDescription = "Birley archaeological dig history.";
+$pageKeywords = "Birley, Dig, Archaeology, History";
 $activePage = "Archive";
 
 $assets = "../assets";
@@ -26,7 +26,13 @@ $linkMy = "../my-birley/";
 
 include('../assets/includes/header.php'); ?>
 
+
+<div class="breadcrumb">
+  <a class="breadcrumb__link" href="<?php echo $linkHome?>">Home</a><p class="breadcrumb__grey">Birley Archive</p><p class="breadcrumb__grey">Dig</p>
+</div>
+
 </main>
+
 
 <script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
 </body>
