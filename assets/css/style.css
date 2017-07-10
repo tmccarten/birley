@@ -837,7 +837,6 @@ body {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	position: relative;
 }
 
 .main-icon__text {
@@ -847,8 +846,8 @@ body {
 }
 
 .main-icon__img {
-	padding: 10%;
-	width: 70%;
+	padding: 10vw;
+	width: 100%;
 }
 
 .main-text {
