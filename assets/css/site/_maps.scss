@@ -49,12 +49,12 @@
 .map__inner {
   position: relative;
   transition: transform 400ms, width 700ms, height 700ms;
-  background-image: url('../img/maps/map_today3.png');
+  background-image: url('../img/maps/map_today4.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 924px;
   height: 616px;
-  margin: 200px;  
+  margin: 200px;
   image-rendering: -moz-crisp-edges;         /* Firefox */
   image-rendering:   -o-crisp-edges;         /* Opera */
   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
@@ -62,15 +62,15 @@
   -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 
   &.map__inner--1960s1980s {
-    background-image: url('../img/maps/map_1960s1980s2.png');
+    background-image: url('../img/maps/map_1960s1980s3.png');
   }
 
   &.map__inner--1800s {
-    background-image: url('../img/maps/map_1800s3.png');
+    background-image: url('../img/maps/map_1800s4.png');
   }
 
   &.map__inner--pre {
-    background-image: url('../img/maps/map_pre1800s3.png');
+    background-image: url('../img/maps/map_pre1800s4.png');
   }
 
 }
