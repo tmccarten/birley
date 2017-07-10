@@ -5,7 +5,7 @@ $pageDescription = "Contact details for the Living Lines Birley Art Project.";
 $pageKeywords = "Birley, Contact";
 $activePage = "Contact";
 
-$css = "assets/css/";
+$assets = "assets";
 
 $favIcon = "favicon.ico";
 
@@ -26,5 +26,6 @@ $linkMy = "my-birley/";
 
 include('assets/includes/header.php'); ?>
 
+<script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
 </body>
 </html>

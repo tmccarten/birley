@@ -37,13 +37,15 @@ include('assets/includes/header.php'); ?>
 
 </div>
 
-<section id="map" class="map dragscroll">
+<div id="map" class="map dragscroll">
 
   <?php include('assets/includes/maps/map-today.php'); ?>
 
-</section>
+</div>
 
 </div>
-<script src="assets/js/script.js?v=<?php echo date('his'); ?>"></script>
+
+<script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
+
 </body>
 </html>

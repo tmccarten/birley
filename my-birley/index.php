@@ -26,5 +26,6 @@ $linkMy = ".";
 
 include('../assets/includes/header.php'); ?>
 
+<script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
 </body>
 </html>
