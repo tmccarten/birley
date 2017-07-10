@@ -68,8 +68,8 @@ a {
 body {
 	line-height: 1.2em;
 	font-family: $bodyfont;
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: normal;
+  font-size: 1rem;  
 }
 
 @media screen and (min-width: 425px) {
