@@ -68,6 +68,10 @@
   width: 100%;
   list-style-type: none;
 
+  ul {
+    padding: 0;
+  }
+
   & .about-contact__item + * {
       margin-top: 1em;
   }

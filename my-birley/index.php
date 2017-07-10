@@ -26,7 +26,11 @@ $linkMy = ".";
 
 include('../assets/includes/header.php'); ?>
 
+<main id="skipnav">
+
 </main>
+
+</div> <!-- site-wrapper ends -->
 
 <script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
 </body>

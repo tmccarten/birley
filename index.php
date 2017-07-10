@@ -31,6 +31,8 @@ $linkMy = "my-birley/";
 
 include('assets/includes/header.php'); ?>
 
+<main id="skipnav">
+
 <div class="slider-container">
 
 <div class="slider"></div>
@@ -43,9 +45,9 @@ include('assets/includes/header.php'); ?>
 
 </div>
 
-</div>
-
 </main>
+
+</div> <!-- site-wrapper ends -->
 
 <script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
 

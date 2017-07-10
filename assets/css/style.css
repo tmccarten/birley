@@ -62,7 +62,8 @@ a:hover {
 /* -- Base Typography -- */
 body {
 	line-height: 1.2em;
-	font-family: 'Corbel', 'Calibri', 'Tahoma', sans-serif;
+	font-family: "Source Sans Pro", "Calibri", Corbel, arial, sans-serif;
+	font-weight: 400;
 	font-size: 1rem;
 }
 
@@ -169,6 +170,10 @@ body {
 	margin-bottom: 2em;
 	width: 100%;
 	list-style-type: none;
+}
+
+.main-nav__about-contact ul {
+	padding: 0;
 }
 
 .main-nav__about-contact .about-contact__item + * {
@@ -796,41 +801,85 @@ body {
 	}
 }
 
-/* -- Breadcrumb -- */
 .breadcrumb {
+	display: none;
+}
+
+/* -- Main -- */
+.main {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+/* -- Icon -- */
+.main-icon {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	white-space: nowrap;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-	margin: 1em 0;
-	padding: 1em;
-	font-size: 0.88888888888888888888888888888889em;
-	border-top: 1px dashed silver;
-	border-bottom: 1px dashed silver;
+	position: relative;
 }
 
-.breadcrumb__grey {
-	color: grey;
-	margin: 0;
+.main-icon__text {
+	font-family: 'Crete Round';
+	font-size: calc(1em + 2vw);
+	font-weight: 400;
 }
 
-.breadcrumb__grey::before {
-	content: ">";
-	margin: 0 .5em;
+.main-icon__img {
+	padding: 10%;
+	width: 70%;
 }
 
-.breadcrumb__link {
-	font-weight: bold;
+.main-text__title {
+	font-family: 'Crete Round';
+	font-size: calc(1em + 1vw);
+	line-height: 1em;
+	-webkit-transform: translateY(-5em);
+	        transform: translateY(-5em);
+	max-width: 100%;
+	display: none;
 }
 
 @media screen and (min-width: 800px) {
+	/* -- Breadcrumb -- */
 	.breadcrumb {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		white-space: nowrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		margin: 1em 0;
 		padding: 1em 2em;
+		font-size: 0.88888888888888888888888888888889em;
+		border-left: 2px dashed darkgrey;
+		background-color: #f3f3f3;
+	}
+	.breadcrumb__grey {
+		color: grey;
+		margin: 0;
+	}
+	.breadcrumb__grey::before {
+		content: ">";
+		margin: 0 .5em;
+	}
+	.breadcrumb__link {
+		font-weight: bold;
 	}
 }
 
