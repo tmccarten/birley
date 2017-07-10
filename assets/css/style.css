@@ -679,7 +679,7 @@ body {
 .slider-container {
 	border: 1px solid transparent;
 	margin-top: 2em;
-	padding: 0 3em;
+	padding: 0 2em;
 	background: #f3f3f3;
 	border-radius: 30px 30px 0 0;
 }
@@ -721,7 +721,7 @@ body {
 	top: -3px;
 	white-space: nowrap;
 	color: grey;
-	font-size: 1em;
+	font-size: .8125em;
 	font-weight: bold;
 }
 
@@ -776,6 +776,15 @@ body {
 .ui-widget-content .ui-slider-handle.ui-state-active,
 .ui-widget-content .ui-slider-handle.ui-state-focus {
 	outline: none;
+}
+
+@media screen and (min-width: 425px) {
+	.slider-container {
+		padding: 0 3em;
+	}
+	.ui-slider-pips .ui-slider-label {
+		font-size: 1em;
+	}
 }
 
 /*# sourceMappingURL=source-map/style.css.map */
