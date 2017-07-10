@@ -107,9 +107,16 @@ body {
 }
 
 .header__nav {
-	margin-top: 1em;
+	margin: 1em 0 0 -1em;
 	display: none;
+	width: 100vw;
 	background-color: #f3f3f3;
+}
+
+@media screen and (min-width: 425px) {
+	.header__nav {
+		margin: 1em 0 0 -2em;
+	}
 }
 
 /* -- Logo -- */
@@ -298,6 +305,8 @@ body {
 	}
 	.header__nav {
 		background-color: transparent;
+		width: 100%;
+		margin: 1em 0 0 0;
 	}
 	.button__menu {
 		display: none;
