@@ -5,7 +5,7 @@ $pageDescription = "Contact details for the Living Lines Birley Art Project.";
 $pageKeywords = "Birley, Contact";
 $activePage = "Contact";
 
-$css = "assets/css/";
+$assets = "assets";
 
 $favIcon = "favicon.ico";
 

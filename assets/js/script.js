@@ -1,9 +1,25 @@
+/* -- Menu Icon -- */
+
+var buttonMenu = document.getElementById('buttonMenu');
+
+buttonMenu.addEventListener('click', function() {
+
+  var headerNav = document.querySelector('.header__nav');
+
+  if (headerNav.className === 'header__nav') {
+    headerNav.className = 'header__nav menu-displayed';
+  } else {
+    headerNav.className = 'header__nav';
+  }
+
+}, false);
+
 scrollPosition();
 //window.addEventListener('load', scrollPosition);
 
 /* -- Cross-browser Map Cursors -- */
 
-document.getElementById('map');
+map = document.getElementById('map');
 
 map.addEventListener('mousedown', function() {
 
@@ -21,9 +37,6 @@ map.addEventListener('mouseout', function() {
   map.className = 'map dragscroll';
 });
 
-//$('.icon').on('click', function() {
-//  map.className = 'map dragscroll dragscroll--cancel';
-//});
 
   // -- Touch Equivalent -- //
 
