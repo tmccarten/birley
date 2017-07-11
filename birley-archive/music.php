@@ -35,7 +35,7 @@ include('../assets/includes/header.php'); ?>
 <main id="skipnav" class="main">
 
   <div class="main-icon">
-    <img src="<?php echo $assets?>/img/maps/icons/icon_music.svg" class="main-icon__img" alt="Illustration of blaring speakers">
+    <img src="<?php echo $assets?>/img/icons/icon_music.svg" class="main-icon__img" alt="Illustration of blaring speakers">
   </div>
 
   <section class="main-text">
