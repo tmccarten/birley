@@ -28,12 +28,12 @@
   max-width: 33.5rem;
   font-size: calc(.8em + 1vw);
   font-weight: 400;
+  width: 100%;
 }
 
 .main-text__title {
-  font-family: $seriftitle;
   font-size: calc(1.25em + 2vw);
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1em;
   margin-top: 0;
   max-width: 100%;
@@ -61,10 +61,10 @@
     align-items: center;
     white-space: nowrap;
     flex-wrap: wrap;
-    margin: 1em 0;
+    margin: 2em 0;
     padding: 1em 2em;
     font-size: 0.88888888888888888888888888888889em;
-    border-left: 3px solid darkgrey;
+    border-left: 3px dashed darkgrey;
     background-color: $lighter;
   }
 
@@ -115,6 +115,20 @@
 
 }
 
+@media screen and (min-width: 1048px) {
+
+  //Fix for stupid IE issue where the flex item flies out of the container
+
+  .main-icon {
+    width: 100%;
+    flex: auto;
+  }
+
+  .main-text {
+    flex: auto;
+  }
+}
+
 @media screen and (min-width: 1240px) {
 
   .main-text {
@@ -123,8 +137,8 @@
   }
 
   .main-icon {
-    transform: rotate(-3deg);
-    border-left: 1em solid $light;
-    border-top: 1em solid $light;
+    transform: rotate(-3deg) translate(10px, -10px);
+    border-left: 1em dashed $light;
+    border-top: 1em dashed $light;
   }
 }
