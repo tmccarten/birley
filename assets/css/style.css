@@ -1046,9 +1046,10 @@ body {
 		    -ms-flex: 1;
 		        flex: 1;
 	}
-	.main-icon__img {
+	.main-icon .main-icon__img {
 		padding: 0;
 		width: 100%;
+		height: 100%;
 	}
 	.main-text {
 		max-width: 30em;
