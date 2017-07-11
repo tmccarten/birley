@@ -4,6 +4,7 @@ $pageTitle = "About | Living Lines: Birley Archives";
 $pageDescription = "About the Living Lines Birley project.";
 $pageKeywords = "Birley, About";
 $activePage = "About";
+$activeSubPage = "";
 
 $assets = "assets";
 

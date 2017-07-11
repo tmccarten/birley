@@ -4,6 +4,7 @@ $pageTitle = "Birley Health and Education | Living Lines: Birley Archives";
 $pageDescription = "Health and education around the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, Health, Education";
 $activePage = "Health";
+$activeSubPage = "";
 
 $assets = "../assets";
 

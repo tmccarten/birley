@@ -29,6 +29,10 @@
   font-size: calc(.8em + 1vw);
   font-weight: 200;
   width: 100%;
+
+  p:first-of-type {
+    margin-top: 0;
+  }
 }
 
 .main-text__title {
@@ -122,11 +126,18 @@
     font-weight: 400;
   }
 
+  .main-icon {
+    transform: rotate(-3deg) translate(10px, 15px);
+    border-left: 1em dashed $light;
+    border-top: 1em dashed $light;
+  }
+
 }
 
 @media screen and (min-width: 1048px) {
 
   //Fix for stupid IE issue where the flex item flies out of the container
+  //The problem happens when main-icon reaches its max-width - if the max-width is changed this media query min-width will need to be changed.
 
   .main-icon {
     width: 100%;
@@ -145,9 +156,8 @@
     line-height: 1.3em;
   }
 
-  .main-icon {
-    transform: rotate(-3deg) translate(10px, 15px);
-    border-left: 1em dashed $light;
-    border-top: 1em dashed $light;
+
+  .main-text__title {
+    font-size: 3em;
   }
 }

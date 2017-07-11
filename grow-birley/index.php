@@ -4,6 +4,7 @@ $pageTitle = "Grow Birley | Living Lines: Birley Archives";
 $pageDescription = "Sustainability and foraging in the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, Foraging, Sustainability";
 $activePage = "Grow";
+$activeSubPage = "";
 
 $assets = "../assets";
 
@@ -21,7 +22,7 @@ $linkContact = "../contact.php";
 
 $linkHealth = "../birley-health-and-education";
 $linkArchive = "../birley-archive/";
-$linkGrow = ".";
+$linkGrow = "./";
 $linkMy = "../my-birley/";
 
 include('../assets/includes/header.php'); ?>

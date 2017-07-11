@@ -4,6 +4,7 @@ $pageTitle = "Birley Archive | Living Lines: Birley Archives";
 $pageDescription = "Birley poetry, photography, music and stories from the archives ";
 $pageKeywords = "Birley, Poetry, Photography, Music, Stories";
 $activePage = "Archive";
+$activeSubPage = "";
 
 $assets = "../assets";
 
