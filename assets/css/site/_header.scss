@@ -54,10 +54,7 @@
   background-color: transparent;
 }
 
-.menu-displayed {
-  display: flex;
-  flex-direction: column;
-}
+
 
 /* -- About/contact -- */
 
@@ -113,130 +110,166 @@
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .main-nav__link--home {
-    background-position: -5px -45px;
-    width: 40px;
-    height: 28px;
+  background-position: -5px -45px;
+  width: 40px;
+  height: 28px;
 
-    &:hover, &.current {
-      background-position: -263px -45px;
-    }
+  &:hover, &.current {
+    background-position: -263px -45px;
   }
+}
 
 .main-nav__link--health {
-    background-position: -6px -82px;
-    width: 238px;
-    height: 30px;
+  background-position: -6px -82px;
+  width: 238px;
+  height: 30px;
 
-    &:hover, &.current {
-      background-position: -264px -82px;
-    }
+  &:hover, &.current {
+    background-position: -264px -82px;
   }
+}
 
 .main-nav__link--archive {
-    background-position: -6px -153px;
-    width: 115px;
-    height: 30px;
+  background-position: -6px -153px;
+  width: 115px;
+  height: 30px;
 
-    &:hover, &.current {
-      background-position: -264px -153px;
-    }
+  &:hover, &.current {
+    background-position: -264px -153px;
   }
+}
 
 .main-nav__link--grow {
-    background-position: -7px -187px;
-    width: 95px;
-    height: 33px;
+  background-position: -7px -187px;
+  width: 95px;
+  height: 33px;
 
-    &:hover, &.current {
-      background-position: -265px -187px;
-    }
+  &:hover, &.current {
+    background-position: -265px -187px;
   }
+}
 
 .main-nav__link--my {
-    background-position: -7px -222px;
-    width: 75px;
-    height: 31px;
+  background-position: -7px -222px;
+  width: 75px;
+  height: 31px;
 
-    &:hover, &.current {
-      background-position: -265px -222px
+  &:hover, &.current {
+    background-position: -265px -222px
+  }
+}
+
+.sub-menu {
+  padding: 0;
+  text-align: center;
+  display: none;
+}
+
+.sub-menu__item {
+  margin-top: 2em;
+}
+
+.menu-displayed {
+  display: flex;
+  flex-direction: column;
+}
+
+.parent-icon {
+  color: black;
+}
+
+@media screen and (min-width: 720px) {
+
+  .about-contact {
+    display: flex;
+    margin-top: 1em;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-contact__link {
+
+    &.current, &:hover {
+      border-bottom: 1px solid black;
+      text-decoration: none;
     }
   }
 
-  @media screen and (min-width: 720px) {
-
-    .about-contact {
-      display: flex;
-      margin-top: 1em;
-      font-size: 1em;
-      margin: 0;
-      padding: 0;
-    }
-
-    .about-contact__link {
-
-      &.current, &:hover {
-        border-bottom: 1px solid black;
-        text-decoration: none;
-      }
-    }
-
-    .about-contact__item:first-child::after {
-      content: "|";
-      margin: 0 2.5em;
-      color: grey;
-    }
-
-    .main-nav__about-contact {
-      display: none;
-    }
-
-    .button__menu {
-      margin-left: 0;
-    }
+  .about-contact__item:first-child::after {
+    content: "|";
+    margin: 0 2.5em;
+    color: grey;
   }
 
-  @media screen and (min-width: 800px) {
-
-    .header {
-      margin-top: 1em;
-    }
-
-    .header__nav {
-      background-color: transparent;
-      width: 100%;
-      margin: 1em 0 0 0;
-    }
-
-    .button__menu {
-      display: none;
-    }
-
-    .about-contact {
-      display: flex;
-    }
-
-    .header__nav {
-      display: block;
-    }
-
-    .main-nav {
-      padding: 0;
-    }
-
-    .main-nav__items {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-
-    .main-nav__item + * {
-      margin-top: 0;
-    }
-
-    .main-nav__item:last-child {
-      margin-bottom: 0;
-    }
-
+  .main-nav__about-contact {
+    display: none;
   }
+
+  .button__menu {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+  .header {
+    margin-top: 1em;
+  }
+
+  .header__nav {
+    background-color: transparent;
+    width: 100%;
+    margin: 1em 0 0 0;
+  }
+
+  .button__menu {
+    display: none;
+  }
+
+  .about-contact {
+    display: flex;
+  }
+
+  .header__nav {
+    display: block;
+  }
+
+  .main-nav {
+    padding: 0;
+  }
+
+  .main-nav__items {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-nav__item + * {
+    margin-top: 0;
+  }
+
+  .main-nav__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .parent-item {
+    position: relative;
+  }
+
+  .sub-menu {
+    position: absolute;
+    font-size: .8em;
+    z-index: 99999;
+    background: white;
+    width: 100%;
+  }
+
+  .sub-menu__item:last-child {
+    margin-bottom: 1em;
+  }
+
+}

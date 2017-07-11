@@ -149,16 +149,6 @@ body {
 	background-color: transparent;
 }
 
-.menu-displayed {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-}
-
 /* -- About/contact -- */
 .main-nav__about-contact {
 	display: -webkit-box;
@@ -219,6 +209,7 @@ body {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
+	margin: 0 auto;
 }
 
 .main-nav__link--home {
@@ -269,6 +260,30 @@ body {
 
 .main-nav__link--my:hover, .main-nav__link--my.current {
 	background-position: -265px -222px;
+}
+
+.sub-menu {
+	padding: 0;
+	text-align: center;
+	display: none;
+}
+
+.sub-menu__item {
+	margin-top: 2em;
+}
+
+.menu-displayed {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.parent-icon {
+	color: black;
 }
 
 @media screen and (min-width: 720px) {
@@ -335,6 +350,19 @@ body {
 	}
 	.main-nav__item:last-child {
 		margin-bottom: 0;
+	}
+	.parent-item {
+		position: relative;
+	}
+	.sub-menu {
+		position: absolute;
+		font-size: .8em;
+		z-index: 99999;
+		background: white;
+		width: 100%;
+	}
+	.sub-menu__item:last-child {
+		margin-bottom: 1em;
 	}
 }
 

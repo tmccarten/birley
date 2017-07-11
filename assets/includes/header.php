@@ -32,8 +32,26 @@
             </ul>
           <li class="main-nav__item"><a href="<?php echo $linkHome; ?>" <?php if ($activePage === "Home") {echo 'class="main-nav__link main-nav__link--home current"'; } else echo 'class="main-nav__link main-nav__link--home"'; ?>>Home</a></li>
           <li class="main-nav__item"><a href="<?php echo $linkHealth; ?>" <?php if ($activePage === "Health") {echo 'class="main-nav__link main-nav__link--health current"'; } else echo 'class="main-nav__link main-nav__link--health"'; ?>>Birley Health and Education</a></li>
-          <li class="main-nav__item"><a href="<?php echo $linkArchive; ?>" <?php if ($activePage === "Archive") {echo 'class="main-nav__link main-nav__link--archive current"'; } else echo 'class="main-nav__link main-nav__link--archive"'; ?>>Birley Archive</a></li>
-          <li class="main-nav__item"><a href="<?php echo $linkGrow; ?>" <?php if ($activePage === "Grow") {echo 'class="main-nav__link main-nav__link--grow current"'; } else echo 'class="main-nav__link main-nav__link--grow"'; ?>>Grow Birley</a></li>
+          <li class="main-nav__item parent-item"><a href="#" <?php if ($activePage === "Archive") {echo 'class="main-nav__link main-nav__link--archive current parent"'; } else echo 'class="main-nav__link main-nav__link--archive parent"'; ?>>Birley Archive<svg class="parent-icon" xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="-197.4 107.8 460.8 378.5">
+  <path class="st0" d="M258.7 244.5c-6.4-6.4-16.7-6.4-23 0L33.2 447.3l-202.8-202.8c-6.4-6.4-16.7-6.4-23 0-6.4 6.4-6.4 16.7 0 23l213.9 214c3.2 3.2 7.1 4.8 11.5 4.8 4 0 8.3-1.6 11.5-4.8l213.9-213.9c6.8-6.4 6.8-16.7.5-23.1z"/><style>.st0 {fill: #fff;}</style>
+  <path class="st0" d="M258.7 112.5c-6.4-6.4-16.7-6.4-23 0L33.2 315.3l-202.8-202.8c-6.4-6.4-16.7-6.4-23 0s-6.4 16.7 0 23l213.9 214c3.2 3.2 7.1 4.8 11.5 4.8 4 0 8.3-1.6 11.5-4.8l213.9-213.9c6.8-6.4 6.8-16.7.5-23.1z"/>
+</svg></a>
+            <ul class="sub-menu">
+              <li class="sub-menu__item"><a href="<?php echo $linkArchive?>dig.php" class="sub-menu__link">Archaeology</a></li>
+              <li class="sub-menu__item"><a href="#" class="sub-menu__link">Music</a></li>
+              <li class="sub-menu__item"><a href="#" class="sub-menu__link">Poetry</a></li>
+              <li class="sub-menu__item"><a href="#" class="sub-menu__link">Stories</a></li>
+              <li class="sub-menu__item"><a href="#" class="sub-menu__link">Artwork</a></li>
+              <li class="sub-menu__item"><a href="#" class="sub-menu__link">Photos</a></li>
+            </ul>
+          </li>
+          <li class="main-nav__item parent-item"><a href="#" <?php if ($activePage === "Grow") {echo 'class="main-nav__link main-nav__link--grow current parent"'; } else echo 'class="main-nav__link main-nav__link--grow parent"'; ?>>Grow Birley</a>
+            <ul class="sub-menu">
+              <li class="sub-menu__item"><a href="#" class="sub-menu__link">Sustainability Trail</a></li>
+              <li class="sub-menu__item"><a href="#" class="sub-menu__link">Bees</a></li>
+              <li class="sub-menu__item"><a href="#" class="sub-menu__link">Foraging</a></li>
+            </ul>
+          </li>
           <li class="main-nav__item"><a href="<?php echo $linkMy; ?>" <?php if ($activePage === "My") {echo 'class="main-nav__link main-nav__link--my current"'; } else echo 'class="main-nav__link main-nav__link--my"'; ?>>My Birley</a></li>
         </ul>
       </nav>

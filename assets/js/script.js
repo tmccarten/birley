@@ -14,6 +14,27 @@ buttonMenu.addEventListener('click', function() {
 
 }, false);
 
+/* -- Sub menus -- */
+
+var subMenuParent = document.getElementsByClassName('parent');
+
+for (i = 0; i < subMenuParent.length; i++) {
+
+  subMenuParent[i].addEventListener('click', function() {
+
+    var subMenu = this.nextElementSibling;
+
+    if (subMenu.className.indexOf('menu-displayed') == -1 ) {
+      subMenu.className = 'sub-menu menu-displayed';
+    } else {
+      subMenu.className = 'sub-menu';
+    }
+
+  }, false);
+
+}
+
+
 scrollPosition();
 //window.addEventListener('load', scrollPosition);
 
