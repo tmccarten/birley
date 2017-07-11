@@ -206,10 +206,7 @@ body {
 
 .main-nav__link {
 	display: block;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	margin: 0 auto;
+	position: relative;
 }
 
 .main-nav__link--home {
@@ -218,8 +215,14 @@ body {
 	height: 28px;
 }
 
-.main-nav__link--home:hover, .main-nav__link--home.current {
+.main-nav__link--home.current {
 	background-position: -263px -45px;
+}
+
+@media screen and (min-width: 800px) {
+	.main-nav__link--home:hover {
+		background-position: -263px -45px;
+	}
 }
 
 .main-nav__link--health {
@@ -228,18 +231,30 @@ body {
 	height: 30px;
 }
 
-.main-nav__link--health:hover, .main-nav__link--health.current {
+.main-nav__link--health.current {
 	background-position: -264px -82px;
+}
+
+@media screen and (min-width: 800px) {
+	.main-nav__link--health:hover {
+		background-position: -264px -82px;
+	}
 }
 
 .main-nav__link--archive {
 	background-position: -6px -153px;
-	width: 115px;
+	width: 119px;
 	height: 30px;
 }
 
-.main-nav__link--archive:hover, .main-nav__link--archive.current {
+.main-nav__link--archive.current {
 	background-position: -264px -153px;
+}
+
+@media screen and (min-width: 800px) {
+	.main-nav__link--archive:hover {
+		background-position: -264px -153px;
+	}
 }
 
 .main-nav__link--grow {
@@ -248,18 +263,30 @@ body {
 	height: 33px;
 }
 
-.main-nav__link--grow:hover, .main-nav__link--grow.current {
+.main-nav__link--grow.current {
 	background-position: -265px -187px;
+}
+
+@media screen and (min-width: 800px) {
+	.main-nav__link--grow:hover {
+		background-position: -265px -187px;
+	}
 }
 
 .main-nav__link--my {
 	background-position: -7px -222px;
-	width: 75px;
+	width: 77px;
 	height: 31px;
 }
 
-.main-nav__link--my:hover, .main-nav__link--my.current {
+.main-nav__link--my.current {
 	background-position: -265px -222px;
+}
+
+@media screen and (min-width: 800px) {
+	.main-nav__link--my:hover {
+		background-position: -265px -222px;
+	}
 }
 
 .parent-item {
@@ -272,17 +299,27 @@ body {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	position: relative;
+	width: 100%;
 }
 
 .parent-icon {
 	margin-left: .3em;
+	position: absolute;
+	left: 100%;
+	bottom: 35%;
 }
 
 .sub-menu {
+	margin-top: 1em;
 	padding: 0;
 	text-align: center;
 	display: none;
+	width: 100%;
 }
 
 .sub-menu__item + * {
@@ -310,7 +347,16 @@ body {
 }
 
 .parent-icon {
-	color: black;
+	-webkit-transform: rotate(0);
+	        transform: rotate(0);
+	transition: -webkit-transform 300ms;
+	transition: transform 300ms;
+	transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.parent-icon.rotate {
+	-webkit-transform: rotate(180deg);
+	        transform: rotate(180deg);
 }
 
 @media screen and (min-width: 720px) {
@@ -372,6 +418,9 @@ body {
 		    -ms-flex-pack: justify;
 		        justify-content: space-between;
 	}
+	.main-nav__item {
+		margin-right: 15px;
+	}
 	.main-nav__item + * {
 		margin-top: 0;
 	}
@@ -384,9 +433,13 @@ body {
 		font-size: .8em;
 		z-index: 99999;
 		background: white;
-		width: 100%;
+		width: 150%;
+		left: -22%;
 		border: 1px dashed grey;
 		border-top: 0;
+	}
+	.parent-item {
+		width: auto;
 	}
 }
 

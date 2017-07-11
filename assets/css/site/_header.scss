@@ -107,10 +107,7 @@
 
 .main-nav__link {
   display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  margin: 0 auto;
+  position: relative;
 }
 
 .main-nav__link--home {
@@ -118,8 +115,14 @@
   width: 40px;
   height: 28px;
 
-  &:hover, &.current {
+  &.current {
     background-position: -263px -45px;
+  }
+
+  @media screen and (min-width: 800px) {
+  &:hover {
+    background-position: -263px -45px;
+  }
   }
 }
 
@@ -128,19 +131,31 @@
   width: 238px;
   height: 30px;
 
-  &:hover, &.current {
+  &.current {
     background-position: -264px -82px;
   }
+
+  @media screen and (min-width: 800px) {
+  &:hover {
+    background-position: -264px -82px;
+  }
+}
 }
 
 .main-nav__link--archive {
   background-position: -6px -153px;
-  width: 115px;
+  width: 119px;
   height: 30px;
 
-  &:hover, &.current {
+  &.current {
     background-position: -264px -153px;
   }
+
+  @media screen and (min-width: 800px) {
+  &:hover {
+    background-position: -264px -153px;
+  }
+}
 }
 
 .main-nav__link--grow {
@@ -148,19 +163,31 @@
   width: 95px;
   height: 33px;
 
-  &:hover, &.current {
+  &.current {
     background-position: -265px -187px;
+  }
+
+  @media screen and (min-width: 800px) {
+  &:hover {
+    background-position: -265px -187px;
+  }
   }
 }
 
 .main-nav__link--my {
   background-position: -7px -222px;
-  width: 75px;
+  width: 77px;
   height: 31px;
 
-  &:hover, &.current {
+  &.current {
     background-position: -265px -222px
   }
+
+  @media screen and (min-width: 800px) {
+  &:hover {
+    background-position: -265px -222px;
+  }
+}
 }
 
 // -- Sub-menus -- //
@@ -169,17 +196,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   position: relative;
+  width: 100%;
 }
 
 .parent-icon {
   margin-left: .3em;
+  position: absolute;
+  left: 100%;
+  bottom: 35%;
 }
 
 .sub-menu {
+  margin-top: 1em;
   padding: 0;
   text-align: center;
   display: none;
+  width: 100%;
 }
 
 .sub-menu__item + * {
@@ -202,7 +236,12 @@
 }
 
 .parent-icon {
-  color: black;
+  transform: rotate(0);
+  transition: transform 300ms;
+
+  &.rotate {
+    transform: rotate(180deg);
+  }
 }
 
 @media screen and (min-width: 720px) {
@@ -271,6 +310,10 @@
     justify-content: space-between;
   }
 
+  .main-nav__item {
+    margin-right: 15px;
+  }
+
   .main-nav__item + * {
     margin-top: 0;
   }
@@ -285,9 +328,14 @@
     font-size: .8em;
     z-index: 99999;
     background: white;
-    width: 100%;
+    width: 150%;
+    left: -22%;
     border: 1px dashed grey;
     border-top: 0;
+  }
+
+  .parent-item {
+    width: auto;
   }
 
 }

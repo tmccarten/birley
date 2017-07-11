@@ -23,11 +23,15 @@ for (i = 0; i < subMenuParent.length; i++) {
   subMenuParent[i].addEventListener('click', function() {
 
     var subMenu = this.nextElementSibling;
+    var parentIcon = this.firstElementChild;
 
     if (subMenu.className.indexOf('menu-displayed') == -1 ) {
       subMenu.className = 'sub-menu menu-displayed';
+      parentIcon.setAttribute('class', 'parent-icon rotate');
+
     } else {
       subMenu.className = 'sub-menu';
+      parentIcon.setAttribute('class', 'parent-icon');
     }
 
   }, false);
