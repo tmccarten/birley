@@ -4,6 +4,7 @@ $pageTitle = "Home | Living Lines: Birley Archives";
 $pageDescription = "Archives, history and information on the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, History, Archives";
 $activePage = "Home";
+$activeSubPage = "";
 
 $assets = "assets";
 

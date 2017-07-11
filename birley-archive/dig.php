@@ -4,6 +4,7 @@ $pageTitle = "Birley Dig | Living Lines: Birley Archives";
 $pageDescription = "Birley archaeological dig history.";
 $pageKeywords = "Birley, Dig, Archaeology, History";
 $activePage = "Archive";
+$activeSubPage = "Dig";
 
 $assets = "../assets";
 
@@ -20,7 +21,7 @@ $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
 $linkHealth = "../birley-health-and-education/";
-$linkArchive = "#";
+$linkArchive = "./";
 $linkGrow = "../grow-birley/";
 $linkMy = "../my-birley/";
 

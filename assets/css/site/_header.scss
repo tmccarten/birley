@@ -230,6 +230,10 @@
   }
 }
 
+.sub-menu__link--current {
+  font-weight: bold;
+}
+
 .menu-displayed {
   display: flex;
   flex-direction: column;
