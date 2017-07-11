@@ -28,7 +28,7 @@ include('../assets/includes/header.php'); ?>
 
 
 <div class="breadcrumb">
-  <a class="breadcrumb__link" href="<?php echo $linkHome?>">Home</a><p class="breadcrumb__grey">Birley Archive</p><p class="breadcrumb__grey">Dig</p>
+  <p class="breadcrumb__grey">Birley Archive</p><p class="breadcrumb__grey">Dig</p>
 </div>
 
 <main id="skipnav" class="main">

@@ -64,7 +64,7 @@
     margin: 2em 0;
     padding: 1em 2em;
     font-size: 0.88888888888888888888888888888889em;
-    border-left: 3px dashed darkgrey;
+    border-left: 3px solid black;
     background-color: $lighter;
   }
 
@@ -72,7 +72,7 @@
     color: grey;
     margin: 0;
 
-    &::before {
+    &:not(:first-child):before {
       content: ">";
       margin: 0 .5em;
       font-size: 1em;

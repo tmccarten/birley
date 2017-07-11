@@ -919,14 +919,14 @@ body {
 		margin: 2em 0;
 		padding: 1em 2em;
 		font-size: 0.88888888888888888888888888888889em;
-		border-left: 3px dashed darkgrey;
+		border-left: 3px solid black;
 		background-color: #f6f6f6;
 	}
 	.breadcrumb__grey {
 		color: grey;
 		margin: 0;
 	}
-	.breadcrumb__grey::before {
+	.breadcrumb__grey:not(:first-child):before {
 		content: ">";
 		margin: 0 .5em;
 		font-size: 1em;
