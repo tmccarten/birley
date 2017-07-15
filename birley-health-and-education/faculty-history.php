@@ -1,10 +1,10 @@
 <?php
 
-$pageTitle = "Birley Health and Education | Living Lines: Birley Archives";
-$pageDescription = "Health and education around the Birley area of Hulme, Manchester.";
-$pageKeywords = "Birley, Health, Education";
+$pageTitle = "Birley Faculty History | Living Lines: Birley Archives";
+$pageDescription = "History of education around the Birley area of Hulme, Manchester.";
+$pageKeywords = "Birley, History, Education, Timeline, Faculty";
 $activePage = "Health";
-$activeSubPage = "";
+$activeSubPage = "Faculty History";
 
 $assets = "../assets";
 
@@ -27,7 +27,11 @@ $linkMy = "../my-birley/";
 
 include('../assets/includes/header.php'); ?>
 
-<main id="skipnav">
+<div class="breadcrumb">
+  <p class="breadcrumb__grey">Birley Health and Education</p><p class="breadcrumb__grey">Faculty History</p>
+</div>
+
+<main id="skipnav" class="main">
 
 </main>
 

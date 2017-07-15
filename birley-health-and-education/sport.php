@@ -1,10 +1,10 @@
 <?php
 
-$pageTitle = "Grow Birley | Living Lines: Birley Archives";
-$pageDescription = "Sustainability and foraging in the Birley area of Hulme, Manchester.";
-$pageKeywords = "Birley, Foraging, Sustainability";
-$activePage = "Grow";
-$activeSubPage = "";
+$pageTitle = "Sport - Past and Present | Living Lines: Birley Archives";
+$pageDescription = "Sport past and present in Birley, Hulme, Manchester..";
+$pageKeywords = "Birley, History, Sports";
+$activePage = "Health";
+$activeSubPage = "Sport";
 
 $assets = "../assets";
 
@@ -20,14 +20,18 @@ $linkHome = "../";
 $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
-$linkHealth = "../birley-health-and-education/";
+$linkHealth = "./";
 $linkArchive = "../birley-archive/";
-$linkGrow = "./";
+$linkGrow = "../grow-birley/";
 $linkMy = "../my-birley/";
 
 include('../assets/includes/header.php'); ?>
 
-<main id="skipnav">
+<div class="breadcrumb">
+  <p class="breadcrumb__grey">Birley Health and Education</p><p class="breadcrumb__grey">Sport</p>
+</div>
+
+<main id="skipnav" class="main">
 
 </main>
 

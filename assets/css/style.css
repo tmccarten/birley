@@ -333,7 +333,7 @@ body {
 
 .sub-menu__link:hover {
 	text-decoration: none;
-	background-color: #f3f3f3;
+	background-color: #f6f6f6;
 }
 
 .sub-menu__link--current {
@@ -437,10 +437,13 @@ body {
 		font-size: .8em;
 		z-index: 99999;
 		background: white;
-		width: 150%;
-		left: -22%;
+		width: auto;
 		border: 1px dashed grey;
 		border-top: 0;
+	}
+	.sub-menu__link {
+		min-width: 9.375em;
+		white-space: nowrap;
 	}
 	.parent-item {
 		width: auto;
@@ -976,7 +979,7 @@ body {
 	line-height: 1em;
 	margin-top: 0;
 	max-width: 100%;
-	font-family: "Crete Round", Georgia, Times, serif;
+	font-family: Georgia, Times, serif;
 }
 
 .main-text__link {

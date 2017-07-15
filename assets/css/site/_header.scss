@@ -226,7 +226,7 @@
 
   &:hover {
     text-decoration: none;
-    background-color: $light;
+    background-color: $lighter;
   }
 }
 
@@ -332,10 +332,14 @@
     font-size: .8em;
     z-index: 99999;
     background: white;
-    width: 150%;
-    left: -22%;
+    width: auto;
     border: 1px dashed grey;
     border-top: 0;
+  }
+
+  .sub-menu__link {
+    min-width: 9.375em;
+    white-space: nowrap;
   }
 
   .parent-item {
