@@ -226,7 +226,7 @@
 
   &:hover {
     text-decoration: none;
-    background-color: $lighter;
+    background-color: #edefff;
   }
 }
 
@@ -332,9 +332,12 @@
     font-size: .8em;
     z-index: 99999;
     background: white;
+    min-width: 100%;
     width: auto;
     border: 1px dashed grey;
+    border-left: 2px solid black;
     border-top: 0;
+    text-align: left;
   }
 
   .sub-menu__link {
@@ -344,6 +347,7 @@
 
   .parent-item {
     width: auto;
+    display: block;
   }
 
 }

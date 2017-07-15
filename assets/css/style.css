@@ -333,7 +333,7 @@ body {
 
 .sub-menu__link:hover {
 	text-decoration: none;
-	background-color: #f6f6f6;
+	background-color: #edefff;
 }
 
 .sub-menu__link--current {
@@ -437,9 +437,12 @@ body {
 		font-size: .8em;
 		z-index: 99999;
 		background: white;
+		min-width: 100%;
 		width: auto;
 		border: 1px dashed grey;
+		border-left: 2px solid black;
 		border-top: 0;
+		text-align: left;
 	}
 	.sub-menu__link {
 		min-width: 9.375em;
@@ -447,6 +450,7 @@ body {
 	}
 	.parent-item {
 		width: auto;
+		display: block;
 	}
 }
 
