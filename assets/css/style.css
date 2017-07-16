@@ -948,9 +948,6 @@ body {
 
 /* -- Icon -- */
 .main-icon {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
@@ -963,6 +960,8 @@ body {
 .main-icon__img {
 	padding: 10vw;
 	width: 55vw;
+	height: auto;
+	max-width: 100%;
 }
 
 .main-text {
@@ -978,8 +977,9 @@ body {
 }
 
 .main-text__title {
-	font-size: calc(1.25em + 2vw);
+	font-size: calc(2em + 2vw);
 	font-weight: normal;
+	text-align: center;
 	line-height: 1em;
 	margin-top: 0;
 	max-width: 100%;
@@ -1067,6 +1067,10 @@ body {
 		    -ms-flex: 2;
 		        flex: 2;
 	}
+	.main-text__title {
+		font-size: calc(1rem + 5vw);
+		text-align: right;
+	}
 	.main-text__link {
 		font-weight: 400;
 	}
@@ -1098,7 +1102,7 @@ body {
 		line-height: 1.3em;
 	}
 	.main-text__title {
-		font-size: 3em;
+		font-size: 5rem;
 	}
 }
 

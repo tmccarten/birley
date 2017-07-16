@@ -14,7 +14,7 @@
 
   <meta name="robots" content="noindex,nofollow"/>
 
-  <?php $cssVersion = "8" ?>
+  <?php $cssVersion = "9" ?>
 
   <link rel="stylesheet" href="<?php echo $assets; ?>/css/normalize.css">
   <link rel="stylesheet" href="bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.css">
@@ -23,9 +23,9 @@
   <link rel="shortcut icon" href="<?php echo $favIcon; ?>" type="image/x-icon">
   <link rel="icon" href="<?php echo $favIcon; ?>" type="image/x-icon">
 
-  <script>
+  <script src="<?php echo $assets; ?>/../bower_components/jquery/dist/jquery.min.js"></script>
 
-  /*! grunt-grunticon Stylesheet Loader - v2.1.2 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+  <script>
 
   /*! grunt-grunticon Stylesheet Loader - v2.1.2 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
 
