@@ -1044,14 +1044,16 @@ body {
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
 		        justify-content: space-between;
-		margin-top: 2em;
+		margin: 4em 0 5.8em;
 	}
 	.main-icon {
-		max-width: 350px;
+		max-width: 300px;
 		margin-right: 2em;
 		-webkit-box-flex: 1;
-		    -ms-flex: 1;
-		        flex: 1;
+		    -ms-flex-positive: 1;
+		        flex-grow: 1;
+		-ms-flex-negative: 1;
+		    flex-shrink: 1;
 	}
 	.main-icon .main-icon__img {
 		padding: 0;
@@ -1079,20 +1081,6 @@ body {
 		        transform: rotate(-3deg) translate(10px, 15px);
 		border-left: 1em dashed #f3f3f3;
 		border-top: 1em dashed #f3f3f3;
-	}
-}
-
-@media screen and (min-width: 1048px) {
-	.main-icon {
-		width: 100%;
-		-webkit-box-flex: 1;
-		    -ms-flex: auto;
-		        flex: auto;
-	}
-	.main-text {
-		-webkit-box-flex: 1;
-		    -ms-flex: auto;
-		        flex: auto;
 	}
 }
 

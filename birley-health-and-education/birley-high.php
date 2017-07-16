@@ -27,10 +27,6 @@ $linkMy = "../my-birley/";
 
 include('../assets/includes/header.php'); ?>
 
-<div class="breadcrumb">
-  <p class="breadcrumb__grey">Birley Health and Education</p><p class="breadcrumb__grey">Birley High</p>
-</div>
-
 <section id="skipnav" class="main">
 
   <div class="main-icon">
@@ -40,6 +36,10 @@ include('../assets/includes/header.php'); ?>
   <h2 class="main-text__title">Birley High</h2>
 
 </section>
+
+<div class="breadcrumb">
+  <p class="breadcrumb__grey">Birley Health and Education</p><p class="breadcrumb__grey">Birley High</p>
+</div>
 
 </div> <!-- site-wrapper ends -->
 

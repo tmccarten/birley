@@ -103,13 +103,14 @@
   .main {
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 2em;
+    margin: 4em 0 5.8em;
   }
 
   .main-icon {
-    max-width: 350px;
+    max-width: 300px;
     margin-right: 2em;
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
 
   .main-icon__img {
     padding: 0;
@@ -143,20 +144,6 @@
 
 }
 
-@media screen and (min-width: 1048px) {
-
-  //Fix for stupid IE issue where the flex item flies out of the container
-  //The problem happens when main-icon reaches its max-width - if the max-width is changed this media query min-width will need to be changed.
-
-  .main-icon {
-    width: 100%;
-    flex: auto;
-  }
-
-  .main-text {
-    flex: auto;
-  }
-}
 
 @media screen and (min-width: 1240px) {
 
