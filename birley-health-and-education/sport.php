@@ -33,6 +33,18 @@ include('../assets/includes/header.php'); ?>
 
 <main id="skipnav" class="main">
 
+  <div class="main-icon">
+    <img src="<?php echo $assets?>/img/icons/icon_birleyhighbadge.svg" class="main-icon__img" alt="Illustration of Birley High motif.">
+  </div>
+
+  <section class="main-text">
+    <h2 class="main-text__title">Sport</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
+    <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="main-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
+
+  </section>
+
 </main>
 
 </div> <!-- site-wrapper ends -->
