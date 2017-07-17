@@ -4,7 +4,7 @@
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   animation-name: fadeIn;
-  background: #f9f7ef;
+  background: white;
 
   @keyframes fadeIn {
     from {opacity: 0;}
@@ -14,7 +14,6 @@
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
   border: 1px dashed $lightborder;
-  border-top: 0;
   height: 600px;
   height: 60vh;
   transition: transform 700ms ease-in-out;
@@ -37,7 +36,6 @@
     cursor: grabbing;
     transition: transform 700ms ease-in-out;
     box-shadow: none;
-    border: none;
 
     &.dragscroll--cancel {
       overflow: hidden;

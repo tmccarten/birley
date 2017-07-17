@@ -462,13 +462,12 @@ body {
 	-ms-overflow-style: none;
 	-webkit-animation-name: fadeIn;
 	        animation-name: fadeIn;
-	background: #f9f7ef;
+	background: white;
 	-webkit-animation-duration: 1.5s;
 	        animation-duration: 1.5s;
 	-webkit-animation-fill-mode: forwards;
 	        animation-fill-mode: forwards;
 	border: 1px dashed silver;
-	border-top: 0;
 	height: 600px;
 	height: 60vh;
 	transition: -webkit-transform 700ms ease-in-out;
@@ -518,7 +517,6 @@ body {
 	transition: transform 700ms ease-in-out;
 	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
 	box-shadow: none;
-	border: none;
 }
 
 .map.dragscroll.grabbing.dragscroll--cancel {
@@ -819,7 +817,6 @@ body {
 	border: 1px solid transparent;
 	margin-top: 1em;
 	padding: 0 2em;
-	background: #f3f3f3;
 	border-radius: 30px 30px 0 0;
 }
 
