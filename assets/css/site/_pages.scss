@@ -91,9 +91,8 @@
     margin: 2em 0;
     padding: 1em 2em;
     font-size: 0.88888888888888888888888888888889em;
-    border-top: 3px dashed lightgray;
     border-left: 3px dashed lightgray;
-    background-color: $lighter;
+    background-color: #eee;
   }
 
   .breadcrumb__grey {
@@ -126,8 +125,8 @@
     flex-grow: 1;
     flex-shrink: 1;
     transform: rotate(-3deg) translate(10px, 15px);
-    border-left: 1em dashed $light;
-    border-top: 1em dashed $light;
+    border-left: 1em dashed lightgray;
+    border-top: 1em dashed #eee;
   }
 
   .banner-icon__img {
@@ -156,6 +155,7 @@
     text-align: left;
     flex: 2 2 auto;
   }
+
 
   .content-text__link {
     font-weight: 400;

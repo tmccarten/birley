@@ -27,24 +27,63 @@ $linkMy = "../my-birley/";
 
 include('../assets/includes/header.php'); ?>
 
-<div class="breadcrumb">
-  <p class="breadcrumb__grey">Grow Birley</p><p class="breadcrumb__grey">Sustainability</p>
-</div>
+<main id="skipnav">
 
-<main id="skipnav" class="main">
+  <section class="banner">
 
-  <div class="main-icon">
-    <img src="<?php echo $assets?>/img/icons/icon_sustainability.svg" class="main-icon__img" alt="Illustration of a fern.">
-  </div>
+    <h2 class="banner__title">Sustainability</h2>
 
-  <section class="main-text">
-    <h2 class="main-text__title">Sustainability</h2>
-
-    <p>An abundance of culinary herbs are grown in the Sensory Garden which are available to all. Look out for the ‘How to Harvest’ guidelines available by each planter to ensure herb plants remain healthy for the future. Or take a look at <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-orchard/" class="main-text__link">Birley Orchard</a> to find out more about fruit tree cultivation and how you can help.</p>
-    <p>The <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-community-woodland/" class="main-text__link">woodland area</a> is managed by <a href="http://www.hulmegardencentre.org.uk/" class="main-text__link">Hulme Community Garden Centre</a>, who offer a wide range of activities, workshops and educational projects. Plants available to pick and forage include wild sorrel, sweet cicely, garlic mustard, nettles, blackberry and lemon balm, amongst others. Have a look at Met Munch’s fabulous suggestions for <a href="foraging.php" class="main-text__link">recipes</a> using ingredients that can be found at Birley and the nearby Garden Centre.</p>
-    <p>And spare a thought for the pollinators! For information on bees and bee-related projects take a look at our <a href="bees.php" class="main-text__link">Bee Birley</a> page.</p>
+    <div class="banner-icon">
+      <img src="<?php echo $assets?>/img/icons/icon_sustainability.svg" class="banner-icon__img" alt="Illustration of a fern.">
+    </div>
 
   </section>
+
+  <div class="breadcrumb">
+    <p class="breadcrumb__grey">Grow Birley</p><p class="breadcrumb__grey">Sustainability</p>
+  </div>
+
+  <section class="content">
+
+    <section class="content-text">
+
+      <h3 class="content-text__title">About</h3>
+
+      <p>An abundance of culinary herbs are grown in the Sensory Garden which are available to all. Look out for the ‘How to Harvest’ guidelines available by each planter to ensure herb plants remain healthy for the future. Or take a look at <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-orchard/" class="content-text__link">Birley Orchard</a> to find out more about fruit tree cultivation and how you can help.</p>
+      <p>The <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-community-woodland/" class="content-text__link">woodland area</a> is managed by <a href="http://www.hulmegardencentre.org.uk/" class="content-text__link">Hulme Community Garden Centre</a>, who offer a wide range of activities, workshops and educational projects. Plants available to pick and forage include wild sorrel, sweet cicely, garlic mustard, nettles, blackberry and lemon balm, amongst others. Have a look at Met Munch’s fabulous suggestions for <a href="foraging.php" class="content-text__link">recipes</a> using ingredients that can be found at Birley and the nearby Garden Centre.</p>
+      <p>And spare a thought for the pollinators! For information on bees and bee-related projects take a look at our <a href="bees.php" class="content-text__link">Bee Birley</a> page.</p>
+
+    </section>
+
+    <aside class="sidebar">
+
+      <section class="widget">
+        <h4 class="widget__title">Images</h4>
+        <div class="widget__images">
+          <a href="<?php echo $assets?>/img/birley-archive/terraces-1.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-1.jpg" alt="" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/birley-archive/terraces-2.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-2.jpg" alt="" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/birley-archive/terraces-3.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-3.jpg" alt="" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/birley-archive/terraces-4.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-4.jpg" alt="" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/birley-archive/terraces-5.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-5.jpg" alt="" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/birley-archive/terraces-6.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-6.jpg" alt="" width="250">
+          </a>
+        </div>
+      </section>
+
+    </aside>
+
+  </section> <!-- content ends -->
 
 </main>
 

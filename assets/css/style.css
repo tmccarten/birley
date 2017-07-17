@@ -10,6 +10,7 @@ html {
 
 body {
 	height: 100%;
+	background-image: url("http://i.imgur.com/RyKXfiQ.png");
 }
 
 /* -- Skip links -- */
@@ -1041,9 +1042,8 @@ body {
 		margin: 2em 0;
 		padding: 1em 2em;
 		font-size: 0.88888888888888888888888888888889em;
-		border-top: 3px dashed lightgray;
 		border-left: 3px dashed lightgray;
-		background-color: #f6f6f6;
+		background-color: #eee;
 	}
 	.breadcrumb__grey {
 		color: grey;
@@ -1079,8 +1079,8 @@ body {
 		    flex-shrink: 1;
 		-webkit-transform: rotate(-3deg) translate(10px, 15px);
 		        transform: rotate(-3deg) translate(10px, 15px);
-		border-left: 1em dashed #f3f3f3;
-		border-top: 1em dashed #f3f3f3;
+		border-left: 1em dashed lightgray;
+		border-top: 1em dashed #eee;
 	}
 	.banner-icon__img {
 		padding: 0;
@@ -1136,6 +1136,8 @@ body {
 	        flex: 1 1 auto;
 	margin: 2em 0;
 	max-width: 30em;
+	background: white;
+	box-shadow: 3px 0px 6px 3px rgba(0, 0, 0, 0.05);
 }
 
 .widget__images {
@@ -1148,7 +1150,6 @@ body {
 	-ms-flex-wrap: wrap;
 	    flex-wrap: wrap;
 	padding: 2em;
-	border: 1px dashed silver;
 	border-top: none;
 }
 
@@ -1178,7 +1179,7 @@ body {
 	font-weight: 600;
 	padding: 2em;
 	text-align: center;
-	background: #f3f3f3;
+	background: #eee;
 }
 
 @media screen and (min-width: 1132px) {
@@ -1187,8 +1188,8 @@ body {
 		height: 100%;
 		-ms-flex-item-align: start;
 		    align-self: flex-start;
-		-webkit-transform: rotate(2deg) translateX(-5px);
-		        transform: rotate(2deg) translateX(-5px);
+		-webkit-transform: rotate(1.5deg) translateX(-5px);
+		        transform: rotate(1.5deg) translateX(-5px);
 	}
 	.widget__title {
 		text-align: right;
@@ -1197,6 +1198,10 @@ body {
 	.widget__image {
 		height: 120px;
 		overflow: hidden;
+	}
+	.widget__image:hover {
+		-webkit-transform: scale(1.1);
+		        transform: scale(1.1);
 	}
 	.widget__thumbnail {
 		display: block;
