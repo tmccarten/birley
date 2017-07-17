@@ -81,7 +81,7 @@ body {
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: $desktopnav) {
 
   body {
     font-size: 1.125rem;

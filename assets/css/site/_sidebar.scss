@@ -1,27 +1,25 @@
 .sidebar {
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
   width: 100%;
   flex: 1 1 auto;
   margin: 2em 0;
-}
-
-.widget {
-
+  max-width: 30em;
 }
 
 .widget__images {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 1em;
+  padding: 2em;
+  border: 1px dashed $lightborder;
+  border-top: none;
 }
 
 .widget__image {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 250px;
-  height: 120px;
+  width: 50%;
+  height: auto;
   overflow: hidden;
 }
 
@@ -36,30 +34,25 @@
   font-weight: 600;
   padding: 2em;
   text-align: center;
-  border-bottom: 1px dashed $lightborder;
+  //border-bottom: 1px dashed $lightborder;
+  background: $light;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: $desktopnav) {
 
   .sidebar {
     max-width: 27.777777777777777777777777777778em;
     height: 100%;
     align-self: flex-start;
+    transform: rotate(2deg) translateX(-5px);
   }
 
   .widget__title {
     text-align: right;
-  }
-
-  .widget__images {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    padding: 2em;
+    font-size: 1.25em;
   }
 
   .widget__image {
-    width: 50%;
     height: 120px;
     overflow: hidden;
   }
