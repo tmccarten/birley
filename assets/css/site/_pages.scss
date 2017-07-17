@@ -118,7 +118,6 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     margin: 4em 0 5.8em;
-    padding: 2em;
   }
 
   .banner-icon {
@@ -140,6 +139,7 @@
   .banner__title {
     font-size: calc(1rem + 5vw);
     text-align: right;
+    margin: 0;
   }
 
   .content {
@@ -167,7 +167,7 @@
 @media screen and (min-width: 1240px) {
 
   .banner__title {
-    font-size: 5rem;;
+    font-size: 5rem;
   }
 
   .content-text {

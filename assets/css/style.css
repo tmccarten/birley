@@ -1068,7 +1068,6 @@ body {
 		    -ms-flex-pack: justify;
 		        justify-content: space-between;
 		margin: 4em 0 5.8em;
-		padding: 2em;
 	}
 	.banner-icon {
 		max-width: 250px;
@@ -1091,6 +1090,7 @@ body {
 	.banner__title {
 		font-size: calc(1rem + 5vw);
 		text-align: right;
+		margin: 0;
 	}
 	.content {
 		-webkit-box-orient: horizontal;
