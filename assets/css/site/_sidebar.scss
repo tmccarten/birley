@@ -3,8 +3,8 @@
   flex: 1 1 auto;
   margin: 2em 0;
   max-width: 30em;
-  background: white;
-  box-shadow: 3px 0px 6px 3px rgba(0,0,0,0.05);
+  //background: white;
+  //box-shadow: 3px 0px 6px 3px rgba(0,0,0,0.05);
 }
 
 .widget__images {
@@ -44,7 +44,13 @@
     max-width: 27.777777777777777777777777777778em;
     height: 100%;
     align-self: flex-start;
-    transform: rotate(1.5deg) translateX(-5px);
+    margin-top: 0;
+  }
+
+  .widget__images {
+    border: 1px dashed lightgray;
+    transform: rotate(2deg);
+    background-color: white;
   }
 
   .widget__title {

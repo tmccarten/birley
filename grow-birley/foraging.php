@@ -39,15 +39,15 @@ include('../assets/includes/header.php'); ?>
 
   </section>
 
-  <div class="breadcrumb">
-    <p class="breadcrumb__grey">Grow Birley</p><p class="breadcrumb__grey">Foraging</p>
-  </div>
-
   <section class="content">
 
     <section class="content-text">
 
       <h3 class="content-text__title">About</h3>
+
+      <div class="breadcrumb">
+        <p>Grow Birley</p><p class="breadcrumb__grey">Foraging</p>
+      </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
       <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>

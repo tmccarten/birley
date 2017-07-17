@@ -39,15 +39,16 @@ include('../assets/includes/header.php'); ?>
 
   </section>
 
-  <div class="breadcrumb">
-    <p class="breadcrumb__grey">Birley Archive</p><p class="breadcrumb__grey">Archaeological Dig</p>
-  </div>
 
   <section class="content">
 
     <section class="content-text">
 
       <h3 class="content-text__title">About</h3>
+
+      <div class="breadcrumb">
+        <p>Birley Archive</p><p class="breadcrumb__grey">Archaeological Dig</p>
+      </div>
 
       <p>Between 2011 and 2012, the university commissioned an archaeological investigation on the site that was to become the Birley development.</p>
       <p>The <a href="#" class="content-text__link">fascinating report</a> reveals the layers of history that lie beneath the site of the university campus; its alternative foundations that take the site through agricultural land, industrial landscapes, beautiful churches and urban regeneration.</p>

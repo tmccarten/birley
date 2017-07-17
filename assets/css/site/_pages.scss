@@ -16,7 +16,10 @@
   padding: 10vw;
   width: 55vw;
   height: auto;
-  max-width: 100%;
+  max-width: 100%;  
+  image-rendering: -o-crisp-edges; // Opera //
+  image-rendering: -webkit-optimize-contrast; // Webkit (non-standard naming) //
+  image-rendering: crisp-edges;
 }
 
 .banner__title {
@@ -27,6 +30,7 @@
   margin-top: 0;
   max-width: 100%;
   font-family: $seriftitle;
+  font-weight: 400;
 }
 
 .breadcrumb {
@@ -56,6 +60,7 @@
 .content-text__title {
   font-size: 1.8125em;
   font-weight: 400;
+  font-family: $seriftitle;
 }
 
 .content-text__link {
@@ -88,28 +93,30 @@
     align-items: center;
     white-space: nowrap;
     flex-wrap: wrap;
-    margin: 2em 0;
-    padding: 1em 2em;
-    font-size: 0.88888888888888888888888888888889em;
-    border-left: 3px dashed lightgray;
-    background-color: #eee;
-  }
+    margin: 0 0 1em 0;
+    padding: 0 .1em;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: black;
 
-  .breadcrumb__grey {
-    color: grey;
-    margin: 0;
+    p {
+      padding: 0 0 .5em 0;
+      margin: 0;
+      border-bottom: 2px dashed lightgray;
 
-    &:not(:first-child):before {
-      content: ">";
-      margin: 0 .5em;
-      font-size: 1em;
-      font-weight: 200;
+      &:not(:first-child):before {
+        content: ">";
+        margin: 0 .5em;
+        font-size: 1em;
+        font-weight: 200;
+      }
+    }
+
+    .breadcrumb__grey {
+      color: grey;
     }
   }
 
-  .breadcrumb__link {
-    font-weight: bold;
-  }
 
   /* -------------------- */
 
@@ -117,13 +124,12 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     margin: 4em 0 5.8em;
+    height: 276px;
   }
 
   .banner-icon {
-    max-width: 250px;
+    width: 250px;
     margin-right: 2em;
-    flex-grow: 1;
-    flex-shrink: 1;
     transform: rotate(-3deg) translate(10px, 15px);
     border-left: 1em dashed lightgray;
     border-top: 1em dashed #eee;
@@ -139,6 +145,7 @@
     font-size: calc(1rem + 5vw);
     text-align: right;
     margin: 0;
+    margin-right: .5em;
   }
 
   .content {
@@ -150,10 +157,17 @@
   .content-text {
     max-width: 30em;
     margin-right: 2em;
+    padding-left: 1em;
+    border-left: 2px dashed lightgray;
+    border-top: 2px dashed lightgray;
     font-weight: 300;
     font-size: 1.1111111111111111111111111111111em;
     text-align: left;
     flex: 2 2 auto;
+  }
+
+  .content-text__title {
+    //margin: 0 0 1em 0;
   }
 
 

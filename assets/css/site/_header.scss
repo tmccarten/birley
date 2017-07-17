@@ -287,10 +287,14 @@
     margin-top: 1em;
   }
 
+  .header__top {
+    margin-top: 0;
+  }
+
   .header__nav {
     background-color: transparent;
     width: 100%;
-    margin: 1em 0 0 0;
+    margin: 2em 0 0 0;
   }
 
   .button__menu {
