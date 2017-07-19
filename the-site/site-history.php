@@ -3,8 +3,8 @@
 $pageTitle = "Sport - Past and Present | Living Lines: Birley Archives";
 $pageDescription = "Sport past and present in Birley, Hulme, Manchester..";
 $pageKeywords = "Birley, History, Sports";
-$activePage = "Health";
-$activeSubPage = "Sport";
+$activePage = "Site";
+$activeSubPage = "Site History";
 
 $assets = "../assets";
 
@@ -20,7 +20,7 @@ $linkHome = "../";
 $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
-$linkHealth = "./";
+$linkSite = "./";
 $linkArchive = "../birley-archive/";
 $linkGrow = "../grow-birley/";
 $linkMy = "../my-birley/";
@@ -32,7 +32,7 @@ include('../assets/includes/header.php'); ?>
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">Sport</h2>
+      <h2 class="banner__title">Site History</h2>
     </div>
 
     <div class="banner-icon">
@@ -48,7 +48,7 @@ include('../assets/includes/header.php'); ?>
 
 
       <div class="breadcrumb">
-        <p>Birley Health and Education</p><p class="breadcrumb__grey">Sport</p>
+        <p>The Site</p><p class="breadcrumb__grey">Sport</p>
       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>

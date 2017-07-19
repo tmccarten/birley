@@ -20,7 +20,7 @@ $linkHome = "../";
 $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
-$linkHealth = "../birley-health-and-education/";
+$linkSite = "../the-site/";
 $linkArchive = "../birley-archive/";
 $linkGrow = "./";
 $linkMy = "../my-birley/";
@@ -67,7 +67,7 @@ include('../assets/includes/header.php'); ?>
           <a href="http://www.hulmegardencentre.org.uk/" class="widget__link">Hulme Community Garden Centre</a>
         </div>
       </section>
-      
+
     </aside>
 
   </section> <!-- content ends -->

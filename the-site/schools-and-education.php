@@ -3,8 +3,8 @@
 $pageTitle = "Birley High | Living Lines: Birley Archives";
 $pageDescription = "History of former high school Birley High of Birley, Hulme, Manchester..";
 $pageKeywords = "Birley, History, Education, Highschool";
-$activePage = "Health";
-$activeSubPage = "Birley High";
+$activePage = "Site";
+$activeSubPage = "Schools and Education";
 
 $assets = "../assets";
 
@@ -20,7 +20,7 @@ $linkHome = "../";
 $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
-$linkHealth = "./";
+$linkSite = "./";
 $linkArchive = "../birley-archive/";
 $linkGrow = "../grow-birley/";
 $linkMy = "../my-birley/";
@@ -48,7 +48,7 @@ include('../assets/includes/header.php'); ?>
 
 
         <div class="breadcrumb">
-          <p>Birley Health and Education</p><p class="breadcrumb__grey">Birley High</p>
+          <p>The Site</p><p class="breadcrumb__grey">Birley High</p>
         </div>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>

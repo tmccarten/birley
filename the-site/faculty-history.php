@@ -3,7 +3,7 @@
 $pageTitle = "Birley Faculty History | Living Lines: Birley Archives";
 $pageDescription = "History of education around the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, History, Education, Timeline, Faculty";
-$activePage = "Health";
+$activePage = "Site";
 $activeSubPage = "Faculty History";
 
 $assets = "../assets";
@@ -20,7 +20,7 @@ $linkHome = "../";
 $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
-$linkHealth = "./";
+$linkSite = "./";
 $linkArchive = "../birley-archive/";
 $linkGrow = "../grow-birley/";
 $linkMy = "../my-birley/";
@@ -28,7 +28,7 @@ $linkMy = "../my-birley/";
 include('../assets/includes/header.php'); ?>
 
 <div class="breadcrumb">
-  <p class="breadcrumb__grey">Birley Health and Education</p><p class="breadcrumb__grey">Faculty History</p>
+  <p class="breadcrumb__grey">The Site</p><p class="breadcrumb__grey">Faculty History</p>
 </div>
 
 <main id="skipnav" class="main">

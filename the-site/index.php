@@ -1,9 +1,9 @@
 <?php
 
-$pageTitle = "Birley Health and Education | Living Lines: Birley Archives";
+$pageTitle = "The Site | Living Lines: Birley Archives";
 $pageDescription = "Health and education around the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, Health, Education";
-$activePage = "Health";
+$activePage = "Site";
 $activeSubPage = "";
 
 $assets = "../assets";
@@ -20,7 +20,7 @@ $linkHome = "../";
 $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
-$linkHealth = "./";
+$linkSite = "./";
 $linkArchive = "../birley-archive/";
 $linkGrow = "../grow-birley/";
 $linkMy = "../my-birley/";

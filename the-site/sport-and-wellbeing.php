@@ -3,8 +3,8 @@
 $pageTitle = "Health and Wellbeing | Living Lines: Birley Archives";
 $pageDescription = "Clinics and health facilities in the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, Health, Clinics";
-$activePage = "Health";
-$activeSubPage = "Health and Wellbeing";
+$activePage = "Site";
+$activeSubPage = "Sport and Wellbeing";
 
 $assets = "../assets";
 
@@ -20,7 +20,7 @@ $linkHome = "../";
 $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
-$linkHealth = "./";
+$linkSite = "./";
 $linkArchive = "../birley-archive/";
 $linkGrow = "../grow-birley/";
 $linkMy = "../my-birley/";
@@ -46,7 +46,7 @@ include('../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <p>Birley Health and Education</p><p class="breadcrumb__grey">Health and Wellbeing</p>
+        <p>The Site</p><p class="breadcrumb__grey">Sport and Wellbeing</p>
       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>

@@ -20,7 +20,7 @@ $linkHome = "../";
 $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
-$linkHealth = "../birley-health-and-education/";
+$linkSite = "../the-site/";
 $linkArchive = "../birley-archive/";
 $linkGrow = "./";
 $linkMy = "../my-birley/";

@@ -230,67 +230,67 @@ body {
 	}
 }
 
-.main-nav__link--health {
-	background-position: -6px -82px;
-	width: 238px;
+.main-nav__link--site {
+	background-position: -4px -82px;
+	width: 73px;
 	height: 30px;
 }
 
-.main-nav__link--health.current {
-	background-position: -264px -82px;
+.main-nav__link--site.current {
+	background-position: -262px -82px;
 }
 
 @media screen and (min-width: 1132px) {
-	.main-nav__link--health:hover {
-		background-position: -264px -82px;
+	.main-nav__link--site:hover {
+		background-position: -262px -82px;
 	}
 }
 
 .main-nav__link--archive {
-	background-position: -6px -153px;
+	background-position: -4px -153px;
 	width: 119px;
 	height: 30px;
 }
 
 .main-nav__link--archive.current {
-	background-position: -264px -153px;
+	background-position: -261px -153px;
 }
 
 @media screen and (min-width: 1132px) {
 	.main-nav__link--archive:hover {
-		background-position: -264px -153px;
+		background-position: -261px -153px;
 	}
 }
 
 .main-nav__link--grow {
-	background-position: -7px -187px;
+	background-position: -3px -187px;
 	width: 95px;
 	height: 33px;
 }
 
 .main-nav__link--grow.current {
-	background-position: -265px -187px;
+	background-position: -261px -187px;
 }
 
 @media screen and (min-width: 1132px) {
 	.main-nav__link--grow:hover {
-		background-position: -265px -187px;
+		background-position: -261px -187px;
 	}
 }
 
 .main-nav__link--my {
-	background-position: -7px -222px;
+	background-position: -3px -222px;
 	width: 77px;
 	height: 31px;
 }
 
 .main-nav__link--my.current {
-	background-position: -265px -222px;
+	background-position: -261px -222px;
 }
 
 @media screen and (min-width: 1132px) {
 	.main-nav__link--my:hover {
-		background-position: -265px -222px;
+		background-position: -261px -222px;
 	}
 }
 
