@@ -226,7 +226,7 @@
 
   &:hover {
     text-decoration: none;
-    background-color: #edefff;
+    background-color: #f4f2f2;
   }
 }
 
@@ -332,17 +332,19 @@
 
   .sub-menu {
     position: absolute;
-    //box-shadow: 0px 2px 5px -1px rgba(0,0,0,1);
     top: 110%;
     font-size: .8em;
     z-index: 99999;
-    background: white;
+    background: #eee;
     min-width: 100%;
     width: auto;
     border: 1px dashed grey;
-    border-left: 2px solid black;
     border-top: 0;
     text-align: left;
+  }
+
+  .sub-menu__item + * {
+    border-top: 1px dashed lightgrey;
   }
 
   .sub-menu__link {

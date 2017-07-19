@@ -46,7 +46,7 @@ include('../assets/includes/header.php'); ?>
 
     <section class="content-text">
 
-      
+
 
       <div class="breadcrumb">
         <p>Birley Archive</p><p class="breadcrumb__grey">Archaeological Dig</p>

@@ -60,29 +60,14 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title">Images</h4>
-        <div class="widget__images">
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-1.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-1.jpg" alt="" width="250">
-          </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-2.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-2.jpg" alt="" width="250">
-          </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-3.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-3.jpg" alt="" width="250">
-          </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-4.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-4.jpg" alt="" width="250">
-          </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-5.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-5.jpg" alt="" width="250">
-          </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-6.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-6.jpg" alt="" width="250">
-          </a>
+        <h4 class="widget__title">Links</h4>
+        <div class="widget__links">
+          <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-orchard/" class="widget__link">Birley Orchard</a>
+          <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-community-woodland/" class="widget__link">Birley Community Woodland</a>
+          <a href="http://www.hulmegardencentre.org.uk/" class="widget__link">Hulme Community Garden Centre</a>
         </div>
       </section>
-
+      
     </aside>
 
   </section> <!-- content ends -->

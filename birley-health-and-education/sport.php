@@ -61,24 +61,6 @@ include('../assets/includes/header.php'); ?>
       <section class="widget">
         <h4 class="widget__title">Images</h4>
         <div class="widget__images">
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-1.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-1.jpg" alt="" width="250">
-          </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-2.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-2.jpg" alt="" width="250">
-          </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-3.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-3.jpg" alt="" width="250">
-          </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-4.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-4.jpg" alt="" width="250">
-          </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-5.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-5.jpg" alt="" width="250">
-          </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-6.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-6.jpg" alt="" width="250">
-          </a>
         </div>
       </section>
 
