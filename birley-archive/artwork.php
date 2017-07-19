@@ -31,7 +31,9 @@ include('../assets/includes/header.php'); ?>
 
   <section class="banner">
 
-    <h2 class="banner__title">Artwork</h2>
+    <div class="banner-title-container">
+      <h2 class="banner__title">Artwork</h2>
+    </div>
 
     <div class="banner-icon">
       <img src="<?php echo $assets?>/img/icons/icon_artwork.png" class="banner-icon__img" width="373" height="219" alt="Illustration of a mural.">

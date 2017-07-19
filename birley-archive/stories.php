@@ -32,7 +32,9 @@ include('../assets/includes/header.php'); ?>
 
   <section class="banner">
 
-    <h2 class="banner__title">Stories</h2>
+    <div class="banner-title-container">
+      <h2 class="banner__title">Stories</h2>
+    </div>
 
     <div class="banner-icon">
       <img src="<?php echo $assets?>/img/icons/icon_notepad.svg" class="banner-icon__img" alt="Illustration of a notepad and pen.">

@@ -16,10 +16,17 @@
   padding: 10vw;
   width: 55vw;
   height: auto;
-  max-width: 100%;  
+  max-width: 100%;
   image-rendering: -o-crisp-edges; // Opera //
   image-rendering: -webkit-optimize-contrast; // Webkit (non-standard naming) //
   image-rendering: crisp-edges;
+}
+
+.banner-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
 }
 
 .banner__title {
@@ -29,8 +36,8 @@
   line-height: 1em;
   margin-top: 0;
   max-width: 100%;
-  font-family: $seriftitle;
-  font-weight: 400;
+  font-family: 'Droid Serif';
+  font-weight: 400;  
 }
 
 .breadcrumb {
@@ -141,11 +148,13 @@
     height: 100%;
   }
 
+  .banner-title-container {
+    width: 500px;
+  }
+
   .banner__title {
-    font-size: calc(1rem + 5vw);
-    text-align: right;
+    font-size: 3rem;
     margin: 0;
-    margin-right: .5em;
   }
 
   .content {
@@ -179,10 +188,6 @@
 
 
 @media screen and (min-width: 1240px) {
-
-  .banner__title {
-    font-size: 5rem;
-  }
 
   .content-text {
     font-size: 1.3333333333333333333333333333333em;

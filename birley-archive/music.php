@@ -32,7 +32,9 @@ include('../assets/includes/header.php'); ?>
 
   <section class="banner">
 
-    <h2 class="banner__title">Music</h2>
+    <div class="banner-title-container">
+      <h2 class="banner__title">Music</h2>
+    </div>
 
     <div class="banner-icon">
       <img src="<?php echo $assets?>/img/icons/icon_music.svg" class="banner-icon__img" alt="Illustration of blaring speakers.">
@@ -44,7 +46,7 @@ include('../assets/includes/header.php'); ?>
 
     <section class="content-text">
 
-      <h3 class="content-text__title">About</h3>           
+      <h3 class="content-text__title">About</h3>
 
       <div class="breadcrumb">
         <p>Birley Archive</p><p class="breadcrumb__grey">Music</p>
