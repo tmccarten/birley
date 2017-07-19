@@ -46,7 +46,7 @@ include('../assets/includes/header.php'); ?>
 
     <section class="content-text">
 
-      <h3 class="content-text__title">About</h3>
+
 
       <div class="breadcrumb">
         <p>Birley Archive</p><p class="breadcrumb__grey">Poetry</p>

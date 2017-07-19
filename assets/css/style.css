@@ -1027,9 +1027,8 @@ body {
 }
 
 .content-text__title {
-	font-size: 1.8125em;
+	font-size: 1.45em;
 	font-weight: 400;
-	font-family: "Crete Round", Georgia, Times, serif;
 }
 
 .content-text__link {
@@ -1063,7 +1062,7 @@ body {
 		white-space: nowrap;
 		-ms-flex-wrap: wrap;
 		    flex-wrap: wrap;
-		margin: 0 0 1em 0;
+		margin: 0 0 2em 0;
 		padding: 0 .1em;
 		font-size: 0.8em;
 		font-weight: 400;
@@ -1132,13 +1131,15 @@ body {
 		margin-right: 2em;
 		padding-left: 1em;
 		border-left: 2px dashed lightgray;
-		border-top: 2px dashed lightgray;
 		font-weight: 300;
 		font-size: 1.1111111111111111111111111111111em;
 		text-align: left;
 		-webkit-box-flex: 2;
 		    -ms-flex: 2 2 auto;
 		        flex: 2 2 auto;
+	}
+	.content-text__title {
+		margin: .5em 0;
 	}
 	.content-text__link {
 		font-weight: 400;

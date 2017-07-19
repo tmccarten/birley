@@ -1,10 +1,10 @@
 <?php
 
-$pageTitle = "Sustainability Birley | Living Lines: Birley Archives";
-$pageDescription = "Sustainability and plants and garden centres in Birley, Hulme, Manchester.";
-$pageKeywords = "Birley, Foraging, Bees, Sustainability";
-$activePage = "Grow";
-$activeSubPage = "Sustainability";
+$pageTitle = "Birley Photography | Living Lines: Birley Archives";
+$pageDescription = "Birley photography.";
+$pageKeywords = "Birley, Photography, Hulme";
+$activePage = "Archive";
+$activeSubPage = "Photography";
 
 $assets = "../assets";
 
@@ -21,8 +21,8 @@ $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
 $linkHealth = "../birley-health-and-education/";
-$linkArchive = "../birley-archive/";
-$linkGrow = "./";
+$linkArchive = "./";
+$linkGrow = "../grow-birley/";
 $linkMy = "../my-birley/";
 
 include('../assets/includes/header.php'); ?>
@@ -32,11 +32,11 @@ include('../assets/includes/header.php'); ?>
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">Sustainability</h2>
+      <h2 class="banner__title">Photography</h2>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/icon_sustainability.svg" class="banner-icon__img" alt="Illustration of a fern.">
+      <img src="<?php echo $assets?>/img/icons/icon_artwork.png" class="banner-icon__img" width="373" height="219" alt="Illustration of a mural.">
     </div>
 
   </section>
@@ -48,12 +48,11 @@ include('../assets/includes/header.php'); ?>
 
 
       <div class="breadcrumb">
-        <p>Grow Birley</p><p class="breadcrumb__grey">Sustainability</p>
+        <p>Birley Archive</p><p class="breadcrumb__grey">Photography</p>
       </div>
 
-      <p>An abundance of culinary herbs are grown in the Sensory Garden which are available to all. Look out for the ‘How to Harvest’ guidelines available by each planter to ensure herb plants remain healthy for the future. Or take a look at <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-orchard/" class="content-text__link">Birley Orchard</a> to find out more about fruit tree cultivation and how you can help.</p>
-      <p>The <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-community-woodland/" class="content-text__link">woodland area</a> is managed by <a href="http://www.hulmegardencentre.org.uk/" class="content-text__link">Hulme Community Garden Centre</a>, who offer a wide range of activities, workshops and educational projects. Plants available to pick and forage include wild sorrel, sweet cicely, garlic mustard, nettles, blackberry and lemon balm, amongst others. Have a look at Met Munch’s fabulous suggestions for <a href="foraging.php" class="content-text__link">recipes</a> using ingredients that can be found at Birley and the nearby Garden Centre.</p>
-      <p>And spare a thought for the pollinators! For information on bees and bee-related projects take a look at our <a href="bees.php" class="content-text__link">Bee Birley</a> page.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
+      <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
 
     </section>
 
@@ -87,9 +86,8 @@ include('../assets/includes/header.php'); ?>
 
   </section> <!-- content ends -->
 
-</main>
-
 </div> <!-- site-wrapper ends -->
+
 
 <script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
 </body>

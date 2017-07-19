@@ -37,7 +37,7 @@
   margin-top: 0;
   max-width: 100%;
   font-family: 'Droid Serif';
-  font-weight: 400;  
+  font-weight: 400;
 }
 
 .breadcrumb {
@@ -65,9 +65,9 @@
 }
 
 .content-text__title {
-  font-size: 1.8125em;
+  font-size: 1.45em;
   font-weight: 400;
-  font-family: $seriftitle;
+  //font-family: $seriftitle;
 }
 
 .content-text__link {
@@ -100,7 +100,7 @@
     align-items: center;
     white-space: nowrap;
     flex-wrap: wrap;
-    margin: 0 0 1em 0;
+    margin: 0 0 2em 0;
     padding: 0 .1em;
     font-size: 0.8em;
     font-weight: 400;
@@ -168,7 +168,6 @@
     margin-right: 2em;
     padding-left: 1em;
     border-left: 2px dashed lightgray;
-    border-top: 2px dashed lightgray;
     font-weight: 300;
     font-size: 1.1111111111111111111111111111111em;
     text-align: left;
@@ -176,7 +175,7 @@
   }
 
   .content-text__title {
-    //margin: 0 0 1em 0;
+    margin: .5em 0;
   }
 
 
