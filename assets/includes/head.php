@@ -10,7 +10,7 @@
   <meta name="keywords" content="<?php echo $pageKeywords; ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
-  <link href="<?php echo $assets?>/css/fonts.css" rel="stylesheet">
+  <link href="<?php echo $assets?>/css/fonts.css?v=2" rel="stylesheet">
 
   <meta name="robots" content="noindex,nofollow"/>
 

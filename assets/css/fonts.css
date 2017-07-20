@@ -25,12 +25,14 @@
 }
 
 @font-face {
-	font-family: 'Crete Round';
-	src: url('../fonts/CreteRound-Regular.woff2') format('woff2'),
-		url('../fonts/CreteRound-Regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Droid Serif';
+    src: url('../fonts/droidserif-webfont.woff2') format('woff2'),
+         url('../fonts/droidserif-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 
 @font-face {
 	font-family: 'Source Sans Pro';
