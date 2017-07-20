@@ -45,8 +45,6 @@ include('../assets/includes/header.php'); ?>
 
     <section class="content-text">
 
-
-
       <div class="breadcrumb">
         <p>Grow Birley</p><p class="breadcrumb__grey">Bees</p>
       </div>
@@ -59,7 +57,7 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title">Links</h4>
+        <h4 class="widget__title widget__title--bees">Links</h4>
         <div class="widget__links">
         </div>
       </section>

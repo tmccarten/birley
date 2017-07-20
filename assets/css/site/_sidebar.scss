@@ -16,8 +16,34 @@
   font-weight: 600;
   padding: 1em;
   text-align: center;
-  background: #e6e5e5;
+  background: lightgray;
 }
+
+.widget__title--dig {
+  background: lightgray; //#e3d5a2;
+}
+
+.widget__title--poetry, .widget__title--stories {
+  background: lightgray; //#bec9cf;
+}
+
+.widget__title--artwork, .widget__title--photography {
+  background: lightgray; //#afdaec;
+}
+
+.widget__title--sustainability {
+  background: lightgray; //#7e9e76;
+}
+
+.widget__title--bees {
+  background: lightgray; //#e0c47f;
+}
+
+.widget__title--foraging {
+  background: lightgray; //#7e9e76;
+}
+
+
 
 .widget__images {
   display: flex;
@@ -48,6 +74,16 @@
   flex-direction: column;
   text-align: center;
   padding: 1em;
+
+  [href$=".pdf"]::after {
+    content: "";
+    display: block;
+    margin-left: .25em;
+    height: 16px;
+    width: 16px;
+    background-image: url(../img/icons/PDF-link-symbol.svg);
+    opacity: 1;
+  }
 }
 
 .widget__link {
@@ -64,7 +100,7 @@
     height: 1em;
     width: 1em;
     background-image: url(../img/icons/external-link-symbol.svg);
-    opacity: .5;
+    opacity: 1;
   }
 }
 
@@ -82,27 +118,31 @@
   }
 
   .widget {
-    transform: rotate(2deg);
+    transform: rotate(1deg);
+    background: #eaeaea;
+
+    &:only-child {
+      transform: none;
+    }
 
     &:nth-child(2n) {
-      transform: rotate(-2deg);
+      transform: rotate(-2deg) translateY(-30px);
     }
   }
 
   .widget + * {
-    margin-top: 0;
+    //margin-top: 2em;
   }
 
   .widget__images, .widget__links {
     border: 1px dashed lightgray;
-    background-color: white;
     padding: 2em;
   }
 
   .widget__title {
-    text-align: right;
+    text-align: center;
     font-size: 1.25em;
-    padding: 1.5em;
+    padding: 1em;
   }
 
   .widget__image {
@@ -122,7 +162,6 @@
   .widget__links {
     text-align: right;
   }
-
 
 
 }

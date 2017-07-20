@@ -48,7 +48,7 @@ include('../assets/includes/header.php'); ?>
 
 
         <div class="breadcrumb">
-          <p>The Site</p><p class="breadcrumb__grey">Birley High</p>
+          <p>The Site</p><p class="breadcrumb__grey">Schools and Education</p>
         </div>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
@@ -59,8 +59,8 @@ include('../assets/includes/header.php'); ?>
       <aside class="sidebar">
 
         <section class="widget">
-          <h4 class="widget__title">Images</h4>
-          <div class="widget__images">
+          <h4 class="widget__title">Links</h4>
+          <div class="widget__links">
           </div>
         </section>
 

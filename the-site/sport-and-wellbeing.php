@@ -57,8 +57,8 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title">Images</h4>
-        <div class="widget__images">
+        <h4 class="widget__title">Links</h4>
+        <div class="widget__links">
         </div>
       </section>
 

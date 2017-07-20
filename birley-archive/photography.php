@@ -45,8 +45,6 @@ include('../assets/includes/header.php'); ?>
 
     <section class="content-text">
 
-
-
       <div class="breadcrumb">
         <p>Birley Archive</p><p class="breadcrumb__grey">Photography</p>
       </div>
@@ -59,8 +57,8 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title">Images</h4>
-        <div class="widget__images">          
+        <h4 class="widget__title widget__title--photography">Links</h4>
+        <div class="widget__links">
         </div>
       </section>
 

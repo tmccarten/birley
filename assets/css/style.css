@@ -1132,7 +1132,6 @@ body {
 		max-width: 30em;
 		margin-right: 2em;
 		padding-left: 1em;
-		border-left: 2px dashed lightgray;
 		font-weight: 300;
 		font-size: 1.1111111111111111111111111111111em;
 		text-align: left;
@@ -1173,7 +1172,31 @@ body {
 	font-weight: 600;
 	padding: 1em;
 	text-align: center;
-	background: #e6e5e5;
+	background: lightgray;
+}
+
+.widget__title--dig {
+	background: lightgray;
+}
+
+.widget__title--poetry, .widget__title--stories {
+	background: lightgray;
+}
+
+.widget__title--artwork, .widget__title--photography {
+	background: lightgray;
+}
+
+.widget__title--sustainability {
+	background: lightgray;
+}
+
+.widget__title--bees {
+	background: lightgray;
+}
+
+.widget__title--foraging {
+	background: lightgray;
 }
 
 .widget__images {
@@ -1225,6 +1248,16 @@ body {
 	padding: 1em;
 }
 
+.widget__links [href$=".pdf"]::after {
+	content: "";
+	display: block;
+	margin-left: .25em;
+	height: 16px;
+	width: 16px;
+	background-image: url(../img/icons/PDF-link-symbol.svg);
+	opacity: 1;
+}
+
 .widget__link {
 	border-bottom: 1px dashed lightgray;
 	padding-bottom: .5em;
@@ -1244,7 +1277,7 @@ body {
 	height: 1em;
 	width: 1em;
 	background-image: url(../img/icons/external-link-symbol.svg);
-	opacity: .5;
+	opacity: 1;
 }
 
 .widget__link + * {
@@ -1260,25 +1293,26 @@ body {
 		margin-top: 0;
 	}
 	.widget {
-		-webkit-transform: rotate(2deg);
-		        transform: rotate(2deg);
+		-webkit-transform: rotate(1deg);
+		        transform: rotate(1deg);
+		background: #eaeaea;
+	}
+	.widget:only-child {
+		-webkit-transform: none;
+		        transform: none;
 	}
 	.widget:nth-child(2n) {
-		-webkit-transform: rotate(-2deg);
-		        transform: rotate(-2deg);
-	}
-	.widget + * {
-		margin-top: 0;
+		-webkit-transform: rotate(-2deg) translateY(-30px);
+		        transform: rotate(-2deg) translateY(-30px);
 	}
 	.widget__images, .widget__links {
 		border: 1px dashed lightgray;
-		background-color: white;
 		padding: 2em;
 	}
 	.widget__title {
-		text-align: right;
+		text-align: center;
 		font-size: 1.25em;
-		padding: 1.5em;
+		padding: 1em;
 	}
 	.widget__image {
 		height: 120px;
