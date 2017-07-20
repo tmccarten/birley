@@ -51,12 +51,14 @@ include('../../assets/includes/header.php'); ?>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
 
+      <h3 class="content-text__title content-text__title--menus">Recipes</h3>
+
       <ul class="content-text__list">
-        <li class="content-text__list-item"><a href="salmon-with-ostrich-fern-and-wild-garlic.php" class="content-text__link">Salmon with ostrich fern and wild garlic</a></li>
-        <li class="content-text__list-item"><a href="flourless-elderflower-nepalese-raspberry-and-strawberry-cake.php" class="content-text__link">Flourless elderflower, Nepalese raspberry and strawberry cake</a></li>
-        <li class="content-text__list-item"><a href="bramble-vinegar.php" class="content-text__link">Bramble vinegar</a></li>
-        <li class="content-text__list-item"><a href="rhubarb-beetroot-spinach-and-avocado-salad.php" class="content-text__link">Rhubarb, beetroot, spinach and avocado salad</a></li>
-        <li class="content-text__list-item"><a href="sweet-potato-wedges-with-herb-and-cobnut-pesto.php" class="content-text__link">Sweet potato wedges with herb and cobnut pesto</a></li>
+        <li class="content-text__recipe-item"><a href="salmon-with-ostrich-fern-and-wild-garlic.php" class="content-text__link">Salmon with ostrich fern and wild garlic</a></li>
+        <li class="content-text__recipe-item"><a href="flourless-elderflower-nepalese-raspberry-and-strawberry-cake.php" class="content-text__link">Flourless elderflower, Nepalese raspberry and strawberry cake</a></li>
+        <li class="content-text__recipe-item"><a href="bramble-vinegar.php" class="content-text__link">Bramble vinegar</a></li>
+        <li class="content-text__recipe-item"><a href="rhubarb-beetroot-spinach-and-avocado-salad.php" class="content-text__link">Rhubarb, beetroot, spinach and avocado salad</a></li>
+        <li class="content-text__recipe-item"><a href="sweet-potato-wedges-with-herb-and-cobnut-pesto.php" class="content-text__link">Sweet potato wedges with herb and cobnut pesto</a></li>
       </ul>
 
     </section>

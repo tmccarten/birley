@@ -63,10 +63,10 @@ include('../../assets/includes/header.php'); ?>
 
       <section class="widget">
         <h4 class="widget__title widget__title--foraging">Ingredients</h4>
-        <div class="widget__links">          
+        <div class="widget__links">
           <ul class="ingredients">
             <li class="ingredients__item">⅓ of a cucumber</li>
-            <li class="ingredients__item">500g small waxy new potatoes (such as Charlotte)</li>
+            <li class="ingredients__item">500g small waxy new potatoes <i>(such as Charlotte)</i></li>
             <li class="ingredients__item">1tbsp white wine vinegar</li>
             <li class="ingredients__item">olive oil</li>
             <li class="ingredients__item">4 juniper berries, gently crushed</li>
