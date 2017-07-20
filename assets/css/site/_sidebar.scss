@@ -104,6 +104,18 @@
   margin-top: 1em;
 }
 
+.ingredients {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.ingredients__item {
+  padding: .5em 0;
+  border-bottom: 1px dashed lightgray;
+  text-align: center;
+}
+
 @media screen and (min-width: $desktopnav) {
 
   .sidebar {
@@ -130,7 +142,7 @@
     //margin-top: 2em;
   }
 
-  .widget__images, .widget__links {    
+  .widget__images, .widget__links {
     padding: 2em;
   }
 

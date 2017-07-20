@@ -76,7 +76,7 @@
   color: $linkforaging;
 }
 
-.content-text__list {
+.content-text__list, .content-text__recipe {
   list-style-position: outside;
   list-style-type: none;
   padding-left: 0;
@@ -84,12 +84,23 @@
   margin: 2em 0;
 }
 
-.content-text__list-item {
-
+.content-text__recipe {
+  list-style-type: decimal;
+  list-style-position: inside;
 }
 
-.content-text__list-item + * {
+.content-text__list-item + *, .content-text__recipe-item {
   margin-top: 1em;
+}
+
+.content-text__recipe-item {
+  font-weight: 400;
+
+
+  p {
+    display: inline;
+    font-weight: 300;
+  }
 }
 
 .content-text__link {
@@ -209,6 +220,10 @@
     list-style-type: circle;
   }
 
+  .content-text__recipe {
+    padding-left: 0;
+    text-align: left;
+  }
 
   .content-text__link {
     font-weight: 400;

@@ -51,16 +51,31 @@ include('../../assets/includes/header.php'); ?>
 
       <h3 class="content-text__title content-text__title--recipes">Salmon with ostrich fern and wild garlic</h3>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
-      <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
+      <ol class="content-text__recipe">
+        <li class="content-text__recipe-item"><p>Peel, halve and with a teaspoon to scrape the seeds out of the cucumber. Slice into 1-2cm thick pieces. Cut the potatoes into even-sized chunks and put in a pan of boiling water to cook for about 10 minutes until just tender.</p></li>
+        <li class="content-text__recipe-item"><p>While the potatoes are boiling, make the dressing by combining the white wine vinegar, 5 tbsps of olive oil, juniper berries and mustard and whisking to a thick emulsion. Season. Drain the potatoes and mix with the dressing while hot.</p></li>
+        <li class="content-text__recipe-item"><p>Fry the salmon fillets, skin-side down, in hot oil until the skin is crispy and the fish just cooked through. Mix the garlic leaves, Ostrich Fern, cucumber and lemon zest into the potato salad and serve immediately.</p></li>
+      </ol>
 
     </section>
 
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--foraging">Links</h4>
-        <div class="widget__links">
+        <h4 class="widget__title widget__title--foraging">Ingredients</h4>
+        <div class="widget__links">          
+          <ul class="ingredients">
+            <li class="ingredients__item">⅓ of a cucumber</li>
+            <li class="ingredients__item">500g small waxy new potatoes (such as Charlotte)</li>
+            <li class="ingredients__item">1tbsp white wine vinegar</li>
+            <li class="ingredients__item">olive oil</li>
+            <li class="ingredients__item">4 juniper berries, gently crushed</li>
+            <li class="ingredients__item">2 generous tbsp dijon mustard</li>
+            <li class="ingredients__item">2 salmon fillets, skin on</li>
+            <li class="ingredients__item">2 handfuls <b>wild garlic</b> leaves, shredded</li>
+            <li class="ingredients__item">1 handful <b>ostrich fern</b><p><i>Fiddleheads are the first ostrich fern shoots to show in the spring and are so called because of their resemblance to the neck of a fiddle. These are the sterile shoots that will grow into the largest fronds. Pick no more than half from each crown while they are small and tightly curled. Before cooking, wash them carefully and remove the brown papery covering</i></p></li>
+            <li class="ingredients__item">½ a lemon, finely zested</li>
+          </ul>
         </div>
       </section>
 
