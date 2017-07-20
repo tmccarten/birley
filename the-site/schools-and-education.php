@@ -48,7 +48,7 @@ include('../assets/includes/header.php'); ?>
 
 
         <div class="breadcrumb">
-          <p>The Site</p><p class="breadcrumb__grey">Schools and Education</p>
+          <p>The Site</p><p>Schools and Education</p>
         </div>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>

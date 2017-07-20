@@ -80,7 +80,7 @@
             <ul class="sub-menu">
               <li class="sub-menu__item"><a href="<?php echo $linkGrow?>sustainability.php" <?php if ($activeSubPage === "Sustainability") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Sustainability</a></li>
               <li class="sub-menu__item"><a href="<?php echo $linkGrow?>bees.php" <?php if ($activeSubPage === "Bees") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Bees</a></li>
-              <li class="sub-menu__item"><a href="<?php echo $linkGrow?>foraging.php" <?php if ($activeSubPage === "Foraging") { echo 'class="sub-menu__link sub-menu__link--current"'; }?>class="sub-menu__link">Foraging</a></li>
+              <li class="sub-menu__item"><a href="<?php echo $linkGrow?>foraging/" <?php if ($activeSubPage === "Foraging Menus") { echo 'class="sub-menu__link sub-menu__link--current"'; }?>class="sub-menu__link">Foraging Menus</a></li>
             </ul>
           </li><!-- Grow Birley ends -->
 

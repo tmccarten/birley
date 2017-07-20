@@ -1,38 +1,38 @@
 <?php
 
-$pageTitle = "Foraging Birley | Living Lines: Birley Archives";
-$pageDescription = "Foraging in Birley.";
-$pageKeywords = "Birley, Foraging, Sustainability";
+$pageTitle = "Rhubarb salad foraging recipe | Foraging Birley | Living Lines: Birley Archives";
+$pageDescription = "Rhubarb, beetroot, spinach and avocado foraging recipe.";
+$pageKeywords = "Birley, Foraging, Rhubarb, Sustainability";
 $activePage = "Grow";
-$activeSubPage = "Foraging";
+$activeSubPage = "Foraging Menus";
 
-$assets = "../assets";
+$assets = "../../assets";
 
-$favIcon = "../favicon.ico";
+$favIcon = "../../favicon.ico";
 
-include('../assets/includes/head.php');?>
+include('../../assets/includes/head.php');?>
 
 </head>
 
 <?php
 
-$linkHome = "../";
-$linkAbout = "../about.php";
-$linkContact = "../contact.php";
+$linkHome = "../../";
+$linkAbout = "../../about.php";
+$linkContact = "../../contact.php";
 
-$linkSite = "../the-site/";
-$linkArchive = "../birley-archive/";
-$linkGrow = "./";
-$linkMy = "../my-birley/";
+$linkSite = "../../the-site/";
+$linkArchive = "../../birley-archive/";
+$linkGrow = "../";
+$linkMy = "../../my-birley/";
 
-include('../assets/includes/header.php'); ?>
+include('../../assets/includes/header.php'); ?>
 
 <main id="skipnav">
 
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">Foraging</h2>
+      <h2 class="banner__title">Foraging Recipes</h2>
     </div>
 
     <div class="banner-icon">
@@ -46,7 +46,7 @@ include('../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <p>Grow Birley</p><p class="breadcrumb__grey">Foraging</p>
+        <a href="./">Foraging Menus</a><p>Rhubarb, beetroot, spinach and avocado salad</p>
       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>

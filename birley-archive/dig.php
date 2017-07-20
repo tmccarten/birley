@@ -47,7 +47,7 @@ include('../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <p>Birley Archive</p><p class="breadcrumb__grey">Archaeological Dig</p>
+        <p>Birley Archive</p><p>Archaeological Dig</p>
       </div>
 
       <p>Between 2011 and 2012, the university commissioned an archaeological investigation on the site that was to become the Birley development.</p>

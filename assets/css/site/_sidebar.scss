@@ -3,8 +3,6 @@
   flex: 1 1 auto;
   margin: 2em 0;
   max-width: 30em;
-  //background: white;
-  //box-shadow: 3px 0px 6px 3px rgba(0,0,0,0.05);
 }
 
 .widget + * {
@@ -42,8 +40,6 @@
 .widget__title--foraging {
   background: lightgray; //#7e9e76;
 }
-
-
 
 .widget__images {
   display: flex;
@@ -134,8 +130,7 @@
     //margin-top: 2em;
   }
 
-  .widget__images, .widget__links {
-    border: 1px dashed lightgray;
+  .widget__images, .widget__links {    
     padding: 2em;
   }
 

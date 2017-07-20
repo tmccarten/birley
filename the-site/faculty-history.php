@@ -28,7 +28,7 @@ $linkMy = "../my-birley/";
 include('../assets/includes/header.php'); ?>
 
 <div class="breadcrumb">
-  <p class="breadcrumb__grey">The Site</p><p class="breadcrumb__grey">Faculty History</p>
+  <p>The Site</p><p>Faculty History</p>
 </div>
 
 <main id="skipnav" class="main">

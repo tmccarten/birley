@@ -46,7 +46,7 @@ include('../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <p>Grow Birley</p><p class="breadcrumb__grey">Sustainability</p>
+        <p>Grow Birley</p><p>Sustainability</p>
       </div>
 
       <p>An abundance of culinary herbs are grown in the Sensory Garden which are available to all. Look out for the ‘How to Harvest’ guidelines available by each planter to ensure herb plants remain healthy for the future. Or take a look at <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-orchard/" class="content-text__link">Birley Orchard</a> to find out more about fruit tree cultivation and how you can help.</p>

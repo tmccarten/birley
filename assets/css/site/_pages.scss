@@ -68,7 +68,28 @@
 .content-text__title {
   font-size: 1.45em;
   font-weight: 400;
-  //font-family: $seriftitle;
+  font-family: $seriftitle;
+  line-height: 1.1;
+}
+
+.content-text__title--recipes {
+  color: $linkforaging;
+}
+
+.content-text__list {
+  list-style-position: outside;
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.content-text__list-item {
+
+}
+
+.content-text__list-item + * {
+  margin-top: 1em;
 }
 
 .content-text__link {
@@ -105,9 +126,9 @@
     padding: 0 .1em;
     font-size: 0.8em;
     font-weight: 400;
-    color: black;
+    color: grey;
 
-    p {
+    p, a {
       padding: 0 0 .5em 0;
       margin: 0;
       border-bottom: 2px dashed lightgray;
@@ -120,9 +141,10 @@
       }
     }
 
-    .breadcrumb__grey {
-      color: grey;
+    a {
+      color: black;
     }
+
   }
 
 
@@ -175,7 +197,16 @@
   }
 
   .content-text__title {
-    margin: .5em 0;
+    margin: 1em 0;
+    padding-right: 1em;
+    font-size: 2em;
+    line-height: 1.1;
+  }
+
+  .content-text__list {
+    padding-left: 1em;
+    text-align: left;
+    list-style-type: circle;
   }
 
 

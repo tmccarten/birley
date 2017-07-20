@@ -1,42 +1,42 @@
 <?php
 
-$pageTitle = "Birley Photography | Living Lines: Birley Archives";
-$pageDescription = "Birley photography.";
-$pageKeywords = "Birley, Photography, Hulme";
-$activePage = "Archive";
-$activeSubPage = "Photography";
+$pageTitle = "Elderflower cake foraging recipe | Foraging Birley | Living Lines: Birley Archives";
+$pageDescription = "Flourless elderflower, Nepalese raspberry and strawberry cake foraging recipe.";
+$pageKeywords = "Birley, Foraging, Cake, Sustainability";
+$activePage = "Grow";
+$activeSubPage = "Foraging Menus";
 
-$assets = "../assets";
+$assets = "../../assets";
 
-$favIcon = "../favicon.ico";
+$favIcon = "../../favicon.ico";
 
-include('../assets/includes/head.php');?>
+include('../../assets/includes/head.php');?>
 
 </head>
 
 <?php
 
-$linkHome = "../";
-$linkAbout = "../about.php";
-$linkContact = "../contact.php";
+$linkHome = "../../";
+$linkAbout = "../../about.php";
+$linkContact = "../../contact.php";
 
-$linkSite = "../the-site/";
-$linkArchive = "./";
-$linkGrow = "../grow-birley/";
-$linkMy = "../my-birley/";
+$linkSite = "../../the-site/";
+$linkArchive = "../../birley-archive/";
+$linkGrow = "../";
+$linkMy = "../../my-birley/";
 
-include('../assets/includes/header.php'); ?>
+include('../../assets/includes/header.php'); ?>
 
 <main id="skipnav">
 
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">Photography</h2>
+      <h2 class="banner__title">Foraging Recipes</h2>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/icon_artwork.png" class="banner-icon__img" width="373" height="219" alt="Illustration of a mural.">
+      <img src="<?php echo $assets?>/img/icons/icon_foraging.svg" class="banner-icon__img" alt="Illustration of a fern, berries and nuts.">
     </div>
 
   </section>
@@ -46,7 +46,7 @@ include('../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <p>Birley Archive</p><p>Photography</p>
+        <a href="./">Foraging Menus</a><p>Flourless elderflower, Nepalese raspberry and strawberry cake</p>
       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
@@ -57,7 +57,7 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--photography">Links</h4>
+        <h4 class="widget__title widget__title--foraging">Links</h4>
         <div class="widget__links">
         </div>
       </section>
@@ -66,8 +66,9 @@ include('../assets/includes/header.php'); ?>
 
   </section> <!-- content ends -->
 
-</div> <!-- site-wrapper ends -->
+</main>
 
+</div> <!-- site-wrapper ends -->
 
 <script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
 </body>
