@@ -111,81 +111,82 @@
 }
 
 .main-nav__link--home {
-  background-position: -5px -45px;
-  width: 40px;
-  height: 28px;
+  background-position: 0 0;
+  width: 48px;
+  height: 34px;
+  left: -4px;
 
   &.current {
-    background-position: -263px -45px;
+    background-position: 0 -34px;
   }
 
   @media screen and (min-width: $desktopnav) {
   &:hover {
-    background-position: -263px -45px;
+    background-position: 0 -34px;
   }
   }
 }
 
 .main-nav__link--site {
-  background-position: -4px -82px;
-  width: 73px;
-  height: 30px;
+  background-position: -48px 0;
+  width: 72px;
+  height: 34px;
 
   &.current {
-    background-position: -262px -82px;
+    background-position: -48px -34px;
   }
 
   @media screen and (min-width: $desktopnav) {
   &:hover {
-    background-position: -262px -82px;
+    background-position: -48px -34px;
   }
 }
 }
 
 .main-nav__link--archive {
-  background-position: -4px -153px;
-  width: 119px;
-  height: 30px;
+  background-position: -120px 0;
+  width: 118px;
+  height: 34px;
 
   &.current {
-    background-position: -261px -153px;
+    background-position: -120px -34px;
   }
 
   @media screen and (min-width: $desktopnav) {
   &:hover {
-    background-position: -261px -153px;
+    background-position: -120px -34px;
   }
 }
 }
 
 .main-nav__link--grow {
-  background-position: -3px -187px;
-  width: 95px;
-  height: 33px;
+  background-position: -238px 0;
+  width: 94px;
+  height: 34px;
 
   &.current {
-    background-position: -261px -187px;
+    background-position: -238px -34px;
   }
 
   @media screen and (min-width: $desktopnav) {
   &:hover {
-    background-position: -261px -187px;
+    background-position: -238px -34px;
   }
   }
 }
 
 .main-nav__link--my {
-  background-position: -3px -222px;
-  width: 77px;
-  height: 31px;
+  background-position: -332px 0;
+  width: 76px;
+  height: 34px;
 
   &.current {
-    background-position: -261px -222px
+    background-position: -332px 34px;
   }
 
   @media screen and (min-width: $desktopnav) {
   &:hover {
-    background-position: -261px -222px;
+    background-position: -332px -34px;
   }
 }
 }
