@@ -69,7 +69,7 @@ include('../../assets/includes/header.php'); ?>
         <h4 class="widget__title widget__title--bees">Also in this section...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="../bees.php">Bees</a></li>
-          <li class="widget__submenu-item"><a href="../sustainability.php" class="widget__submenu-link">Sustainability</a></li>
+          <li class="widget__submenu-item"><a href="../sustainability.php">Sustainability</a></li>
       </section>
 
     </aside>

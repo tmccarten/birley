@@ -1432,10 +1432,29 @@ body {
 		display: block;
 		max-width: 100%;
 	}
-	.widget__submenu-link {
-		-webkit-box-pack: start;
-		    -ms-flex-pack: start;
-		        justify-content: flex-start;
+	.widget__submenu-item {
+		list-style-type: none;
+	}
+	.widget__submenu-item a:hover {
+		text-decoration: none;
+	}
+	.widget__submenu-item a::before {
+		content: "";
+		display: inline-block;
+		margin: -5px;
+		height: 20px;
+		width: 20px;
+		-webkit-transform: scale(0.5);
+		        transform: scale(0.5);
+		background-image: url("../img/icons/icon_widget-bullet.svg");
+		background-position: 0 0;
+		background-size: 100%;
+		margin-right: .72222222em;
+		image-rendering: -o-crisp-edges;
+		image-rendering: -moz-crisp-edges;
+	}
+	.widget__submenu-item a:hover::before {
+		background-position: 0 -20px;
 	}
 	.widget__submenu {
 		text-align: left;
