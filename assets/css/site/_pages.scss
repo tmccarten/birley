@@ -30,7 +30,7 @@
 }
 
 .banner__title {
-  font-size: calc(2em + 2vw);
+  font-size: calc(1em + 2vw);
   font-weight: normal;
   text-align: center;
   line-height: 1em;
@@ -124,6 +124,14 @@
 
   .content-text {
     line-height: calc(1em + 1vw);
+  }
+
+}
+
+@media screen and (min-width: 580px) {
+
+  .banner__title {
+    font-size: calc(2em + 2vw);
   }
 
 }

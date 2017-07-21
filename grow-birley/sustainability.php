@@ -66,6 +66,14 @@ include('../assets/includes/header.php'); ?>
         </div>
       </section>
 
+      <section class="widget">
+        <h4 class="widget__title widget__title--bees">Also in this section...</h4>
+        <ul class="widget__submenu">
+          <li class="widget__submenu-item"><a href="bees.php">Bees</a></li>
+          <li class="widget__submenu-item"><a href="foraging/" class="widget__submenu-link">Foraging Menus</a></li>
+        </div>
+      </section>
+
     </aside>
 
   </section> <!-- content ends -->

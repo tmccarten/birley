@@ -14,31 +14,34 @@
   font-weight: 600;
   padding: 1em;
   text-align: center;
-  background: lightgray;
+  background: #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .widget__title--dig {
-  background: lightgray; //#e3d5a2;
+  background: #e2e2e2; //#e3d5a2;
 }
 
 .widget__title--poetry, .widget__title--stories {
-  background: lightgray; //#bec9cf;
+  background: #e2e2e2; //#bec9cf;
 }
 
 .widget__title--artwork, .widget__title--photography {
-  background: lightgray; //#afdaec;
+  background: #e2e2e2; //#afdaec;
 }
 
 .widget__title--sustainability {
-  background: lightgray; //#7e9e76;
+  background: #e2e2e2; //#7e9e76;
 }
 
 .widget__title--bees {
-  background: lightgray; //#e0c47f;
+  background: #e2e2e2; //#e0c47f;
 }
 
 .widget__title--foraging {
-  background: lightgray; //#7e9e76;
+  background: #e2e2e2; //#7e9e76;
 }
 
 .widget__images {
@@ -84,7 +87,7 @@
 
 .widget__link {
   border-bottom: 1px dashed lightgray;
-  padding-bottom: .5em;
+  padding: .5em 0;
   color: black;
   display: flex;
   align-items: center;
@@ -93,8 +96,8 @@
     content: "";
     display: block;
     margin-left: .25em;
-    height: 1em;
-    width: 1em;
+    height: 16px;
+    width: 16px;
     background-image: url(../img/icons/external-link-symbol.svg);
     opacity: 1;
   }
@@ -102,6 +105,31 @@
 
 .widget__link + * {
   margin-top: 1em;
+}
+
+.widget__submenu {
+  text-align: center;
+  padding: 1em 2em;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+}
+
+.widget__submenu-item {
+  padding: 1em 0;
+  color: black;
+
+  &.current {
+    font-weight: bold;
+  }
+
+  &:after {
+    display: none;
+  }
+}
+
+.widget__submenu-item + * {
+  border-top: 1px dashed lightgray;
 }
 
 .ingredients {
@@ -116,6 +144,7 @@
   text-align: center;
 }
 
+
 @media screen and (min-width: $desktopnav) {
 
   .sidebar {
@@ -127,7 +156,7 @@
 
   .widget {
     transform: rotate(1deg);
-    background: #eaeaea;
+    background: #eeeeee;
 
     &:only-child {
       transform: none;
@@ -136,10 +165,6 @@
     &:nth-child(2n) {
       transform: rotate(-2deg) translateY(-30px);
     }
-  }
-
-  .widget + * {
-    //margin-top: 2em;
   }
 
   .widget__images, .widget__links {
@@ -166,8 +191,13 @@
     max-width: 100%;
   }
 
-  .widget__links {
-    text-align: right;
+  .widget__submenu-link {
+    justify-content: flex-start;
+  }
+
+  .widget__submenu {
+    text-align: left;
+    list-style-type: circle;
   }
 
 

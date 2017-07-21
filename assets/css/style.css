@@ -987,7 +987,7 @@ body {
 }
 
 .banner__title {
-	font-size: calc(2em + 2vw);
+	font-size: calc(1em + 2vw);
 	font-weight: normal;
 	text-align: center;
 	line-height: 1em;
@@ -1085,6 +1085,12 @@ body {
 @media screen and (min-width: 425px) {
 	.content-text {
 		line-height: calc(1em + 1vw);
+	}
+}
+
+@media screen and (min-width: 580px) {
+	.banner__title {
+		font-size: calc(2em + 2vw);
 	}
 }
 
@@ -1224,31 +1230,40 @@ body {
 	font-weight: 600;
 	padding: 1em;
 	text-align: center;
-	background: lightgray;
+	background: #e2e2e2;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .widget__title--dig {
-	background: lightgray;
+	background: #e2e2e2;
 }
 
 .widget__title--poetry, .widget__title--stories {
-	background: lightgray;
+	background: #e2e2e2;
 }
 
 .widget__title--artwork, .widget__title--photography {
-	background: lightgray;
+	background: #e2e2e2;
 }
 
 .widget__title--sustainability {
-	background: lightgray;
+	background: #e2e2e2;
 }
 
 .widget__title--bees {
-	background: lightgray;
+	background: #e2e2e2;
 }
 
 .widget__title--foraging {
-	background: lightgray;
+	background: #e2e2e2;
 }
 
 .widget__images {
@@ -1312,7 +1327,7 @@ body {
 
 .widget__link {
 	border-bottom: 1px dashed lightgray;
-	padding-bottom: .5em;
+	padding: .5em 0;
 	color: black;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1326,14 +1341,39 @@ body {
 	content: "";
 	display: block;
 	margin-left: .25em;
-	height: 1em;
-	width: 1em;
+	height: 16px;
+	width: 16px;
 	background-image: url(../img/icons/external-link-symbol.svg);
 	opacity: 1;
 }
 
 .widget__link + * {
 	margin-top: 1em;
+}
+
+.widget__submenu {
+	text-align: center;
+	padding: 1em 2em;
+	list-style-type: none;
+	list-style-position: inside;
+	margin: 0;
+}
+
+.widget__submenu-item {
+	padding: 1em 0;
+	color: black;
+}
+
+.widget__submenu-item.current {
+	font-weight: bold;
+}
+
+.widget__submenu-item:after {
+	display: none;
+}
+
+.widget__submenu-item + * {
+	border-top: 1px dashed lightgray;
 }
 
 .ingredients {
@@ -1359,7 +1399,7 @@ body {
 	.widget {
 		-webkit-transform: rotate(1deg);
 		        transform: rotate(1deg);
-		background: #eaeaea;
+		background: #eeeeee;
 	}
 	.widget:only-child {
 		-webkit-transform: none;
@@ -1389,8 +1429,14 @@ body {
 		display: block;
 		max-width: 100%;
 	}
-	.widget__links {
-		text-align: right;
+	.widget__submenu-link {
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+	}
+	.widget__submenu {
+		text-align: left;
+		list-style-type: circle;
 	}
 }
 
