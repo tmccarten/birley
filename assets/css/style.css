@@ -286,7 +286,7 @@ body {
 }
 
 .main-nav__link--my.current {
-	background-position: -332px 34px;
+	background-position: -332px -34px;
 }
 
 @media screen and (min-width: 1132px) {
@@ -1173,7 +1173,6 @@ body {
 	.content-text {
 		max-width: 30em;
 		margin-right: 2em;
-		padding-left: 1em;
 		font-weight: 300;
 		font-size: 1.1111111111111111111111111111111em;
 		text-align: left;
@@ -1193,7 +1192,7 @@ body {
 	.content-text__list {
 		padding-left: 1em;
 		text-align: left;
-		color: #ff3c19;
+		color: black;
 		list-style-type: circle;
 	}
 	.content-text__recipe {
@@ -1409,6 +1408,10 @@ body {
 		-webkit-transform: rotate(-2deg) translateY(-30px);
 		        transform: rotate(-2deg) translateY(-30px);
 	}
+	.widget:nth-child(3n) {
+		-webkit-transform: rotate(-1deg) translateY(-60px);
+		        transform: rotate(-1deg) translateY(-60px);
+	}
 	.widget__images, .widget__links {
 		padding: 2em;
 	}
@@ -1437,6 +1440,60 @@ body {
 	.widget__submenu {
 		text-align: left;
 		list-style-type: circle;
+	}
+}
+
+.timeline {
+	background: white;
+	border: 1px dashed lightgray;
+	margin-bottom: 2em;
+	width: 100%;
+	height: 60vh;
+}
+
+.main-footer {
+	border-top: 1px dashed lightgray;
+	margin-top: 2em;
+	font-size: .8125em;
+	padding-top: .5em;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.main-footer a {
+	text-decoration: underline;
+}
+
+.main-footer a + * {
+	margin-top: .5em;
+}
+
+.legal a:first-child::after {
+	content: "|";
+	display: inline;
+	margin: 0 .5em;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 580px) {
+	.main-footer {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 	}
 }
 

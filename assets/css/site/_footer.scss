@@ -1,0 +1,35 @@
+.main-footer {
+  border-top: 1px dashed lightgray;
+  margin-top: 2em;
+  font-size: .8125em;
+  padding-top: .5em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+  a {
+    text-decoration: underline;
+  }
+
+  a + * {
+    margin-top: .5em;
+  }
+}
+
+.legal a:first-child::after {
+
+  content: "|";
+  display: inline;
+  margin: 0 .5em;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 580px) {
+
+  .main-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}

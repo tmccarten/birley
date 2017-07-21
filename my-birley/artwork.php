@@ -3,7 +3,7 @@
 $pageTitle = "Birley Artwork | Living Lines: Birley Archives";
 $pageDescription = "Birley artwork.";
 $pageKeywords = "Birley, Artwork, Hulme";
-$activePage = "Archive";
+$activePage = "My";
 $activeSubPage = "Artwork";
 
 $assets = "../assets";
@@ -21,9 +21,9 @@ $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
 $linkSite = "../the-site/";
-$linkArchive = "./";
+$linkArchive = "../birley-archive/";
 $linkGrow = "../grow-birley/";
-$linkMy = "../my-birley/";
+$linkMy = "./";
 
 include('../assets/includes/header.php'); ?>
 
@@ -46,7 +46,7 @@ include('../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <p>Birley Archive</p><p>Artwork</p>
+        <p>Case Studies</p><p>Artwork</p>
       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
@@ -57,8 +57,8 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--artwork">Links</h4>
-        <div class="widget__links">
+        <h4 class="widget__title widget__title--bees">Also in this section...</h4>
+        <ul class="widget__submenu">
         </div>
       </section>
 

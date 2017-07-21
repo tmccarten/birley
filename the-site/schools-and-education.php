@@ -45,8 +45,6 @@ include('../assets/includes/header.php'); ?>
 
       <section class="content-text">
 
-
-
         <div class="breadcrumb">
           <p>The Site</p><p>Schools and Education</p>
         </div>
@@ -59,8 +57,11 @@ include('../assets/includes/header.php'); ?>
       <aside class="sidebar">
 
         <section class="widget">
-          <h4 class="widget__title">Links</h4>
-          <div class="widget__links">
+          <h4 class="widget__title widget__title--bees">Also in this section...</h4>
+          <ul class="widget__submenu">
+            <li class="widget__submenu-item"><a href="site-history.php">Site History</a></li>
+            <li class="widget__submenu-item"><a href="faculty-history.php">Faculty History</a></li>
+            <li class="widget__submenu-item"><a href="sport-and-wellbeing.php">Sport and Wellbeing</a></li>
           </div>
         </section>
 
