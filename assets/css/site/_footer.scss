@@ -8,6 +8,11 @@
   flex-wrap: wrap;
   align-items: center;
 
+  p {
+    margin: 0;
+    display: inline;
+  }
+
   a {
     text-decoration: underline;
   }
@@ -17,13 +22,21 @@
   }
 }
 
-.legal a:first-child::after {
+.legal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  content: "|";
-  display: inline;
-  margin: 0 .5em;
-  text-decoration: none;
+  p + * {
+    margin-top: 1em;
+  }
 }
+
+.author {
+  opacity: .8
+}
+
+
 
 @media screen and (min-width: 580px) {
 
@@ -31,5 +44,18 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .legal {
+    flex-direction: row;
+
+    p + * {
+      margin-top: 0;
+    }
+
+    p:first-child::after {
+      content: "|";
+      margin: 0 .5em;
+    }
+}
 
 }

@@ -62,9 +62,8 @@ include('../assets/includes/header.php'); ?>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="dig.php">Archaeological Dig</a></li>
           <li class="widget__submenu-item"><a href="stories.php">Stories</a></li>
-          <li class="widget__submenu-item"><a href="music.php">Music</a></li>          
+          <li class="widget__submenu-item"><a href="music.php">Music</a></li>
           <li class="widget__submenu-item"><a href="photography.php">Photography</a></li>
-        </div>
       </section>
 
     </aside>
@@ -72,6 +71,8 @@ include('../assets/includes/header.php'); ?>
   </section> <!-- content ends -->
 
 </main>
+
+<?php include('../assets/includes/footer.php'); ?>
 
 </div> <!-- site-wrapper ends -->
 

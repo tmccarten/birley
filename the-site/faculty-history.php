@@ -65,7 +65,6 @@ include('../assets/includes/header.php'); ?>
           <li class="widget__submenu-item"><a href="site-history.php">Site History</a></li>
           <li class="widget__submenu-item"><a href="schools-and-education.php">Schools and Education</a></li>
           <li class="widget__submenu-item"><a href="sport-and-wellbeing.php">Sport and Wellbeing</a></li>
-        </div>
       </section>
 
     </aside>
@@ -73,6 +72,8 @@ include('../assets/includes/header.php'); ?>
   </section> <!-- content ends -->
 
 </main>
+
+<?php include('../assets/includes/footer.php'); ?>
 
 </div> <!-- site-wrapper ends -->
 

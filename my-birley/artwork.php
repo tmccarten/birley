@@ -59,15 +59,17 @@ include('../assets/includes/header.php'); ?>
       <section class="widget">
         <h4 class="widget__title widget__title--bees">Also in this section...</h4>
         <ul class="widget__submenu">
-        </div>
       </section>
 
     </aside>
 
   </section> <!-- content ends -->
 
-</div> <!-- site-wrapper ends -->
+</main>
 
+<?php include('../assets/includes/footer.php'); ?>
+
+</div> <!-- site-wrapper ends -->
 
 <script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
 </body>

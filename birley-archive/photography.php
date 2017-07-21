@@ -62,13 +62,16 @@ include('../assets/includes/header.php'); ?>
           <li class="widget__submenu-item"><a href="dig.php">Archaeological Dig</a></li>
           <li class="widget__submenu-item"><a href="poetry.php">Poetry</a></li>
           <li class="widget__submenu-item"><a href="stories.php">Stories</a></li>
-          <li class="widget__submenu-item"><a href="music.php">Music</a></li>          
-        </div>
+          <li class="widget__submenu-item"><a href="music.php">Music</a></li>
       </section>
 
     </aside>
 
   </section> <!-- content ends -->
+
+</main>
+
+<?php include('../assets/includes/footer.php'); ?>
 
 </div> <!-- site-wrapper ends -->
 

@@ -84,6 +84,8 @@ include('../../assets/includes/header.php'); ?>
 
 </main>
 
+<?php include('../../assets/includes/footer.php'); ?>
+
 </div> <!-- site-wrapper ends -->
 
 <script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>

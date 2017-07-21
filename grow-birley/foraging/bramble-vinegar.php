@@ -60,7 +60,6 @@ include('../../assets/includes/header.php'); ?>
         <li class="content-text__recipe-item"><p>Add the sugar to the liquid, stir and heat until boiling.</p></li>
         <li class="content-text__recipe-item"><p>Simmer for 15 minutes and then simply pour into sterilised bottles.</p></li>
         <li class="content-text__recipe-item"><p>Keep for a few months and then enjoy in the winter.</p></li>
-
       </ol>
 
     </section>
@@ -83,6 +82,8 @@ include('../../assets/includes/header.php'); ?>
   </section> <!-- content ends -->
 
 </main>
+
+<?php include('../../assets/includes/footer.php'); ?>
 
 </div> <!-- site-wrapper ends -->
 
