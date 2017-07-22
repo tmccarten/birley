@@ -51,11 +51,33 @@ include('../assets/includes/header.php'); ?>
       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
-      <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
+      <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>      
 
     </section>
 
     <aside class="sidebar">
+
+    <section class="widget">
+      <h4 class="widget__title widget__title--music">Audio</h4>
+      <div class="widget__audio">
+        <audio class="widget__audio-inner" controls>
+          <source src="horse.ogg" type="audio/ogg">
+          <source src="../assets/audio/audio_test.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </section>
+
+      <section class="widget">
+        <h4 class="widget__title widget__title--music">Video</h4>
+        <div class="widget__video">
+          <video class="widget__video-inner" width="464" height="261" controls>
+            <source src="../assets/video/video_test.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
 
       <section class="widget">
         <h4 class="widget__title widget__title--music">Also in this section...</h4>
@@ -64,6 +86,7 @@ include('../assets/includes/header.php'); ?>
           <li class="widget__submenu-item"><a href="poetry.php">Poetry</a></li>
           <li class="widget__submenu-item"><a href="stories.php">Stories</a></li>
           <li class="widget__submenu-item"><a href="photography.php">Photography</a></li>
+        </ul>
       </section>
 
     </aside>
