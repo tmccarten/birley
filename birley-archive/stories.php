@@ -64,6 +64,7 @@ include('../assets/includes/header.php'); ?>
           <li class="widget__submenu-item"><a href="music.php">Music</a></li>
           <li class="widget__submenu-item"><a href="poetry.php">Poetry</a></li>
           <li class="widget__submenu-item"><a href="photography.php">Photography</a></li>
+        </ul>
       </section>
 
     </aside>

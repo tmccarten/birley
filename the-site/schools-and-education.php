@@ -62,6 +62,7 @@ include('../assets/includes/header.php'); ?>
             <li class="widget__submenu-item"><a href="site-history.php">Site History</a></li>
             <li class="widget__submenu-item"><a href="faculty-history.php">Faculty History</a></li>
             <li class="widget__submenu-item"><a href="sport-and-wellbeing.php">Sport and Wellbeing</a></li>
+          </ul>
         </section>
 
       </aside>

@@ -70,6 +70,7 @@ include('../../assets/includes/header.php'); ?>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="../bees.php">Bees</a></li>
           <li class="widget__submenu-item"><a href="../sustainability.php">Sustainability</a></li>
+        </ul>
       </section>
 
     </aside>

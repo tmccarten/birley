@@ -59,6 +59,7 @@ include('../assets/includes/header.php'); ?>
       <section class="widget">
         <h4 class="widget__title widget__title--artwork">Also in this section...</h4>
         <ul class="widget__submenu">
+        </ul>
       </section>
 
     </aside>
