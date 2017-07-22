@@ -1,18 +1,17 @@
 .timeline {
   position: relative;
   margin: 2em auto;
-  padding: 2em 1em;
+  padding: 1em;
   width: 100%;
   max-width: 33.5rem;
-  background: rgba(0,0,0,0.02);
 
   &::before {
     content: "";
     position: absolute;
     height: 100%;
     top: 0;
-    left: 26px;
-    border-right: 4px dashed lightgray;
+    left: 9px;
+    border-right: 3px solid lightgray;
 
   }
 }
@@ -27,23 +26,22 @@
 
 .timeline-block__radio {
   position: absolute;
-  top: 9px;
-  left: 0;
-  width: 20px;
-  height: 20px;
+  top: 11px;
+  left: -19px;
+  width: 21px;
+  height: 21px;
   border-radius: 50%;
   box-sizing: content-box;
-  border: 2px solid #5399a9;
+  border: 3px solid #f5f5f5;
   background: $radiotimeline;
 }
 
 .timeline-block__content {
   position: relative;
-  border-radius: 5px;
   background: white;
   box-shadow: 0 3px 0 0 rgba(0,0,0,0.1);
   padding: 1em;
-  margin-left: 48px;
+  margin-left: 30px;
 
   &::before {
     content: "";
@@ -58,11 +56,12 @@
 
 .timeline-block__title {
   font-family: $seriftitle;
+  font-weight: bold;
   margin-top: 1em;
 }
 }
 
-@media screen and (min-width: $desktopnav) {
+@media screen and (min-width: 580px) {
 
   .timeline {
     max-width: 100%;
@@ -79,19 +78,28 @@
 
     &:nth-child(even) .timeline-block__content {
       align-self: flex-end;
+      margin-right: -4px;
+
+      &::before {
+        left: auto;
+        right: 100%;
+        border-color: transparent;
+        border-right-color: white;
+      }
     }
   }
 
   .timeline-block__radio {
     left: 50%;
-    margin-left: -10px;
-    top: 20px;
+    margin-left: -12px;
+    top: 21px;
   }
 
   .timeline-block__content {
     width: 45%;
     margin-left: 0;
     padding: 1.6em;
+    text-align: center;
 
     &::before {
       top: 24px;
@@ -103,13 +111,12 @@
     }
   }
 
-  .timeline-block:nth-child(even) .timeline-block__content::before {
-    left: auto;
-    right: 100%;
-    border-color: transparent;
-    border-right-color: white;
+
+}
+
+@media screen and (min-width: 580px) {
+
+  .timeline {
+    font-size: 1.125em;
   }
-
-
-
 }
