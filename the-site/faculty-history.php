@@ -41,8 +41,149 @@ include('../assets/includes/header.php'); ?>
 
   </section>
 
-  <div class="timeline">
-  </div>
+  <section class="timeline">
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">1946</h3>
+        <p>Didsbury College of Education founded.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">1951</h3>
+        <p>College of Commerce founded.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">1951</h3>
+        <p>Manchester Training College founded.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">1961</h3>
+        <p>Expansion of the Manchester College of Housecraft to the Elizabeth Gaskell College.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">1963</h3>
+        <p>Mather Teacher Training College founded.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">1969</h3>
+        <p>Introduction of male students to Elizabeth Gaskell College.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">1970</h3>
+        <p>The polytechnic's director put forward proposals for a new faculty structure.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">1971</h3>
+        <p>Didsbury College of Education celebrated its Silver Jubilee.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">1983</h3>
+        <p>Manchester College of Higher Education became part of the Polytechnic.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">1992</h3>
+        <p>The restructuring of facilities introduces new departments to The Faculty of Community Studies and Education.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">2004</h3>
+        <p>The Faculty of Community Studies, Law and Education becomes The Faculty of Health, Social Care and Education.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">2007</h3>
+        <p>The Faculty is divided with education to become The Faculty of Health, Psychology and Social Care.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">2008</h3>
+        <p>Institute of Education becomes Faculty of Education.<p>
+      </section>
+    </div>
+
+    <div class="timeline-block">
+      <div class="timeline-block__radio">
+      </div>
+
+      <section class="timeline-block__content">
+        <h3 class="timeline-block__title">2014</h3>
+        <p>The Faculty of Education and The Faculty of Health, Psychology and Social Care are brought together at the newly built Brooks Building on the Birley Campus.<p>
+      </section>
+    </div>    
+
+  </section>
 
   <section class="content">
 

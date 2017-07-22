@@ -63,6 +63,10 @@
   p:first-of-type {
     margin-top: 0;
   }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .content-text__title {
