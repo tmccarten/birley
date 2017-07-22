@@ -6,7 +6,7 @@
 }
 
 .widget + * {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .widget__title {
@@ -21,27 +21,35 @@
 }
 
 .widget__title--dig {
-  background: #e2e2e2; //#e3d5a2;
+  background: #e2e2e2; //; //#e3d5a2;
 }
 
 .widget__title--poetry, .widget__title--stories {
-  background: #e2e2e2; //#bec9cf;
+  background: #e2e2e2; //; //#bec9cf;
 }
 
 .widget__title--artwork, .widget__title--photography {
-  background: #e2e2e2; //#afdaec;
+  background: #e2e2e2; //; //#afdaec;
 }
 
 .widget__title--sustainability {
-  background: #e2e2e2; //#7e9e76;
+  background: #e2e2e2; //; //#7e9e76;
 }
 
 .widget__title--bees {
-  background: #e2e2e2; //#e0c47f;
+  background: #e2e2e2; //; //#e0c47f;
 }
 
 .widget__title--foraging {
-  background: #e2e2e2; //#7e9e76;
+  background: #e2e2e2; //; //#7e9e76;
+}
+
+.widget__title--faculty-history {
+  background: #e2e2e2; //;
+}
+
+.widget__title--schools-and-education {
+  background: #e2e2e2; //;
 }
 
 .widget__images {
@@ -80,8 +88,8 @@
     margin-left: .25em;
     height: 16px;
     width: 16px;
-    background-image: url(../img/icons/PDF-link-symbol.svg);
-    opacity: 1;
+    background-image: url(../img/icons/ui/PDF-link-symbol.svg);
+    background-size: 100%;
   }
 }
 
@@ -95,11 +103,11 @@
   &:after {
     content: "";
     display: block;
-    margin-left: .25em;
     height: 16px;
     width: 16px;
-    background-image: url(../img/icons/external-link-symbol.svg);
-    opacity: 1;
+    margin-left: .25em;
+    background-size: 100%;
+    background-image: url(../img/icons/ui/external-link-symbol.svg);
   }
 }
 
@@ -155,19 +163,20 @@
   }
 
   .widget {
-    transform: rotate(1deg);
+    //transform: rotate(1deg);
     background: #eeeeee;
+    box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.4);
 
     &:only-child {
       transform: none;
     }
 
     &:nth-child(2n) {
-      transform: rotate(-2deg) translateY(-30px);
+      //transform: rotate(-2deg) translateY(-30px);
     }
 
     &:nth-child(3n) {
-      transform: rotate(-1deg) translateY(-60px);
+      //transform: rotate(-1deg) translateY(-60px);
     }
   }
 
@@ -208,26 +217,27 @@
     a::before {
       content: "";
       display: inline-block;
-      margin: -5px;
       height: 20px;
       width: 20px;
+      margin: -5px;
       transform: scale(.5);
-      background-image: url('../img/icons/icon_widget-bullet.svg');
+      background-image: url('../img/icons/ui/icon_widget-bullet.svg');
       background-position: 0 0;
       background-size: 100%;
-      margin-right: .72222222em;
+      margin-right: 1em;
       image-rendering: -o-crisp-edges; // Opera //
+      image-rendering: -webkit-optimize-contrast; // Webkit (non-standard naming) //
       image-rendering: -moz-crisp-edges;
     }
 
     a:hover::before {
+      margin-right: 1.25em;
       background-position: 0 -20px;
     }
   }
 
   .widget__submenu {
     text-align: left;
-    list-style-type: circle;
   }
 
 

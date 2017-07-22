@@ -149,7 +149,7 @@ body {
 	-webkit-box-ordinal-group: 4;
 	    -ms-flex-order: 3;
 	        order: 3;
-	background-image: url("../img/icons/menu.svg");
+	background-image: url("../img/icons/ui/menu.svg");
 	background-repeat: no-repeat;
 	background-color: transparent;
 }
@@ -485,7 +485,7 @@ body {
 	transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
 	cursor: move;
 	/* fallback: no `url()` support or images disabled */
-	cursor: url("assets/img/icons/grab.cur"), move;
+	cursor: url("assets/img/icons/ui/grab.cur"), move;
 	/* fallback: Internet Explorer */
 	cursor: -webkit-grab;
 	cursor: grab;
@@ -514,13 +514,13 @@ body {
 }
 
 .map.dragscroll.grab {
-	cursor: url("assets/img/icons/grab.cur"), move;
+	cursor: url("assets/img/icons/ui/grab.cur"), move;
 	cursor: -webkit-grab;
 	cursor: grab;
 }
 
 .map.dragscroll.grabbing {
-	cursor: url("assets/img/icons/grabbing.cur"), move;
+	cursor: url("assets/img/icons/ui/grabbing.cur"), move;
 	cursor: -webkit-grabbing;
 	cursor: grabbing;
 	transition: -webkit-transform 700ms ease-in-out;
@@ -592,7 +592,7 @@ body {
 }
 
 .icon__brooks {
-	background: url("../img/icons/icon_brooks.svg") no-repeat;
+	background: url("../img/icons/illustrations/icon_brooks.svg") no-repeat;
 	height: 16%;
 	width: 15.833333333333333333333333333333%;
 	left: 59.222222222222222222222222222222%;
@@ -618,7 +618,7 @@ body {
 }
 
 .icon__vine {
-	background: url("../img/icons/icon_vine.svg") no-repeat;
+	background: url("../img/icons/illustrations/icon_vine.svg") no-repeat;
 	height: 20.583333333333333333333333333333%;
 	width: 18.666666666666666666666666666667%;
 	left: 41.383777777777777777777777777778%;
@@ -644,7 +644,7 @@ body {
 }
 
 .icon__energy {
-	background: url("../img/icons/icon_energy.svg") no-repeat;
+	background: url("../img/icons/illustrations/icon_energy.svg") no-repeat;
 	height: 16.5%;
 	width: 10.25%;
 	left: 69.694444444444444444444444444444%;
@@ -676,7 +676,7 @@ body {
 }
 
 .icon__birleyhigh {
-	background: url("../img/icons/icon_birleyhigh.svg") no-repeat;
+	background: url("../img/icons/illustrations/icon_birleyhigh.svg") no-repeat;
 	height: 15.424%;
 	width: 13.562722222222222222222222222222%;
 	left: 62.835666666666666666666666666667%;
@@ -702,7 +702,7 @@ body {
 }
 
 .icon__crescents {
-	background: url("../img/icons/icon_crescents.svg") no-repeat;
+	background: url("../img/icons/illustrations/icon_crescents.svg") no-repeat;
 	height: 28.89675%;
 	width: 31.657277777777777777777777777778%;
 	left: 43.107%;
@@ -728,7 +728,7 @@ body {
 }
 
 .icon__terraces {
-	background: url("../img/icons/icon_terraces.svg") no-repeat;
+	background: url("../img/icons/illustrations/icon_terraces.svg") no-repeat;
 	height: 27.31275%;
 	width: 11.086277777777777777777777777778%;
 	left: 55.765555555555555555555555555556%;
@@ -754,7 +754,7 @@ body {
 }
 
 .icon__church {
-	background: url("../img/icons/icon_church.svg") no-repeat;
+	background: url("../img/icons/illustrations/icon_church.svg") no-repeat;
 	height: 26.0345%;
 	width: 12.0612222222222222222222222222228%;
 	left: 22.959111111111111111111111111111%;
@@ -780,7 +780,7 @@ body {
 }
 
 .icon__farm {
-	background: url("../img/icons/icon_farm.svg") no-repeat;
+	background: url("../img/icons/illustrations/icon_farm.svg") no-repeat;
 	height: 31.562083333333333333333333333333%;
 	width: 30.855444444444444444444444444444%;
 	left: 40.698055555555555555555555555556%;
@@ -1221,7 +1221,7 @@ body {
 }
 
 .widget + * {
-	margin-top: 1em;
+	margin-top: 2em;
 }
 
 .widget__title {
@@ -1262,6 +1262,14 @@ body {
 }
 
 .widget__title--foraging {
+	background: #e2e2e2;
+}
+
+.widget__title--faculty-history {
+	background: #e2e2e2;
+}
+
+.widget__title--schools-and-education {
 	background: #e2e2e2;
 }
 
@@ -1320,8 +1328,8 @@ body {
 	margin-left: .25em;
 	height: 16px;
 	width: 16px;
-	background-image: url(../img/icons/PDF-link-symbol.svg);
-	opacity: 1;
+	background-image: url(../img/icons/ui/PDF-link-symbol.svg);
+	background-size: 100%;
 }
 
 .widget__link {
@@ -1339,11 +1347,11 @@ body {
 .widget__link:after {
 	content: "";
 	display: block;
-	margin-left: .25em;
 	height: 16px;
 	width: 16px;
-	background-image: url(../img/icons/external-link-symbol.svg);
-	opacity: 1;
+	margin-left: .25em;
+	background-size: 100%;
+	background-image: url(../img/icons/ui/external-link-symbol.svg);
 }
 
 .widget__link + * {
@@ -1396,21 +1404,12 @@ body {
 		margin-top: 0;
 	}
 	.widget {
-		-webkit-transform: rotate(1deg);
-		        transform: rotate(1deg);
 		background: #eeeeee;
+		box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.4);
 	}
 	.widget:only-child {
 		-webkit-transform: none;
 		        transform: none;
-	}
-	.widget:nth-child(2n) {
-		-webkit-transform: rotate(-2deg) translateY(-30px);
-		        transform: rotate(-2deg) translateY(-30px);
-	}
-	.widget:nth-child(3n) {
-		-webkit-transform: rotate(-1deg) translateY(-60px);
-		        transform: rotate(-1deg) translateY(-60px);
 	}
 	.widget__images, .widget__links {
 		padding: 2em;
@@ -1441,24 +1440,25 @@ body {
 	.widget__submenu-item a::before {
 		content: "";
 		display: inline-block;
-		margin: -5px;
 		height: 20px;
 		width: 20px;
+		margin: -5px;
 		-webkit-transform: scale(0.5);
 		        transform: scale(0.5);
-		background-image: url("../img/icons/icon_widget-bullet.svg");
+		background-image: url("../img/icons/ui/icon_widget-bullet.svg");
 		background-position: 0 0;
 		background-size: 100%;
-		margin-right: .72222222em;
+		margin-right: 1em;
 		image-rendering: -o-crisp-edges;
+		image-rendering: -webkit-optimize-contrast;
 		image-rendering: -moz-crisp-edges;
 	}
 	.widget__submenu-item a:hover::before {
+		margin-right: 1.25em;
 		background-position: 0 -20px;
 	}
 	.widget__submenu {
 		text-align: left;
-		list-style-type: circle;
 	}
 }
 
@@ -1474,7 +1474,7 @@ body {
 	border-top: 1px dashed lightgray;
 	margin-top: 2em;
 	font-size: .8125em;
-	padding-top: .5em;
+	padding-top: .8em;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;

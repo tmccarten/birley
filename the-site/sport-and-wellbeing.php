@@ -36,7 +36,7 @@ include('../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/icon_birleyhighbadge.svg" class="banner-icon__img" alt="Illustration of Birley High motif.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_birleyhighbadge.svg" class="banner-icon__img" alt="Illustration of Birley High motif.">
     </div>
 
   </section>
@@ -57,11 +57,11 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--bees">Also in this section...</h4>
+        <h4 class="widget__title widget__title--sport-and-wellbeing">Also in this section...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="site-history.php">Site History</a></li>
           <li class="widget__submenu-item"><a href="faculty-history.php">Faculty History</a></li>
-          <li class="widget__submenu-item"><a href="schools-and-education.php">Schools and Education</a></li>        
+          <li class="widget__submenu-item"><a href="schools-and-education.php">Schools and Education</a></li>
       </section>
 
     </aside>

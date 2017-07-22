@@ -23,16 +23,16 @@
   }
 
   cursor: move; /* fallback: no `url()` support or images disabled */
-  cursor: url('assets/img/icons/grab.cur'), move; /* fallback: Internet Explorer */
+  cursor: url('assets/img/icons/ui/grab.cur'), move; /* fallback: Internet Explorer */
   cursor: grab;
 
   &.dragscroll.grab {
-    cursor: url('assets/img/icons/grab.cur'), move;
+    cursor: url('assets/img/icons/ui/grab.cur'), move;
     cursor: grab;
   }
 
   &.dragscroll.grabbing {
-    cursor: url('assets/img/icons/grabbing.cur'), move;
+    cursor: url('assets/img/icons/ui/grabbing.cur'), move;
     cursor: grabbing;
     transition: transform 700ms ease-in-out;
     box-shadow: none;
@@ -98,7 +98,7 @@
 }
 
 .icon__brooks {
-  background: url('../img/icons/icon_brooks.svg') no-repeat;
+  background: url('../img/icons/illustrations/icon_brooks.svg') no-repeat;
   height: 16%; //192px
   width: 15.833333333333333333333333333333%; //285px;
   left: 59.222222222222222222222222222222%;
@@ -126,7 +126,7 @@
 }
 
 .icon__vine {
-  background: url('../img/icons/icon_vine.svg') no-repeat;
+  background: url('../img/icons/illustrations/icon_vine.svg') no-repeat;
   height: 20.583333333333333333333333333333%; //247px
   width: 18.666666666666666666666666666667%; //336px;
   left: 41.383777777777777777777777777778%;
@@ -154,7 +154,7 @@
 }
 
 .icon__energy {
-  background: url('../img/icons/icon_energy.svg') no-repeat;
+  background: url('../img/icons/illustrations/icon_energy.svg') no-repeat;
   height: 16.5%; //198px
   width: 10.25%; //164px;
   left: 69.694444444444444444444444444444%;
@@ -192,7 +192,7 @@
 }
 
 .icon__birleyhigh {
-  background: url('../img/icons/icon_birleyhigh.svg') no-repeat;
+  background: url('../img/icons/illustrations/icon_birleyhigh.svg') no-repeat;
   height: 15.424%; //185.088px
   width: 13.562722222222222222222222222222%; //244.129px;
   left: 62.835666666666666666666666666667%;
@@ -220,7 +220,7 @@
 }
 
 .icon__crescents {
-  background: url('../img/icons/icon_crescents.svg') no-repeat;
+  background: url('../img/icons/illustrations/icon_crescents.svg') no-repeat;
   height: 28.89675%; //346.761px
   width: 31.657277777777777777777777777778%; //569.831px;
   left: 43.107%;
@@ -248,7 +248,7 @@
 }
 
 .icon__terraces {
-  background: url('../img/icons/icon_terraces.svg') no-repeat;
+  background: url('../img/icons/illustrations/icon_terraces.svg') no-repeat;
   height: 27.31275%; //327.753px
   width: 11.086277777777777777777777777778%; //199.553px;
   left: 55.765555555555555555555555555556%;
@@ -276,7 +276,7 @@
 }
 
 .icon__church {
-  background: url('../img/icons/icon_church.svg') no-repeat;
+  background: url('../img/icons/illustrations/icon_church.svg') no-repeat;
   height: 26.0345%; //312.414px
   width: 12.0612222222222222222222222222228%; //217.102px;
   left: 22.959111111111111111111111111111%;
@@ -304,7 +304,7 @@
 }
 
 .icon__farm {
-  background: url('../img/icons/icon_farm.svg') no-repeat;
+  background: url('../img/icons/illustrations/icon_farm.svg') no-repeat;
   height: 31.562083333333333333333333333333%; //378.745px
   width: 30.855444444444444444444444444444%; //555.398px;
   left: 40.698055555555555555555555555556%;

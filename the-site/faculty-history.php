@@ -36,7 +36,7 @@ include('../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/icon_brooks2.svg" class="banner-icon__img" alt="Illustration of Brooks Building MMU faculty.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_brooks2.svg" class="banner-icon__img" alt="Illustration of Brooks Building MMU faculty.">
     </div>
 
   </section>
@@ -60,7 +60,7 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--bees">Also in this section...</h4>
+        <h4 class="widget__title widget__title--faculty-history">Also in this section...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="site-history.php">Site History</a></li>
           <li class="widget__submenu-item"><a href="schools-and-education.php">Schools and Education</a></li>

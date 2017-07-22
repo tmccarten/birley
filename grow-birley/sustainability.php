@@ -36,7 +36,7 @@ include('../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/icon_sustainability.svg" class="banner-icon__img" alt="Illustration of a fern.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_sustainability.svg" class="banner-icon__img" alt="Illustration of a fern.">
     </div>
 
   </section>
@@ -67,7 +67,7 @@ include('../assets/includes/header.php'); ?>
       </section>
 
       <section class="widget">
-        <h4 class="widget__title widget__title--bees">Also in this section...</h4>
+        <h4 class="widget__title widget__title--sustainability">Also in this section...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="bees.php">Bees</a></li>
           <li class="widget__submenu-item"><a href="foraging/">Foraging Menus</a></li>
