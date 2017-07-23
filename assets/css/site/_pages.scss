@@ -180,12 +180,13 @@
   .banner {
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin: 4em 0 5.8em;
+    margin: 2em 0;
     height: 276px;
   }
 
   .banner-icon {
-    width: 250px;
+    width: 200px;
+    height: auto;
     margin-right: 2em;
     transform: rotate(-3deg) translate(10px, 15px);
     border-left: 1em dashed lightgray;
