@@ -38,6 +38,21 @@ for (i = 0; i < subMenuParent.length; i++) {
 
 }
 
+/* -- Close sub-menus if user clicks elsewhere -- */
+
+window.onclick = function(event) {
+  if (!event.target.matches('.parent')) {
+
+    var subMenu = document.getElementsByClassName('sub-menu');
+    var parentIcon = document.getElementsByClassName('parent-icon');
+    var i;
+    for (i = 0; i < subMenu.length; i++) {
+        subMenu[i].className = 'sub-menu';
+        parentIcon[i].setAttribute('class', 'parent-icon');
+      }
+  }
+};
+
 
 scrollPosition();
 //window.addEventListener('load', scrollPosition);
