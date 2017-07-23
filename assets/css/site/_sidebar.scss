@@ -152,6 +152,10 @@
   text-align: center;
 }
 
+.ingredients__item:last-child {
+  border-bottom: 0;
+}
+
 .widget__video, .widget__audio {
   padding: 2em;
 }

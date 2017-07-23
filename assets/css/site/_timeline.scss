@@ -42,6 +42,7 @@
   box-shadow: 0 3px 0 0 rgba(0,0,0,0.1);
   padding: 1em;
   margin-left: 48px;
+  color: #525252;
 
   &::before {
     content: "";
@@ -58,6 +59,7 @@
   font-family: $seriftitle;
   font-weight: bold;
   margin-top: 1em;
+  color: black;
 }
 }
 

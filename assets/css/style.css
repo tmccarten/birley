@@ -959,7 +959,6 @@ body {
 	width: 50vw;
 	height: auto;
 	max-width: 100%;
-	text-align: center;
 	image-rendering: -o-crisp-edges;
 	image-rendering: -webkit-optimize-contrast;
 	image-rendering: crisp-edges;
@@ -985,8 +984,8 @@ body {
 	line-height: 1em;
 	margin-top: 0;
 	max-width: 100%;
-	font-family: "Droid Serif", Georgia, Times, serif;
-	font-weight: 400;
+	font-family: "Catamaran", Calibri, Corbel, Verdana, arial, sans-serif;
+	font-weight: 300;
 	color: #212121;
 }
 
@@ -1027,7 +1026,7 @@ body {
 .content-text__title {
 	font-size: 1.45em;
 	font-weight: 400;
-	font-family: "Droid Serif", Georgia, Times, serif;
+	font-family: "Catamaran", Calibri, Corbel, Verdana, arial, sans-serif;
 	line-height: 1.1;
 }
 
@@ -1037,6 +1036,7 @@ body {
 
 .content-text__title--recipes {
 	color: #7e9e76;
+	font-family: "Droid Serif", Georgia, Times, serif;
 }
 
 .content-text__list, .content-text__recipe {
@@ -1138,8 +1138,8 @@ body {
 		height: 276px;
 	}
 	.banner-icon {
-		width: 200px;
-		height: auto;
+		width: auto;
+		height: 200px;
 		margin-right: 2em;
 		-webkit-transform: rotate(-3deg) translate(10px, 15px);
 		        transform: rotate(-3deg) translate(10px, 15px);
@@ -1147,7 +1147,6 @@ body {
 		border-top: 1em dashed #eee;
 	}
 	.banner-icon__img {
-		padding: 0;
 		width: 100%;
 		height: 100%;
 	}
@@ -1173,7 +1172,8 @@ body {
 	.content-text {
 		max-width: 30em;
 		margin-right: 2em;
-		font-weight: 00;
+		font-weight: 300;
+		font-size: 1.1111111111111111111111111111111em;
 		text-align: left;
 		-webkit-box-flex: 2;
 		    -ms-flex: 2 2 auto;
@@ -1394,6 +1394,10 @@ body {
 	text-align: center;
 }
 
+.ingredients__item:last-child {
+	border-bottom: 0;
+}
+
 .widget__video, .widget__audio {
 	padding: 2em;
 }
@@ -1519,6 +1523,7 @@ body {
 	box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.1);
 	padding: 1em;
 	margin-left: 48px;
+	color: #525252;
 }
 
 .timeline-block__content::before {
@@ -1536,6 +1541,7 @@ body {
 	font-family: "Droid Serif", Georgia, Times, serif;
 	font-weight: bold;
 	margin-top: 1em;
+	color: black;
 }
 
 @media screen and (min-width: 580px) {

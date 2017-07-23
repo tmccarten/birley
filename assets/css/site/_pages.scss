@@ -34,8 +34,8 @@
   line-height: 1em;
   margin-top: 0;
   max-width: 100%;
-  font-family: $seriftitle;
-  font-weight: 400;
+  font-family: $title;
+  font-weight: 300;
   color: #212121;
 }
 
@@ -70,7 +70,7 @@
 .content-text__title {
   font-size: 1.45em;
   font-weight: 400;
-  font-family: $seriftitle;
+  font-family: $title;
   line-height: 1.1;
 }
 
@@ -80,6 +80,7 @@
 
 .content-text__title--recipes {
   color: $linkforaging;
+  font-family: $seriftitle;
 }
 
 .content-text__list, .content-text__recipe {
