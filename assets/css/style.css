@@ -951,23 +951,15 @@ body {
 }
 
 .banner-icon {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	margin: 10vw 0;
+	max-width: 300px;
 }
 
 .banner-icon__img {
-	padding: 10vw;
-	width: 55vw;
+	width: 50vw;
 	height: auto;
 	max-width: 100%;
+	text-align: center;
 	image-rendering: -o-crisp-edges;
 	image-rendering: -webkit-optimize-contrast;
 	image-rendering: crisp-edges;
@@ -1090,6 +1082,9 @@ body {
 	.content-text {
 		line-height: calc(1em + 1vw);
 	}
+	.content-text {
+		font-size: 1.2em;
+	}
 }
 
 @media screen and (min-width: 580px) {
@@ -1178,8 +1173,7 @@ body {
 	.content-text {
 		max-width: 30em;
 		margin-right: 2em;
-		font-weight: 300;
-		font-size: 1.1111111111111111111111111111111em;
+		font-weight: 00;
 		text-align: left;
 		-webkit-box-flex: 2;
 		    -ms-flex: 2 2 auto;
