@@ -79,8 +79,18 @@
 }
 
 .content-text__title--recipes {
-  color: $linkforaging;
+  color: $foragingcolour;
   font-family: $seriftitle;
+}
+
+.content-text__title--poems {
+  color: $poemscolour;
+  font-family: $seriftitle;
+}
+
+.content-text--poem {
+  text-align: center;
+  margin: 4em 0;   
 }
 
 .content-text__list, .content-text__recipe {
@@ -102,7 +112,6 @@
 
 .content-text__recipe-item {
   font-weight: 400;
-
 
   p {
     display: inline;
@@ -233,8 +242,12 @@
     line-height: 1.1;
   }
 
-  .content-text__title--menus {
+  .content-text__title--plain {
     font-size: 1.5em;
+  }
+
+  .content-text__title--poems {
+    padding-right: 0;
   }
 
   .content-text__list {

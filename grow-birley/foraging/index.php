@@ -51,7 +51,7 @@ include('../../assets/includes/header.php'); ?>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
 
-      <h3 class="content-text__title content-text__title--menus">Recipes</h3>
+      <h3 class="content-text__title content-text__title--plain">Recipes</h3>
 
       <ul class="content-text__list">
         <li class="content-text__recipe-item"><a href="salmon-with-ostrich-fern-and-wild-garlic.php" class="content-text__link">Salmon with ostrich fern and wild garlic</a></li>

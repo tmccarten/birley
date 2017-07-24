@@ -1039,6 +1039,16 @@ body {
 	font-family: "Droid Serif", Georgia, Times, serif;
 }
 
+.content-text__title--poems {
+	color: #567482;
+	font-family: "Droid Serif", Georgia, Times, serif;
+}
+
+.content-text--poem {
+	text-align: center;
+	margin: 4em 0;
+}
+
 .content-text__list, .content-text__recipe {
 	list-style-position: outside;
 	list-style-type: none;
@@ -1186,8 +1196,11 @@ body {
 		font-size: 2em;
 		line-height: 1.1;
 	}
-	.content-text__title--menus {
+	.content-text__title--plain {
 		font-size: 1.5em;
+	}
+	.content-text__title--poems {
+		padding-right: 0;
 	}
 	.content-text__list {
 		text-align: left;

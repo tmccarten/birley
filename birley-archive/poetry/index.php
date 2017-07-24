@@ -6,26 +6,26 @@ $pageKeywords = "Birley, Poetry, Hulme";
 $activePage = "Archive";
 $activeSubPage = "Poetry";
 
-$assets = "../assets";
+$assets = "../../assets";
 
-$favIcon = "../favicon.ico";
+$favIcon = "../../favicon.ico";
 
-include('../assets/includes/head.php');?>
+include('../../assets/includes/head.php');?>
 
 </head>
 
 <?php
 
-$linkHome = "../";
-$linkAbout = "../about.php";
-$linkContact = "../contact.php";
+$linkHome = "../../";
+$linkAbout = "../../about.php";
+$linkContact = "../../contact.php";
 
-$linkSite = "../the-site/";
-$linkArchive = "./";
-$linkGrow = "../grow-birley/";
-$linkMy = "../my-birley/";
+$linkSite = "../../the-site/";
+$linkArchive = "../";
+$linkGrow = "../../grow-birley/";
+$linkMy = "../../my-birley/";
 
-include('../assets/includes/header.php'); ?>
+include('../../assets/includes/header.php'); ?>
 
 
 <main id="skipnav">
@@ -51,7 +51,14 @@ include('../assets/includes/header.php'); ?>
       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
-      <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
+
+      <h3 class="content-text__title content-text__title--plain">Poems</h3>
+
+      <ul class="content-text__list">
+        <li class="content-text__list-item"><a href="hulme-in-the-1950s.php" class="content-text__link">&ldquo;Hulme in the 1950s&rdquo;</a></li>
+        <li class="content-text__list-item"><a href="hulme-through-my-ages.php" class="content-text__link">&ldquo;Hulme through my ages&rdquo;</a></li>
+        <li class="content-text__list-item"><a href="hulme.php" class="content-text__link">&ldquo;Hulme&rdquo;</a></li>
+      </ul>
 
     </section>
 
@@ -73,7 +80,7 @@ include('../assets/includes/header.php'); ?>
 
 </main>
 
-<?php include('../assets/includes/footer.php'); ?>
+<?php include('../../assets/includes/footer.php'); ?>
 
 </div> <!-- site-wrapper ends -->
 
