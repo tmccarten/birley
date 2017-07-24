@@ -70,7 +70,7 @@ include('../../assets/includes/header.php'); ?>
 
       <div class="breadcrumb">
         <a href="./">Poetry</a><p>Hulme</p>
-      </div>      
+      </div>
 
       <ul class="content-text__list">
         <li class="content-text__list-item"><a href="hulme-in-the-1950s.php" class="content-text__link">&ldquo;Hulme in the 1950s&rdquo;</a></li>
@@ -85,10 +85,10 @@ include('../../assets/includes/header.php'); ?>
       <section class="widget">
         <h4 class="widget__title widget__title--poetry">Also in this section...</h4>
         <ul class="widget__submenu">
-          <li class="widget__submenu-item"><a href="dig.php">Archaeological Dig</a></li>
-          <li class="widget__submenu-item"><a href="stories.php">Stories</a></li>
-          <li class="widget__submenu-item"><a href="music.php">Music</a></li>
-          <li class="widget__submenu-item"><a href="photography.php">Photography</a></li>
+          <li class="widget__submenu-item"><a href="../dig.php">Archaeological Dig</a></li>
+          <li class="widget__submenu-item"><a href="../stories.php">Stories</a></li>
+          <li class="widget__submenu-item"><a href="../music.php">Music</a></li>
+          <li class="widget__submenu-item"><a href="../photography.php">Photography</a></li>
         </ul>
       </section>
 

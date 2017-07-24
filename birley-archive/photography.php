@@ -60,7 +60,7 @@ include('../assets/includes/header.php'); ?>
         <h4 class="widget__title widget__title--photography">Also in this section...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="dig.php">Archaeological Dig</a></li>
-          <li class="widget__submenu-item"><a href="poetry.php">Poetry</a></li>
+          <li class="widget__submenu-item"><a href="poetry/">Poetry</a></li>
           <li class="widget__submenu-item"><a href="stories.php">Stories</a></li>
           <li class="widget__submenu-item"><a href="music.php">Music</a></li>
         </ul>
