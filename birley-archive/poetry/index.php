@@ -58,6 +58,7 @@ include('../../assets/includes/header.php'); ?>
         <li class="content-text__list-item"><a href="hulme-in-the-1950s.php" class="content-text__link">&ldquo;Hulme in the 1950s&rdquo;</a></li>
         <li class="content-text__list-item"><a href="hulme-through-my-ages.php" class="content-text__link">&ldquo;Hulme through my ages&rdquo;</a></li>
         <li class="content-text__list-item"><a href="hulme.php" class="content-text__link">&ldquo;Hulme&rdquo;</a></li>
+        <li class="content-text__list-item"><a href="the-crescents-the-sonnets.php" class="content-text__link">&ldquo;The Crescents - Sonnets&rdquo;</a></li>
       </ul>
 
     </section>

@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Hulme in the 1950s poem | Birley Poetry | Living Lines: Birley Archives";
-$pageDescription = "Hulme in the 1950s, a poem by SuAndi - National Black Arts Alliance.";
+$pageTitle = "Hulme Through My Ages poem | Birley Poetry | Living Lines: Birley Archives";
+$pageDescription = "Hulme My Ages, a poem about Hulme, Manchester.";
 $pageKeywords = "Birley, Poetry, Hulme";
 $activePage = "Archive";
 $activeSubPage = "Poetry";
@@ -30,7 +30,7 @@ include('../../assets/includes/header.php'); ?>
 
 <main id="skipnav">
 
-  <section class="content-text--poem">
+  <section class="content-text content-text--poem">
 
     <h3 class="content-text__title content-text__title--poems">Hulme Through My Ages</h3>
 
@@ -188,6 +188,7 @@ include('../../assets/includes/header.php'); ?>
         <li class="content-text__list-item"><a href="hulme-in-the-1950s.php" class="content-text__link">&ldquo;Hulme in the 1950s&rdquo;</a></li>
         <li class="content-text__list-item"><a href="hulme-through-my-ages.php" class="content-text__link">&ldquo;Hulme through my ages&rdquo;</a></li>
         <li class="content-text__list-item"><a href="hulme.php" class="content-text__link">&ldquo;Hulme&rdquo;</a></li>
+        <li class="content-text__list-item"><a href="the-crescents-the-sonnets.php" class="content-text__link">&ldquo;The Crescents - Sonnets&rdquo;</a></li>
       </ul>
 
     </section>

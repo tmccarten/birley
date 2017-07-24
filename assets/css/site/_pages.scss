@@ -90,7 +90,10 @@
 
 .content-text--poem {
   text-align: center;
-  margin: 4em 0;   
+  max-width: none;
+  margin: 2em 0;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .content-text__list, .content-text__recipe {
@@ -98,7 +101,7 @@
   list-style-type: none;
   padding-left: 0;
   text-align: center;
-  margin: 2em 0;
+  margin: 0;
 }
 
 .content-text__recipe {
@@ -142,12 +145,24 @@
     font-size: 1.2em;
   }
 
+  .content-text--poem {
+    font-size: 1em;
+  }
+
 }
 
 @media screen and (min-width: 580px) {
 
   .banner__title {
     font-size: calc(2em + 2vw);
+  }
+
+  .content-text {
+    margin-bottom: 1em;
+  }
+
+  .content-text--poem {
+    margin: 4em 0;
   }
 
 }
@@ -233,6 +248,11 @@
     font-size: 1.1111111111111111111111111111111em;
     text-align: left;
     flex: 2 2 auto;
+  }
+
+  .content-text--poem {
+    max-width: none;
+    text-align: center;
   }
 
   .content-text__title {

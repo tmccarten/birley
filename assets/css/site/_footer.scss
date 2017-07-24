@@ -1,8 +1,9 @@
 .main-footer {
   border-top: 1px dashed lightgray;
+  border-bottom: 1px dashed lightgray;
   margin-top: 2em;
   font-size: .8125em;
-  padding-top: .8em;
+  padding: 1em 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -22,7 +23,7 @@
   }
 }
 
-.legal {
+.main-footer__item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,12 +33,6 @@
   }
 }
 
-.author {
-  opacity: .8
-}
-
-
-
 @media screen and (min-width: 580px) {
 
   .main-footer {
@@ -45,7 +40,7 @@
     justify-content: space-between;
   }
 
-  .legal {
+  .main-footer__item {
     flex-direction: row;
 
     p + * {

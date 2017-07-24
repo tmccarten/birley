@@ -1,12 +1,16 @@
 .sidebar {
   width: 100%;
   flex: 1 1 auto;
-  margin: 2em 0;
+  margin: 2em 0 0;
   max-width: 30em;
 }
 
 .widget + * {
   margin-top: 2em;
+}
+
+.widget {
+  background: #eee;
 }
 
 .widget__title {
