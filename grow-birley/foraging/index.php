@@ -49,7 +49,6 @@ include('../../assets/includes/header.php'); ?>
         <p>Grow Birley</p><p>Foraging Menus</p>
       </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetragg.</p>
 
       <h3 class="content-text__title content-text__title--plain">Recipes</h3>
@@ -67,7 +66,7 @@ include('../../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--foraging">Also in this section...</h4>
+        <h4 class="widget__title widget__title--foraging">More from Grow Birley...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="../bees.php">Bees</a></li>
           <li class="widget__submenu-item"><a href="../sustainability.php">Sustainability</a></li>
