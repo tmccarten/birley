@@ -203,6 +203,33 @@ include('../assets/includes/header.php'); ?>
       <section class="widget">
         <h4 class="widget__title  widget__title--dig">Images</h4>
         <div class="widget__images">
+          <a href="<?php echo $assets?>/img/the-site/faculty-history/bracken-house.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/bracken-house.jpg" alt="Bracken House" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/the-site/faculty-history/college-of-commerce.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/college-of-commerce.jpg" alt="College of commerce" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college1.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college1.jpg" alt="Didsbury college children" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college2.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college2.jpg" alt="Didsbury college student and teacher" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell.jpg" alt="Elizabeth Gaskell building" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell-students1.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell-students1.jpg" alt="Elizabeth Gaskell home economics student" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell-students2.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell-students2.jpg" alt="Elizabeth Gaskell textiles student" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/the-site/faculty-history/health-historical.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/health-historical.jpg" alt="Child wearing headphones" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/the-site/faculty-history/mtc.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/mtc.jpg" alt="Manchester Technical College" width="250">
+          </a>
         </div>
       </section>
 
