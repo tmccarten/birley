@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Birley Schools and Education | Living Lines: Birley Archives";
-$pageDescription = "Schools and education in the area of Birley, Hulme, Manchester..";
+$pageTitle = "Vine Street School | Schools and Education | Living Lines: Birley Archives";
+$pageDescription = "History of Vine Street School of Birley, Hulme, Manchester..";
 $pageKeywords = "Birley, History, Education, Highschool";
 $activePage = "Site";
 $activeSubPage = "Schools and Education";
@@ -46,14 +46,13 @@ include('../../assets/includes/header.php'); ?>
       <section class="content-text">
 
         <div class="breadcrumb">
-          <p>The Site</p><p>Schools and Education</p>
+          <a href="index.php">Schools and Education</a><p>Vine Street School</p>
         </div>
 
+        <h3 class="content-text__title">Vine Street School</h3>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
-        <ul class="content-text__list">
-          <li class="content-text__list-item"><a class="content-text__link" href="birley-high.php">Birley High</a></li>
-          <li class="content-text__list-item"><a class="content-text__link" href="vine-street-school.php">Vine Street School</a></li>
-        </ul>
+        <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
 
       </section>
 

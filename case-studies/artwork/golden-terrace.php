@@ -49,7 +49,9 @@ include('../../assets/includes/header.php'); ?>
         <a href="index.php">Case Studies</a><p>Golden Terrace</p>
       </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>      
+      <h3 class="content-text__title">Golden Terrace</h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
     </section>
 
     <aside class="sidebar">
