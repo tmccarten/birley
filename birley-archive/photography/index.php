@@ -23,7 +23,7 @@ $linkContact = "../../contact.php";
 $linkSite = "../../the-site/";
 $linkArchive = "../";
 $linkGrow = "../../grow-birley/";
-$linkMy = "../../my-birley/";
+$linkMy = "../../case-studies/";
 
 include('../../assets/includes/header.php'); ?>
 
@@ -68,14 +68,14 @@ include('../../assets/includes/header.php'); ?>
       <a href="<?php echo $assets?>/img/birley-archive/photography/hoardings-1.jpg" class="photo__item">
         <img src="<?php echo $assets?>/img/birley-archive/photography/hoardings-1.jpg" class="photo__img" width="1024" height="790" alt="Black and white shot of children standing at Hugh Woods shop front.">
       </a>
-      <figcaption>Hoardings</figcaption>
+      <figcaption>Newsagents</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/hoardings-2.jpg" class="photo__item">
         <img src="<?php echo $assets?>/img/birley-archive/photography/hoardings-2.jpg" class="photo__img" width="1024" height="726" alt="Black and white shot of a terraced house with net curtain.">
       </a>
-      <figcaption>Hoardings</figcaption>
+      <figcaption>Bay window</figcaption>
     </figure>
 
     <figure class="photo">

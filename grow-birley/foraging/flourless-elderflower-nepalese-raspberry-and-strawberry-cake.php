@@ -23,7 +23,7 @@ $linkContact = "../../contact.php";
 $linkSite = "../../the-site/";
 $linkArchive = "../../birley-archive/";
 $linkGrow = "../";
-$linkMy = "../../my-birley/";
+$linkMy = "../../case-studies/";
 
 include('../../assets/includes/header.php'); ?>
 
