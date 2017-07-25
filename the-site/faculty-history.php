@@ -201,10 +201,16 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--faculty-history">Also in this section...</h4>
+        <h4 class="widget__title  widget__title--dig">Images</h4>
+        <div class="widget__images">
+        </div>
+      </section>
+
+      <section class="widget">
+        <h4 class="widget__title widget__title--faculty-history">More from The Site...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="site-history.php">Site History</a></li>
-          <li class="widget__submenu-item"><a href="schools-and-education.php">Schools and Education</a></li>
+          <li class="widget__submenu-item"><a href="schools-and-education/">Schools and Education</a></li>
           <li class="widget__submenu-item"><a href="sport-and-wellbeing.php">Sport and Wellbeing</a></li>
         </ul>
       </section>

@@ -48,7 +48,7 @@
             <ul class="sub-menu">
               <li class="sub-menu__item"><a href="<?php echo $linkSite?>site-history.php" <?php if ($activeSubPage === "Site History") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Site History</a></li>
               <li class="sub-menu__item"><a href="<?php echo $linkSite?>faculty-history.php" <?php if ($activeSubPage === "Faculty History") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Faculty History</a></li>
-              <li class="sub-menu__item"><a href="<?php echo $linkSite?>schools-and-education.php" <?php if ($activeSubPage === "Schools and Education") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Schools and Education</a></li>
+              <li class="sub-menu__item"><a href="<?php echo $linkSite?>schools-and-education/" <?php if ($activeSubPage === "Schools and Education") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Schools and Education</a></li>
               <li class="sub-menu__item"><a href="<?php echo $linkSite?>sport-and-wellbeing.php" <?php if ($activeSubPage === "Sport and Wellbeing") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Sport and Wellbeing</a></li>
             </ul>
           </li><!-- The Site ends -->
@@ -65,7 +65,7 @@
               <li class="sub-menu__item"><a href="<?php echo $linkArchive?>music.php" <?php if ($activeSubPage === "Music") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Music</a></li>
               <li class="sub-menu__item"><a href="<?php echo $linkArchive?>poetry/" <?php if ($activeSubPage === "Poetry") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Poetry</a></li>
               <li class="sub-menu__item"><a href="<?php echo $linkArchive?>stories.php" <?php if ($activeSubPage === "Stories") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Stories</a></li>
-              <li class="sub-menu__item"><a href="<?php echo $linkArchive?>photography.php" <?php if ($activeSubPage === "Photography") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Photography</a></li>
+              <li class="sub-menu__item"><a href="<?php echo $linkArchive?>photography/" <?php if ($activeSubPage === "Photography") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Photography</a></li>
             </ul>
           </li> <!-- Birley Archive ends -->
 
@@ -92,7 +92,7 @@
               <path d="M-832.15 431.34c-.24 0-.42-.13-.5-.17-1.37-.95-2.43-2.23-3.45-3.46l-1.07-1.3c-.2-.23-.17-.6.07-.8.24-.2.6-.15.8.1l1.07 1.3c.93 1.1 1.9 2.27 3.07 3.12.16-.1.3-.18.45-.24.1-.06.23-.1.34-.2.18-.1.34-.3.52-.5l.13-.16c.45-.53 1-1 1.5-1.44.62-.53 1.2-1.04 1.67-1.65.18-.25.54-.3.78-.12.25.2.3.56.12.8-.54.72-1.2 1.3-1.84 1.84-.5.44-.98.85-1.4 1.33l-.12.14c-.2.25-.42.52-.73.73-.16.1-.32.2-.5.27-.15.07-.3.14-.4.22-.07.07-.22.2-.44.2l-.08.02z"/>
             </svg></a>
             <ul class="sub-menu">
-              <li class="sub-menu__item"><a href="<?php echo $linkMy?>artwork.php" <?php if ($activeSubPage === "Artwork") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Artwork</a></li>
+              <li class="sub-menu__item"><a href="<?php echo $linkMy?>artwork/" <?php if ($activeSubPage === "Artwork") { echo 'class="sub-menu__link sub-menu__link--current"'; }?> class="sub-menu__link">Artwork</a></li>
             </ul>
           </li><!-- My Birley ends -->
 

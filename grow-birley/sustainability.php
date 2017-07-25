@@ -67,7 +67,7 @@ include('../assets/includes/header.php'); ?>
       </section>
 
       <section class="widget">
-        <h4 class="widget__title widget__title--sustainability">Also in this section...</h4>
+        <h4 class="widget__title widget__title--sustainability">More from Grow Birley...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="bees.php">Bees</a></li>
           <li class="widget__submenu-item"><a href="foraging/">Foraging Menus</a></li>

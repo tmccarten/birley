@@ -196,7 +196,7 @@ include('../../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--poetry">Also in this section...</h4>
+        <h4 class="widget__title widget__title--poetry">More from Birley Archive...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="../dig.php">Archaeological Dig</a></li>
           <li class="widget__submenu-item"><a href="../stories.php">Stories</a></li>

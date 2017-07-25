@@ -825,9 +825,9 @@ body {
 
 .slider-container {
 	border: 1px solid transparent;
-	margin-top: 1em;
 	padding: 0 2em;
 	border-radius: 30px 30px 0 0;
+	font-family: "Catamaran", Calibri, Corbel, Verdana, arial, sans-serif;
 }
 
 .slider {
@@ -933,6 +933,75 @@ body {
 	}
 	.ui-slider-pips .ui-slider-label {
 		font-size: .925em;
+	}
+}
+
+figcaption {
+	font-size: .8125em;
+	font-style: italic;
+	padding-left: .3em;
+}
+
+.gallery {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 2em 0;
+}
+
+.photo {
+	max-width: 33.5rem;
+	height: auto;
+	margin: 1em;
+}
+
+.photo:hover, .photo:focus, .photo:active {
+	opacity: 0.8;
+}
+
+.photo__item {
+	display: block;
+}
+
+.photo__img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (min-width: 1132px) {
+	.gallery {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+	.photo {
+		width: 23%;
+		margin: 1em 0;
+		overflow: hidden;
+	}
+	.photo__img {
+		max-width: 300px;
+		height: 200px;
+	}
+	.fill-space-photos {
+		width: 23%;
+		height: 0;
 	}
 }
 
@@ -1191,6 +1260,11 @@ body {
 		-webkit-box-align: start;
 		    -ms-flex-align: start;
 		        align-items: flex-start;
+	}
+	.content-about {
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.content-text {
 		max-width: 30em;
@@ -1456,12 +1530,11 @@ body {
 		background: #eeeeee;
 		box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.4);
 	}
-	.widget:only-child {
-		-webkit-transform: none;
-		        transform: none;
-	}
 	.widget__images, .widget__links {
 		padding: 2em;
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
 	}
 	.widget__title {
 		text-align: center;
@@ -1472,9 +1545,8 @@ body {
 		height: 120px;
 		overflow: hidden;
 	}
-	.widget__image:hover {
-		-webkit-transform: scale(1.1);
-		        transform: scale(1.1);
+	.widget__image:hover, .widget__image:focus, .widget__image:active {
+		opacity: 0.8;
 	}
 	.widget__thumbnail {
 		display: block;

@@ -29,6 +29,15 @@ include('assets/includes/header.php'); ?>
 
 <main id="skipnav">
 
+  <section class="content content-about">
+
+    <div class="content-text">
+      <h3 class="content-text__title">Contact</h3>
+
+    </div>
+
+  </section>
+
 </main>
 
 <?php include('assets/includes/footer.php'); ?>

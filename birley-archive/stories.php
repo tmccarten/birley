@@ -58,12 +58,12 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--stories">Also in this section...</h4>
+        <h4 class="widget__title widget__title--stories">More from Birley Archive...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="dig.php">Archaeological Dig</a></li>
           <li class="widget__submenu-item"><a href="music.php">Music</a></li>
           <li class="widget__submenu-item"><a href="poetry/">Poetry</a></li>
-          <li class="widget__submenu-item"><a href="photography.php">Photography</a></li>
+          <li class="widget__submenu-item"><a href="photography/">Photography</a></li>
         </ul>
       </section>
 

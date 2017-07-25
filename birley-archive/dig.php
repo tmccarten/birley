@@ -69,34 +69,34 @@ include('../assets/includes/header.php'); ?>
       <section class="widget">
         <h4 class="widget__title  widget__title--dig">Images</h4>
         <div class="widget__images">
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-1.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-1.jpg" alt="" width="250">
+          <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-1.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-1.jpg" alt="Archaeological dig site" width="250">
           </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-2.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-2.jpg" alt="" width="250">
+          <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-2.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-2.jpg" alt="Archaeological dig site" width="250">
           </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-3.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-3.jpg" alt="" width="250">
+          <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-3.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-3.jpg" alt="Archaeological dig site" width="250">
           </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-4.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-4.jpg" alt="" width="250">
+          <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-4.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-4.jpg" alt="Archaeological dig site" width="250">
           </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-5.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-5.jpg" alt="" width="250">
+          <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-5.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-5.jpg" alt="Archaeological dig site" width="250">
           </a>
-          <a href="<?php echo $assets?>/img/birley-archive/terraces-6.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/terraces-6.jpg" alt="" width="250">
+          <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-6.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-6.jpg" alt="Archaeological dig site" width="250">
           </a>
         </div>
       </section>
 
       <section class="widget">
-        <h4 class="widget__title widget__title--dig">Also in this section...</h4>
+        <h4 class="widget__title widget__title--dig">More from Birley Archive...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="music.php">Music</a></li>
           <li class="widget__submenu-item"><a href="poetry/">Poetry</a></li>
           <li class="widget__submenu-item"><a href="stories.php">Stories</a></li>
-          <li class="widget__submenu-item"><a href="photography.php">Photography</a></li>
+          <li class="widget__submenu-item"><a href="photography/">Photography</a></li>
         </ul>
       </section>
 
