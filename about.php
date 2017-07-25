@@ -40,6 +40,8 @@ include('assets/includes/header.php'); ?>
       <p>For visual resources on the history of the Birley site: slides, photography and some artefacts from the archaeological dig are held in Manchester Metropolitan University’s <a href="http://www.specialcollections.mmu.ac.uk/" class="content-text__link">Special Collections</a>; film footage of the Hulme Area, the demolition of the terraces and the building of the Crescents is available at the University managed <a href="http://nwfa.mmu.ac.uk/" class="content-text__link">North West Film Archive</a>. Further information on the Hulme area can be obtained from <a href="http://nwfa.mmu.ac.uk/" class="content-text__link">Archive+</a> at Manchester Central Library. There are a number of Hulme archive collections, including an extensive project recording life in the former and existing 1960s housing redevelopments by <a href="http://www.reelmcr.co.uk/" class="content-text__link">Reel Mcr</a>.</p>
     </div>
 
+    <img src="<?php echo $assets?>/img/birley-archive/photography/Jackson-crescent.jpg" width="1024" height="757" alt="Black and white shot of Jackson Crescent flats with cars in distance.">
+
   </section>
 
 </main>

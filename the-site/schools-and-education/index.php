@@ -50,7 +50,10 @@ include('../../assets/includes/header.php'); ?>
         </div>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
-        <a class="content-text__link" href="birley-high.php">Birley High</a>
+        <ul class="context-text__list">
+          <li class="context-text__list-item"><a class="content-text__link" href="birley-high.php">Birley High</a></li>
+          <li class="context-text__list-item"><a class="content-text__link" href="birley-high.php">Vine Street School</a></li>
+        </ul>
 
       </section>
 
