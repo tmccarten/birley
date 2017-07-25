@@ -50,6 +50,7 @@ include('../../assets/includes/header.php'); ?>
       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetragg.</p>
 
       <h3 class="content-text__title content-text__title--plain">Recipes</h3>
 

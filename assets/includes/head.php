@@ -14,6 +14,7 @@
 
   <meta name="robots" content="noindex,nofollow"/>
 
+  <?php $cssVersion = "18" ?>
 
   <link rel="stylesheet" href="<?php echo $assets; ?>/css/normalize.css">
   <link rel="stylesheet" href="bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.css">
