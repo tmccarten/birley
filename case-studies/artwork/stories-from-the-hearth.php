@@ -32,7 +32,7 @@ include('../../assets/includes/header.php'); ?>
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">Artwork</h2>
+      <h2 class="banner__title">The Birley Art Project</h2>
     </div>
 
     <div class="banner-icon">
