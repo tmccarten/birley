@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Research | Birley Artwork | Living Lines: Birley Archives";
-$pageDescription = "Birley artwork.";
+$pageTitle = "Stories from the Hearth | Birley Artwork | Living Lines: Birley Archives";
+$pageDescription = "Stories from the hearth, stories about Birley, Hulme past and present.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "My";
 $activeSubPage = "Artwork";
@@ -32,7 +32,7 @@ include('../../assets/includes/header.php'); ?>
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">The Birley Art Project</h2>
+      <h2 class="banner__title">Artwork</h2>
     </div>
 
     <div class="banner-icon">
@@ -46,10 +46,10 @@ include('../../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <a href="index.php">Case Studies</a><p>Research</p>
+        <a href="index.php">Case Studies</a><p>Stories from the Hearth</p>
       </div>
 
-      <h3 class="content-text__title">Research</h3>
+      <h3 class="content-text__title">Stories from the Hearth</h3>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
     </section>

@@ -30,6 +30,42 @@ body {
 	height: auto;
 }
 
+/* -- Target flash -- */
+:target {
+	-webkit-animation: highlight 1.5s ease;
+	        animation: highlight 1.5s ease;
+}
+
+@-webkit-keyframes highlight {
+	0% {
+		background-color: rgba(255, 95, 52, 0.67);
+	}
+	50% {
+		-webkit-transform: translateX(1em);
+		        transform: translateX(1em);
+	}
+	100% {
+		background-color: transparent;
+		-webkit-transform: translateX(0);
+		        transform: translateX(0);
+	}
+}
+
+@keyframes highlight {
+	0% {
+		background-color: rgba(255, 95, 52, 0.67);
+	}
+	50% {
+		-webkit-transform: translateX(1em);
+		        transform: translateX(1em);
+	}
+	100% {
+		background-color: transparent;
+		-webkit-transform: translateX(0);
+		        transform: translateX(0);
+	}
+}
+
 /* -- Visually hidden */
 .visuallyhidden {
 	border: 0;

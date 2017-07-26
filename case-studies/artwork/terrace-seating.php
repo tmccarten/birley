@@ -32,11 +32,11 @@ include('../../assets/includes/header.php'); ?>
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">Artwork</h2>
+      <h2 class="banner__title">The Birley Art Project</h2>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_artwork.png" class="banner-icon__img" width="373" height="219" alt="Illustration of a mural.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_terraces2.svg" class="banner-icon__img" alt="Illustration of a construction in process.">
     </div>
 
   </section>

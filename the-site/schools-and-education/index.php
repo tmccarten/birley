@@ -57,13 +57,7 @@ include('../../assets/includes/header.php'); ?>
 
       </section>
 
-      <aside class="sidebar">
-
-        <section class="widget">
-          <h4 class="widget__title  widget__title--dig">Images</h4>
-          <div class="widget__images">
-          </div>
-        </section>
+      <aside class="sidebar">        
 
         <section class="widget">
           <h4 class="widget__title widget__title--schools-and-education">More from The Site...</h4>
