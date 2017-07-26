@@ -590,6 +590,26 @@ body {
 	z-index: 9999;
 }
 
+.icon .read-more {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	padding: .5em 0;
+	color: black;
+}
+
+.icon .read-more__btn {
+	line-height: 0;
+	border-radius: 10px;
+	padding: 1em 1em 1.25em 1em;
+	border: 1px solid;
+	text-decoration: none;
+	background-color: #eee;
+}
+
 .icon__brooks {
 	background: url("../img/icons/illustrations/icon_brooks.svg") no-repeat;
 	height: 16%;
@@ -666,11 +686,6 @@ body {
 	bottom: 50%;
 	background-color: #d27c6c;
 	color: #fff5a8;
-	word-wrap: break-word;
-}
-
-.icon__energy:hover .icon__energy--hover a {
-	color: white;
 	word-wrap: break-word;
 }
 
@@ -1322,6 +1337,7 @@ figcaption {
 	}
 	.content-text__title--plain {
 		font-size: 1.5em;
+		font-weight: normal;
 	}
 	.content-text__title--poems {
 		padding-right: 0;

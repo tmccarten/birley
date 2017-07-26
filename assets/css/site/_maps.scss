@@ -95,6 +95,22 @@
     z-index: 9999;
   }
 
+  .read-more {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em 0;
+    color: black;
+  }
+
+  .read-more__btn {
+    line-height: 0;
+    border-radius: 10px;
+    padding: 1em 1em 1.25em 1em;
+    border: 1px solid;
+    text-decoration: none;
+    background-color: #eee;   
+  }
+
 }
 
 .icon__brooks {
@@ -182,11 +198,6 @@
       background-color: #d27c6c;
       color: #fff5a8;
       word-wrap: break-word;
-
-      a {
-        color: white;
-        word-wrap: break-word;
-      }
     }
   }
 }
