@@ -7,7 +7,7 @@
       <p>However, the housing project was heavily flawed, with lots of design and construction problems.</p>
 
       <div class="read-more">
-      <p>Find out more at: <a href="the-site/site-history.php#deckAccess">Site History</a></p>
+      <p>Find out more at <a href="the-site/site-history.php#deckAccess">Site History</a></p>
       </div>
 
     </div>
@@ -19,7 +19,7 @@
       <p>The flame red phoenix emblem of the school symbolised the rebirth of the 1960's regeneration of Hulme. Hulme Business Park now occupies the former site of Birley High.</p>
 
       <div class="read-more">
-      <p>Find out more at: <a href="the-site/site-history.php#birleyHigh">Site History</a></p>
+      <p>Find out more at <a href="the-site/site-history.php#birleyHigh">Site History</a></p>
       </div>
     </div>
   </div>

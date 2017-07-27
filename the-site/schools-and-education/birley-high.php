@@ -58,8 +58,7 @@ include('../../assets/includes/header.php'); ?>
       <aside class="sidebar">
 
         <section class="widget">
-          <h4 class="widget__title  widget__title--dig">Images</h4>
-          <p>Newspaper cuttings</p>
+          <h4 class="widget__title  widget__title--dig">Images</h4>          
           <div class="widget__images">
           </div>
         </section>

@@ -40,7 +40,7 @@ include('assets/includes/header.php'); ?>
 
 </div>
 
-<div id="map" class="map dragscroll">
+<div id="map" class="map dragscroll"> ..
 
   <?php include('assets/includes/maps/map-today.php'); ?>
 

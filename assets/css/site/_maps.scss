@@ -99,8 +99,7 @@
     display: flex;
     justify-content: flex-start;
     padding: .5em 0;
-    color: black;
-    border-top: 1px dotted;
+    color: black;    
     margin-top: 1em;
 
     p {
@@ -134,9 +133,9 @@
     .icon__brooks--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed #f9f7ef;
       border-radius: 20px;
       border-bottom-right-radius: 0;
+      box-shadow: 0 0 2px;
       width: 30em;
       right: 50%;
       bottom: 50%;
@@ -162,9 +161,9 @@
     .icon__vine--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed #f9f7ef;
       border-radius: 20px;
       border-bottom-right-radius: 0;
+      box-shadow: 0 0 2px;
       padding: 2em;
       width: 30em;
       right: 50%;
@@ -182,10 +181,6 @@
   left: 69.694444444444444444444444444444%;
   top: 58.6955%;
 
-  p {
-    //text-shadow: 1px 1px 3px black;
-  }
-
   & .icon__energy--hover {
     display: none;
   }
@@ -194,7 +189,7 @@
     .icon__energy--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed #d8d8d8;
+      box-shadow: 0 0 2px;
       border-radius: 20px;
       border-bottom-right-radius: 0;
       padding: 2em;
@@ -223,7 +218,7 @@
     .icon__birleyhigh--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed black;
+      box-shadow: 0 0 2px;
       border-radius: 20px;
       border-bottom-right-radius: 0;
       width: 30em;
@@ -251,7 +246,7 @@
     .icon__crescents--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed #8d939a;
+      box-shadow: 0 0 2px;
       border-radius: 20px;
       border-bottom-right-radius: 0;
       width: 30em;
@@ -279,7 +274,7 @@
     .icon__terraces--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed #8d939a;
+      box-shadow: 0 0 2px;
       border-radius: 20px;
       border-bottom-right-radius: 0;
       width: 30em;
@@ -307,7 +302,7 @@
     .icon__church--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed #8d939a;
+      box-shadow: 0 0 2px;
       border-radius: 20px;
       border-bottom-right-radius: 0;
       width: 30em;
@@ -335,7 +330,7 @@
     .icon__farm--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed #efeae1;
+      box-shadow: 0 0 2px;
       border-radius: 20px;
       border-bottom-right-radius: 0;
       width: 30em;
@@ -363,7 +358,7 @@
     .icon__orchard--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed #828181;
+      box-shadow: 0 0 2px;
       border-radius: 20px;
       border-bottom-right-radius: 0;
       width: 30em;
@@ -391,7 +386,7 @@
     .icon__mural--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed #bfe2e8;
+      box-shadow: 0 0 2px;
       border-radius: 20px;
       border-bottom-right-radius: 0;
       width: 30em;
@@ -419,7 +414,7 @@
     .icon__rolls-royce--hover {
       display: inline;
       position: absolute;
-      border: 0.14285714285714285714285714285714em dashed #bfe2e8;
+      box-shadow: 0 0 2px;
       border-radius: 20px;
       border-bottom-right-radius: 0;
       width: 30em;

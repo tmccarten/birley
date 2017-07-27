@@ -6,7 +6,7 @@
       <p>There was also a Catholic Apostolic church dating from around the 1840’s.</p>
 
       <div class="read-more">
-      <p>Find out more at: <a href="the-site/site-history.php#holyTrinityChurch">Site History</a></p>
+      <p>Find out more at <a href="the-site/site-history.php#holyTrinityChurch">Site History</a></p>
       </div>
 
     </div>
@@ -19,7 +19,7 @@
       <p>The terraces were cleared for a programme of new housing development in the 1960s.</p>
 
       <div class="read-more">
-      <p>Find out more at: <a href="the-site/site-history.php#theTerraces">Site History</a></p>
+      <p>Find out more at <a href="the-site/site-history.php#theTerraces">Site History</a></p>
       </div>
 
     </div>
@@ -30,7 +30,7 @@
       <p>Henry Royce built his first car at a factory close to Cooke Street, Hulme, in 1904. Together with motoring pioneer and partner, Charles Stewart Rolls, Rolls-Royce started motoring history with one of the world’s best-known luxury cars commemorated at a site in Hulme Park.</p>
 
       <div class="read-more">
-      <p>Find out more at: <a href="the-site/site-history.php#theTerraces">Site History</a></p>
+      <p>Find out more at <a href="the-site/site-history.php#theTerraces">Site History</a></p>
       </div>
 
     </div>
