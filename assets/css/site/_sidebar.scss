@@ -24,6 +24,13 @@
   justify-content: center;
 }
 
+.widget__title--subtitle {
+  background: none;
+  font-size: .8em;
+  padding-bottom: 0;
+  margin-top: 1em;
+}
+
 .widget__title--dig {
   background: #e2e2e2; //; //#e3d5a2;
 }
@@ -200,8 +207,12 @@
     padding: 1em;
   }
 
+  .widget__title--subtitle {
+    font-size: 1em;
+    padding-bottom: 0;
+  }
+
   .widget__image {
-    //padding: 1em;
     height: 120px;
     overflow: hidden;
 

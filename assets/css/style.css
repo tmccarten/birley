@@ -1515,6 +1515,13 @@ figcaption {
 	        justify-content: center;
 }
 
+.widget__title--subtitle {
+	background: none;
+	font-size: .8em;
+	padding-bottom: 0;
+	margin-top: 1em;
+}
+
 .widget__title--dig {
 	background: #e2e2e2;
 }
@@ -1709,6 +1716,10 @@ figcaption {
 		text-align: center;
 		font-size: 1.25em;
 		padding: 1em;
+	}
+	.widget__title--subtitle {
+		font-size: 1em;
+		padding-bottom: 0;
 	}
 	.widget__image {
 		height: 120px;

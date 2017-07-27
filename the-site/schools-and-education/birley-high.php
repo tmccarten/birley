@@ -58,9 +58,41 @@ include('../../assets/includes/header.php'); ?>
       <aside class="sidebar">
 
         <section class="widget">
-          <h4 class="widget__title  widget__title--dig">Images</h4>          
+          <h4 class="widget__title  widget__title--birley-high">Images</h4>
+          <h5 class="widget__title  widget__title--subtitle">Newspaper cuttings</h5>
           <div class="widget__images">
+            <a href="<?php echo $assets?>/img/the-site/birley-high/birley-news.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/birley-high/thumbnail/birley-news_thumb.jpg" alt="Old newspaper cutting about Birley High School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/birley-high/birley-news-2.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/birley-high/thumbnail/birley-news-2_thumb.jpg" alt="Old newspaper cutting about Birley High School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/birley-high/birley-news-3.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/birley-high/thumbnail/birley-news-3_thumb.jpg" alt="Old newspaper cutting about Birley High School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/birley-high/birley-news-4.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/birley-high/thumbnail/birley-news-4_thumb.jpg" alt="Old newspaper cutting about Birley High School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/birley-high/birley-news-5.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/birley-high/thumbnail/birley-news-5_thumb.jpg" alt="Old newspaper cutting about Birley High School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/birley-high/birley-news-7.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/birley-high/thumbnail/birley-news-7_thumb.jpg" alt="Old newspaper cutting about Birley High School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/birley-high/birley-news-8.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/birley-high/thumbnail/birley-news-8_thumb.jpg" alt="Old newspaper cutting about Birley High School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/birley-high/birley-news-9.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/birley-high/thumbnail/birley-news-9_thumb.jpg" alt="Old newspaper cutting about Birley High School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/birley-high/birley-news-11.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/birley-high/thumbnail/birley-news-13_thumb.jpg" alt="Old newspaper cutting about Birley High School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/birley-high/birley-super-head.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/birley-high/thumbnail/birley-super-head_thumb.jpg" alt="Old newspaper cutting about Birley High School" width="250">
+            </a>
           </div>
+          
         </section>
 
         <section class="widget">

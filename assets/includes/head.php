@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <?php $cssVersion = "28" ?>
+  <?php $cssVersion = "30" ?>
 
   <title><?php echo $pageTitle; ?></title>
 
@@ -18,7 +18,7 @@
 
   <link rel="stylesheet" href="<?php echo $assets; ?>/css/normalize.css">
   <link rel="stylesheet" href="bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.css">
-  <link rel="stylesheet" href="<?php echo $assets; ?>/css/style.css?v=<?php echo date('his'); ?>">
+  <link rel="stylesheet" href="<?php echo $assets; ?>/css/style.css?v=<?php echo $cssVersion?>">
 
   <link rel="shortcut icon" href="<?php echo $favIcon; ?>" type="image/x-icon">
   <link rel="icon" href="<?php echo $favIcon; ?>" type="image/x-icon">

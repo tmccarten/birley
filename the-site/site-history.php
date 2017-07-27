@@ -86,6 +86,18 @@ include('../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
+        <h4 class="widget__title  widget__title--site-history">Images</h4>
+        <div class="widget__images">
+          <a href="<?php echo $assets?>/img/the-site/site-history/crescents-map.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/site-history/crescents-map.jpg" alt="Map of The Crescents" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/the-site/site-history/hulme1994.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/site-history/hulme1994.jpg" alt="Hulme in 1994" width="250">
+          </a>
+        </div>
+      </section>
+
+      <section class="widget">
         <h4 class="widget__title widget__title--site-history">More from The Site....</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="faculty-history.php">Faculty History</a></li>
