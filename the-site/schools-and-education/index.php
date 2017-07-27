@@ -57,14 +57,14 @@ include('../../assets/includes/header.php'); ?>
 
       </section>
 
-      <aside class="sidebar">        
+      <aside class="sidebar">
 
         <section class="widget">
           <h4 class="widget__title widget__title--schools-and-education">More from The Site...</h4>
           <ul class="widget__submenu">
             <li class="widget__submenu-item"><a href="../site-history.php">Site History</a></li>
             <li class="widget__submenu-item"><a href="../faculty-history.php">Faculty History</a></li>
-            <li class="widget__submenu-item"><a href="../sport-and-wellbeing.php">Sport and Wellbeing</a></li>
+            <!-- <li class="widget__submenu-item"><a href="../sport-and-wellbeing.php">Sport and Wellbeing</a></li> -->
           </ul>
         </section>
 

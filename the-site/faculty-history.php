@@ -32,7 +32,7 @@ include('../assets/includes/header.php'); ?>
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">Faculty History</h2>
+      <h2 class="banner__title">History of the Faculties</h2>
     </div>
 
     <div class="banner-icon">
@@ -238,7 +238,7 @@ include('../assets/includes/header.php'); ?>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="site-history.php">Site History</a></li>
           <li class="widget__submenu-item"><a href="schools-and-education/">Schools and Education</a></li>
-          <li class="widget__submenu-item"><a href="sport-and-wellbeing.php">Sport and Wellbeing</a></li>
+          <!-- <li class="widget__submenu-item"><a href="sport-and-wellbeing.php">Sport and Wellbeing</a></li> -->
         </ul>
       </section>
 

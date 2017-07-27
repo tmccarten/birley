@@ -51,7 +51,7 @@ include('../../assets/includes/header.php'); ?>
 
         <h3 class="content-text__title">Birley High</h3>
 
-        <p>A reminder of the educational tradition that continues in the name of Birley today, the eponymous Birley High School, was located close to the present site near the Hulme Hippodrome. A much loved and respected comprehensive, Birley High School welcomed its first pupils in 1967. However, as families moved away and the educational system changed the school closed and was demolished in[...] <a href="http://www.birleyhighschool.com" class="content-text__link">Birley High</a> was an exponent of forward-thinking and inclusive education, fondly remembered by many of its former pupils. The flame red phoenix emblem of the school symbolised the rebirth and hopes of the mid-1900s regeneration of Hulme. Hulme Business Park now occupies the former site.</p>
+        <p>A reminder of the educational tradition that continues in the name of Birley today, the eponymous Birley High School, was located close to the present site near the Hulme Hippodrome. A much loved and respected comprehensive, Birley High School welcomed its first pupils in 1967. However, as families moved away and the educational system changed the school closed and was demolished in 1999. <a href="http://www.birleyhighschool.com" class="content-text__link">Birley High</a> was an exponent of forward-thinking and inclusive education, fondly remembered by many of its former pupils. The flame red phoenix emblem of the school symbolised the rebirth and hopes of the mid-1900s regeneration of Hulme. Hulme Business Park now occupies the former site.</p>
 
       </section>
 
@@ -69,7 +69,7 @@ include('../../assets/includes/header.php'); ?>
           <ul class="widget__submenu">
             <li class="widget__submenu-item"><a href="../site-history.php">Site History</a></li>
             <li class="widget__submenu-item"><a href="../faculty-history.php">Faculty History</a></li>
-            <li class="widget__submenu-item"><a href="../sport-and-wellbeing.php">Sport and Wellbeing</a></li>
+            <!-- <li class="widget__submenu-item"><a href="../sport-and-wellbeing.php">Sport and Wellbeing</a></li> -->
           </ul>
         </section>
 
