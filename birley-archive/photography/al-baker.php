@@ -36,7 +36,7 @@ include('../../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_artwork.png" class="banner-icon__img" width="373" height="219" alt="Illustration of a mural.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_birley.svg" class="banner-icon__img" alt="Birley">
     </div>
 
   </section>
@@ -61,8 +61,126 @@ include('../../assets/includes/header.php'); ?>
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/mix.jpg" class="photo__item">
         <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/mix.jpg" class="photo__img" width="750" height="422" alt="Two men hold vinyl records with face-painted children.">
       </a>
-      <figcaption>Mix</figcaption>
+      <figcaption>Mixing</figcaption>
     </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/ambulance.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/ambulance.jpg" class="photo__img" width="750" height="422" alt="Back of an ambulance">
+      </a>
+      <figcaption>Ambulance</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/bin-and-girls.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/bin-and-girls.jpg" class="photo__img" width="750" height="422" alt="Bin and two girls">
+      </a>
+      <figcaption>Bin and girls</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/block.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/block.jpg" class="photo__img" width="750" height="422" alt="Section of The Crescents">
+      </a>
+      <figcaption>Block</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/block1.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/block1.jpg" class="photo__img" width="750" height="422" alt="Van with DJ and speakers">
+      </a>
+      <figcaption>Truck</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/block2.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/block2.jpg" class="photo__img" width="750" height="422" alt="Deck access flats">
+      </a>
+      <figcaption>Deck access</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/boy-on-car.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/boy-on-car.jpg" class="photo__img" width="750" height="422" alt="Boy sitting on car boot">
+      </a>
+      <figcaption>Boy on car</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/break.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/break.jpg" class="photo__img" width="750" height="422" alt="Breakdancing in subway">
+      </a>
+      <figcaption>Breakdancing</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/car1.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/car1.jpg" class="photo__img" width="750" height="422" alt="Graffiti'd car">
+      </a>
+      <figcaption>Car</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/digger.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/digger.jpg" class="photo__img" width="750" height="422" alt="Digger demolishing building on Clayburn Road">
+      </a>
+      <figcaption>Digger</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/dogsofheaven.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/dogsofheaven.jpg" class="photo__img" width="750" height="422" alt="Dogs of heaven">
+      </a>
+      <figcaption>Dogs of heaven</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/dogsofheaven2.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/dogsofheaven2.jpg" class="photo__img" width="750" height="422" alt="Dogs of heaven">
+      </a>
+      <figcaption>Dogs of heaven</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/graff.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/graff.jpg" class="photo__img" width="750" height="422" alt="Graffiti">
+      </a>
+      <figcaption>Graffiti</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/graffiti-car.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/graffiti-car.jpg" class="photo__img" width="750" height="422" alt="Graffiti'd car, Hulme the final year, RIP">
+      </a>
+      <figcaption>Car</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/hulme-pub.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/hulme-pub.jpg" class="photo__img" width="750" height="422" alt="Men playing pool in a pub">
+      </a>
+      <figcaption>Hulme pub</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/kelzo-at-pub.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/kelzo-at-pub.jpg" class="photo__img" width="750" height="422" alt="Men drinking in a pub">
+      </a>
+      <figcaption>Kelzo at pub</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/overpass.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/overpass.jpg" class="photo__img" width="750" height="422" alt="Silhouetted overpass against clouded sky">
+      </a>
+      <figcaption>Overpass</figcaption>
+    </figure>
+
+    <div class="fill-space-photos">
+    </div>
+
+    <div class="fill-space-photos">
+    </div>
 
   </div>
 
@@ -74,7 +192,9 @@ include('../../assets/includes/header.php'); ?>
         <a href="index.php">Photography</a><p>Al Baker shoots Hulme</p>
       </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
+      <h3 class="content-text__title">Al Baker shoots Hulme</h3>
+
+      <p>Hulme in the '90s was a different world to the Hulme we know today - it was a ramshackle urban landscape that was home to a thriving free party scene and attracted artists, students and all kinds of creative souls to its crumbling crescents. Photographer Al Baker lived side by side with its inhabitants and documented it in all of its glory.</p>
 
     </section>
 

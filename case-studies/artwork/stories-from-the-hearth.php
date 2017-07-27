@@ -57,6 +57,19 @@ include('../../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
+        <h4 class="widget__title widget__title--stories">Audio</h4>
+
+        <div class="widget__audio">
+          <audio controls class="widget__audio-inner">
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </div>
+
+      </section>
+
+      <section class="widget">
         <h4 class="widget__title widget__title--artwork">More from Case Studies...</h4>
         <ul class="widget__submenu">
         </ul>

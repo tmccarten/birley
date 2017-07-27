@@ -36,7 +36,7 @@ include('../../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_artwork.png" class="banner-icon__img" width="373" height="219" alt="Illustration of a mural.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_birley.svg" class="banner-icon__img" alt="Illustration of a mural.">
     </div>
 
   </section>
@@ -99,17 +99,12 @@ include('../../assets/includes/header.php'); ?>
       <figcaption>Hulme street</figcaption>
     </figure>
 
-    <div class="fill-space-photos">
-    </div>
-
-    <div class="fill-space-photos">
-    </div>
-
-    <div class="fill-space-photos">
-    </div>
-
-    <div class="fill-space-photos">
-    </div>
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/crescents-ianrobinsonphoto.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/crescents-ianrobinsonphoto.jpg" class="photo__img" width="770" height="1160" alt="Man atop The Crescents, Ian Robinson photo.">
+      </a>
+      <figcaption>Man atop The Crescents</figcaption>
+    </figure>
 
   </div>
 
@@ -121,7 +116,7 @@ include('../../assets/includes/header.php'); ?>
         <p>Birley Archive</p><p>Photography</p>
       </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
+      <p>Photographs taken in and around Hulme throughout the ages.</p>
       <a href="al-baker.php" class="content-text__link">Al Baker shoots Hulme</a>
 
     </section>

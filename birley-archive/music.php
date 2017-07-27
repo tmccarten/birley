@@ -57,26 +57,13 @@ include('../assets/includes/header.php'); ?>
 
     <aside class="sidebar">
 
-    <section class="widget">
-      <h4 class="widget__title widget__title--music">Audio</h4>
-      <div class="widget__audio">
-        <audio class="widget__audio-inner" controls>
-          <source src="horse.ogg" type="audio/ogg">
-          <source src="../assets/audio/audio_test.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </section>
-
       <section class="widget">
         <h4 class="widget__title widget__title--music">Video</h4>
-        <div class="widget__video">
-          <video class="widget__video-inner" width="464" height="261" controls>
-            <source src="../assets/video/video_test.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-          </video>
+
+        <div class="widget__video-youtube-wrap">
+          <iframe width="464" height="261" class="widget__video-youtube" src="https://www.youtube.com/embed/MhEm4S-4v_U" frameborder="0" allowfullscreen rel=0 ></iframe>
         </div>
+
       </section>
 
       <section class="widget">
