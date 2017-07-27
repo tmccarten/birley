@@ -80,6 +80,6 @@ include('../../assets/includes/header.php'); ?>
 
 
 
-<script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
+<script src="<?php echo $assets?>/js/script.js?v=30"></script>
 </body>
 </html>

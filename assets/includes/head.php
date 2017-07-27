@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <?php $cssVersion = "30" ?>
+  <?php $cssVersion = "31" ?>
 
   <title><?php echo $pageTitle; ?></title>
 
