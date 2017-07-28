@@ -1,10 +1,10 @@
 <?php
 
-$pageTitle = "Where The Wind Blows | Birley Artwork | Living Lines: Birley Archives";
+$pageTitle = "The Bees | Birley Artwork | Living Lines: Birley Archives";
 $pageDescription = "Birley artwork.";
 $pageKeywords = "Birley, Artwork, Hulme";
-$activePage = "My";
-$activeSubPage = "Artwork";
+$activePage = "Case Studies";
+$activeSubPage = "Birley Art Project";
 
 $assets = "../../assets";
 
@@ -23,7 +23,7 @@ $linkContact = "../../contact.php";
 $linkSite = "../../the-site/";
 $linkArchive = "../../birley-archive/";
 $linkGrow = "../../grow-birley/";
-$linkMy = "../";
+$linkCaseStudies = "../";
 
 include('../../assets/includes/header.php'); ?>
 
@@ -46,10 +46,10 @@ include('../../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <a href="index.php">Case Studies</a><p>Where The Wind Blows</p>
+        <a href="index.php">Case Studies</a><p>The Bees</p>
       </div>
 
-      <h3 class="content-text__title">Where The Wind Blows</h3>
+      <h3 class="content-text__title">The Bees</h3>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
     </section>

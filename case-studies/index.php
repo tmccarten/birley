@@ -3,7 +3,7 @@
 $pageTitle = "My Birley | Living Lines: Birley Archives";
 $pageDescription = "Community, and local business and amenities in the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, Community, Amenities, Business";
-$activePage = "My";
+$activePage = "Case Studies";
 
 $assets = "../assets";
 
@@ -22,7 +22,7 @@ $linkContact = "../contact.php";
 $linkSite = "../the-site";
 $linkArchive = "../birley-archive/";
 $linkGrow = "../grow-birley/";
-$linkMy = ".";
+$linkCaseStudies = ".";
 
 include('../assets/includes/header.php'); ?>
 

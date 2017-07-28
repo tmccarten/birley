@@ -1459,6 +1459,14 @@ figcaption {
 		    -ms-flex: 2 2 auto;
 		        flex: 2 2 auto;
 	}
+	.content-text blockquote {
+		padding-left: 1em;
+		margin-left: 0;
+		border-left: 5px dashed lightgray;
+	}
+	.content-text .small-bottom-margin {
+		margin-bottom: .25em;
+	}
 	.content-text--poem {
 		max-width: none;
 		text-align: center;

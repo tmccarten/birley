@@ -23,7 +23,7 @@ $linkContact = "../../contact.php";
 $linkSite = "../../the-site/";
 $linkArchive = "../";
 $linkGrow = "../../grow-birley/";
-$linkMy = "../../case-studies/";
+$linkCaseStudies = "../../case-studies/";
 
 include('../../assets/includes/header.php'); ?>
 
@@ -45,133 +45,133 @@ include('../../assets/includes/header.php'); ?>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/bmx.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/bmx.jpg" class="photo__img" width="750" height="422" alt="Man on BMX and man doing graffiti in subway.">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/bmx_thumb.jpg" class="photo__img" width="750" height="422" alt="Man on BMX and man doing graffiti in subway.">
       </a>
       <figcaption>BMX</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/man.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/man.jpg" class="photo__img" width="750" height="422" alt="Man wearing jeans lying on back holding can of lager on chest.">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/man_thumb.jpg" class="photo__img" width="750" height="422" alt="Man wearing jeans lying on back holding can of lager on chest.">
       </a>
       <figcaption>Man</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/mix.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/mix.jpg" class="photo__img" width="750" height="422" alt="Two men hold vinyl records with face-painted children.">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/mix_thumb.jpg" class="photo__img" width="750" height="422" alt="Two men hold vinyl records with face-painted children.">
       </a>
       <figcaption>Mixing</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/ambulance.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/ambulance.jpg" class="photo__img" width="750" height="422" alt="Back of an ambulance">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/ambulance_thumb.jpg" class="photo__img" width="750" height="422" alt="Back of an ambulance">
       </a>
       <figcaption>Ambulance</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/bin-and-girls.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/bin-and-girls.jpg" class="photo__img" width="750" height="422" alt="Bin and two girls">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/bin-and-girls_thumb.jpg" class="photo__img" width="750" height="422" alt="Bin and two girls">
       </a>
       <figcaption>Bin and girls</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/block.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/block.jpg" class="photo__img" width="750" height="422" alt="Section of The Crescents">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/block_thumb.jpg" class="photo__img" width="750" height="422" alt="Section of The Crescents">
       </a>
       <figcaption>Block</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/block1.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/block1.jpg" class="photo__img" width="750" height="422" alt="Van with DJ and speakers">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/block1_thumb.jpg" class="photo__img" width="750" height="422" alt="Van with DJ and speakers">
       </a>
       <figcaption>Truck</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/block2.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/block2.jpg" class="photo__img" width="750" height="422" alt="Deck access flats">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/block2_thumb.jpg" class="photo__img" width="750" height="422" alt="Deck access flats">
       </a>
       <figcaption>Deck access</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/boy-on-car.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/boy-on-car.jpg" class="photo__img" width="750" height="422" alt="Boy sitting on car boot">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/boy-on-car_thumb.jpg" class="photo__img" width="750" height="422" alt="Boy sitting on car boot">
       </a>
       <figcaption>Boy on car</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/break.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/break.jpg" class="photo__img" width="750" height="422" alt="Breakdancing in subway">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/break_thumb.jpg" class="photo__img" width="750" height="422" alt="Breakdancing in subway">
       </a>
       <figcaption>Breakdancing</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/car1.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/car1.jpg" class="photo__img" width="750" height="422" alt="Graffiti'd car">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/car1_thumb.jpg" class="photo__img" width="750" height="422" alt="Graffiti'd car">
       </a>
       <figcaption>Car</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/digger.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/digger.jpg" class="photo__img" width="750" height="422" alt="Digger demolishing building on Clayburn Road">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/digger_thumb.jpg" class="photo__img" width="750" height="422" alt="Digger demolishing building on Clayburn Road">
       </a>
       <figcaption>Digger</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/dogsofheaven.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/dogsofheaven.jpg" class="photo__img" width="750" height="422" alt="Dogs of heaven">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/dogsofheaven_thumb.jpg" class="photo__img" width="750" height="422" alt="Dogs of heaven">
       </a>
       <figcaption>Dogs of heaven</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/dogsofheaven2.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/dogsofheaven2.jpg" class="photo__img" width="750" height="422" alt="Dogs of heaven">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/dogsofheaven2_thumb.jpg" class="photo__img" width="750" height="422" alt="Dogs of heaven">
       </a>
       <figcaption>Dogs of heaven</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/graff.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/graff.jpg" class="photo__img" width="750" height="422" alt="Graffiti">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/graff_thumb.jpg" class="photo__img" width="750" height="422" alt="Graffiti">
       </a>
       <figcaption>Graffiti</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/graffiti-car.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/graffiti-car.jpg" class="photo__img" width="750" height="422" alt="Graffiti'd car, Hulme the final year, RIP">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/graffiti-car_thumb.jpg" class="photo__img" width="750" height="422" alt="Graffiti'd car, Hulme the final year, RIP">
       </a>
       <figcaption>Car</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/hulme-pub.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/hulme-pub.jpg" class="photo__img" width="750" height="422" alt="Men playing pool in a pub">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/hulme-pub_thumb.jpg" class="photo__img" width="750" height="422" alt="Men playing pool in a pub">
       </a>
       <figcaption>Hulme pub</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/kelzo-at-pub.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/kelzo-at-pub.jpg" class="photo__img" width="750" height="422" alt="Men drinking in a pub">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/kelzo-at-pub_thumb.jpg" class="photo__img" width="750" height="422" alt="Men drinking in a pub">
       </a>
       <figcaption>Kelzo at pub</figcaption>
     </figure>
 
     <figure class="photo">
       <a href="<?php echo $assets?>/img/birley-archive/photography/al-baker/overpass.jpg" class="photo__item">
-        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/overpass.jpg" class="photo__img" width="750" height="422" alt="Silhouetted overpass against clouded sky">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/al-baker/overpass_thumb.jpg" class="photo__img" width="750" height="422" alt="Silhouetted overpass against clouded sky">
       </a>
       <figcaption>Overpass</figcaption>
     </figure>

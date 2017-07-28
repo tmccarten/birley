@@ -1,10 +1,10 @@
 <?php
 
-$pageTitle = "Terrace Seating | Birley Artwork | Living Lines: Birley Archives";
+$pageTitle = "Thresholds | Birley Artwork | Living Lines: Birley Archives";
 $pageDescription = "Birley artwork.";
 $pageKeywords = "Birley, Artwork, Hulme";
-$activePage = "My";
-$activeSubPage = "Artwork";
+$activePage = "Case Studies";
+$activeSubPage = "Birley Art Project";
 
 $assets = "../../assets";
 
@@ -23,7 +23,7 @@ $linkContact = "../../contact.php";
 $linkSite = "../../the-site/";
 $linkArchive = "../../birley-archive/";
 $linkGrow = "../../grow-birley/";
-$linkMy = "../";
+$linkCaseStudies = "../";
 
 include('../../assets/includes/header.php'); ?>
 
@@ -46,10 +46,10 @@ include('../../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <a href="index.php">Case Studies</a><p>Terrace Seating</p>
+        <a href="index.php">Case Studies</a><p>Thresholds</p>
       </div>
 
-      <h3 class="content-text__title">Terrace Seating</h3>
+      <h3 class="content-text__title">Thresholds</h3>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
     </section>

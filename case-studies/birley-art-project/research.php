@@ -3,8 +3,8 @@
 $pageTitle = "Research | Birley Artwork | Living Lines: Birley Archives";
 $pageDescription = "Birley artwork.";
 $pageKeywords = "Birley, Artwork, Hulme";
-$activePage = "My";
-$activeSubPage = "Artwork";
+$activePage = "Case Studies";
+$activeSubPage = "Birley Art Project";
 
 $assets = "../../assets";
 
@@ -23,7 +23,7 @@ $linkContact = "../../contact.php";
 $linkSite = "../../the-site/";
 $linkArchive = "../../birley-archive/";
 $linkGrow = "../../grow-birley/";
-$linkMy = "../";
+$linkCaseStudies = "../";
 
 include('../../assets/includes/header.php'); ?>
 

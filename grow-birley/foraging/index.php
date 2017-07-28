@@ -23,7 +23,7 @@ $linkContact = "../../contact.php";
 $linkSite = "../../the-site/";
 $linkArchive = "../../birley-archive/";
 $linkGrow = "../";
-$linkMy = "../../case-studies/";
+$linkCaseStudies = "../../case-studies/";
 
 include('../../assets/includes/header.php'); ?>
 
@@ -49,7 +49,7 @@ include('../../assets/includes/header.php'); ?>
         <p>Grow Birley</p><p>Foraging Menus</p>
       </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetragg.</p>
+      <p>The following recipes include some things foragable around Birley. Look out for the ingredients in bold...</p>
 
       <h3 class="content-text__title content-text__title--plain">Recipes</h3>
 

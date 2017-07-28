@@ -1,10 +1,10 @@
 <?php
 
-$pageTitle = "Stories from the Hearth | Birley Artwork | Living Lines: Birley Archives";
-$pageDescription = "Stories from the hearth, stories about Birley, Hulme past and present.";
+$pageTitle = "Golden Terrace | Birley Artwork | Living Lines: Birley Archives";
+$pageDescription = "Birley artwork.";
 $pageKeywords = "Birley, Artwork, Hulme";
-$activePage = "My";
-$activeSubPage = "Artwork";
+$activePage = "Case Studies";
+$activeSubPage = "Birley Art Project";
 
 $assets = "../../assets";
 
@@ -23,7 +23,7 @@ $linkContact = "../../contact.php";
 $linkSite = "../../the-site/";
 $linkArchive = "../../birley-archive/";
 $linkGrow = "../../grow-birley/";
-$linkMy = "../";
+$linkCaseStudies = "../";
 
 include('../../assets/includes/header.php'); ?>
 
@@ -36,7 +36,7 @@ include('../../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_stories.svg" class="banner-icon__img" alt="Illustration of a construction in process.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_terraces2.svg" class="banner-icon__img" alt="Illustration of a construction in process.">
     </div>
 
   </section>
@@ -46,28 +46,15 @@ include('../../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <a href="index.php">Case Studies</a><p>Stories from the Hearth</p>
+        <a href="index.php">Case Studies</a><p>Golden Terrace</p>
       </div>
 
-      <h3 class="content-text__title">Stories from the Hearth</h3>
+      <h3 class="content-text__title">Golden Terrace</h3>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
     </section>
 
     <aside class="sidebar">
-
-      <section class="widget">
-        <h4 class="widget__title widget__title--stories">Audio</h4>
-
-        <div class="widget__audio">
-          <audio controls class="widget__audio-inner">
-            <source src="horse.ogg" type="audio/ogg">
-            <source src="horse.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
-        </div>
-
-      </section>
 
       <section class="widget">
         <h4 class="widget__title widget__title--artwork">More from Case Studies...</h4>

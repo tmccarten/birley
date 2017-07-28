@@ -65,6 +65,7 @@
   p:last-child {
     margin-bottom: 0;
   }
+
 }
 
 .content-text__title {
@@ -285,6 +286,16 @@
     font-size: 1.1111111111111111111111111111111em;
     text-align: left;
     flex: 2 2 auto;
+
+    blockquote {
+      padding-left: 1em;
+      margin-left: 0;
+      border-left: 5px dashed lightgray;
+    }
+
+    .small-bottom-margin {
+      margin-bottom: .25em;
+    }
   }
 
   .content-text--poem {

@@ -28,7 +28,7 @@ $linkContact = "contact.php";
 $linkSite = "the-site/";
 $linkArchive = "birley-archive/";
 $linkGrow = "grow-birley/";
-$linkMy = "case-studies/";
+$linkCaseStudies = "case-studies/";
 
 include('assets/includes/header.php'); ?>
 
