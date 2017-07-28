@@ -36,7 +36,7 @@ include('../../assets/includes/header.php'); ?>
       </div>
 
       <div class="banner-icon">
-        <img src="<?php echo $assets?>/img/icons/illustrations/icon_birleyhighbadge.svg" class="banner-icon__img" alt="Illustration of Birley High motif.">
+        <img src="<?php echo $assets?>/img/icons/illustrations/icon_birleyhighbadge.svg" class="banner-icon__svg" alt="Illustration of Birley High motif.">
       </div>
 
     </section>
@@ -51,17 +51,26 @@ include('../../assets/includes/header.php'); ?>
 
         <h3 class="content-text__title">Vine Street School</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
-        <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>        
 
       </section>
 
       <aside class="sidebar">
 
         <section class="widget">
-          <h4 class="widget__title  widget__title--dig">Images</h4>
+          <h4 class="widget__title  widget__title--birley-high">Images</h4>
           <div class="widget__images">
+            <a href="<?php echo $assets?>/img/the-site/vine-street-school/stone.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/vine-street-school/stone_thumb.jpg" alt="Stone at Vine Street School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/vine-street-school/school1.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/vine-street-school/school1_thumb.jpg" alt="Vine Street School" width="250">
+            </a>
+            <a href="<?php echo $assets?>/img/the-site/vine-street-school/school2.jpg" class="widget__image">
+              <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/vine-street-school/school2_thumb.jpg" alt="Vine Street School Manchester School Board" width="250">
+            </a>
           </div>
+
         </section>
 
         <section class="widget">

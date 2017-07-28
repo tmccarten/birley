@@ -36,7 +36,7 @@ include('../../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_foraging.svg" class="banner-icon__img" alt="Illustration of a fern, berries and nuts.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_metmunch.png" width="300" height="200" class="banner-icon__img" alt="ManMet Munch">
     </div>
 
   </section>
@@ -49,6 +49,7 @@ include('../../assets/includes/header.php'); ?>
         <p>Grow Birley</p><p>Foraging Menus</p>
       </div>
 
+      <p>With thanks to <a href="http://www.metmunch.com" class="content-text__link">MetMUnch</a> | <a href="https://twitter.com/MetMUnch" class="content-text__link">@MetMUnch</a> </p>
       <p>The following recipes include some things foragable around Birley. Look out for the ingredients in bold...</p>
 
       <h3 class="content-text__title content-text__title--plain">Recipes</h3>
@@ -68,7 +69,7 @@ include('../../assets/includes/header.php'); ?>
       <section class="widget">
         <h4 class="widget__title widget__title--foraging">More from Grow Birley...</h4>
         <ul class="widget__submenu">
-          <li class="widget__submenu-item"><a href="../bees.php">Bees</a></li>
+          <!-- <li class="widget__submenu-item"><a href="../bees.php">Bees</a></li> -->
           <li class="widget__submenu-item"><a href="../sustainability.php">Sustainability</a></li>
         </ul>
       </section>

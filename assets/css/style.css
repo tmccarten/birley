@@ -1169,13 +1169,22 @@ figcaption {
 .banner-icon {
 	margin: 10vw 0;
 	max-width: 300px;
+	min-height: 1px;
 }
 
-.banner-icon__img {
+.banner-icon__svg {
 	width: 50vw;
 	height: auto;
 	max-width: 100%;
 	image-rendering: -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
+}
+
+.banner-icon__img {
+	max-width: 100%;
+	width: 55vw;
+	height: auto;
 	image-rendering: -webkit-optimize-contrast;
 	image-rendering: crisp-edges;
 }
@@ -1406,11 +1415,16 @@ figcaption {
 		border-left: 1em dashed lightgray;
 		border-top: 1em dashed #eee;
 	}
-	.banner-icon__img {
+	.banner-icon__svg {
 		padding: 0;
 		width: 100%;
 		height: 200px;
 		padding: .5em;
+	}
+	.banner-icon__img {
+		max-height: 200px;
+		width: auto;
+		max-width: 300px;
 	}
 	.banner-title-container {
 		width: 500px;
@@ -1611,6 +1625,25 @@ figcaption {
 	width: 100%;
 }
 
+.widget__full-images {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.widget__full-images img {
+	max-width: 100%;
+	height: auto;
+}
+
+.widget__full-images + * {
+	margin-top: 2em;
+}
+
 .widget__links {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1739,6 +1772,11 @@ figcaption {
 		-ms-flex-item-align: start;
 		    align-self: flex-start;
 		margin-top: 0;
+	}
+	.sidebar--centered {
+		-ms-flex-item-align: center;
+		    -ms-grid-row-align: center;
+		    align-self: center;
 	}
 	.widget {
 		background: #eeeeee;

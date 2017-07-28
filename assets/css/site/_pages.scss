@@ -9,14 +9,23 @@
 .banner-icon {
   margin: 10vw 0;
   max-width: 300px;
+  min-height: 1px;
 }
 
-.banner-icon__img {
+.banner-icon__svg {
   width: 50vw;
   height: auto;
   max-width: 100%;
   image-rendering: -o-crisp-edges; // Opera //
   image-rendering: -webkit-optimize-contrast; // Webkit (non-standard naming) //
+  image-rendering: crisp-edges;
+}
+
+.banner-icon__img {
+  max-width: 100%;
+  width: 55vw;
+  height: auto;
+  image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
 }
 
@@ -237,11 +246,17 @@
     border-top: 1em dashed #eee;
   }
 
-  .banner-icon__img {
+  .banner-icon__svg {
     padding: 0;
     width: 100%;
     height: 200px;
     padding: .5em;
+  }
+
+  .banner-icon__img {
+    max-height: 200px;
+    width: auto;
+    max-width: 300px;
   }
 
   .banner-title-container {

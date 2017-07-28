@@ -37,7 +37,7 @@ include('../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_music.svg" class="banner-icon__img" alt="Illustration of blaring speakers.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_music.svg" class="banner-icon__svg" alt="Illustration of blaring speakers.">
     </div>
 
   </section>
@@ -71,7 +71,7 @@ include('../assets/includes/header.php'); ?>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="dig.php">Archaeological Dig</a></li>
           <li class="widget__submenu-item"><a href="poetry/">Poetry</a></li>
-          <li class="widget__submenu-item"><a href="stories.php">Stories</a></li>
+          <li class="widget__submenu-item"><a href="stories/">Stories</a></li>
           <li class="widget__submenu-item"><a href="photography/">Photography</a></li>
         </ul>
       </section>

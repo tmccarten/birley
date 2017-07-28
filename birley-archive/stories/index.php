@@ -1,10 +1,10 @@
 <?php
 
-$pageTitle = "Birley Poetry | Living Lines: Birley Archives";
-$pageDescription = "Birley poetry.";
-$pageKeywords = "Birley, Poetry, Hulme";
+$pageTitle = "Birley Stories | Living Lines: Birley Archives";
+$pageDescription = "Birley stories.";
+$pageKeywords = "Birley, Stories, Hulme";
 $activePage = "Archive";
-$activeSubPage = "Poetry";
+$activeSubPage = "Stories";
 
 $assets = "../../assets";
 
@@ -33,11 +33,11 @@ include('../../assets/includes/header.php'); ?>
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">Poetry</h2>
+      <h2 class="banner__title">Stories</h2>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_notepad.svg" class="banner-icon__svg" alt="Illustration of a notepad and pen.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_notepad.svg" class="banner-icon__svg" alt="Illustration of blaring speakers.">
     </div>
 
   </section>
@@ -47,29 +47,32 @@ include('../../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <p>Birley Archive</p><p>Poetry</p>
+        <p>Birley Archive</p><p>Stories</p>
       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
-
-      <h3 class="content-text__title content-text__title--plain">Poems</h3>
-
-      <ul class="content-text__list">
-        <li class="content-text__list-item"><a href="hulme-in-the-1950s.php" class="content-text__link">&ldquo;Hulme in the 1950s&rdquo;</a></li>
-        <li class="content-text__list-item"><a href="hulme-through-my-ages.php" class="content-text__link">&ldquo;Hulme through my ages&rdquo;</a></li>
-        <li class="content-text__list-item"><a href="hulme.php" class="content-text__link">&ldquo;Hulme&rdquo;</a></li>
-        <li class="content-text__list-item"><a href="the-crescents-the-sonnets.php" class="content-text__link">&ldquo;The Crescents - Sonnets&rdquo;</a></li>
-      </ul>
 
     </section>
 
     <aside class="sidebar">
 
       <section class="widget">
+        <h4 class="widget__title widget__title--stories">Audio</h4>
+
+        <div class="widget__audio">
+          <audio controls class="widget__audio-inner">
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </div>
+
+      </section>
+
+      <section class="widget">
         <h4 class="widget__title widget__title--poetry">More from Birley Archive...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="../dig.php">Archaeological Dig</a></li>
-          <li class="widget__submenu-item"><a href="../stories/">Stories</a></li>
           <li class="widget__submenu-item"><a href="../music.php">Music</a></li>
           <li class="widget__submenu-item"><a href="../photography.php">Photography</a></li>
         </ul>

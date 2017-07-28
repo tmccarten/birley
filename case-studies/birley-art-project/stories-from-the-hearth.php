@@ -36,7 +36,7 @@ include('../../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_stories.svg" class="banner-icon__img" alt="Illustration of a construction in process.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_stories.svg" class="banner-icon__svg" alt="Illustration of a construction in process.">
     </div>
 
   </section>
@@ -52,7 +52,7 @@ include('../../assets/includes/header.php'); ?>
       <h3 class="content-text__title">Stories from the Hearth</h3>
 
       <blockquote>
-        <p>&ldquo;<i>After all, what is history if it is not an imagined past – a collection of facts which are viewed and interpreted in the light of our own experiences</i>.&rdquo;</p>
+        <p>&ldquo;After all, what is history if it is not an imagined past – a collection of facts which are viewed and interpreted in the light of our own experiences.&rdquo;</p>
         <footer>
           <cite><a href="http://shirleybakerphotography.com/bio/" class="content-text__link">Shirley Baker, Photographer</a></cite>
         </footer>
@@ -64,22 +64,15 @@ include('../../assets/includes/header.php'); ?>
 
     </section>
 
-    <aside class="sidebar">
+    <aside class="sidebar sidebar--centered">
 
-      <section class="widget">
-        <h4 class="widget__title widget__title--stories">Audio</h4>
+      <div class="widget__full-images">
+        <a href="<?php echo $assets?>/img/case-studies/stories-from-the-hearth/coke-collection.jpg">
+          <img src="<?php echo $assets?>/img/case-studies/stories-from-the-hearth/coke-collection.jpg" alt="Women carrying bags of coal/coke in prams" width="870" height="699">
+        </a>
+      </div>
 
-        <div class="widget__audio">
-          <audio controls class="widget__audio-inner">
-            <source src="horse.ogg" type="audio/ogg">
-            <source src="horse.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
-        </div>
-
-      </section>
-
-    <!--  <section class="widget">
+      <!-- <section class="widget">
         <h4 class="widget__title widget__title--artwork">More from Case Studies...</h4>
         <ul class="widget__submenu">
         </ul>
