@@ -4,6 +4,7 @@ $pageTitle = "Birley Archive | Living Lines: Birley Archives";
 $pageDescription = "Birley poetry, photography, music and stories from the archives ";
 $pageKeywords = "Birley, Poetry, Photography, Music, Stories";
 $activePage = "Archive";
+$activeSubPage = "";
 
 $assets = "../assets";
 
@@ -19,13 +20,19 @@ $linkHome = "../";
 $linkAbout = "../about.php";
 $linkContact = "../contact.php";
 
-$linkHealth = "../birley-health-and-education/";
+$linkSite = "../the-site/";
 $linkArchive = ".";
 $linkGrow = "../grow-birley/";
-$linkMy = "../my-birley/";
+$linkCaseStudies = "../case-studies/";
 
 include('../assets/includes/header.php'); ?>
 
-<script src="<?php echo $assets?>/js/script.js?v=<?php echo date('his'); ?>"></script>
+<main id="skipnav">
+
+</main>
+
+</div> <!-- site-wrapper ends -->
+
+<script src="<?php echo $assets?>/js/script.js?v=30"></script>
 </body>
 </html>

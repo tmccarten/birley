@@ -10,6 +10,7 @@ html {
 
 body {
   height: 100%;
+  background-image: url('../img/bg_site-wrapper.png');
 }
 
 /* -- Skip links -- */
@@ -30,6 +31,25 @@ body {
 	height: auto;
 }
 
+/* -- Target flash -- */
+
+:target {
+  animation: highlight 1.5s ease;
+}
+
+@keyframes highlight {
+  0% {
+    background-color: rgba(255, 95, 52, 0.67);
+    }
+  50% {
+    transform: translateX(1em);
+  }
+  100% {
+    background-color: transparent;
+    transform: translateX(0);
+    }
+}
+
 /* -- Visually hidden */
 
 .visuallyhidden {
@@ -47,9 +67,12 @@ body {
 
 .site-wrapper {
   max-width: 1400px;
-  margin-left: auto;
-	margin-right: auto;
+  margin: 0 auto 2em auto;
 	padding: 0 1em;
+  //box-shadow: 0px 0px 13px 2px rgba(0,0,0,0.05);
+  //border-left: 2px solid white;
+  //border-right: 2px solid white;
+  //background-image: url('../img/bg_site-wrapper.png');
 }
 
 /* -- Links -- */
@@ -67,7 +90,9 @@ a {
 
 body {
 	line-height: 1.2em;
-	font-family: 'Corbel', 'Calibri', 'Tahoma', sans-serif;
+	font-family: $bodyfont;
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 425px) {
@@ -76,4 +101,16 @@ body {
     padding: 0 2em;
 }
 
+}
+
+@media screen and (min-width: $desktopnav) {
+
+  body {
+    font-size: 1.125rem;
+  }
+
+  .site-wrapper {
+    padding: 2em;
+    margin-bottom: 0;
+}
 }

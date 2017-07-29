@@ -1,0 +1,125 @@
+.timeline {
+  position: relative;
+  margin: 2em auto;
+  padding: 2em 1em;
+  width: 100%;
+  max-width: 33.5rem;
+  background: rgba(0,0,0,0.02);
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 26px;
+    border-right: 4px dotted lightgray;
+  }
+}
+
+.timeline-block + * {
+  margin-top: 2em;
+}
+
+.timeline-block {
+  position: relative;
+}
+
+.timeline-block__radio {
+  position: absolute;
+  top: 14px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-sizing: content-box;
+  background: $radiotimeline;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.timeline-block__content {
+  position: relative;
+  background: white;
+  box-shadow: 0 3px 0 0 rgba(0,0,0,0.1);
+  padding: 1em;
+  margin-left: 48px;
+  color: #525252;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 16px;
+    right: 100%;
+    height: 16px;
+    width: 16px;
+    border: 8px solid transparent;
+    border-right: 8px solid white;
+  }
+
+.timeline-block__title {
+  font-family: $seriftitle;
+  font-weight: bold;
+  margin-top: 1em;
+  color: black;
+}
+}
+
+@media screen and (min-width: 580px) {
+
+  .timeline {
+    max-width: 100%;
+    margin: 3em auto;
+
+    &::before {
+      left: 50%;
+    }
+  }
+
+  .timeline-block  {
+    display: flex;
+    flex-direction: column;
+
+    &:nth-child(even) .timeline-block__content {
+      align-self: flex-end;
+      margin-right: -4px;
+
+      &::before {
+        left: auto;
+        right: 100%;
+        border-color: transparent;
+        border-right-color: white;
+      }
+    }
+  }
+
+  .timeline-block__radio {
+    left: 50%;
+    margin-left: -8px;
+    top: 22px;
+  }
+
+  .timeline-block__content {
+    width: 45%;
+    margin-left: 0;
+    padding: 1.6em;
+    text-align: center;
+
+    &::before {
+      top: 24px;
+      left: 100%;
+      width: 20px;
+      height: 20px;
+      border: 10px solid transparent;
+      border-left-color: white;
+    }
+  }
+
+
+}
+
+@media screen and (min-width: $desktopnav) {
+
+  .timeline {
+    font-size: 1.125em;
+    padding: 2em;
+  }
+}

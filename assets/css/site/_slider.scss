@@ -1,9 +1,8 @@
 .slider-container {
-  border: 1px solid transparent;
-  margin-top: 2em;
+  border: 1px solid transparent;  
   padding: 0 2em;
-  background: $light;
   border-radius: 30px 30px 0 0;
+  font-family: $cute;
 }
 
 .slider {
@@ -44,7 +43,6 @@
   white-space: nowrap;
   color: grey;
   font-size: .8125em;
-  font-weight: bold;
 }
 
 .ui-slider-pips .ui-slider-pip {
@@ -72,7 +70,7 @@
 }
 
 .ui-slider-pips .ui-slider-pip-selected {
-  font-weight: bold;
+  font-weight: 400;
 
   & .ui-slider-label {
     color: black;
@@ -100,6 +98,10 @@
   outline: none;
 }
 
+.ui-slider-pips:not(.ui-slider-disabled) .ui-slider-pip:hover .ui-slider-label {
+  font-weight: normal;
+}
+
 @media screen and (min-width: 425px) {
 
   .slider-container {
@@ -107,7 +109,7 @@
   }
 
   .ui-slider-pips .ui-slider-label {
-    font-size: 1em;
+    font-size: .925em;
   }
 
 

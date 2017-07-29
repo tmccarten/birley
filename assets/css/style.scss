@@ -1,6 +1,13 @@
-@import 'global/global';
 @import 'global/variables';
+
+@import 'global/global';
 
 @import 'site/header';
 @import 'site/maps';
 @import 'site/slider';
+@import 'site/gallery';
+@import 'site/pages';
+@import 'site/sidebar';
+@import 'site/timeline';
+
+@import 'site/footer';
