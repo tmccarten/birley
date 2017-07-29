@@ -1635,6 +1635,14 @@ figcaption {
 	        flex-direction: column;
 }
 
+.widget__full-images a:hover {
+	text-decoration: none;
+}
+
+.widget__full-images figure {
+	margin: 0;
+}
+
 .widget__full-images img {
 	max-width: 100%;
 	height: auto;

@@ -68,7 +68,10 @@ include('../../assets/includes/header.php'); ?>
 
       <div class="widget__full-images">
         <a href="<?php echo $assets?>/img/case-studies/stories-from-the-hearth/coke-collection.jpg">
+          <figure>
           <img src="<?php echo $assets?>/img/case-studies/stories-from-the-hearth/coke-collection.jpg" alt="Women carrying bags of coal/coke in prams" width="870" height="699">
+          <figcaption>Women carrying sacks of coke</figcaption>
+        </figure>
         </a>
       </div>
 
