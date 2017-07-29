@@ -16,9 +16,9 @@ include('assets/includes/head.php');?>
 
 <?php
 
-$linkHome = "index.php";
+$linkHome = ".";
 $linkAbout = "about.php";
-$linkContact = ".";
+$linkContact = "";
 
 $linkSite = "the-site/";
 $linkArchive = "birley-archive/";

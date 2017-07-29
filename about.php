@@ -16,8 +16,8 @@ include('assets/includes/head.php');?>
 
 <?php
 
-$linkHome = "index.php";
-$linkAbout = ".";
+$linkHome = ".";
+$linkAbout = "";
 $linkContact = "contact.php";
 
 $linkSite = "the-site/";

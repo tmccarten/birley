@@ -93,9 +93,9 @@ include('../assets/includes/header.php'); ?>
       <section class="widget">
         <h4 class="widget__title widget__title--dig">More from Birley Archive...</h4>
         <ul class="widget__submenu">
-          <li class="widget__submenu-item"><a href="music.php">Music</a></li>
+          <!-- <li class="widget__submenu-item"><a href="music.php">Music</a></li> -->
           <li class="widget__submenu-item"><a href="poetry/">Poetry</a></li>
-          <li class="widget__submenu-item"><a href="stories/">Stories</a></li>
+          <!-- <li class="widget__submenu-item"><a href="stories/">Stories</a></li> -->
           <li class="widget__submenu-item"><a href="photography/">Photography</a></li>
         </ul>
       </section>
