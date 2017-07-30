@@ -52,7 +52,7 @@ include('../assets/includes/header.php'); ?>
 
       <p>Between 2011 and 2012, the university commissioned an archaeological investigation on the site that was to become the Birley development.</p>
       <p>The <a href="http://www2.mmu.ac.uk/media/mmuacuk/content/documents/birley-fields/Birley-Archaeological-Report-2012.pdf" class="content-text__link">fascinating report</a> reveals the layers of history that lie beneath the site of the university campus; its alternative foundations that take the site through agricultural land, industrial landscapes, beautiful churches and urban regeneration.</p>
-      <p>In March 2013, an exhibition was held of the finds. Further information can be found at the University’s <a href="http://www.specialcollections.mmu.ac.uk/" class="content-text__link">Special Collections</a>, based on the third floor of the Library at the All Saints Campus.</p>
+      <p>In March 2013, an exhibition - &ldquo;<i>Birley Fields: Exploring our past</i>&rdquo; was held of the finds. Further information can be found at the University’s <a href="http://www.specialcollections.mmu.ac.uk/" class="content-text__link">Special Collections</a>, based on the third floor of the Library at the All Saints Campus.</p>
 
     </section>
 
@@ -93,7 +93,7 @@ include('../assets/includes/header.php'); ?>
       <section class="widget">
         <h4 class="widget__title widget__title--dig">More from Birley Archive...</h4>
         <ul class="widget__submenu">
-          <!-- <li class="widget__submenu-item"><a href="music.php">Music</a></li> -->
+          <li class="widget__submenu-item"><a href="music.php">Music</a></li>
           <li class="widget__submenu-item"><a href="poetry/">Poetry</a></li>
           <!-- <li class="widget__submenu-item"><a href="stories/">Stories</a></li> -->
           <li class="widget__submenu-item"><a href="photography/">Photography</a></li>

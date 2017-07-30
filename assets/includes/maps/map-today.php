@@ -40,7 +40,7 @@
       <p>There are twenty-two fruit trees and four different varieties of pear, plum, cherry and apple trees, grown and nurtured by Hulme Community Garden Centre, before being planted on the Birley site.</p>
 
       <div class="read-more">
-      <p>Find out more <a href="grow-birley/sustainability.php">Grow Birley</a></p>
+      <p>Find out more at<a href="grow-birley/sustainability.php">Grow Birley</a></p>
       </div>
 
     </div>

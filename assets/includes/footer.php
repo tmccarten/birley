@@ -5,6 +5,6 @@
   </div>
   <div class="main-footer__item">
     <p><a href="<?php echo $linkAbout?>">About</a></p>
-    <p><a href="<?php echo $linkContact?>">Contact</a></p>
+    <p><a href="http://www.art.mmu.ac.uk/contactus/">Contact</a></p>
 </div>
 </footer>

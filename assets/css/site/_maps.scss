@@ -47,7 +47,7 @@
 .map__inner {
   position: relative;
   transition: transform 400ms, width 700ms, height 700ms;
-  background-image: url('../img/maps/map_presentNEW.png');
+  background-image: url('../img/maps/map_present.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 924px;
@@ -60,15 +60,15 @@
   -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 
   &.map__inner--1960s1980s {
-    background-image: url('../img/maps/map_1960s1980sNEW.png');
+    background-image: url('../img/maps/map_1960s-1980s.png');
   }
 
   &.map__inner--1800s {
-    background-image: url('../img/maps/map_1800sNEW.png');
+    background-image: url('../img/maps/map_1800s.png');
   }
 
   &.map__inner--pre {
-    background-image: url('../img/maps/map_pre1800s4.png');
+    background-image: url('../img/maps/map_pre1800.png');
   }
 
 }
@@ -99,7 +99,7 @@
     display: flex;
     justify-content: flex-start;
     padding: .5em 0;
-    color: black;    
+    color: black;
     margin-top: 1em;
 
     p {
@@ -259,6 +259,34 @@
   }
 }
 
+.icon__deckaccess {
+  background: url('../img/icons/illustrations/icon_deckaccess.svg') no-repeat;
+  height: 19.502%;
+  width: 24.3725%;
+  left: 43.270611111111111111111111111111%;
+  top: 35.518416666666666666666666666667%;
+
+  & .icon__deckaccess--hover {
+    display: none;
+  }
+
+  &:hover {
+    .icon__deckaccess--hover {
+      display: inline;
+      position: absolute;
+      box-shadow: 0 0 2px;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 30em;
+      right: 70%;
+      bottom: 45%;
+      padding: 2em;
+      background-color: #dededa;
+      color: #050606;
+    }
+  }
+}
+
 .icon__terraces {
   background: url('../img/icons/illustrations/icon_terraces.svg') no-repeat;
   height: 27.31275%; //327.753px
@@ -403,7 +431,7 @@
   background: url('../img/icons/illustrations/icon_rolls-royce.svg') no-repeat;
   height: 9.8289166666666666666666666666667%;
   width: 16.5274375%;
-  left: 15.058625%;
+  left: 13.385444444444444444444444444444%;
   top: 26.032166666666666666666666666667%;
 
   & .icon__rolls-royce--hover {
@@ -418,7 +446,7 @@
       border-radius: 20px;
       border-bottom-right-radius: 0;
       width: 30em;
-      right: 70%;
+      right: 40%;
       bottom: 45%;
       padding: 2em;
       background-color: #ac7a79;

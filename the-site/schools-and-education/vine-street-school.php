@@ -36,7 +36,7 @@ include('../../assets/includes/header.php'); ?>
       </div>
 
       <div class="banner-icon">
-        <img src="<?php echo $assets?>/img/icons/illustrations/icon_birleyhighbadge.svg" class="banner-icon__svg" alt="Illustration of Birley High motif.">
+        <img src="<?php echo $assets?>/img/icons/illustrations/icon_birley.svg" class="banner-icon__svg" alt="Birley.">
       </div>
 
     </section>
@@ -51,8 +51,22 @@ include('../../assets/includes/header.php'); ?>
 
         <h3 class="content-text__title">Vine Street School</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>        
-
+        <p>Vine Street was one of a series of grid-iron streets lying under the Birley site. Vine Street comprised pubs and dwellings and is most notable for being the site of the first Manchester School Board school.</p>
+        <figure class="content-image content-image--floatleft">
+          <a href="<?php echo $assets?>/img/the-site/vine-street-school/school1.jpg">
+            <img src="<?php echo $assets?>/img/the-site/vine-street-school/school1_thumb.jpg" alt="Vine Street School" width="250">
+          </a>
+          <figcaption>Manchester School Board school</figcaption>
+        </figure>
+        <p>Earlier in the 1800s, schools were mostly run and supported by individuals, institutions and charities. They were not always regulated and the quality and access to education was not consistent. Following educational reforms, School Boards were set up to standardise education. Manchester led the way in the creation of one of the first state schools. The foundation stone for Vine Street School was laid by the Chairman of the Manchester School Board, Herbert Birley, in 1874. The school opened in 1875.</p>
+        <figure class="content-image content-image--floatright">
+          <a href="<?php echo $assets?>/img/the-site/vine-street-school/stone.jpg">
+            <img src="<?php echo $assets?>/img/the-site/vine-street-school/stone_thumb.jpg" alt="Stone at Vine Street School">
+          </a>
+          <figcaption>Stone at Vine Street School</figcaption>
+        </figure>
+        <p>The foundation stone was retained and moved location following demolition of the school. It has since been recovered and there are plans to return it to the site in future.</p>
+        <p>The <a href="http://www.victoriansociety.org.uk/publications/manchester-board-schools/" class="content-text__link">Victorian Society</a> publication on Manchester School Boards contains more on the architectural detail of early schools.</p>
       </section>
 
       <aside class="sidebar">

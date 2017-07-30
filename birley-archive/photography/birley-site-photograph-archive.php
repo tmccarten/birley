@@ -1,10 +1,10 @@
 <?php
 
-$pageTitle = "Birley Stories | Living Lines: Birley Archives";
-$pageDescription = "Birley stories.";
-$pageKeywords = "Birley, Stories, Hulme";
+$pageTitle = "Birley Site Photograph Archive | Birley Photography | Living Lines: Birley Archives";
+$pageDescription = "Photographs of the vacant Birley site prior to construction.";
+$pageKeywords = "Birley, Photography, Hulme";
 $activePage = "Archive";
-$activeSubPage = "Stories";
+$activeSubPage = "Photography";
 
 $assets = "../../assets";
 
@@ -27,54 +27,47 @@ $linkCaseStudies = "../../case-studies/";
 
 include('../../assets/includes/header.php'); ?>
 
-
 <main id="skipnav">
 
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">Stories</h2>
+      <h2 class="banner__title">Photography</h2>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_notepad.svg" class="banner-icon__svg" alt="Illustration of blaring speakers.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_birley.svg" class="banner-icon__svg" alt="Birley">
     </div>
 
   </section>
+
+  <div class="gallery">
+
+  </div>
 
   <section class="content">
 
     <section class="content-text">
 
       <div class="breadcrumb">
-        <p>Birley Archive</p><p>Stories</p>
+        <a href="index.php">Photography</a><p>Birley Site Photograph Archive</p>
       </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
+      <h3 class="content-text__title">Birley Site Photograph Archive</h3>
+
+      <p>Coming soon...</p>
 
     </section>
 
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--stories">Audio</h4>
-
-        <div class="widget__audio">
-          <audio controls class="widget__audio-inner">
-            <source src="horse.ogg" type="audio/ogg">
-            <source src="horse.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
-        </div>
-
-      </section>
-
-      <section class="widget">
-        <h4 class="widget__title widget__title--poetry">More from Birley Archive...</h4>
+        <h4 class="widget__title widget__title--photography">More from Birley Archive...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="../dig.php">Archaeological Dig</a></li>
+          <li class="widget__submenu-item"><a href="../poetry/">Poetry</a></li>
+          <!-- <li class="widget__submenu-item"><a href="../stories.php">Stories</a></li> -->
           <li class="widget__submenu-item"><a href="../music.php">Music</a></li>
-          <li class="widget__submenu-item"><a href="../photography.php">Photography</a></li>
         </ul>
       </section>
 

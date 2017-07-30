@@ -50,8 +50,9 @@ include('../assets/includes/header.php'); ?>
         <p>Birley Archive</p><p>Music</p>
       </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
-      <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
+      <p>One of the most notable music history landmarks adjacent to Birley is the Epping Road bridge, popularly known locally as the ‘Joy Division’ bridge after it appeared on the cover of their Best Of album. The image of the band in the snow was taken by renowned rock photographer Kevin Cummins.</p>
+      <p>In fact the whole area is often credited with germinating some of the most distinctive sounds of the late 1970s, 1980s and Madchester music scenes, from beats, hip-hop and reggae to gigs in a ‘squat club’ in Barry Close: ‘The Kitchen’, and the former Russell Club with its links to Factory Records in Royce Road.</p>
+      <p><a href="http://www.newmanchesterwalks.com/" class="content-text__link">Musical history tours</a> are available.</p>
 
     </section>
 

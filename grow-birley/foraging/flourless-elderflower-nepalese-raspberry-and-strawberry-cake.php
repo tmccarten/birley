@@ -56,7 +56,7 @@ include('../../assets/includes/header.php'); ?>
         <li class="content-text__recipe-item"><p>Whip up the egg whites in a separate bowl.</p></li>
         <li class="content-text__recipe-item"><p>Mix the corn starch and grounded almonds in a separate bowl.</p></li>
         <li class="content-text__recipe-item"><p>Lower the mixer speed and alternately add dry ingredients and ½ of the whipped egg whites to the egg yolk cream.</p></li>
-        <li class="content-text__recipe-item"><p>In the end, gently mix in the rest of the egg whites with a spatula.</p></li>
+        <li class="content-text__recipe-item"><p>At the end - gently mix in the rest of the egg whites with a spatula.</p></li>
         <li class="content-text__recipe-item"><p>Put ½ of the dough in a cake mould lined with baking paper. Bake it 30-40 minutes at 180°C.</p></li>
         <li class="content-text__recipe-item"><p>When baked, let it cool on a wire rack. Repeat with the other half of the dough.</p></li>
         <li class="content-text__recipe-item"><p>When cooled, slice them diagonally in half.</p></li>
@@ -66,7 +66,7 @@ include('../../assets/includes/header.php'); ?>
         <li class="content-text__recipe-item"><p>Add the yogurt cream and gently mix together with a spatula.</p></li>
         <li class="content-text__recipe-item"><p>Leave the cream in the fridge for 1 hour.</p></li>
         <li class="content-text__recipe-item"><p>Cut the strawberries, add the elderflower syrup and bring it to a boil on medium heat. Leave it to cool.</p></li>
-        <li class="content-text__recipe-item"><p>Place one sponge cake on the plate or a cake stand. Layer it with strawberries. Be careful not to scoop up too much of the fruit juice - it will make the sponge cake to wet.</p></li>
+        <li class="content-text__recipe-item"><p>Place one sponge cake on the plate or a cake stand. Layer it with strawberries. Be careful not to scoop up too much of the fruit juice - it will make the sponge cake too wet.</p></li>
         <li class="content-text__recipe-item"><p>Divide the cream into 4 parts. Spread 1st part of the cream on top of the strawberries. To make it easier, use the piping bag for applying the cream and a cake brim to keep the layers in place.</p></li>
         <li class="content-text__recipe-item"><p>Repeat the layers 3 more times. Finish the assembly with the 4th sponge cake. (Use the most levelled sponge cake for the last layer).</p></li>
         <li class="content-text__recipe-item"><p>Place the cake for 5 hours in the fridge to firm.</p></li>
@@ -95,10 +95,21 @@ include('../../assets/includes/header.php'); ?>
             <li class="ingredients__item">750g <b>wild strawberries</b></li>
             <li class="ingredients__item">750g <b>Nepalese raspberry</b></li>
             <li class="ingredients__item">100ml <b>elderflower</b> syrup</li>
-            <li class="ingredients__item">Red gelatine poweder for cake topping</li>
+            <li class="ingredients__item">Red gelatine powder for cake topping</li>
           </ul>
         </div>
       </section>
+
+      <section class="widget">
+        <div class="widget__full-images">
+          <figure>
+            <img src="<?php echo $assets?>/img/icons/illustrations/icon_raspberry.svg" width="150" height="81">
+            <figcaption>Nepalese raspberry</figcaption>
+          </figure>
+        </div>
+      </section>
+
+
 
     </aside>
 

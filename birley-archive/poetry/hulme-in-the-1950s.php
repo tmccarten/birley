@@ -101,11 +101,14 @@ include('../../assets/includes/header.php'); ?>
         <a href="./">Poetry</a><p>Hulme in the 1950s</p>
       </div>
 
+      <h3 class="content-text__title content-text__title--plain">Quick links</h3>
+
       <ul class="content-text__list">
-        <li class="content-text__list-item"><a href="hulme-in-the-1950s.php" class="content-text__link">&ldquo;Hulme in the 1950s&rdquo;</a></li>
-        <li class="content-text__list-item"><a href="hulme-through-my-ages.php" class="content-text__link">&ldquo;Hulme through my ages&rdquo;</a></li>
-        <li class="content-text__list-item"><a href="hulme.php" class="content-text__link">&ldquo;Hulme&rdquo;</a></li>
-        <li class="content-text__list-item"><a href="the-crescents-the-sonnets.php" class="content-text__link">&ldquo;The Crescents - Sonnets&rdquo;</a></li>
+        <li class="content-text__list-item"><a href="hulme-in-the-1950s.php" class="content-text__link">Hulme in the 1950s</a></li>
+        <li class="content-text__list-item"><a href="hulme-through-my-ages.php" class="content-text__link">Hulme through my ages</a></li>
+        <li class="content-text__list-item"><a href="hulme.php" class="content-text__link">Hulme</a></li>
+        <li class="content-text__list-item"><a href="the-crescents-the-sonnets.php" class="content-text__link">Crescents: the Sonnets</a></li>
+        <li class="content-text__list-item"><a href="living-lines.php" class="content-text__link">Living Lines</a></li>
       </ul>
 
     </section>
@@ -117,7 +120,7 @@ include('../../assets/includes/header.php'); ?>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="../dig.php">Archaeological Dig</a></li>
           <!-- <li class="widget__submenu-item"><a href="../stories/">Stories</a></li> -->
-          <!-- <li class="widget__submenu-item"><a href="../music.php">Music</a></li> -->
+          <li class="widget__submenu-item"><a href="../music.php">Music</a></li>
           <li class="widget__submenu-item"><a href="../photography.php">Photography</a></li>
         </ul>
       </section>

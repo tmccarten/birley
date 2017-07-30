@@ -95,6 +95,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+a img:hover {
+	opacity: 0.8;
+}
+
 /* -- Base Typography -- */
 body {
 	line-height: 1.2em;
@@ -573,7 +577,7 @@ body {
 	transition: width 700ms, height 700ms, -webkit-transform 400ms;
 	transition: transform 400ms, width 700ms, height 700ms;
 	transition: transform 400ms, width 700ms, height 700ms, -webkit-transform 400ms;
-	background-image: url("../img/maps/map_presentNEW.png");
+	background-image: url("../img/maps/map_present.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 924px;
@@ -591,15 +595,15 @@ body {
 }
 
 .map__inner.map__inner--1960s1980s {
-	background-image: url("../img/maps/map_1960s1980sNEW.png");
+	background-image: url("../img/maps/map_1960s-1980s.png");
 }
 
 .map__inner.map__inner--1800s {
-	background-image: url("../img/maps/map_1800sNEW.png");
+	background-image: url("../img/maps/map_1800s.png");
 }
 
 .map__inner.map__inner--pre {
-	background-image: url("../img/maps/map_pre1800s4.png");
+	background-image: url("../img/maps/map_pre1800.png");
 }
 
 .icon {
@@ -782,6 +786,32 @@ body {
 	color: #050606;
 }
 
+.icon__deckaccess {
+	background: url("../img/icons/illustrations/icon_deckaccess.svg") no-repeat;
+	height: 19.502%;
+	width: 24.3725%;
+	left: 43.270611111111111111111111111111%;
+	top: 35.518416666666666666666666666667%;
+}
+
+.icon__deckaccess .icon__deckaccess--hover {
+	display: none;
+}
+
+.icon__deckaccess:hover .icon__deckaccess--hover {
+	display: inline;
+	position: absolute;
+	box-shadow: 0 0 2px;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	width: 30em;
+	right: 70%;
+	bottom: 45%;
+	padding: 2em;
+	background-color: #dededa;
+	color: #050606;
+}
+
 .icon__terraces {
 	background: url("../img/icons/illustrations/icon_terraces.svg") no-repeat;
 	height: 27.31275%;
@@ -916,7 +946,7 @@ body {
 	background: url("../img/icons/illustrations/icon_rolls-royce.svg") no-repeat;
 	height: 9.8289166666666666666666666666667%;
 	width: 16.5274375%;
-	left: 15.058625%;
+	left: 13.385444444444444444444444444444%;
 	top: 26.032166666666666666666666666667%;
 }
 
@@ -931,7 +961,7 @@ body {
 	border-radius: 20px;
 	border-bottom-right-radius: 0;
 	width: 30em;
-	right: 70%;
+	right: 40%;
 	bottom: 45%;
 	padding: 2em;
 	background-color: #ac7a79;
@@ -1285,6 +1315,25 @@ figcaption {
 	margin: 0;
 }
 
+.content-text__menu {
+	padding: 0;
+}
+
+.content-text__menu-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	text-align: left;
+}
+
+.content-text__menu-item img {
+	margin-right: 1em;
+	min-width: 100px;
+}
+
 .content-text__recipe {
 	list-style-type: decimal;
 	list-style-position: inside;
@@ -1309,11 +1358,24 @@ figcaption {
 	color: #ff3c19;
 	border-bottom: 0.08em solid #dedede;
 	padding-bottom: 0.04em;
+	line-height: 1.6em;
 }
 
 .content-text__link:hover {
 	text-decoration: none;
 	border-bottom-color: #ff3c19;
+}
+
+.content-image {
+	display: block;
+	margin: 2em auto;
+	max-width: 100%;
+}
+
+.content-image a {
+	display: block;
+	height: 100%;
+	width: 100%;
 }
 
 .about-photos {
@@ -1332,6 +1394,7 @@ figcaption {
 	height: auto;
 	-webkit-transform: rotate(2deg);
 	        transform: rotate(2deg);
+	min-height: 1px;
 }
 
 .about-photos img + * {
@@ -1509,6 +1572,16 @@ figcaption {
 	.content-text__link {
 		font-weight: 400;
 	}
+	.content-image--floatright {
+		float: right;
+		margin: 0 0 0 2em;
+		clear: both;
+	}
+	.content-image--floatleft {
+		float: left;
+		margin: 0 2em 0 0;
+		clear: both;
+	}
 }
 
 @media screen and (min-width: 1280px) {
@@ -1633,6 +1706,10 @@ figcaption {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 2em;
 }
 
 .widget__full-images a:hover {
@@ -1641,6 +1718,13 @@ figcaption {
 
 .widget__full-images figure {
 	margin: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	max-width: 100%;
 }
 
 .widget__full-images img {

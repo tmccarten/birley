@@ -49,9 +49,10 @@ include('../assets/includes/header.php'); ?>
         <p>Grow Birley</p><p>Sustainability</p>
       </div>
 
+      <p>Part of the remit of the Birley Artwork project was to investigate themes of sustainability and growth. This section focusses on some of the initiatives on the present site and opportunities for future development.</p>
       <p>An abundance of culinary herbs are grown in the Sensory Garden which are available to all. Look out for the ‘How to Harvest’ guidelines available by each planter to ensure herb plants remain healthy for the future. Or take a look at <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-orchard/" class="content-text__link">Birley Orchard</a> to find out more about fruit tree cultivation and how you can help.</p>
-      <p>The <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-community-woodland/" class="content-text__link">woodland area</a> is managed by <a href="http://www.hulmegardencentre.org.uk/" class="content-text__link">Hulme Community Garden Centre</a>, who offer a wide range of activities, workshops and educational projects. Plants available to pick and forage include wild sorrel, sweet cicely, garlic mustard, nettles, blackberry and lemon balm, amongst others. Have a look at Met Munch’s fabulous suggestions for <a href="foraging.php" class="content-text__link">recipes</a> using ingredients that can be found at Birley and the nearby Garden Centre.</p>
-      <p>And spare a thought for the pollinators! For information on bees and bee-related projects take a look at our <a href="bees.php" class="content-text__link">Bee Birley</a> page.</p>
+      <p>The <a href="http://www2.mmu.ac.uk/birley/sustainability/birley-community-woodland/" class="content-text__link">woodland area</a> is managed by <a href="http://www.hulmegardencentre.org.uk/" class="content-text__link">Hulme Community Garden Centre</a>, who offer a wide range of activities, workshops and educational projects. Plants available to pick and forage include wild sorrel, sweet cicely, garlic mustard, nettles, blackberry and lemon balm, amongst others. Have a look at <a href="foraging/" class="content-text__link">Met Munch</a>’s fabulous suggestions for recipes using ingredients that can be found at Birley and the nearby Garden Centre.</p>
+      <p>For information on bees and the Birley Artwork project read more at <a href="../case-studies/birley-artwork-project/" class="content-text__link">The Birley Artwork Project</a>.</p>
 
     </section>
 

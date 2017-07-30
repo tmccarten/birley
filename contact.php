@@ -1,7 +1,7 @@
 <?php
 
 $pageTitle = "Contact | Living Lines: Birley Archives";
-$pageDescription = "Contact details for the Living Lines Birley Art Project.";
+$pageDescription = "Contact details for the Living Lines Birley Artwork Project.";
 $pageKeywords = "Birley, Contact";
 $activePage = "Contact";
 $activeSubPage = "";

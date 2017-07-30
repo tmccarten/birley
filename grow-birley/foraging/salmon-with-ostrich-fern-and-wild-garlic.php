@@ -52,7 +52,7 @@ include('../../assets/includes/header.php'); ?>
       <h3 class="content-text__title content-text__title--recipes">Salmon with ostrich fern and wild garlic</h3>
 
       <ol class="content-text__recipe">
-        <li class="content-text__recipe-item"><p>Peel, halve and with a teaspoon to scrape the seeds out of the cucumber. Slice into 1-2cm thick pieces. Cut the potatoes into even-sized chunks and put in a pan of boiling water to cook for about 10 minutes until just tender.</p></li>
+        <li class="content-text__recipe-item"><p>Peel, halve and scrape the seeds out of the cucumber. Slice into 1-2cm thick pieces. Cut the potatoes into even-sized chunks and put in a pan of boiling water to cook for about 10 minutes until just tender.</p></li>
         <li class="content-text__recipe-item"><p>While the potatoes are boiling, make the dressing by combining the white wine vinegar, 5 tbsps of olive oil, juniper berries and mustard and whisking to a thick emulsion. Season. Drain the potatoes and mix with the dressing while hot.</p></li>
         <li class="content-text__recipe-item"><p>Fry the salmon fillets, skin-side down, in hot oil until the skin is crispy and the fish just cooked through. Mix the garlic leaves, Ostrich Fern, cucumber and lemon zest into the potato salad and serve immediately.</p></li>
       </ol>
@@ -76,6 +76,15 @@ include('../../assets/includes/header.php'); ?>
             <li class="ingredients__item">1 handful <b>ostrich fern</b><p><i>Fiddleheads are the first ostrich fern shoots to show in the spring and are so called because of their resemblance to the neck of a fiddle. These are the sterile shoots that will grow into the largest fronds. Pick no more than half from each crown while they are small and tightly curled. Before cooking, wash them carefully and remove the brown papery covering</i></p></li>
             <li class="ingredients__item">½ a lemon, finely zested</li>
           </ul>
+        </div>
+      </section>
+
+      <section class="widget">
+        <div class="widget__full-images">
+          <figure>
+            <img src="<?php echo $assets?>/img/icons/illustrations/icon_sustainability.svg" width="150" height="97">
+            <figcaption>Ostrich fern</figcaption>
+          </figure>
         </div>
       </section>
 

@@ -193,8 +193,7 @@ include('../assets/includes/header.php'); ?>
         <p>The Site</p><p>Faculty History</p>
       </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
-      <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
+      <p>Not only does Birley and the Hulme area have strong historical connections with Manchester’s history of education, community health and social care, the faculties based at Birley have also had a long and illustrious history in providing pioneering training and education for many decades at different sites, evolving from teaching training colleges, adult education and women’s colleges, among other amalgamated institutions to become the present day faculties. The image gallery highlights the history of some of the former premises. For more information about the faculties and Birley read more at the <a href="http://www2.mmu.ac.uk/birley/" class="content-text__link">university's Birley page</a>.</p>      
 
     </section>
 

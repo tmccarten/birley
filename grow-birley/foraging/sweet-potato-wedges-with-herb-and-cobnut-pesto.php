@@ -74,7 +74,16 @@ include('../../assets/includes/header.php'); ?>
             <li class="ingredients__item">salt and freshly ground black pepper</li>
             <li class="ingredients__item">squeeze of lemon juice</li>
             <li class="ingredients__item">1 <b>wild garlic</b> clove, chopped</li>
-          </ul>
+          </ul>          
+        </div>
+      </section>
+
+      <section class="widget">
+        <div class="widget__full-images">
+          <figure>
+            <img src="<?php echo $assets?>/img/icons/illustrations/icon_cobnut.svg" width="150" height="135">
+            <figcaption>Cobnut</figcaption>
+          </figure>
         </div>
       </section>
 

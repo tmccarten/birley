@@ -206,7 +206,7 @@ include('../../assets/includes/header.php'); ?>
           <li class="widget__submenu-item"><a href="../dig.php">Archaeological Dig</a></li>
           <li class="widget__submenu-item"><a href="../poetry/">Poetry</a></li>
           <!-- <li class="widget__submenu-item"><a href="../stories.php">Stories</a></li> -->
-          <!-- <li class="widget__submenu-item"><a href="../music.php">Music</a></li> -->
+          <li class="widget__submenu-item"><a href="../music.php">Music</a></li>
         </ul>
       </section>
 

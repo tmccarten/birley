@@ -36,7 +36,7 @@ include('../../assets/includes/header.php'); ?>
       </div>
 
       <div class="banner-icon">
-        <img src="<?php echo $assets?>/img/icons/illustrations/icon_birleyhighbadge.svg" class="banner-icon__svg" alt="Illustration of Birley High motif.">
+        <img src="<?php echo $assets?>/img/icons/illustrations/icon_birley.svg" class="banner-icon__svg" alt="Birley.">
       </div>
 
     </section>
@@ -49,7 +49,8 @@ include('../../assets/includes/header.php'); ?>
           <p>The Site</p><p>Schools and Education</p>
         </div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
+        <p>The site has a long history of connections to education, including the first Manchester School Board school which was established at Vine Street. The remains of Vine Street were uncovered during the archaeological excavations. Today one of the Birley Residence takes its name.</p>
+        <p>Locally, Birley High School was another pioneering example of the area’s influence on Manchester’s history of educational reform and the strive for equality.</p>
         <ul class="content-text__list">
           <li class="content-text__list-item"><a class="content-text__link" href="birley-high.php">Birley High</a></li>
           <li class="content-text__list-item"><a class="content-text__link" href="vine-street-school.php">Vine Street School</a></li>

@@ -4,7 +4,7 @@ $pageTitle = "Golden Terrace | Birley Artwork | Living Lines: Birley Archives";
 $pageDescription = "Birley artwork.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "Case Studies";
-$activeSubPage = "Birley Art Project";
+$activeSubPage = "Birley Artwork Project";
 
 $assets = "../../assets";
 
@@ -32,7 +32,7 @@ include('../../assets/includes/header.php'); ?>
   <section class="banner">
 
     <div class="banner-title-container">
-      <h2 class="banner__title">The Birley Art Project</h2>
+      <h2 class="banner__title">The Birley Artwork Project</h2>
     </div>
 
     <div class="banner-icon">
@@ -46,12 +46,12 @@ include('../../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <a href="index.php">Case Studies</a><p>Golden Terrace</p>
+        <a href="index.php">The Birley Artwork Project</a><p>Golden Terrace</p>
       </div>
 
       <h3 class="content-text__title">Golden Terrace</h3>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
+      <p>Coming soon...</p>
     </section>
 
     <aside class="sidebar">

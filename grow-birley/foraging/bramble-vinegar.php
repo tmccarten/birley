@@ -77,6 +77,16 @@ include('../../assets/includes/header.php'); ?>
         </div>
       </section>
 
+      <section class="widget">
+        <div class="widget__full-images">
+          <figure>
+            <img src="<?php echo $assets?>/img/icons/illustrations/icon_bramble.svg" width="97" height="150">
+            <figcaption>Blackberries</figcaption>
+          </figure>
+        </div>
+      </section>
+
+
     </aside>
 
   </section> <!-- content ends -->
