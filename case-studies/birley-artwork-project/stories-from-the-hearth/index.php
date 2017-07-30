@@ -54,7 +54,7 @@ include('../../../assets/includes/header.php'); ?>
       <blockquote>
         <p>&ldquo;After all, what is history if it is not an imagined past – a collection of facts which are viewed and interpreted in the light of our own experiences.&rdquo;</p>
         <footer>
-          <cite><a href="http://shirleybakerphotography.com/bio/" class="content-text__link">Shirley Baker, Photographer</a></cite>
+          <cite> - <a href="http://shirleybakerphotography.com/bio/" class="content-text__link">Shirley Baker, Photographer</a></cite>
         </footer>
       </blockquote>
 
