@@ -1,6 +1,6 @@
 <div class="map__inner map__inner--1800s">
 
-  <div class="icon icon__church">
+  <div id="iconChurch" class="icon icon__church">
     <div class="icon__church--hover">
       <p>A carved stone head, possibly representing church benefactress Eleanor Atherton, was recovered from demolition material at the site of Holy Trinity Church (built in 1843) along with pieces of church glazing and other artefacts. The church was damaged by an air raid in WWII and subsequently demolished in 1953.</p>
       <p>There was also a Catholic Apostolic church dating from around the 1840’s.</p>
@@ -12,7 +12,7 @@
     </div>
   </div>
 
-  <div class="icon icon__terraces">
+  <div id="iconTerraces" class="icon icon__terraces">
     <div class="icon__terraces--hover">
       <p>The biggest development of workers’ houses in the industrial era was from the mid to late 1800s. The site and its surroundings formed a grid like pattern of streets, much of which was
       terraced housing. When built, the houses had small individual rear yards with ‘privies’: outdoor toilets.</p>
@@ -25,7 +25,7 @@
     </div>
   </div>
 
-  <div class="icon icon__rolls-royce">
+  <div id="iconRolls" class="icon icon__rolls-royce">
     <div class="icon__rolls-royce--hover">
       <p>Henry Royce built his first car at a factory close to Cooke Street, Hulme, in 1904. Together with motoring pioneer and partner, Charles Stewart Rolls, Rolls-Royce started motoring history with one of the world’s best-known luxury cars commemorated at a site in Hulme Park.</p>
 
@@ -36,5 +36,32 @@
     </div>
   </div>
 
+</div><!-- map__inner ends -->
+</div><!-- map ends -->
+</div><!-- map container ends -->
 
-</div>
+<script>
+/* -- Show and close icon info at mobile size -- */
+
+var iconChurch = document.getElementById('iconChurch'),
+    iconTerraces = document.getElementById('iconTerraces'),
+    iconRolls = document.getElementById('iconRolls');
+
+iconChurch.addEventListener('click', function() {
+
+  showIconInfo('.icon-info--church');
+
+}, false);
+
+iconTerraces.addEventListener('click', function() {
+
+  showIconInfo('.icon-info--terraces');
+
+}, false);
+
+iconRolls.addEventListener('click', function() {
+
+  showIconInfo('.icon-info--rolls-royce');
+
+}, false);
+</script>

@@ -166,7 +166,6 @@ body {
 /* -- Logo -- */
 .logo {
 	width: 100%;
-	height: 100%;
 	padding-bottom: 10%;
 	margin: 0;
 }
@@ -504,6 +503,10 @@ body {
 	}
 }
 
+.map-container {
+	position: relative;
+}
+
 .map {
 	margin: 0 auto;
 	overflow: scroll;
@@ -517,7 +520,6 @@ body {
 	-webkit-animation-fill-mode: forwards;
 	        animation-fill-mode: forwards;
 	border: 1px dashed silver;
-	height: 600px;
 	height: 60vh;
 	transition: -webkit-transform 700ms ease-in-out;
 	transition: transform 700ms ease-in-out;
@@ -655,6 +657,101 @@ body {
 	background-color: #eee;
 }
 
+.icon-info {
+	position: absolute;
+	padding: 2em;
+	height: auto;
+	max-width: 33.5em;
+	width: 90%;
+	top: 50%;
+	left: 50%;
+	visibility: hidden;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+
+.icon-info p:last-child {
+	margin-bottom: 0;
+}
+
+.icon-info a {
+	text-decoration: underline;
+}
+
+.icon-info__title {
+	margin-top: 0;
+}
+
+.icon-info__close {
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 24px;
+	height: 24px;
+	top: 0;
+	right: 0;
+	padding: .3em;
+	background-color: white;
+	margin: 1em;
+	border-radius: 50%;
+}
+
+.icon-info__close img {
+	max-width: 100%;
+}
+
+.icon-info--brooks {
+	background-color: #9bd7e6;
+}
+
+.icon-info--vine {
+	background-color: #efdca5;
+}
+
+.icon-info--energy {
+	background-color: #8ba8b9;
+}
+
+.icon-info--mural {
+	background-color: #ac7a79;
+}
+
+.icon-info--orchard {
+	background-color: #c0cd92;
+}
+
+.icon-info--deck, .icon-info--crescents, .icon-info--terraces, .icon-info--church, .icon-info--rolls-royce {
+	background-color: #dededa;
+}
+
+.icon-info--birley-high {
+	background-color: #c6685a;
+}
+
+.icon-info--farm {
+	background-color: #d0b36b;
+}
+
+.info-displayed {
+	visibility: visible;
+	z-index: 9999;
+}
+
+@media screen and (min-width: 960px) {
+	.info-displayed {
+		visibility: hidden;
+		z-index: 0;
+	}
+}
+
 .icon__brooks {
 	background: url("../img/icons/illustrations/icon_brooks.svg") no-repeat;
 	height: 16%;
@@ -667,18 +764,20 @@ body {
 	display: none;
 }
 
-.icon__brooks:hover .icon__brooks--hover {
-	display: inline;
-	position: absolute;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	box-shadow: 0 0 2px;
-	width: 30em;
-	right: 50%;
-	bottom: 50%;
-	padding: 2em;
-	background-color: #9bd7e6;
-	color: black;
+@media screen and (min-width: 960px) {
+	.icon__brooks:hover .icon__brooks--hover {
+		display: inline;
+		position: absolute;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		box-shadow: 0 0 2px;
+		width: 30em;
+		right: 50%;
+		bottom: 50%;
+		padding: 2em;
+		background-color: #9bd7e6;
+		color: black;
+	}
 }
 
 .icon__vine {
@@ -693,18 +792,20 @@ body {
 	display: none;
 }
 
-.icon__vine:hover .icon__vine--hover {
-	display: inline;
-	position: absolute;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	box-shadow: 0 0 2px;
-	padding: 2em;
-	width: 30em;
-	right: 50%;
-	bottom: 50%;
-	background-color: #efdca5;
-	color: black;
+@media screen and (min-width: 960px) {
+	.icon__vine:hover .icon__vine--hover {
+		display: inline;
+		position: absolute;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		box-shadow: 0 0 2px;
+		padding: 2em;
+		width: 30em;
+		right: 50%;
+		bottom: 50%;
+		background-color: #efdca5;
+		color: black;
+	}
 }
 
 .icon__energy {
@@ -719,19 +820,21 @@ body {
 	display: none;
 }
 
-.icon__energy:hover .icon__energy--hover {
-	display: inline;
-	position: absolute;
-	box-shadow: 0 0 2px;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	padding: 2em;
-	width: 30em;
-	right: 50%;
-	bottom: 50%;
-	background-color: #8ba8b9;
-	color: black;
-	word-wrap: break-word;
+@media screen and (min-width: 960px) {
+	.icon__energy:hover .icon__energy--hover {
+		display: inline;
+		position: absolute;
+		box-shadow: 0 0 2px;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		padding: 2em;
+		width: 30em;
+		right: 50%;
+		bottom: 50%;
+		background-color: #8ba8b9;
+		color: black;
+		word-wrap: break-word;
+	}
 }
 
 .icon__birleyhigh {
@@ -746,18 +849,20 @@ body {
 	display: none;
 }
 
-.icon__birleyhigh:hover .icon__birleyhigh--hover {
-	display: inline;
-	position: absolute;
-	box-shadow: 0 0 2px;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	width: 30em;
-	right: 70%;
-	bottom: 45%;
-	padding: 2em;
-	background-color: #c6685a;
-	color: black;
+@media screen and (min-width: 960px) {
+	.icon__birleyhigh:hover .icon__birleyhigh--hover {
+		display: inline;
+		position: absolute;
+		box-shadow: 0 0 2px;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		width: 30em;
+		right: 70%;
+		bottom: 45%;
+		padding: 2em;
+		background-color: #c6685a;
+		color: black;
+	}
 }
 
 .icon__crescents {
@@ -772,18 +877,20 @@ body {
 	display: none;
 }
 
-.icon__crescents:hover .icon__crescents--hover {
-	display: inline;
-	position: absolute;
-	box-shadow: 0 0 2px;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	width: 30em;
-	right: 70%;
-	bottom: 45%;
-	padding: 2em;
-	background-color: #dededa;
-	color: #050606;
+@media screen and (min-width: 960px) {
+	.icon__crescents:hover .icon__crescents--hover {
+		display: inline;
+		position: absolute;
+		box-shadow: 0 0 2px;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		width: 30em;
+		right: 70%;
+		bottom: 45%;
+		padding: 2em;
+		background-color: #dededa;
+		color: #050606;
+	}
 }
 
 .icon__deckaccess {
@@ -798,18 +905,20 @@ body {
 	display: none;
 }
 
-.icon__deckaccess:hover .icon__deckaccess--hover {
-	display: inline;
-	position: absolute;
-	box-shadow: 0 0 2px;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	width: 30em;
-	right: 70%;
-	bottom: 45%;
-	padding: 2em;
-	background-color: #dededa;
-	color: #050606;
+@media screen and (min-width: 960px) {
+	.icon__deckaccess:hover .icon__deckaccess--hover {
+		display: inline;
+		position: absolute;
+		box-shadow: 0 0 2px;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		width: 30em;
+		right: 70%;
+		bottom: 45%;
+		padding: 2em;
+		background-color: #dededa;
+		color: #050606;
+	}
 }
 
 .icon__terraces {
@@ -824,18 +933,20 @@ body {
 	display: none;
 }
 
-.icon__terraces:hover .icon__terraces--hover {
-	display: inline;
-	position: absolute;
-	box-shadow: 0 0 2px;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	width: 30em;
-	right: 70%;
-	bottom: 45%;
-	padding: 2em;
-	background-color: #dededa;
-	color: #050606;
+@media screen and (min-width: 960px) {
+	.icon__terraces:hover .icon__terraces--hover {
+		display: inline;
+		position: absolute;
+		box-shadow: 0 0 2px;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		width: 30em;
+		right: 70%;
+		bottom: 45%;
+		padding: 2em;
+		background-color: #dededa;
+		color: #050606;
+	}
 }
 
 .icon__church {
@@ -850,18 +961,20 @@ body {
 	display: none;
 }
 
-.icon__church:hover .icon__church--hover {
-	display: inline;
-	position: absolute;
-	box-shadow: 0 0 2px;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	width: 30em;
-	right: 70%;
-	bottom: 45%;
-	padding: 2em;
-	background-color: #dededa;
-	color: #050606;
+@media screen and (min-width: 960px) {
+	.icon__church:hover .icon__church--hover {
+		display: inline;
+		position: absolute;
+		box-shadow: 0 0 2px;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		width: 30em;
+		right: 70%;
+		bottom: 45%;
+		padding: 2em;
+		background-color: #dededa;
+		color: #050606;
+	}
 }
 
 .icon__farm {
@@ -876,18 +989,20 @@ body {
 	display: none;
 }
 
-.icon__farm:hover .icon__farm--hover {
-	display: inline;
-	position: absolute;
-	box-shadow: 0 0 2px;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	width: 30em;
-	right: 70%;
-	bottom: 45%;
-	padding: 2em;
-	background-color: #d0b36b;
-	color: black;
+@media screen and (min-width: 960px) {
+	.icon__farm:hover .icon__farm--hover {
+		display: inline;
+		position: absolute;
+		box-shadow: 0 0 2px;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		width: 30em;
+		right: 70%;
+		bottom: 45%;
+		padding: 2em;
+		background-color: #d0b36b;
+		color: black;
+	}
 }
 
 .icon__orchard {
@@ -902,18 +1017,20 @@ body {
 	display: none;
 }
 
-.icon__orchard:hover .icon__orchard--hover {
-	display: inline;
-	position: absolute;
-	box-shadow: 0 0 2px;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	width: 30em;
-	right: 70%;
-	bottom: 45%;
-	padding: 2em;
-	background-color: #c0cd92;
-	color: black;
+@media screen and (min-width: 960px) {
+	.icon__orchard:hover .icon__orchard--hover {
+		display: inline;
+		position: absolute;
+		box-shadow: 0 0 2px;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		width: 30em;
+		right: 70%;
+		bottom: 45%;
+		padding: 2em;
+		background-color: #c0cd92;
+		color: black;
+	}
 }
 
 .icon__mural {
@@ -928,18 +1045,20 @@ body {
 	display: none;
 }
 
-.icon__mural:hover .icon__mural--hover {
-	display: inline;
-	position: absolute;
-	box-shadow: 0 0 2px;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	width: 30em;
-	right: 70%;
-	bottom: 45%;
-	padding: 2em;
-	background-color: #ac7a79;
-	color: black;
+@media screen and (min-width: 960px) {
+	.icon__mural:hover .icon__mural--hover {
+		display: inline;
+		position: absolute;
+		box-shadow: 0 0 2px;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		width: 30em;
+		right: 70%;
+		bottom: 45%;
+		padding: 2em;
+		background-color: #ac7a79;
+		color: black;
+	}
 }
 
 .icon__rolls-royce {
@@ -954,18 +1073,20 @@ body {
 	display: none;
 }
 
-.icon__rolls-royce:hover .icon__rolls-royce--hover {
-	display: inline;
-	position: absolute;
-	box-shadow: 0 0 2px;
-	border-radius: 20px;
-	border-bottom-right-radius: 0;
-	width: 30em;
-	right: 40%;
-	bottom: 45%;
-	padding: 2em;
-	background-color: #ac7a79;
-	color: black;
+@media screen and (min-width: 960px) {
+	.icon__rolls-royce:hover .icon__rolls-royce--hover {
+		display: inline;
+		position: absolute;
+		box-shadow: 0 0 2px;
+		border-radius: 20px;
+		border-bottom-right-radius: 0;
+		width: 30em;
+		right: 40%;
+		bottom: 45%;
+		padding: 2em;
+		background-color: #ac7a79;
+		color: black;
+	}
 }
 
 @media screen and (min-width: 700px) {

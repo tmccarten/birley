@@ -1,6 +1,6 @@
 <div class="map__inner map__inner--1960s1980s">
 
-  <div class="icon icon__deckaccess">
+  <div id="iconDeck" class="icon icon__deckaccess">
     <div class="icon__deckaccess--hover">
       <p>The 1960s-1990s saw the rise and fall of the initially acclaimed deck access flats of Otterburn Close. The ‘decks’ had long walkways which sought to emulate the former terrace streets and were built around central courtyards. But flawed construction and design led to their eventual demolition.</p>
 
@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div class="icon icon__crescents">
+  <div id="iconCrescents" class="icon icon__crescents">
     <div class="icon__crescents--hover">
       <p>The Hulme Crescents was one of the largest urban regenerations in Europe.</p>
 
@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <div class="icon icon__birleyhigh">
+  <div id="iconBirley" class="icon icon__birleyhigh">
     <div class="icon__birleyhigh--hover">
       <p>A much loved and respected comprehensive, Birley High School welcomed its first pupils in 1967.</p>
       <p>The flame red phoenix emblem of the school symbolised the rebirth of the 1960's regeneration of Hulme. Hulme Business Park now occupies the former site of Birley High.</p>
@@ -32,4 +32,36 @@
       </div>
     </div>
   </div>
-</div>
+
+</div><!-- map__inner ends -->
+</div><!-- map ends -->
+</div><!-- map container ends -->
+
+<script>
+
+/* -- Show and close icon info at mobile size -- */
+
+var iconDeck = document.getElementById('iconDeck'),
+    iconCrescents = document.getElementById('iconCrescents'),
+    iconBirley = document.getElementById('iconBirley');
+
+
+iconDeck.addEventListener('click', function() {
+
+  showIconInfo('.icon-info--deck');
+
+}, false);
+
+iconCrescents.addEventListener('click', function() {
+
+  showIconInfo('.icon-info--crescents');
+
+}, false);
+
+iconBirley.addEventListener('click', function() {
+
+  showIconInfo('.icon-info--birley-high');
+
+}, false);
+
+</script>

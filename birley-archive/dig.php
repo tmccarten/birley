@@ -111,6 +111,6 @@ include('../assets/includes/header.php'); ?>
 </div> <!-- site-wrapper ends -->
 
 
-<script src="<?php echo $assets?>/js/script.js?v=30"></script>
+<script src="<?php echo $assets?>/js/script.js?v=34"></script>
 </body>
 </html>
