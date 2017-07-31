@@ -9,6 +9,7 @@
   -ms-overflow-style: none;
   animation-name: fadeIn;
   background: white;
+  border: 1px dashed grey;
 
   @keyframes fadeIn {
     from {opacity: 0;}
@@ -17,7 +18,7 @@
 
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
-  border: 1px dashed $lightborder;
+  //border: 1px dashed $lightborder;
   height: 60vh;
   transition: transform 700ms ease-in-out;
 
@@ -81,7 +82,7 @@
   z-index: 99999;
   bottom: 0%;
   margin: 1em;
-  background-color: rgba(#45cdff, 0.8);
+  background-color: rgba(#ff7245, 0.5);
   padding: 1em;
   border-radius: 1em;
   width: 70px;

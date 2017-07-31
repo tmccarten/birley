@@ -515,11 +515,11 @@ body {
 	-webkit-animation-name: fadeIn;
 	        animation-name: fadeIn;
 	background: white;
+	border: 1px dashed grey;
 	-webkit-animation-duration: 1.5s;
 	        animation-duration: 1.5s;
 	-webkit-animation-fill-mode: forwards;
 	        animation-fill-mode: forwards;
-	border: 1px dashed silver;
 	height: 60vh;
 	transition: -webkit-transform 700ms ease-in-out;
 	transition: transform 700ms ease-in-out;
@@ -613,7 +613,7 @@ body {
 	z-index: 99999;
 	bottom: 0%;
 	margin: 1em;
-	background-color: rgba(69, 205, 255, 0.8);
+	background-color: rgba(255, 114, 69, 0.5);
 	padding: 1em;
 	border-radius: 1em;
 	width: 70px;
