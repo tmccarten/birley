@@ -85,6 +85,9 @@ map = document.getElementById('map');
 
 map.addEventListener('mousedown', function() {
 
+  var moveArrows = document.getElementById('moveArrows');
+  moveArrows.className = 'movearrows movearrows--hidden';
+
   if ( $('.icon:hover').length != 0) {
     map.className = 'map dragscroll';
   } else {
@@ -93,10 +96,12 @@ map.addEventListener('mousedown', function() {
 
 map.addEventListener('mouseup', function() {
   map.className = 'map dragscroll';
+  moveArrows.className = 'movearrows';
 });
 
 map.addEventListener('mouseout', function() {
   map.className = 'map dragscroll';
+  moveArrows.className = 'movearrows';
 });
 
 
@@ -104,14 +109,17 @@ map.addEventListener('mouseout', function() {
 
    map.addEventListener('touchstart', function() {
     map.className = 'map dragscroll grabbing';
+    moveArrows.className = 'movearrows movearrows--hidden';
   });
 
   map.addEventListener('touchmove', function() {
     map.className = 'map dragscroll grabbing';
+    moveArrows.className = 'movearrows movearrows--hidden';
   });
 
   map.addEventListener('touchend', function() {
     map.className = 'map dragscroll';
+    moveArrows.className = 'movearrows';
   });
 
 /* -- Set initial scroll position of map on window resize -- */

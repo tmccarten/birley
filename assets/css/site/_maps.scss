@@ -76,18 +76,22 @@
 
 }
 
-.move-arrows {
+.movearrows {
   position: absolute;
   z-index: 99999;
   bottom: 0%;
   margin: 1em;
-  background-color: rgba(#45cdff, 0.5);
+  background-color: rgba(#45cdff, 0.8);
   padding: 1em;
   border-radius: 1em;
   width: 70px;
   @media screen and (min-width: 700px) {
     width: 100px;
   }
+}
+
+.movearrows--hidden {
+  display: none;
 }
 
 .icon {
