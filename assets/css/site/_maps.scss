@@ -76,6 +76,20 @@
 
 }
 
+.move-arrows {
+  position: absolute;
+  z-index: 99999;
+  bottom: 0%;
+  margin: 1em;
+  background-color: rgba(#45cdff, 0.5);
+  padding: 1em;
+  border-radius: 1em;
+  width: 70px;
+  @media screen and (min-width: 700px) {
+    width: 100px;
+  }
+}
+
 .icon {
   position: absolute;
   padding: 2em;
@@ -169,6 +183,8 @@
   }
 }
 
+// Icon text
+
 .icon-info--brooks {
   background-color: #9bd7e6;
 }
@@ -200,6 +216,8 @@
 .icon-info--farm {
   background-color: #d0b36b;
 }
+
+// Info pin icons
 
 .information-pin {
   position: absolute;

@@ -45,6 +45,8 @@ include('assets/includes/header.php'); ?>
 
 <div class="map-container">
 
+  <img src="assets/img/icons/ui/move-arrows.svg" width="100" alt="" class="move-arrows">
+
   <div class="icon-info icon-info--brooks">
 
     <div class="icon-info__close">
@@ -240,6 +242,7 @@ include('assets/includes/header.php'); ?>
   <?php include('assets/includes/footer.php'); ?>
 
 </div> <!-- site-wrapper ends -->
+
 
 <script src="<?php echo $assets?>/js/map.js?v=34"></script>
 
