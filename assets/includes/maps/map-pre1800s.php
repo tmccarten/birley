@@ -1,7 +1,11 @@
 <div class="map__inner map__inner--pre">
 
   <div id="iconFarm" class="icon icon__farm">
+
+    <img src="assets/img/icons/ui/information-pin.svg" alt="" class="information-pin information-pin--farm" width="32">
+
     <div class="icon__farm--hover">
+      <h3>Jackson's Farm</h3>
       <p>The site of Jackson’s Farm lies within the present Birley boundaries, and is shown on an OS map of 1848 when it comprised a farmhouse and two further buildings...</p>
 
       <div class="read-more">

@@ -81,7 +81,6 @@
   padding: 2em;
   font-size: .875em;
   line-height: 1.6em;
-  font-family: $cute;
 
   a {
     text-decoration: underline;
@@ -90,6 +89,10 @@
 
   p {
     margin: .4em 0;
+  }
+
+  h3 {
+    margin-top: 0;
   }
 
   &:hover {
@@ -198,12 +201,115 @@
   background-color: #d0b36b;
 }
 
+.information-pin {
+  position: absolute;
+}
+
+.information-pin--brooks {
+  right: 15%;
+}
+
+.information-pin--vine {
+  right: 28%;
+  top: 40%;
+  @media screen and (min-width: 700px) {
+    right: 28%;
+    top: 50%;
+  }
+}
+
+.information-pin--orchard {
+  right: 22%;
+  top: 50%;
+}
+
+.information-pin--energy {
+  right: 0;
+  top: 30%;
+    @media screen and (min-width: 700px) {
+      right: 15%;
+      top: 40%;
+}
+}
+
+.information-pin--mural {
+  right: 15%;
+  top: 35%;
+    @media screen and (min-width: 700px) {
+      right: 15%;
+      top: 40%;
+  }
+}
+
+.information-pin--deckaccess {
+  right: 15%;
+  top: 30%;
+    @media screen and (min-width: 700px) {
+      right: 18%;
+      top: 63%;
+}
+}
+
+.information-pin--birleyhigh {
+  right: 17%;
+  top: 50%;
+    @media screen and (min-width: 700px) {
+      right: 20%;
+      top: 60%;
+}
+}
+
+.information-pin--crescents {
+  right: 20%;
+  top: 28%;
+    @media screen and (min-width: 700px) {
+      right: 23%;
+      top: 34%;
+}
+}
+
+.information-pin--terraces {
+  right: 20%;
+  top: 28%;
+    @media screen and (min-width: 700px) {
+      right: 23%;
+      top: 34%;
+}
+}
+
+.information-pin--church {
+  right: -1%;
+  top: 40%;
+    @media screen and (min-width: 700px) {
+      right: 6%;
+      top: 58%;
+}
+}
+
+.information-pin--rollsroyce {
+  right: 13%;
+  top: -31%;
+    @media screen and (min-width: 700px) {
+      right: 19%;
+      top: -12%;
+}
+}
+
+.information-pin--farm {
+  right: 61%;
+  top: 55%;
+    @media screen and (min-width: 700px) {
+      right: 64%;
+      top: 59%;
+}
+}
+
 .info-displayed {
   visibility: visible;
-  z-index: 9999;
-  @media screen and (min-width: 960px) {
-    visibility: hidden;
-    z-index: 0;
+  z-index: 9999999;
+    @media screen and (min-width: 960px) {
+      visibility: hidden;
+      z-index: 0;
   }
 }
 
