@@ -776,13 +776,13 @@ body {
 
 .information-pin--vine {
 	right: 28%;
-	top: 40%;
+	top: 31%;
 }
 
 @media screen and (min-width: 700px) {
 	.information-pin--vine {
 		right: 28%;
-		top: 50%;
+		top: 40%;
 	}
 }
 
@@ -805,25 +805,25 @@ body {
 
 .information-pin--mural {
 	right: 15%;
-	top: 35%;
+	top: 17%;
 }
 
 @media screen and (min-width: 700px) {
 	.information-pin--mural {
 		right: 15%;
-		top: 40%;
+		top: 34%;
 	}
 }
 
 .information-pin--deckaccess {
-	right: 15%;
+	right: 78%;
 	top: 30%;
 }
 
 @media screen and (min-width: 700px) {
 	.information-pin--deckaccess {
-		right: 18%;
-		top: 63%;
+		right: 80%;
+		top: 48%;
 	}
 }
 
@@ -1923,8 +1923,15 @@ figcaption {
 	    -ms-flex-align: start;
 	        align-items: flex-start;
 	width: 50%;
-	height: auto;
+	height: 120px;
+	padding: .5em;
 	overflow: hidden;
+}
+
+@media screen and (min-width: 580px) {
+	.widget__image {
+		padding: 0;
+	}
 }
 
 .widget__thumbnail {

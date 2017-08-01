@@ -51,6 +51,12 @@ include('../assets/includes/header.php'); ?>
       </div>
 
       <p>Between 2011 and 2012, the university commissioned an archaeological investigation on the site that was to become the Birley development.</p>
+      <figure class="content-image content-image--floatleft">
+      <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-6.jpg">
+        <img src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-6_thumb.jpg" alt="Archaeological dig site" width="250">
+      </a>
+      <figcaption>Excavation</figcaption>
+    </figure>
       <p>The <a href="http://www2.mmu.ac.uk/media/mmuacuk/content/documents/birley-fields/Birley-Archaeological-Report-2012.pdf" class="content-text__link">fascinating report</a> reveals the layers of history that lie beneath the site of the university campus; its alternative foundations that take the site through agricultural land, industrial landscapes, beautiful churches and urban regeneration.</p>
       <p>In March 2013, an exhibition - &ldquo;<i>Birley Fields: Exploring our past</i>&rdquo; was held of the finds. Further information can be found at the University’s <a href="http://www.specialcollections.mmu.ac.uk/" class="content-text__link">Special Collections</a>, based on the third floor of the Library at the All Saints Campus.</p>
 
@@ -70,22 +76,22 @@ include('../assets/includes/header.php'); ?>
         <h4 class="widget__title  widget__title--dig">Images</h4>
         <div class="widget__images">
           <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-1.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-1.jpg" alt="Archaeological dig site" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-1_thumb.jpg" alt="Archaeological dig site" width="250">
           </a>
           <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-2.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-2.jpg" alt="Archaeological dig site" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-2_thumb.jpg" alt="Archaeological dig site" width="250">
           </a>
           <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-3.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-3.jpg" alt="Archaeological dig site" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-3_thumb.jpg" alt="Archaeological dig site" width="250">
           </a>
           <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-4.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-4.jpg" alt="Archaeological dig site" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-4_thumb.jpg" alt="Archaeological dig site" width="250">
           </a>
           <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-5.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-5.jpg" alt="Archaeological dig site" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-5_thumb.jpg" alt="Archaeological dig site" width="250">
           </a>
           <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-6.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-6.jpg" alt="Archaeological dig site" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-6_thumb.jpg" alt="Archaeological dig site" width="250">
           </a>
         </div>
       </section>

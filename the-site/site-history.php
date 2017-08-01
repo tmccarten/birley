@@ -89,10 +89,10 @@ include('../assets/includes/header.php'); ?>
         <h4 class="widget__title  widget__title--site-history">Images</h4>
         <div class="widget__images">
           <a href="<?php echo $assets?>/img/the-site/site-history/crescents-map.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/site-history/crescents-map.jpg" alt="Map of The Crescents" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/site-history/crescents-map_thumb.jpg" alt="Map of The Crescents" width="250">
           </a>
           <a href="<?php echo $assets?>/img/the-site/site-history/hulme1994.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/site-history/hulme1994.jpg" alt="Hulme in 1994" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/site-history/hulme1994_thumb.jpg" alt="Hulme in 1994" width="250">
           </a>
         </div>
       </section>

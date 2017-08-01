@@ -52,7 +52,7 @@ include('../../assets/includes/header.php'); ?>
         <p>The site has a long history of connections to education, including the first Manchester School Board school which was established at Vine Street. The remains of Vine Street were uncovered during the archaeological excavations. Today one of the Birley Residence takes its name.</p>
         <p>Locally, Birley High School was another pioneering example of the area’s influence on Manchester’s history of educational reform and the strive for equality.</p>
         <ul class="content-text__list">
-          <li class="content-text__list-item"><a class="content-text__link" href="birley-high.php">Birley High</a></li>
+          <li class="content-text__list-item"><a class="content-text__link" href="birley-high.php">Birley High School</a></li>
           <li class="content-text__list-item"><a class="content-text__link" href="vine-street-school.php">Vine Street School</a></li>
         </ul>
 
