@@ -1,3 +1,5 @@
+scrollPosition();
+
 /* -- Menu Icon -- */
 
 var buttonMenu = document.getElementById('buttonMenu');
@@ -76,8 +78,6 @@ function showIconInfo(iconName) {
     }
   }
 
-scrollPosition();
-//window.addEventListener('load', scrollPosition);
 
 /* -- Cross-browser Map Cursors -- */
 
@@ -122,9 +122,8 @@ map.addEventListener('mouseout', function() {
     moveArrows.className = 'movearrows';
   });
 
-/* -- Set initial scroll position of map on window resize -- */
+/* -- Set initial scroll position of map -- */
 
-//window.addEventListener("resize", function() { scrollPosition() }, false);
 
 function scrollPosition() {
   var windowWidth = window.innerWidth,
@@ -141,45 +140,41 @@ function scrollPosition() {
   }
 }
 
-/* -- Slider -- */
+/* -- Era selectors -- */
 
-$(function() {
+var eraBlockOne = document.getElementById('eraBlockOne'),
+    eraBlockTwo = document.getElementById('eraBlockTwo'),
+    eraBlockThree = document.getElementById('eraBlockThree'),
+    eraBlockFour = document.getElementById('eraBlockFour');
 
-var era = ["Pre-1800s", "1800s", "1960s-1980s", "Today"];
+    eraBlockOne.addEventListener('click', function() {
+      clearEraSelections();
+      this.className = 'era__block era__block--selected';
+      $(".map.dragscroll").load("assets/includes/maps/map-pre1800s.php");
+    }, false);
 
-$(".slider")
+    eraBlockTwo.addEventListener('click', function() {
+      clearEraSelections();
+      this.className = 'era__block era__block--selected';
+      $(".map.dragscroll").load("assets/includes/maps/map-1800s.php");
+    }, false);
 
-    // activate the slider with options
-    .slider({
-        min: 0,
-        max: era.length-1,
-        value: 3
-    })
+    eraBlockThree.addEventListener('click', function() {
+      clearEraSelections();
+      this.className = 'era__block era__block--selected';
+      $(".map.dragscroll").load("assets/includes/maps/map-1960s1980s.php");
+    }, false);
 
-    // add pips with the labels set to "era"
-    .slider("pips", {
-        rest: "label",
-        labels: era
-    })
+    eraBlockFour.addEventListener('click', function() {
+      clearEraSelections();
+      this.className = 'era__block era__block--selected';
+      $(".map.dragscroll").load("assets/includes/maps/map-today.php");
+    }, false);
 
-    // change map on slide change
-    .on("slidechange", function(event, ui) {
+    function clearEraSelections() {
+      var eraBlocks = document.getElementsByClassName('era__block era__block--selected');
 
-      var pipZero = document.getElementsByClassName('ui-slider-pip-0')[0].getAttribute('class').indexOf('ui-slider-pip-selected'),
-          pipOne = document.getElementsByClassName('ui-slider-pip-1')[0].getAttribute('class').indexOf('ui-slider-pip-selected'),
-          pipTwo = document.getElementsByClassName('ui-slider-pip-2')[0].getAttribute('class').indexOf('ui-slider-pip-selected'),
-          pipThree = document.getElementsByClassName('ui-slider-pip-3')[0].getAttribute('class').indexOf('ui-slider-pip-selected');
-
-          if (pipZero !== -1) {
-            $(".map.dragscroll").load("assets/includes/maps/map-pre1800s.php");
-          } else if (pipOne !== -1) {
-            $(".map.dragscroll").load("assets/includes/maps/map-1800s.php");
-          } else if (pipTwo !== -1) {
-            $(".map.dragscroll").load("assets/includes/maps/map-1960s1980s.php");
-          } else if (pipThree !== -1) {
-            $(".map.dragscroll").load("assets/includes/maps/map-today.php");
-          }
-
-    });
-
-});
+      for (i = 0; i < eraBlocks.length; i++) {
+        eraBlocks[i].className = 'era__block';
+      }
+    }

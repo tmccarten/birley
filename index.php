@@ -10,15 +10,10 @@ $assets = "assets";
 
 $favIcon = "favicon.ico"; ?>
 
-<link rel="stylesheet" href="bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.css">
-
 <?php include('assets/includes/head.php');?>
-
 
 <script type="text/javascript" src="bower_components/dragscroll/dragscroll.js"></script>
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-<script type="text/javascript" src="bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.js"></script>
 
 </head>
 
@@ -37,11 +32,41 @@ include('assets/includes/header.php'); ?>
 
 <main id="skipnav">
 
-<div class="slider-container">
+<div class="era-container">
 
-<div class="slider"></div>
+  <div class="era">
 
-</div>
+    <div id="eraBlockOne" class="era__block">
+      <div class="era__circle"></div>
+      <div class="era__label">
+        <p>Pre-1800s</p>
+      </div>
+    </div>
+
+    <div id="eraBlockTwo" class="era__block">
+      <div class="era__circle"></div>
+      <div class="era__label">
+        <p>1800s</p>
+      </div>
+    </div>
+
+    <div id="eraBlockThree" class="era__block">
+      <div class="era__circle"></div>
+      <div class="era__label">
+        <p>1960s-1980s</p>
+      </div>
+    </div>
+
+    <div id="eraBlockFour" class="era__block era__block--selected">
+      <div class="era__circle"></div>
+      <div class="era__label">
+        <p>Today</p>
+      </div>
+    </div>
+
+  </div><!-- era ends -->
+
+</div><!-- era-container ends -->
 
 <div class="map-container">
 
@@ -244,7 +269,7 @@ include('assets/includes/header.php'); ?>
 </div> <!-- site-wrapper ends -->
 
 
-<script src="<?php echo $assets?>/js/map.js?v=36"></script>
+<script src="<?php echo $assets?>/js/map.js?v=<?php echo $javaVersion?>"></script>
 
 </body>
 </html>

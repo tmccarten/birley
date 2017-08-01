@@ -116,6 +116,6 @@ include('../../assets/includes/header.php'); ?>
 
 
 
-<script src="<?php echo $assets?>/js/script.js?v=34"></script>
+<script src="<?php echo $assets?>/js/script.js?v=<?php echo $javaVersion?>"></script>
 </body>
 </html>

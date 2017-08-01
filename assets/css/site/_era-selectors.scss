@@ -1,0 +1,72 @@
+.era-container {
+  position: relative;
+
+  &::after {
+    content: "";
+    border: 2px dashed white;
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    position: absolute;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+  }
+
+}
+
+.era {
+  font-family: $cute;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0 2em 0;
+}
+
+.era__block {
+  width: auto;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    .era__circle {
+      background-color: orange;
+    }
+  }
+}
+
+.era__block--selected {
+
+  .era__circle {
+    background-color: orange;
+  }
+}
+
+.era__circle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin: auto;
+  border: 1px solid rgba(21, 42, 79, 0.4);
+  background-color: #badae2;
+  z-index: 9999;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05)
+}
+
+.era__label {
+  margin-top: 3em;
+
+  p {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: $desktopnav) {
+
+  .era{
+    justify-content: space-around;
+  }
+
+}
