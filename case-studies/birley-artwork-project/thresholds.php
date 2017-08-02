@@ -57,8 +57,14 @@ include('../../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
-        <h4 class="widget__title widget__title--artwork">More from Case Studies...</h4>
+        <h4 class="widget__title widget__title--artwork">More from Birley Artwork Project...</h4>
         <ul class="widget__submenu">
+          <li class="widget__submenu-item"><a href="research.php">Research</a></li>
+          <li class="widget__submenu-item"><a href="golden-terrace.php">Golden Terrace</a></li>
+          <li class="widget__submenu-item"><a href="where-the-wind-blows.php">Where The Wind Blows</a></li>
+          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories from the Hearth</a></li>
+          <li class="widget__submenu-item"><a href="terrace-seating.php">Terrace Seating</a></li>
+          <li class="widget__submenu-item"><a href="the-bees.php">The Bees</a></li>
         </ul>
       </section>
 
