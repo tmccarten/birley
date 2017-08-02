@@ -56,7 +56,7 @@ include('../assets/includes/header.php'); ?>
         <img src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-6_thumb.jpg" alt="Archaeological dig site" width="250">
       </a>
       <figcaption>Excavation</figcaption>
-    </figure>
+      </figure>
       <p>The <a href="http://www2.mmu.ac.uk/media/mmuacuk/content/documents/birley-fields/Birley-Archaeological-Report-2012.pdf" class="content-text__link">fascinating report</a> reveals the layers of history that lie beneath the site of the university campus; its alternative foundations that take the site through agricultural land, industrial landscapes, beautiful churches and urban regeneration.</p>
       <p>In March 2013, an exhibition - &ldquo;<i>Birley Fields: Exploring our past</i>&rdquo; was held of the finds. Further information can be found at the University’s <a href="http://www.specialcollections.mmu.ac.uk/" class="content-text__link">Special Collections</a>, based on the third floor of the Library at the All Saints Campus.</p>
 

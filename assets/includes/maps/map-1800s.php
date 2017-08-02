@@ -2,7 +2,7 @@
 
   <div id="iconChurch" class="icon icon__church">
 
-    <img src="assets/img/icons/ui/information-pin.svg" alt="" class="information-pin information-pin--church" width="32">
+    <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--church" width="32">
     <div class="icon__church--hover">
       <h3>Holy Trinity Church</h3>
       <p>A carved stone head, possibly representing church benefactress Eleanor Atherton, was recovered from demolition material at the site of Holy Trinity Church (built in 1843) along with pieces of church glazing and other artefacts. The church was damaged by an air raid in WWII and subsequently demolished in 1953.</p>
@@ -17,7 +17,7 @@
 
   <div id="iconTerraces" class="icon icon__terraces">
 
-    <img src="assets/img/icons/ui/information-pin.svg" alt="" class="information-pin information-pin--terraces" width="32">
+    <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--terraces" width="32">
     <div class="icon__terraces--hover">
       <h3>Terraces</h3>
       <p>The biggest development of workers’ houses in the industrial era was from the mid to late 1800s. The site and its surroundings formed a grid like pattern of streets, much of which was
@@ -33,7 +33,7 @@
 
   <div id="iconRolls" class="icon icon__rolls-royce">
 
-    <img src="assets/img/icons/ui/information-pin.svg" alt="" class="information-pin information-pin--rollsroyce" width="32">
+    <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--rollsroyce" width="32">
     <div class="icon__rolls-royce--hover">
       <h3>Rolls-Royce</h3>
       <p>Henry Royce built his first car at a factory close to Cooke Street, Hulme, in 1904. Together with motoring pioneer and partner, Charles Stewart Rolls, Rolls-Royce started motoring history with one of the world’s best-known luxury cars commemorated at a site in Hulme Park.</p>

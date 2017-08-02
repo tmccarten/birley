@@ -2,7 +2,7 @@
 
   <div id="iconFarm" class="icon icon__farm">
 
-    <img src="assets/img/icons/ui/information-pin.svg" alt="" class="information-pin information-pin--farm" width="32">
+    <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--farm" width="32">
 
     <div class="icon__farm--hover">
       <h3>Jackson's Farm</h3>

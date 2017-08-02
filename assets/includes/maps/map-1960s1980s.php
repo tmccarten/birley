@@ -2,7 +2,7 @@
 
   <div id="iconDeck" class="icon icon__deckaccess">
 
-    <img src="assets/img/icons/ui/information-pin.svg" alt="" class="information-pin information-pin--deckaccess" width="32">
+    <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--deckaccess" width="32">
     <div class="icon__deckaccess--hover">
       <h3>Deck Access Flats</h3>
       <p>The 1960s-1990s saw the rise and fall of the initially acclaimed deck access flats of Otterburn Close. The ‘decks’ had long walkways which sought to emulate the former terrace streets and were built around central courtyards. But flawed construction and design led to their eventual demolition.</p>
@@ -16,7 +16,7 @@
 
   <div id="iconCrescents" class="icon icon__crescents">
 
-    <img src="assets/img/icons/ui/information-pin.svg" alt="" class="information-pin information-pin--crescents" width="32">
+    <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--crescents" width="32">
     <div class="icon__crescents--hover">
       <h3>The Crescents</h3>
       <p>The Hulme Crescents was one of the largest urban regenerations in Europe.</p>
@@ -30,7 +30,7 @@
 
   <div id="iconBirley" class="icon icon__birleyhigh">
 
-    <img src="assets/img/icons/ui/information-pin.svg" alt="" class="information-pin information-pin--birleyhigh" width="32">
+    <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--birleyhigh" width="32">
     <div class="icon__birleyhigh--hover">
       <h3>Birley High School</h3>
       <p>A much loved and respected comprehensive, Birley High School welcomed its first pupils in 1967.</p>
