@@ -34,6 +34,7 @@ include('../../assets/includes/header.php'); ?>
 
     <h3 class="content-text__title content-text__title--poems">Hulme in the 1950s</h3>
 
+    <div class="serif-text">
     <p>Archive images confuse my memory<br>
     Of 1950s’ long streets with tall green lamp posts<br>
     Beside gas lights of an era not yet passed<br>
@@ -90,6 +91,7 @@ include('../../assets/includes/header.php'); ?>
     Then circumnavigated the globe</p>
 
     <p>&copy;<i>SuAndi - National Black Arts Alliance - 2017</i></p>
+  </div>
 
   </section>
 

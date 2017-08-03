@@ -1476,7 +1476,7 @@ figcaption {
 	line-height: 1em;
 	margin-top: 0;
 	max-width: 100%;
-	font-family: Georgia, Times, serif;
+	font-family: "Droid Serif", Georgia, Times, serif;
 	font-weight: 300;
 	color: #212121;
 }
@@ -1533,12 +1533,12 @@ figcaption {
 
 .content-text__title--recipes {
 	color: #7e9e76;
-	font-family: Georgia, Times, serif;
+	font-family: "Droid Serif", Georgia, Times, serif;
 }
 
 .content-text__title--poems {
 	color: #567482;
-	font-family: Georgia, Times, serif;
+	font-family: "Droid Serif", Georgia, Times, serif;
 }
 
 .content-text--poem {
@@ -1597,7 +1597,7 @@ figcaption {
 .content-text__link {
 	font-weight: 600;
 	text-decoration: none;
-	color: #ff3c19;
+	color: #f26b13;
 	border-bottom: 0.08em solid #dedede;
 	padding-bottom: 0.04em;
 	line-height: 1.6em;
@@ -1605,7 +1605,7 @@ figcaption {
 
 .content-text__link:hover {
 	text-decoration: none;
-	border-bottom-color: #ff3c19;
+	border-bottom-color: #f26b13;
 }
 
 .content-image {
@@ -2237,7 +2237,7 @@ figcaption {
 }
 
 .timeline-block__content .timeline-block__title {
-	font-family: Georgia, Times, serif;
+	font-family: "Droid Serif", Georgia, Times, serif;
 	font-weight: bold;
 	margin-top: 1em;
 	color: black;

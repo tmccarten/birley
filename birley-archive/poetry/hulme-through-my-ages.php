@@ -34,6 +34,7 @@ include('../../assets/includes/header.php'); ?>
 
     <h3 class="content-text__title content-text__title--poems">Hulme Through My Ages</h3>
 
+    <div class="serif-text">
     <p>Concrete concrete concrete<br>
     Burning shimmering dusty concrete -<br>
     the balconies the crescents the walkways, concrete<br>
@@ -173,6 +174,7 @@ include('../../assets/includes/header.php'); ?>
     <p>A place that inspires and captures your heart like the softest rainfall</p>
 
     <p>My Hulme</p>
+  </div>
 
   </section>
 

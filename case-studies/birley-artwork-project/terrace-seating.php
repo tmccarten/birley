@@ -55,7 +55,7 @@ include('../../assets/includes/header.php'); ?>
 
       <h4>Project Proposal Summary</h4>
       <div class="serif-text">
-        <p><i>‘The Birley campus is just the latest layer to overlay onto the sites’ long architectural and cultural history. The use has changed from open fields, to farmland, to terrace housing, to high-density residential flats, and now the Manchester Met campus.</p>
+        <p>‘The Birley campus is just the latest layer to overlay onto the sites’ long architectural and cultural history. The use has changed from open fields, to farmland, to terrace housing, to high-density residential flats, and now the Manchester Met campus.</p>
 
         <p>This proposal is to develop seating that responds to the historical and layered blueprint of the Birley site to reveal the history of people and place to todays’ student and local community.</p>
 
@@ -65,7 +65,7 @@ include('../../assets/includes/header.php'); ?>
 
         <p>Reclaimed cast-iron fire surrounds lie in the grass in their original locations, and tin-baths inhabit the back rooms. These additions become planters within each scheme - the red, orange and blue planting adding a whimsical engagement with the necessities of fire and water within the house. Archaeological measuring poles mark the corners of the houses, adding to the sense of ambiguity – are these new constructions or actual cellars and floor plans, revealed and re-purposed?</p>
 
-        <p>The ‘terrace seating’ project contextualizes and locates the Birley Fields site within a geography of location and history - connecting the present to the past, and the campus with the community.’</i></p>
+        <p>The ‘terrace seating’ project contextualizes and locates the Birley Fields site within a geography of location and history - connecting the present to the past, and the campus with the community.’</p>
       </div>
 
     </section>

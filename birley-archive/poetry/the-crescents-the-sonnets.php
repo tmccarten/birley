@@ -33,6 +33,7 @@ include('../../assets/includes/header.php'); ?>
   <section class="content-text content-text--poem">
 
     <h3 class="content-text__title content-text__title--poems">The Crescents</h3>
+    <div class="serif-text">
 
     <h4>Sonnet I</h3>
 
@@ -70,6 +71,7 @@ include('../../assets/includes/header.php'); ?>
 
       <p><i>Charles Fyfe Williams</i></p>
 
+    </div>
 
   </section>
 

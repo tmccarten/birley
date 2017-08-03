@@ -34,33 +34,35 @@ include('../../assets/includes/header.php'); ?>
 
     <h3 class="content-text__title content-text__title--poems">Hulme</h3>
 
-    <p>You shouldn’t generalise, never assume</p>
+    <div class="serif-text">
+      <p>You shouldn’t generalise, never assume</p>
 
-    <p>That you know just what’s going on round here;</p>
+      <p>That you know just what’s going on round here;</p>
 
-    <p>Walk through these streets then it all becomes clear</p>
+      <p>Walk through these streets then it all becomes clear</p>
 
-    <p>That huge change is rumbling right across Hulme</p>
+      <p>That huge change is rumbling right across Hulme</p>
 
-    <p>In hi-vis and hard hats; grand buildings loom,</p>
+      <p>In hi-vis and hard hats; grand buildings loom,</p>
 
-    <p>fill up with people. In times this austere</p>
+      <p>fill up with people. In times this austere</p>
 
-    <p>This is a miracle so raise a cheer</p>
+      <p>This is a miracle so raise a cheer</p>
 
-    <p>And come here and learn, come here and consume!</p>
+      <p>And come here and learn, come here and consume!</p>
 
-    <p>Layers laid on layers, a palimpsest</p>
+      <p>Layers laid on layers, a palimpsest</p>
 
-    <p>A city trying to get things to go right</p>
+      <p>A city trying to get things to go right</p>
 
-    <p>To rebuild a nexus for work and play</p>
+      <p>To rebuild a nexus for work and play</p>
 
-    <p>This is an inner city treasure chest</p>
+      <p>This is an inner city treasure chest</p>
 
-    <p>It’s vibrant each morning, throbbing by night.</p>
+      <p>It’s vibrant each morning, throbbing by night.</p>
 
-    <p>Hulme is back. Well, it never went away.</p>
+      <p>Hulme is back. Well, it never went away.</p>
+    </div>
 
   </section>
 

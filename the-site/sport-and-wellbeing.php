@@ -36,7 +36,7 @@ include('../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_sport.png" class="banner-icon__img" alt="Birley">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_sport.svg" class="banner-icon__svg" alt="Birley">
     </div>
 
   </section>

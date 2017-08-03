@@ -58,15 +58,15 @@ include('../../assets/includes/header.php'); ?>
       <h4>Project Proposal Summary:</h4>
       <h5>Option 1</h5>
       <div class="serif-text">
-      <p><i>The bee project proposes a large scale sculpture implanted with dwarf lavender plants. Smaller worker bees could be made out of various materials through schools and community projects. The project works alongside existing planting schemes and aims to emphasise the ecological cycle with opportunities for learning and real hives.</p>
-      <p>If using metal, there is potential for recycling and references to Rolls Royce, who had a factory close to the site where the first Rolls Royce was made.</i></p>
+        <p>The bee project proposes a large scale sculpture implanted with dwarf lavender plants. Smaller worker bees could be made out of various materials through schools and community projects. The project works alongside existing planting schemes and aims to emphasise the ecological cycle with opportunities for learning and real hives.</p>
+        <p>If using metal, there is potential for recycling and references to Rolls Royce, who had a factory close to the site where the first Rolls Royce was made.</p>
       </div>
 
       <h5>Option 2</h5>
       <div class="serif-text">
-        <p><i>Hanging willow structure implanted with smaller baskets filled with moss/ compost and flowers which attract bees (pollinators) with smaller worker bees placed around a central sculpture as in a hive. Smaller groups of bees could also be placed in the green areas across the site and in the trees. Associated planting.</p>
-        <p>Another possibility, with relevant permission, is to include text art in the form of a poem by poet laureate Carol Ann Duffy from ‘The Bees’ to tie in with events and/or poetry events and summer events in Hulme.</i></p>
-
+        <p>Hanging willow structure implanted with smaller baskets filled with moss/ compost and flowers which attract bees (pollinators) with smaller worker bees placed around a central sculpture as in a hive. Smaller groups of bees could also be placed in the green areas across the site and in the trees. Associated planting.</p>
+        <p>Another possibility, with relevant permission, is to include text art in the form of a poem by poet laureate Carol Ann Duffy from ‘The Bees’ to tie in with events and/or poetry events and summer events in Hulme.</p>
+      </div>
 
     </section>
 
