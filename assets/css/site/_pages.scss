@@ -25,7 +25,7 @@
   max-width: 100%;
   width: 55vw;
   height: auto;
-  padding: .5em;  
+  padding: .5em;
 }
 
 .banner-title-container {
@@ -106,8 +106,7 @@
 .content-text--poem {
   text-align: center;
   max-width: none;
-  margin: 2em 0;
-  font-size: 1em;
+  margin: 2em 0;  
   font-weight: 400;
 }
 
@@ -348,7 +347,7 @@
   }
 
   .content-text--poem {
-    max-width: none;
+    margin: 2em auto;
     text-align: center;
   }
 
@@ -370,7 +369,6 @@
 
   .content-text__list {
     text-align: left;
-    color: black;
   }
 
   .content-text__recipe {

@@ -43,6 +43,13 @@ include('../../assets/includes/header.php'); ?>
 
   <div class="gallery">
 
+    <figure class="photo">
+      <a href="<?php echo $assets?>/img/birley-archive/photography/birley-site-photograph-archive/jug.jpg" class="photo__item">
+        <img src="<?php echo $assets?>/img/birley-archive/photography/birley-site-photograph-archive/jug_thumb.jpg" class="photo__img" width="283" height="268" alt="Jug or similar item">
+      </a>
+      <figcaption>Excavation find</figcaption>
+    </figure>
+
   </div>
 
   <section class="content">

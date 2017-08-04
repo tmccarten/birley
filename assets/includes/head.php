@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <?php $cssVersion = "1.1" ?>
+  <?php $cssVersion = "1.2" ?>
 
   <?php $javaVersion = "35" ?>
 

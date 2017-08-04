@@ -97,6 +97,9 @@ include('../../assets/includes/header.php'); ?>
           <a href="<?php echo $assets?>/img/case-studies/the-bees/planters.jpg" class="widget__image">
             <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/the-bees/planters_thumb.jpg" alt="Bee planters" width="250">
           </a>
+          <a href="<?php echo $assets?>/img/case-studies/the-bees/3drender.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/the-bees/3drender_thumb.jpg" alt="Bee 3d render plan" width="250">
+          </a>
         </div>
 
       </section>

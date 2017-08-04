@@ -93,6 +93,30 @@ include('../../assets/includes/header.php'); ?>
     <aside class="sidebar">
 
       <section class="widget">
+        <h4 class="widget__title  widget__title--dig">Images</h4>
+        <div class="widget__images">
+          <a href="<?php echo $assets?>/img/case-studies/golden-terrace/golden-terrace.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/golden-terrace/golden-terrace_thumb.jpg" alt="Golden terrace" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/case-studies/golden-terrace/golden-terrace-visual.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/golden-terrace/golden-terrace-visual_thumb.jpg" alt="Golden Terrace 3D visual plan" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/case-studies/golden-terrace/terraces.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/golden-terrace/terraces_thumb.jpg" alt="Black and white shot of old terraces" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/case-studies/golden-terrace/precedents.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/golden-terrace/precedents_thumb.jpg" alt="Golden Terrace precedents" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/case-studies/golden-terrace/view-from-spanish-steps.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/golden-terrace/view-from-spanish-steps_thumb.jpg" alt="View from Spanish steps" width="250">
+          </a>
+          <a href="<?php echo $assets?>/img/case-studies/golden-terrace/backview.jpg" class="widget__image">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/golden-terrace/backview_thumb.jpg" alt="Backview" width="250">
+          </a>
+        </div>
+      </section>
+
+      <section class="widget">
         <h4 class="widget__title widget__title--artwork">More from Birley Artwork Project...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="research.php">Research</a></li>
