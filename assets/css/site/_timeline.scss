@@ -60,6 +60,7 @@
   font-weight: bold;
   margin-top: 1em;
   color: black;
+  font-size: 1em;
 }
 }
 
@@ -119,7 +120,7 @@
 @media screen and (min-width: $desktopnav) {
 
   .timeline {
-    font-size: 1.125em;
     padding: 2em;
+    font-weight: 300;
   }
 }

@@ -52,7 +52,7 @@ include('../../assets/includes/header.php'); ?>
       <h3 class="content-text__title">Thresholds</h3>
 
       <p>The Thresholds project was conceptualised by the Head of the School of Architecture Professor Tom Jefferies and Professor for Design Research and textile artist Alice Kettle. The original project proposal adopted the creation of physical markers at ‘thresholds’ or entrances to the site. The portals evolved from ‘welcome mats’ in the form of QR codes, to circular imprints reminiscent of coal holes and early tribal tattoos, and later physical communication posts. These ‘portals’ had the potential to be located at other sites, creating a network of information about different sites and context and to connect to information contained in digital archives and physical collections.</p>
-      <p>The Thresholds project was an early stage concept design in developing the Birley Archive Project and the creative platforms that were developed by the School of Architecture as part of the CityVerve Culture Research strand through the <a href="http://aboutmanchester.co.uk/2017/06/cityverve-project-to-transform-all-saints-park-into-virtual-art-gallery/" class="content-text__link">Plinth</a> in All Saints Park.</p>
+      <p>The Thresholds project was an early stage concept design in developing the Birley Archive Project and the creative platforms that were developed by the School of Architecture as part of the CityVerve Culture Research strand through the <a href="http://aboutmanchester.co.uk/2017/06/cityverve-project-to-transform-all-saints-park-into-virtual-art-gallery/">Plinth</a> in All Saints Park.</p>
 
       <h4>Project Proposal Summary</h4>
       <div class="serif-text">

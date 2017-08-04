@@ -4,6 +4,25 @@
   max-width: 33.5rem;
   width: 100%;
 
+  a {
+    font-weight: 600;
+    text-decoration: none;
+    color: $linkcolour;
+    border-bottom: 0.08em solid $link_border_colour;
+    padding-bottom: 0.04em;
+    line-height: 1.6em;
+
+    &:hover {
+      text-decoration: none;
+      border-bottom-color: $linkcolour;
+    }
+  }
+
+  figcaption {
+    font-family: $serif;
+    padding: 0;
+  }
+
   p:first-of-type {
     margin-top: 0;
   }
@@ -86,20 +105,6 @@
   }
 }
 
-.content-text__link {
-  font-weight: 600;
-  text-decoration: none;
-  color: $linkcolour;
-  border-bottom: 0.08em solid $link_border_colour;
-  padding-bottom: 0.04em;
-  line-height: 1.6em;
-
-  &:hover {
-    text-decoration: none;
-    border-bottom-color: $linkcolour;
-  }
-}
-
 .content-image {
   display: block;
   margin: 2em auto;
@@ -109,6 +114,7 @@
     display: block;
     height: 100%;
     width: 100%;
+    border-bottom: 0;
   }
 }
 
@@ -132,6 +138,10 @@
     font-weight: 300;
     text-align: left;
     flex: 2 2 auto;
+
+    a {
+      font-weight: 400;
+    }
 
     blockquote {
       margin-left: 0;
@@ -171,10 +181,6 @@
     text-align: left;
   }
 
-  .content-text__link {
-    font-weight: 400;
-  }
-
   .content-image--floatright {
     float: right;
     margin: 0 0 0 2em;
@@ -188,7 +194,6 @@
   }
 
 }
-
 
 @media screen and (min-width: 1280px) {
 

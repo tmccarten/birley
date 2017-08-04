@@ -57,7 +57,7 @@ include('../../assets/includes/header.php'); ?>
             <img src="<?php echo $assets?>/img/the-site/birley-high/birley-sad-end-2_thumb.jpg" alt="Birley High School being demolished">
           </a>
           <figcaption>Sad end to Birley High School</figcaption>
-        </figure> <a href="http://www.birleyhighschool.com" class="content-text__link">Birley High School</a> was an exponent of forward-thinking and inclusive education, fondly remembered by many of its former pupils. The flame red phoenix emblem of the school symbolised the rebirth and hopes of the mid-1900s regeneration of Hulme. Hulme Business Park now occupies the former site.</p>
+        </figure> <a href="http://www.birleyhighschool.com">Birley High School</a> was an exponent of forward-thinking and inclusive education, fondly remembered by many of its former pupils. The flame red phoenix emblem of the school symbolised the rebirth and hopes of the mid-1900s regeneration of Hulme. Hulme Business Park now occupies the former site.</p>
 
       </section>
 

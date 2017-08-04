@@ -52,7 +52,7 @@ include('../../assets/includes/header.php'); ?>
       <h3 class="content-text__title">Golden Terrace</h3>
 
       <p>As part of a project proposal and development that was taken to technical design stage and planning, artist and sculptor Brigitte Jurack, observed the grid-like pattern of the revealed basements of the terrace streets. Her project led to an investigation of the history of the terrace clearances and the lives of people living in industrialised Manchester in the terraced street whose foundations remain buried deep beneath the current Birley site.</p>
-      <p>The annexed <a href="stories-from-the-hearth/" class="content-text__link">Stories From The Hearth</a> workshop resurrected memories of members of the Hulme History society about life in the terraces, fire and fireplaces, which was to be etched onto two tall chimneys fabricated of gilded sheet metal and steel sections to form the outline shape of a terrace house.</p>
+      <p>The annexed <a href="stories-from-the-hearth/">Stories From The Hearth</a> workshop resurrected memories of members of the Hulme History society about life in the terraces, fire and fireplaces, which was to be etched onto two tall chimneys fabricated of gilded sheet metal and steel sections to form the outline shape of a terrace house.</p>
       <p>The sense of community was reinforced by threshold steps where passers-by were encouraged to dwell, sit on and ‘chat’ as neighbours might.</p>
 
       <h4>Proposal and development</h4>

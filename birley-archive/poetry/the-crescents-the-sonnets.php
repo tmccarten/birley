@@ -86,11 +86,11 @@ include('../../assets/includes/header.php'); ?>
       <h3 class="content-text__title content-text__title--plain">Quick links</h3>
 
       <ul class="content-text__list">
-        <li class="content-text__list-item"><a href="hulme-in-the-1950s.php" class="content-text__link">Hulme in the 1950s</a></li>
-        <li class="content-text__list-item"><a href="hulme-through-my-ages.php" class="content-text__link">Hulme through my ages</a></li>
-        <li class="content-text__list-item"><a href="hulme.php" class="content-text__link">Hulme</a></li>
-        <li class="content-text__list-item"><a href="the-crescents-the-sonnets.php" class="content-text__link">Crescents: the Sonnets</a></li>
-        <li class="content-text__list-item"><a href="living-lines.php" class="content-text__link">Living Lines</a></li>
+        <li class="content-text__list-item"><a href="hulme-in-the-1950s.php">Hulme in the 1950s</a></li>
+        <li class="content-text__list-item"><a href="hulme-through-my-ages.php">Hulme through my ages</a></li>
+        <li class="content-text__list-item"><a href="hulme.php">Hulme</a></li>
+        <li class="content-text__list-item"><a href="the-crescents-the-sonnets.php">Crescents: the Sonnets</a></li>
+        <li class="content-text__list-item"><a href="living-lines.php">Living Lines</a></li>
       </ul>
 
     </section>

@@ -116,12 +116,12 @@ include('../../assets/includes/header.php'); ?>
         <p>Birley Archive</p><p>Photography</p>
       </div>
 
-      <p>The area has often captured the imagination of amateur and professional photographers and a large collection of images is available to view online as part of Visual Resources in the <a href="http://www.specialcollections.mmu.ac.uk/" class="content-text__link">Special Collections</a>, <a href="http://www.archivesplus.org/news/" class="content-text__link">Archives+</a>, and shorts and films at <a href="http://www.nwfa.mmu.ac.uk/" class="content-text__link">North West Film Archive</a>.</p>
+      <p>The area has often captured the imagination of amateur and professional photographers and a large collection of images is available to view online as part of Visual Resources in the <a href="http://www.specialcollections.mmu.ac.uk/">Special Collections</a>, <a href="http://www.archivesplus.org/news/">Archives+</a>, and shorts and films at <a href="http://www.nwfa.mmu.ac.uk/">North West Film Archive</a>.</p>
       <p>The 2017 exhibition at Manchester Art Gallery ‘Shirley Baker: Women and children; and loitering men’ highlights the opportunities to photographers as documenters of social history. The collection of black and white photographs and some rare developed colour slides taken by the Salford-born photographer showcases several images from in and around the area.</p>
       <p>Meanwhile photographer Al Baker (no known relation!) has spent decades documenting life, music and graffiti art of the deck access flats and crescents and associated music sub-cultures.</p>
-      <p><a href="al-baker.php" class="content-text__link">Al Baker images and interview</a></p>
+      <p><a href="al-baker.php">Al Baker images and interview</a></p>
       <p>In 2013 School of Art photography students created a collage of unique images of the then vacant Birley site in a behind-the-scenes look as the builders prepared for the new construction.</p>
-      <p><a href="birley-site-photograph-archive.php" class="content-text__link">Birley Site Photograph Archive</a></p>
+      <p><a href="birley-site-photograph-archive.php">Birley Site Photograph Archive</a></p>
 
     </section>
 

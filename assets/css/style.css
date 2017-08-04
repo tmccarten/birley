@@ -1544,6 +1544,25 @@ h5 {
 	width: 100%;
 }
 
+.content-text a {
+	font-weight: 600;
+	text-decoration: none;
+	color: #f26b13;
+	border-bottom: 0.08em solid #dedede;
+	padding-bottom: 0.04em;
+	line-height: 1.6em;
+}
+
+.content-text a:hover {
+	text-decoration: none;
+	border-bottom-color: #f26b13;
+}
+
+.content-text figcaption {
+	font-family: Cambria, Times, serif;
+	padding: 0;
+}
+
 .content-text p:first-of-type {
 	margin-top: 0;
 }
@@ -1628,20 +1647,6 @@ h5 {
 	font-weight: 300;
 }
 
-.content-text__link {
-	font-weight: 600;
-	text-decoration: none;
-	color: #f26b13;
-	border-bottom: 0.08em solid #dedede;
-	padding-bottom: 0.04em;
-	line-height: 1.6em;
-}
-
-.content-text__link:hover {
-	text-decoration: none;
-	border-bottom-color: #f26b13;
-}
-
 .content-image {
 	display: block;
 	margin: 2em auto;
@@ -1652,6 +1657,7 @@ h5 {
 	display: block;
 	height: 100%;
 	width: 100%;
+	border-bottom: 0;
 }
 
 @media screen and (min-width: 580px) {
@@ -1672,6 +1678,9 @@ h5 {
 		-webkit-box-flex: 2;
 		    -ms-flex: 2 2 auto;
 		        flex: 2 2 auto;
+	}
+	.content-text a {
+		font-weight: 400;
 	}
 	.content-text blockquote {
 		margin-left: 0;
@@ -1700,9 +1709,6 @@ h5 {
 	.content-text__recipe {
 		padding-left: 0;
 		text-align: left;
-	}
-	.content-text__link {
-		font-weight: 400;
 	}
 	.content-image--floatright {
 		float: right;
@@ -1886,7 +1892,7 @@ h5 {
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 	text-align: center;
-	padding: 1em;
+	padding: 2em;
 }
 
 .widget__links [href$=".pdf"]::after {
@@ -2261,6 +2267,7 @@ figcaption {
 	font-weight: bold;
 	margin-top: 1em;
 	color: black;
+	font-size: 1em;
 }
 
 @media screen and (min-width: 580px) {
@@ -2314,8 +2321,8 @@ figcaption {
 
 @media screen and (min-width: 1132px) {
 	.timeline {
-		font-size: 1.125em;
 		padding: 2em;
+		font-weight: 300;
 	}
 }
 

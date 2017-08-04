@@ -49,17 +49,17 @@ include('../../assets/includes/header.php'); ?>
         <p>Grow Birley</p><p>Foraging Menus</p>
       </div>
 
-      <p>With thanks to <a href="http://www.metmunch.com" class="content-text__link">MetMUnch</a> | <a href="https://twitter.com/MetMUnch" class="content-text__link">@MetMUnch</a> </p>
+      <p>With thanks to <a href="http://www.metmunch.com">MetMUnch</a> | <a href="https://twitter.com/MetMUnch">@MetMUnch</a> </p>
       <p>The following recipes include some things foragable around Birley. Look out for the ingredients in bold...</p>
 
       <h3 class="content-text__title content-text__title--plain">Recipes</h3>
 
       <ul class="content-text__menu">
-        <li class="content-text__menu-item"><img src="<?php echo $assets?>/img/icons/illustrations/icon_sustainability.svg" width="100" height="100"><a href="salmon-with-ostrich-fern-and-wild-garlic.php" class="content-text__link">Salmon with ostrich fern and wild garlic</a></li>
-        <li class="content-text__menu-item"><img src="<?php echo $assets?>/img/icons/illustrations/icon_raspberry.svg" width="100" height="54"><a href="flourless-elderflower-nepalese-raspberry-and-strawberry-cake.php" class="content-text__link">Flourless elderflower, Nepalese raspberry and strawberry cake</a></li>
-        <li class="content-text__menu-item"><img src="<?php echo $assets?>/img/icons/illustrations/icon_bramble.svg" width="65" height="100"><a href="bramble-vinegar.php" class="content-text__link">Bramble vinegar</a></li>
-        <li class="content-text__menu-item"><img src="<?php echo $assets?>/img/icons/illustrations/icon_sustainability.svg" width="100" height="100"><a href="rhubarb-beetroot-spinach-and-avocado-salad.php" class="content-text__link">Rhubarb, beetroot, spinach and avocado salad</a></li>
-        <li class="content-text__menu-item"><img src="<?php echo $assets?>/img/icons/illustrations/icon_cobnut.svg" width="100" height="100"><a href="sweet-potato-wedges-with-herb-and-cobnut-pesto.php" class="content-text__link">Sweet potato wedges with herb and cobnut pesto</a></li>
+        <li class="content-text__menu-item"><img src="<?php echo $assets?>/img/icons/illustrations/icon_sustainability.svg" width="100" height="100"><a href="salmon-with-ostrich-fern-and-wild-garlic.php">Salmon with ostrich fern and wild garlic</a></li>
+        <li class="content-text__menu-item"><img src="<?php echo $assets?>/img/icons/illustrations/icon_raspberry.svg" width="100" height="54"><a href="flourless-elderflower-nepalese-raspberry-and-strawberry-cake.php">Flourless elderflower, Nepalese raspberry and strawberry cake</a></li>
+        <li class="content-text__menu-item"><img src="<?php echo $assets?>/img/icons/illustrations/icon_bramble.svg" width="65" height="100"><a href="bramble-vinegar.php">Bramble vinegar</a></li>
+        <li class="content-text__menu-item"><img src="<?php echo $assets?>/img/icons/illustrations/icon_sustainability.svg" width="100" height="100"><a href="rhubarb-beetroot-spinach-and-avocado-salad.php">Rhubarb, beetroot, spinach and avocado salad</a></li>
+        <li class="content-text__menu-item"><img src="<?php echo $assets?>/img/icons/illustrations/icon_cobnut.svg" width="100" height="100"><a href="sweet-potato-wedges-with-herb-and-cobnut-pesto.php">Sweet potato wedges with herb and cobnut pesto</a></li>
       </ul>
 
     </section>

@@ -51,17 +51,17 @@ include('../../assets/includes/header.php'); ?>
       </div>
 
       <p>The poetry on this page is a series of poems that have been collected whilst researching the site.</p>
-      <p><a href="hulme-in-the-1950s.php" class="content-text__link">Hulme in the 1950s</a> by poet <a href="http://www.applesandsnakes.org/page/84/Performance+poets/198" class="content-text__link">SuAndi</a> was commissioned as part of designs for the <a href="../../case-studies/birley-artwork-project/golden-terrace.php" class="content-text__link">Golden Terrace</a> and is also available to view at <a href="http://www.reelmcr.co.uk/" class="content-text__link">ReelMcr</a>. It reflects on memories of growing up in Hulme in a Nigerian-Liverpudlian family.</p>
-      <p><a href="hulme-through-my-ages.php" class="content-text__link">Hulme Through my Ages</a> was written by Tina Cribbens. Her connections with the Irish community and the area have a strong presence in her writing. <a href="hulme.php" class="content-text__link">Hulme</a> was written during the construction of the Birley site; <a href="the-crescents-the-sonnets.php" class="content-text__link">Crescents: the Sonnets</a> was written by a Manchester Met graduate and jazz-lyricist who has been working with students in the Birley residences on an installation project; and <a href="living-lines.php" class="content-text__link">Living Lines</a> is a reflection of the changes seen through the eyes of the distinctive sculpted head found during the archaeological dig.</p>
+      <p><a href="hulme-in-the-1950s.php">Hulme in the 1950s</a> by poet <a href="http://www.applesandsnakes.org/page/84/Performance+poets/198">SuAndi</a> was commissioned as part of designs for the <a href="../../case-studies/birley-artwork-project/golden-terrace.php">Golden Terrace</a> and is also available to view at <a href="http://www.reelmcr.co.uk/">ReelMcr</a>. It reflects on memories of growing up in Hulme in a Nigerian-Liverpudlian family.</p>
+      <p><a href="hulme-through-my-ages.php">Hulme Through my Ages</a> was written by Tina Cribbens. Her connections with the Irish community and the area have a strong presence in her writing. <a href="hulme.php">Hulme</a> was written during the construction of the Birley site; <a href="the-crescents-the-sonnets.php">Crescents: the Sonnets</a> was written by a Manchester Met graduate and jazz-lyricist who has been working with students in the Birley residences on an installation project; and <a href="living-lines.php">Living Lines</a> is a reflection of the changes seen through the eyes of the distinctive sculpted head found during the archaeological dig.</p>
 
       <h3 class="content-text__title content-text__title--plain">Quick links</h3>
 
       <ul class="content-text__list">
-        <li class="content-text__list-item"><a href="hulme-in-the-1950s.php" class="content-text__link">Hulme in the 1950s</a></li>
-        <li class="content-text__list-item"><a href="hulme-through-my-ages.php" class="content-text__link">Hulme through my ages</a></li>
-        <li class="content-text__list-item"><a href="hulme.php" class="content-text__link">Hulme</a></li>
-        <li class="content-text__list-item"><a href="the-crescents-the-sonnets.php" class="content-text__link">Crescents: the Sonnets</a></li>
-        <li class="content-text__list-item"><a href="living-lines.php" class="content-text__link">Living Lines</a></li>
+        <li class="content-text__list-item"><a href="hulme-in-the-1950s.php">Hulme in the 1950s</a></li>
+        <li class="content-text__list-item"><a href="hulme-through-my-ages.php">Hulme through my ages</a></li>
+        <li class="content-text__list-item"><a href="hulme.php">Hulme</a></li>
+        <li class="content-text__list-item"><a href="the-crescents-the-sonnets.php">Crescents: the Sonnets</a></li>
+        <li class="content-text__list-item"><a href="living-lines.php">Living Lines</a></li>
       </ul>
 
     </section>

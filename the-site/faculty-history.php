@@ -198,7 +198,7 @@ include('../assets/includes/header.php'); ?>
           <img src="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college1_thumb.jpg" alt="Didsbury college children" width="250">
         </a>
         <figcaption>Didsbury College</figcaption>
-      </figure> <p>The image gallery highlights the history of some of the former premises. For more information about the faculties and Birley read more at the <a href="http://www2.mmu.ac.uk/birley/" class="content-text__link">University's Birley page</a>.</p>
+      </figure> <p>The image gallery highlights the history of some of the former premises. For more information about the faculties and Birley read more at the <a href="http://www2.mmu.ac.uk/birley/">University's Birley page</a>.</p>
 
     </section>
 
