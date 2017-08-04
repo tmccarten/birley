@@ -36,7 +36,7 @@ include('../../assets/includes/header.php'); ?>
     </div>
 
     <div class="banner-icon">
-      <img src="<?php echo $assets?>/img/icons/illustrations/icon_birley.svg" class="banner-icon__svg" alt="Illustration of a mural.">
+      <img src="<?php echo $assets?>/img/icons/illustrations/icon_photography.svg" class="banner-icon__svg" alt="Illustration of a camera.">
     </div>
 
   </section>
@@ -148,6 +148,6 @@ include('../../assets/includes/header.php'); ?>
 </div> <!-- site-wrapper ends -->
 
 
-<script src="<?php echo $assets?>/js/script.js?v=30"></script>
+<script src="<?php echo $assets?>/js/script.js?v=<?php echo $javaVersion?>"></script>
 </body>
 </html>

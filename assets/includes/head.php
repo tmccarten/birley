@@ -4,7 +4,9 @@
 <head>
   <meta charset="utf-8">
 
-  <?php $cssVersion = "39" ?>
+  <?php $cssVersion = "1.2" ?>
+
+  <?php $javaVersion = "35" ?>
 
   <title><?php echo $pageTitle; ?></title>
 
@@ -17,7 +19,6 @@
   <meta name="robots" content="noindex,nofollow"/>
 
   <link rel="stylesheet" href="<?php echo $assets; ?>/css/normalize.css">
-  <link rel="stylesheet" href="bower_components/jQuery-ui-Slider-Pips/dist/jquery-ui-slider-pips.css">
 
   <link rel="stylesheet" href="<?php echo $assets; ?>/css/style.css?v=<?php echo $cssVersion?>">
   <link rel="stylesheet" href="<?php echo $assets; ?>/css/icons.data.svg.css?v=<?php echo $cssVersion?>">
@@ -25,7 +26,6 @@
   <link rel="shortcut icon" href="<?php echo $favIcon; ?>" type="image/x-icon">
   <link rel="icon" href="<?php echo $favIcon; ?>" type="image/x-icon">
 
-  <script src="<?php echo $assets; ?>/../bower_components/jquery/dist/jquery.min.js"></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>

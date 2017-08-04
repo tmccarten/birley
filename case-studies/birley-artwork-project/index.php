@@ -49,12 +49,12 @@ include('../../assets/includes/header.php'); ?>
         <p>Case Studies</p><p>The Birley Artwork Project</p>
       </div>
 
-      <p>Between 2014 and 2016, artists from Manchester School of Art and Manchester School of Architecture developed concept designs to investigate themes of place, home, sustainability, permanence and transience, as related to the context of the site. Artist and Sculptor <a href="https://creativehandsfoundation.org/" class="content-text__link">Joseph Ayovoro</a> (Creative Hands Foundation) and poet <a href="http://www.applesandsnakes.org/page/84/Performance+poets/198" class="content-text__link">SuAndi</a> further added their experience to the exploration of these themes.</p>
+      <p>Between 2014 and 2016, artists from Manchester School of Art and Manchester School of Architecture developed concept designs to investigate themes of place, home, sustainability, permanence and transience, as related to the context of the site. Artist and Sculptor <a href="https://creativehandsfoundation.org/" class="content-text__link">Joseph Ayavoro</a> (Creative Hands Foundation) and poet <a href="http://www.applesandsnakes.org/page/84/Performance+poets/198" class="content-text__link">SuAndi</a> further added their experience to the exploration of these themes.</p>
 
       <ul class="content-text__list">
         <li class="content-text__list-item"><a class="content-text__link" href="research.php">Research</a></li>
         <li class="content-text__list-item"><a class="content-text__link" href="golden-terrace.php">Golden Terrace</a></li>
-        <li class="content-text__list-item"><a class="content-text__link" href="where-the-wind-blows.php">Where The Wind Blows</a></li>
+        <li class="content-text__list-item"><a class="content-text__link" href="where-the-wind-blows.php">Where the Wind Blows</a></li>
         <li class="content-text__list-item"><a class="content-text__link" href="thresholds.php">Thresholds</a></li>
         <li class="content-text__list-item"><a class="content-text__link" href="terrace-seating.php">Terrace Seating</a></li>
         <li class="content-text__list-item"><a class="content-text__link" href="the-bees.php">The Bees</a></li>
@@ -80,6 +80,6 @@ include('../../assets/includes/header.php'); ?>
 
 </div> <!-- site-wrapper ends -->
 
-<script src="<?php echo $assets?>/js/script.js?v=30"></script>
+<script src="<?php echo $assets?>/js/script.js?v=<?php echo $javaVersion?>"></script>
 </body>
 </html>

@@ -193,7 +193,12 @@ include('../assets/includes/header.php'); ?>
         <p>The Site</p><p>Faculty History</p>
       </div>
 
-      <p>Not only does Birley and the Hulme area have strong historical connections with Manchester’s history of education, community health and social care, the faculties based at Birley have also had a long and illustrious history in providing pioneering training and education for many decades at different sites, evolving from teaching training colleges, adult education and women’s colleges, among other amalgamated institutions to become the present day faculties. The image gallery highlights the history of some of the former premises. For more information about the faculties and Birley read more at the <a href="http://www2.mmu.ac.uk/birley/" class="content-text__link">university's Birley page</a>.</p>      
+      <p>Not only does Birley and the Hulme area have strong historical connections with Manchester’s history of education, community health and social care, the faculties based at Birley have also had a long and illustrious history in providing training and education for many decades at different sites, evolving from teacher training colleges, adult education and women’s colleges, among other amalgamated institutions to become the present day faculties <figure class="content-image content-image--floatleft">
+        <a href="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college1.jpg">
+          <img src="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college1_thumb.jpg" alt="Didsbury college children" width="250">
+        </a>
+        <figcaption>Didsbury College</figcaption>
+      </figure> <p>The image gallery highlights the history of some of the former premises. For more information about the faculties and Birley read more at the <a href="http://www2.mmu.ac.uk/birley/" class="content-text__link">University's Birley page</a>.</p>
 
     </section>
 
@@ -203,31 +208,31 @@ include('../assets/includes/header.php'); ?>
         <h4 class="widget__title  widget__title--dig">Images</h4>
         <div class="widget__images">
           <a href="<?php echo $assets?>/img/the-site/faculty-history/bracken-house.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/bracken-house.jpg" alt="Bracken House" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/bracken-house_thumb.jpg" alt="Bracken House" width="250">
           </a>
           <a href="<?php echo $assets?>/img/the-site/faculty-history/college-of-commerce.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/college-of-commerce.jpg" alt="College of commerce" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/college-of-commerce_thumb.jpg" alt="College of commerce" width="250">
           </a>
           <a href="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college1.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college1.jpg" alt="Didsbury college children" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college1_thumb.jpg" alt="Didsbury college children" width="250">
           </a>
           <a href="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college2.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college2.jpg" alt="Didsbury college student and teacher" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/didsbury-college2_thumb.jpg" alt="Didsbury college student and teacher" width="250">
           </a>
           <a href="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell.jpg" alt="Elizabeth Gaskell building" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell_thumb.jpg" alt="Elizabeth Gaskell building" width="250">
           </a>
           <a href="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell-students1.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell-students1.jpg" alt="Elizabeth Gaskell home economics student" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell-students1_thumb.jpg" alt="Elizabeth Gaskell home economics student" width="250">
           </a>
           <a href="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell-students2.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell-students2.jpg" alt="Elizabeth Gaskell textiles student" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/elizabeth-gaskell-students2_thumb.jpg" alt="Elizabeth Gaskell textiles student" width="250">
           </a>
           <a href="<?php echo $assets?>/img/the-site/faculty-history/health-historical.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/health-historical.jpg" alt="Child wearing headphones" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/health-historical_thumb.jpg" alt="Child wearing headphones" width="250">
           </a>
           <a href="<?php echo $assets?>/img/the-site/faculty-history/mtc.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/mtc.jpg" alt="Manchester Technical College" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/the-site/faculty-history/mtc_thumb.jpg" alt="Manchester Technical College" width="250">
           </a>
         </div>
       </section>
@@ -251,6 +256,6 @@ include('../assets/includes/header.php'); ?>
 
 </div> <!-- site-wrapper ends -->
 
-<script src="<?php echo $assets?>/js/script.js?v=30"></script>
+<script src="<?php echo $assets?>/js/script.js?v=<?php echo $javaVersion?>"></script>
 </body>
 </html>

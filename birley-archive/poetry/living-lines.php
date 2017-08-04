@@ -33,6 +33,8 @@ include('../../assets/includes/header.php'); ?>
   <section class="content-text content-text--poem">
 
     <h3 class="content-text__title content-text__title--poems">Living Lines</h3>
+    <div class="serif-text">
+    </div>
 
 
   </section>
@@ -81,6 +83,6 @@ include('../../assets/includes/header.php'); ?>
 </div> <!-- site-wrapper ends -->
 
 
-<script src="<?php echo $assets?>/js/script.js?v=30"></script>
+<script src="<?php echo $assets?>/js/script.js?v=<?php echo $javaVersion?>"></script>
 </body>
 </html>

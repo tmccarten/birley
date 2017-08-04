@@ -34,6 +34,7 @@ include('../../assets/includes/header.php'); ?>
 
     <h3 class="content-text__title content-text__title--poems">Hulme Through My Ages</h3>
 
+    <div class="serif-text">
     <p>Concrete concrete concrete<br>
     Burning shimmering dusty concrete -<br>
     the balconies the crescents the walkways, concrete<br>
@@ -154,7 +155,7 @@ include('../../assets/includes/header.php'); ?>
     we begin to hear a heartbeat returning.<br>
     You will see some of our tribe<br>
     shaking down their feathers<br>
-    peeking out behind the new apartments and university buildings.</p>
+    peeking out behind the new apartments and University buildings.</p>
 
     <p>We recognise each other<br>
     we have part concrete in our veins<br>
@@ -173,6 +174,8 @@ include('../../assets/includes/header.php'); ?>
     <p>A place that inspires and captures your heart like the softest rainfall</p>
 
     <p>My Hulme</p>
+    <p><i>Tina Cribbens</i></p>
+  </div>
 
   </section>
 
@@ -220,6 +223,6 @@ include('../../assets/includes/header.php'); ?>
 </div> <!-- site-wrapper ends -->
 
 
-<script src="<?php echo $assets?>/js/script.js?v=30"></script>
+<script src="<?php echo $assets?>/js/script.js?v=<?php echo $javaVersion?>"></script>
 </body>
 </html>
