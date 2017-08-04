@@ -1471,44 +1471,6 @@ h5 {
 	}
 }
 
-/* -- Breadcrumb -- */
-.breadcrumb {
-	display: none;
-}
-
-@media screen and (min-width: 1132px) {
-	.breadcrumb {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-align: center;
-		    -ms-flex-align: center;
-		        align-items: center;
-		white-space: nowrap;
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
-		margin: 0 0 2em 0;
-		padding: 0 .1em;
-		font-size: 0.8em;
-		font-weight: 400;
-		color: grey;
-	}
-	.breadcrumb p, .breadcrumb a {
-		padding: 0 0 .5em 0;
-		margin: 0;
-		border-bottom: 2px dashed lightgray;
-	}
-	.breadcrumb p:not(:first-child):before, .breadcrumb a:not(:first-child):before {
-		content: ">";
-		margin: 0 .5em;
-		font-size: 1em;
-		font-weight: 200;
-	}
-	.breadcrumb a {
-		color: black;
-	}
-}
-
 /* -- Content -- */
 .content {
 	display: -webkit-box;
@@ -1547,7 +1509,7 @@ h5 {
 .content-text a {
 	font-weight: 600;
 	text-decoration: none;
-	color: #f26b13;
+	color: #e95705;
 	border-bottom: 0.08em solid #dedede;
 	padding-bottom: 0.04em;
 	line-height: 1.6em;
@@ -1555,7 +1517,7 @@ h5 {
 
 .content-text a:hover {
 	text-decoration: none;
-	border-bottom-color: #f26b13;
+	border-bottom-color: #e95705;
 }
 
 .content-text figcaption {
@@ -1725,6 +1687,45 @@ h5 {
 @media screen and (min-width: 1280px) {
 	.content-text {
 		line-height: 1.3em;
+	}
+}
+
+/* -- Breadcrumb -- */
+.breadcrumb {
+	display: none;
+}
+
+@media screen and (min-width: 1132px) {
+	.breadcrumb {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		white-space: nowrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		margin: 0 0 2em 0;
+		padding: 0 .1em;
+		font-size: 0.8em;
+		font-weight: 400;
+		color: grey;
+	}
+	.breadcrumb p, .breadcrumb a {
+		padding: 0 0 .5em 0;
+		margin: 0;
+		border-bottom: 2px dashed lightgray;
+		line-height: inherit;
+	}
+	.breadcrumb p:not(:first-child):before, .breadcrumb a:not(:first-child):before {
+		content: ">";
+		margin: 0 .5em;
+		font-size: 1em;
+		font-weight: 200;
+	}
+	.breadcrumb a:hover {
+		border-bottom: 2px solid;
 	}
 }
 
