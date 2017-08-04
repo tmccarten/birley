@@ -1,5 +1,6 @@
   <div class="map__inner">
 
+
     <div id="iconBrooks" class="icon icon__brooks">
 
       <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--brooks" width="32">
@@ -14,6 +15,7 @@
 
       </div>
     </div>
+
 
     <div id="iconVine" class="icon icon__vine">
 

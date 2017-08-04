@@ -942,6 +942,7 @@ h5 {
 
 @media screen and (min-width: 960px) {
 	.info-displayed {
+		display: none;
 		visibility: hidden;
 		z-index: 0;
 	}
@@ -956,12 +957,13 @@ h5 {
 }
 
 .icon__brooks .icon__brooks--hover {
-	display: none;
+	visibility: hidden;
 }
 
 @media screen and (min-width: 960px) {
-	.icon__brooks:hover .icon__brooks--hover {
+	.icon__brooks:hover .icon__brooks--hover, .icon__brooks:focus .icon__brooks--hover, .icon__brooks:active .icon__brooks--hover {
 		display: inline;
+		visibility: visible;
 		position: absolute;
 		border-radius: 20px;
 		border-bottom-right-radius: 0;
@@ -972,6 +974,7 @@ h5 {
 		padding: 2em;
 		background-color: #9bd7e6;
 		color: black;
+		z-index: 999;
 	}
 }
 
@@ -984,12 +987,13 @@ h5 {
 }
 
 .icon__vine .icon__vine--hover {
-	display: none;
+	visibility: hidden;
 }
 
 @media screen and (min-width: 960px) {
-	.icon__vine:hover .icon__vine--hover {
+	.icon__vine:hover .icon__vine--hover, .icon__vine:focus .icon__vine--hover, .icon__vine:active .icon__vine--hover {
 		display: inline;
+		visibility: visible;
 		position: absolute;
 		border-radius: 20px;
 		border-bottom-right-radius: 0;
@@ -1000,6 +1004,7 @@ h5 {
 		bottom: 50%;
 		background-color: #efdca5;
 		color: black;
+		z-index: 999;
 	}
 }
 
@@ -1012,12 +1017,13 @@ h5 {
 }
 
 .icon__energy .icon__energy--hover {
-	display: none;
+	visibility: hidden;
 }
 
 @media screen and (min-width: 960px) {
-	.icon__energy:hover .icon__energy--hover {
+	.icon__energy:hover .icon__energy--hover, .icon__energy:focus .icon__energy--hover, .icon__energy:active .icon__energy--hover {
 		display: inline;
+		visibility: visible;
 		position: absolute;
 		box-shadow: 0 0 2px;
 		border-radius: 20px;
@@ -1029,6 +1035,7 @@ h5 {
 		background-color: #8ba8b9;
 		color: black;
 		word-wrap: break-word;
+		z-index: 999;
 	}
 }
 
@@ -1041,12 +1048,13 @@ h5 {
 }
 
 .icon__birleyhigh .icon__birleyhigh--hover {
-	display: none;
+	visibility: hidden;
 }
 
 @media screen and (min-width: 960px) {
-	.icon__birleyhigh:hover .icon__birleyhigh--hover {
+	.icon__birleyhigh:hover .icon__birleyhigh--hover, .icon__birleyhigh:focus .icon__birleyhigh--hover, .icon__birleyhigh:active .icon__birleyhigh--hover {
 		display: inline;
+		visibility: visible;
 		position: absolute;
 		box-shadow: 0 0 2px;
 		border-radius: 20px;
@@ -1057,6 +1065,7 @@ h5 {
 		padding: 2em;
 		background-color: #c6685a;
 		color: black;
+		z-index: 999;
 	}
 }
 
@@ -1069,12 +1078,13 @@ h5 {
 }
 
 .icon__crescents .icon__crescents--hover {
-	display: none;
+	visibility: hidden;
 }
 
 @media screen and (min-width: 960px) {
-	.icon__crescents:hover .icon__crescents--hover {
+	.icon__crescents:hover .icon__crescents--hover, .icon__crescents:focus .icon__crescents--hover, .icon__crescents:active .icon__crescents--hover {
 		display: inline;
+		visibility: visible;
 		position: absolute;
 		box-shadow: 0 0 2px;
 		border-radius: 20px;
@@ -1085,6 +1095,7 @@ h5 {
 		padding: 2em;
 		background-color: #dededa;
 		color: #050606;
+		z-index: 999;
 	}
 }
 
@@ -1097,12 +1108,13 @@ h5 {
 }
 
 .icon__deckaccess .icon__deckaccess--hover {
-	display: none;
+	visibility: hidden;
 }
 
 @media screen and (min-width: 960px) {
-	.icon__deckaccess:hover .icon__deckaccess--hover {
+	.icon__deckaccess:hover .icon__deckaccess--hover, .icon__deckaccess:focus .icon__deckaccess--hover, .icon__deckaccess:active .icon__deckaccess--hover {
 		display: inline;
+		visibility: visible;
 		position: absolute;
 		box-shadow: 0 0 2px;
 		border-radius: 20px;
@@ -1113,6 +1125,7 @@ h5 {
 		padding: 2em;
 		background-color: #dededa;
 		color: #050606;
+		z-index: 999;
 	}
 }
 
@@ -1125,12 +1138,13 @@ h5 {
 }
 
 .icon__terraces .icon__terraces--hover {
-	display: none;
+	visibility: hidden;
 }
 
 @media screen and (min-width: 960px) {
-	.icon__terraces:hover .icon__terraces--hover {
+	.icon__terraces:hover .icon__terraces--hover, .icon__terraces:focus .icon__terraces--hover, .icon__terraces:active .icon__terraces--hover {
 		display: inline;
+		visibility: visible;
 		position: absolute;
 		box-shadow: 0 0 2px;
 		border-radius: 20px;
@@ -1141,6 +1155,7 @@ h5 {
 		padding: 2em;
 		background-color: #dededa;
 		color: #050606;
+		z-index: 999;
 	}
 }
 
@@ -1153,12 +1168,13 @@ h5 {
 }
 
 .icon__church .icon__church--hover {
-	display: none;
+	visibility: hidden;
 }
 
 @media screen and (min-width: 960px) {
-	.icon__church:hover .icon__church--hover {
+	.icon__church:hover .icon__church--hover, .icon__church:focus .icon__church--hover, .icon__church:active .icon__church--hover {
 		display: inline;
+		visibility: visible;
 		position: absolute;
 		box-shadow: 0 0 2px;
 		border-radius: 20px;
@@ -1169,6 +1185,7 @@ h5 {
 		padding: 2em;
 		background-color: #dededa;
 		color: #050606;
+		z-index: 999;
 	}
 }
 
@@ -1181,12 +1198,13 @@ h5 {
 }
 
 .icon__farm .icon__farm--hover {
-	display: none;
+	visibility: hidden;
 }
 
 @media screen and (min-width: 960px) {
-	.icon__farm:hover .icon__farm--hover {
+	.icon__farm:hover .icon__farm--hover, .icon__farm:focus .icon__farm--hover, .icon__farm:active .icon__farm--hover {
 		display: inline;
+		visibility: visible;
 		position: absolute;
 		box-shadow: 0 0 2px;
 		border-radius: 20px;
@@ -1197,6 +1215,7 @@ h5 {
 		padding: 2em;
 		background-color: #ecce82;
 		color: black;
+		z-index: 999;
 	}
 }
 
@@ -1213,7 +1232,7 @@ h5 {
 }
 
 @media screen and (min-width: 960px) {
-	.icon__orchard:hover .icon__orchard--hover {
+	.icon__orchard:hover .icon__orchard--hover, .icon__orchard:focus .icon__orchard--hover, .icon__orchard:active .icon__orchard--hover {
 		display: inline;
 		position: absolute;
 		box-shadow: 0 0 2px;
@@ -1225,6 +1244,7 @@ h5 {
 		padding: 2em;
 		background-color: #c0cd92;
 		color: black;
+		z-index: 999;
 	}
 }
 
@@ -1241,7 +1261,7 @@ h5 {
 }
 
 @media screen and (min-width: 960px) {
-	.icon__mural:hover .icon__mural--hover {
+	.icon__mural:hover .icon__mural--hover, .icon__mural:focus .icon__mural--hover, .icon__mural:active .icon__mural--hover {
 		display: inline;
 		position: absolute;
 		box-shadow: 0 0 2px;
@@ -1253,6 +1273,7 @@ h5 {
 		padding: 2em;
 		background-color: #ac7a79;
 		color: black;
+		z-index: 999;
 	}
 }
 
@@ -1269,7 +1290,7 @@ h5 {
 }
 
 @media screen and (min-width: 960px) {
-	.icon__rolls-royce:hover .icon__rolls-royce--hover {
+	.icon__rolls-royce:hover .icon__rolls-royce--hover, .icon__rolls-royce:focus .icon__rolls-royce--hover, .icon__rolls-royce:active .icon__rolls-royce--hover {
 		display: inline;
 		position: absolute;
 		box-shadow: 0 0 2px;
@@ -1281,6 +1302,7 @@ h5 {
 		padding: 2em;
 		background-color: #ac7a79;
 		color: black;
+		z-index: 999;
 	}
 }
 

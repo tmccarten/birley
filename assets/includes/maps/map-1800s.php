@@ -1,6 +1,6 @@
 <div class="map__inner map__inner--1800s">
 
-  <div id="iconChurch" class="icon icon__church">
+  <div id="iconChurch" class="icon icon__church" tabindex="0">
 
     <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--church" width="32">
     <div class="icon__church--hover">
@@ -15,7 +15,7 @@
     </div>
   </div>
 
-  <div id="iconTerraces" class="icon icon__terraces">
+  <div id="iconTerraces" class="icon icon__terraces" tabindex="0">
 
     <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--terraces" width="32">
     <div class="icon__terraces--hover">
@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <div id="iconRolls" class="icon icon__rolls-royce">
+  <div id="iconRolls" class="icon icon__rolls-royce" tabindex="0">
 
     <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--rollsroyce" width="32">
     <div class="icon__rolls-royce--hover">

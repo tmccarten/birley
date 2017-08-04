@@ -1,6 +1,6 @@
 <div class="map__inner map__inner--1960s1980s">
 
-  <div id="iconDeck" class="icon icon__deckaccess">
+  <div id="iconDeck" class="icon icon__deckaccess" tabindex="0">
 
     <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--deckaccess" width="32">
     <div class="icon__deckaccess--hover">
@@ -14,7 +14,7 @@
     </div>
   </div>
 
-  <div id="iconCrescents" class="icon icon__crescents">
+  <div id="iconCrescents" class="icon icon__crescents" tabindex="0">
 
     <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--crescents" width="32">
     <div class="icon__crescents--hover">
@@ -28,7 +28,7 @@
     </div>
   </div>
 
-  <div id="iconBirley" class="icon icon__birleyhigh">
+  <div id="iconBirley" class="icon icon__birleyhigh" tabindex="0">
 
     <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--birleyhigh" width="32">
     <div class="icon__birleyhigh--hover">

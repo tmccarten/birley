@@ -25,7 +25,7 @@ for (i = 0; i < subMenuParent.length; i++) {
   subMenuParent[i].addEventListener('click', function() {
 
     var subMenu = this.nextElementSibling;
-    var parentIcon = this.firstElementChild;
+    var parentIcon = this.firstElementChild + 1;
 
     if (subMenu.className.indexOf('menu-displayed') == -1 ) {
       subMenu.className = 'sub-menu menu-displayed';
@@ -150,6 +150,7 @@ var eraBlockOne = document.getElementById('eraBlockOne'),
     eraBlockOne.addEventListener('click', function() {
       clearEraSelections();
       this.className = 'era__block era__block--selected';
+      this.setAttribute('aria-selected', true);
       $(".map.dragscroll").load("assets/includes/maps/map-pre1800s.php");
     }, false);
 
@@ -175,6 +176,7 @@ var eraBlockOne = document.getElementById('eraBlockOne'),
       var eraBlocks = document.getElementsByClassName('era__block era__block--selected');
 
       for (i = 0; i < eraBlocks.length; i++) {
-        eraBlocks[i].className = 'era__block';
+        eraBlocks[i].setAttribute('aria-selected', false);
+        eraBlocks[i].className = 'era__block';        
       }
     }
