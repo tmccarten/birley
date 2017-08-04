@@ -2,7 +2,7 @@
 .content-text {
   text-align: center;
   max-width: 33.5rem;
-  font-size: calc(.8em + 1vw);
+  //font-size: calc(.8em + 1vw);
   width: 100%;
   line-height: calc(1em + 1vw);
 
@@ -117,11 +117,11 @@
 @media screen and (min-width: 425px) {
 
   .content-text {
-    font-size: 1.2em;
+    //font-size: 1.2em;
   }
 
   .content-text--poem {
-    font-size: 1em;
+    //font-size: 1em;
   }
 
 }
@@ -144,7 +144,7 @@
     max-width: 30em;
     margin-right: 2em;
     font-weight: 300;
-    font-size: 1.1111111111111111111111111111111em;
+    //font-size: 1.1111111111111111111111111111111em;
     text-align: left;
     flex: 2 2 auto;
 
@@ -165,7 +165,7 @@
 
   .content-text__title {
     margin: 1em 0;
-    padding-right: 1em;    
+    padding-right: 1em;
   }
 
   .content-text__title--plain {
@@ -208,7 +208,7 @@
 @media screen and (min-width: 1280px) {
 
   .content-text {
-    font-size: 1.3333333333333333333333333333333em;
+    //font-size: 1.3333333333333333333333333333333em;
     line-height: 1.3em;
   }
 

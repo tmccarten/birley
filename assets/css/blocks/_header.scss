@@ -28,7 +28,7 @@
 /* -- Logo -- */
 
 .logo {
-  width: 100%;  
+  width: 100%;
   padding-bottom: 10%;
   margin: 0;
 
@@ -247,7 +247,7 @@
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 830px) {
 
   .about-contact {
     display: flex;
@@ -284,6 +284,7 @@
 
   .header {
     margin-top: 1em;
+    font-size: 1.125rem;
   }
 
   .header__top {
