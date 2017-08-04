@@ -1,0 +1,40 @@
+.about-photos {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    transform: rotate(2deg);
+    min-height: 1px;
+  }
+
+  img + * {
+    transform: rotate(-2deg) translateY(-10px);
+  }
+
+}
+
+
+@media screen and (min-width: $desktopnav) {
+
+  .content-about {
+    align-items: center;
+  }
+
+  .about-photos {
+    width: 30%;
+    margin-top: 7em;
+
+    img {
+      width: 100%;
+      transform: rotate(2deg);
+    }
+
+    img + * {
+      transform: rotate(5deg) translateY(-50px);
+
+    }
+  }
+}
