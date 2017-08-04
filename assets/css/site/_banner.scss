@@ -36,23 +36,13 @@
 }
 
 .banner__title {
-  font-size: calc(1em + 2vw);
   font-weight: normal;
   text-align: center;
-  line-height: 1em;
+  line-height: 1.1em;
   margin-top: 0;
   max-width: 100%;
-  font-family: $seriftitle;
-  font-weight: 300;
+  font-family: $seriftitle;  
   color: #212121;
-}
-
-@media screen and (min-width: 580px) {
-
-  .banner__title {
-    font-size: calc(2em + 2vw);
-  }
-
 }
 
 @media screen and (min-width: $desktopnav) {
@@ -91,7 +81,6 @@
   }
 
   .banner__title {
-    font-size: 2.5rem;
     margin: 0;
   }
 
