@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Where The Wind Blows | Birley Artwork | Living Lines: Birley Archives";
+$pageTitle = "Where the Wind Blows | Birley Artwork | Living Lines: Birley Archives";
 $pageDescription = "Birley artwork.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "Case Studies";
@@ -46,13 +46,13 @@ include('../../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <a href="index.php">The Birley Artwork Project</a><p>Where The Wind Blows</p>
+        <a href="index.php">The Birley Artwork Project</a><p>Where the Wind Blows</p>
       </div>
 
-      <h3 class="content-text__title">Where The Wind Blows</h3>
+      <h3 class="content-text__title">Where the Wind Blows</h3>
 
       <p>Where the Wind Blows developed from a proposal by landscape architect, <a href="http://www.msa.ac.uk/staff/profile/ifisher" class="content-text__link">Ian Fisher</a>: ‘Reconnecting with Natural Processes’ for 10-metre high windsocks on a central lawn. Along with Ian’s own practice, structural engineers, <a href="http://www.renaissance-ltd.com/" class="content-text__link">Renaissance</a> and windsock supplier <a href="https://www.windsocks.direct/" class="content-text__link">Windsocks Direct</a> developed and tested the viability of the proposals.</p>
-      <p>Further consultation was initiated with researchers in Science and Engineering and the university’s biodiversity group in investigating opportunities for weather monitoring.
+      <p>Further consultation was initiated with researchers in Science and Engineering and the University’s biodiversity group in investigating opportunities for weather monitoring.
       The design itself evolved into a collaboration between locally based sculptor Joseph Ayavoro, Director of <a href="https://creativehandsfoundation.org/" class="content-text__link">Creative Hands</a>, and textile artist <a href="http://www.art.mmu.ac.uk/profile/akettle" class="content-text__link">Alice Kettle</a>. Alice created the textile design of the windsocks, whilst Joseph designed the drawings for a wave like compass at its base indicating the winds that led to an arrival to/or departure from the site, through the arrival of those who passed through the site, and made the area their home either permanently or temporarily.</p>
       <p>A poem by SuAndi: <a href="../../birley-archive/poetry/hulme-in-the-1950s.php" class="content-text__link">Hulme in the 1950s</a>, which connected the project to the Terraces, completed the project.</p>
       <p>This is a summary of the project development showing the collaborative intent integral to Ian’s proposal and practice:</p>
@@ -91,7 +91,7 @@ include('../../assets/includes/header.php'); ?>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="research.php">Research</a></li>
           <li class="widget__submenu-item"><a href="golden-terrace.php">Golden Terrace</a></li>
-          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories from the Hearth</a></li>
+          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories From The Hearth</a></li>
           <li class="widget__submenu-item"><a href="thresholds.php">Thresholds</a></li>
           <li class="widget__submenu-item"><a href="terrace-seating.php">Terrace Seating</a></li>
           <li class="widget__submenu-item"><a href="the-bees.php">The Bees</a></li>

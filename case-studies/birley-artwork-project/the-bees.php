@@ -78,10 +78,10 @@ include('../../assets/includes/header.php'); ?>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="research.php">Research</a></li>
           <li class="widget__submenu-item"><a href="golden-terrace.php">Golden Terrace</a></li>
-          <li class="widget__submenu-item"><a href="where-the-wind-blows.php">Where The Wind Blows</a></li>
+          <li class="widget__submenu-item"><a href="where-the-wind-blows.php">Where the Wind Blows</a></li>
           <li class="widget__submenu-item"><a href="thresholds.php">Thresholds</a></li>
           <li class="widget__submenu-item"><a href="terrace-seating.php">Terrace Seating</a></li>
-          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories from the Hearth</a></li>
+          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories From The Hearth</a></li>
         </ul>
       </section>
 

@@ -155,7 +155,7 @@ include('../../assets/includes/header.php'); ?>
     we begin to hear a heartbeat returning.<br>
     You will see some of our tribe<br>
     shaking down their feathers<br>
-    peeking out behind the new apartments and university buildings.</p>
+    peeking out behind the new apartments and University buildings.</p>
 
     <p>We recognise each other<br>
     we have part concrete in our veins<br>
@@ -174,6 +174,7 @@ include('../../assets/includes/header.php'); ?>
     <p>A place that inspires and captures your heart like the softest rainfall</p>
 
     <p>My Hulme</p>
+    <p><i>Tina Cribbens</i></p>
   </div>
 
   </section>

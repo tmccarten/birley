@@ -52,7 +52,7 @@ include('../../assets/includes/header.php'); ?>
       <h3 class="content-text__title">Golden Terrace</h3>
 
       <p>As part of a project proposal and development that was taken to technical design stage and planning, artist and sculptor Brigitte Jurack, observed the grid-like pattern of the revealed basements of the terrace streets. Her project led to an investigation of the history of the terrace clearances and the lives of people living in industrialised Manchester in the terraced street whose foundations remain buried deep beneath the current Birley site.</p>
-      <p>The annexed <a href="stories-from-the-hearth/" class="content-text__link">Stories from the Hearth</a> workshop resurrected memories of members of the Hulme History society about life in the terraces, fire and fireplaces, which was to be etched onto two tall chimneys fabricated of gilded sheet metal and steel sections to form the outline shape of a terrace house.</p>
+      <p>The annexed <a href="stories-from-the-hearth/" class="content-text__link">Stories From The Hearth</a> workshop resurrected memories of members of the Hulme History society about life in the terraces, fire and fireplaces, which was to be etched onto two tall chimneys fabricated of gilded sheet metal and steel sections to form the outline shape of a terrace house.</p>
       <p>The sense of community was reinforced by threshold steps where passers-by were encouraged to dwell, sit on and ‘chat’ as neighbours might.</p>
 
       <h4>Proposal and development</h4>
@@ -66,7 +66,7 @@ include('../../assets/includes/header.php'); ?>
 
         <p>The artwork Golden Terrace seeks to function as a catalyst, bridge and space to connect to a particular past and to many potential futures. Here, through the process of symbolic gilding (the gold representing the special, precious, inheritable, and long lasting) a now distant past has been made precious and becomes an outline - part of the present and the future.</p>
 
-        <p>It is planned that the original grid of the original street layout from 1900 will be used as a guiding principle to site the golden terrace(s). Staying within the original scale of the original houses, the sculpture will allow current users of the site an instant image, of ‘what it feels like’. Whilst the house is re-instated as an outline, I wish to make the threshold steps solid, since many images of the time show people and children sitting and standing on the threshold to view the world.</p>
+        <p>It is planned that the original grid of the original street layout from 1900 will be used as a guiding principle to site the Golden Terrace(s). Staying within the original scale of the original houses, the sculpture will allow current users of the site an instant image, of ‘what it feels like’. Whilst the house is re-instated as an outline, I wish to make the threshold steps solid, since many images of the time show people and children sitting and standing on the threshold to view the world.</p>
         <p>Planned programme:<br>
         Engagement (community and students)<br>
         Engagement will have three phases:<br>
@@ -80,7 +80,7 @@ include('../../assets/includes/header.php'); ?>
         Opening/Launch day: ‘tea in the parlour’ – performance sketch by either amateur dramatics or BA Fine Art students.</p>
 
         <p>Phase two: (planned engagement after completion)
-        Open air events and workshops can be held inside the structure of the golden terraces. These could be readings, tea parties, history and memory activities.</p>
+        Open air events and workshops can be held inside the structure of the Golden Terraces. These could be readings, tea parties, history and memory activities.</p>
 
         <p>Phase three: (unplanned and organic engagements)
         Thresholds are for sitting on, and I anticipate that people will just simply sit on the thresholds, and lower structures of the steel frame to chat, look into the world and to be.</p>
@@ -96,7 +96,7 @@ include('../../assets/includes/header.php'); ?>
         <h4 class="widget__title  widget__title--dig">Images</h4>
         <div class="widget__images">
           <a href="<?php echo $assets?>/img/case-studies/golden-terrace/golden-terrace.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/golden-terrace/golden-terrace_thumb.jpg" alt="Golden terrace" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/golden-terrace/golden-terrace_thumb.jpg" alt="Golden Terrace" width="250">
           </a>
           <a href="<?php echo $assets?>/img/case-studies/golden-terrace/golden-terrace-visual.jpg" class="widget__image">
             <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/golden-terrace/golden-terrace-visual_thumb.jpg" alt="Golden Terrace 3D visual plan" width="250">
@@ -120,8 +120,8 @@ include('../../assets/includes/header.php'); ?>
         <h4 class="widget__title widget__title--artwork">More from Birley Artwork Project...</h4>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="research.php">Research</a></li>
-          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories from the Hearth</a></li>
-          <li class="widget__submenu-item"><a href="where-the-wind-blows.php">Where The Wind Blows</a></li>
+          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories From The Hearth</a></li>
+          <li class="widget__submenu-item"><a href="where-the-wind-blows.php">Where the Wind Blows</a></li>
           <li class="widget__submenu-item"><a href="thresholds.php">Thresholds</a></li>
           <li class="widget__submenu-item"><a href="terrace-seating.php">Terrace Seating</a></li>
           <li class="widget__submenu-item"><a href="the-bees.php">The Bees</a></li>

@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Stories from the Hearth | Birley Artwork | Living Lines: Birley Archives";
+$pageTitle = "Stories From The Hearth | Birley Artwork | Living Lines: Birley Archives";
 $pageDescription = "Stories from the hearth, stories about Birley, Hulme past and present.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "Case Studies";
@@ -74,10 +74,10 @@ include('../../../assets/includes/header.php'); ?>
     <section class="content-text">
 
       <div class="breadcrumb">
-        <a href="../">Birley Artwork Project</a><p>Stories from the Hearth</p>
+        <a href="../">Birley Artwork Project</a><p>Stories From The Hearth</p>
       </div>
 
-      <h3 class="content-text__title">Stories from the Hearth</h3>
+      <h3 class="content-text__title">Stories From The Hearth</h3>
 
       <blockquote>
         <p>&ldquo;After all, what is history if it is not an imagined past – a collection of facts which are viewed and interpreted in the light of our own experiences.&rdquo;</p>
@@ -86,7 +86,7 @@ include('../../../assets/includes/header.php'); ?>
         </footer>
       </blockquote>
 
-      <p>Stories from the Hearth was a workshop held by sculptor and artist Brigitte Jurack in March 2017. Members of the Hulme History Society who had lived in the area before the slum clearances chose coloured pieces of paper with questions about their memories of the fireplaces in their terrace homes. Although the intention of this workshop was to etch words from these memories to ‘light up’ the two chimney breasts in the design of the Golden Terrace, the conversations are used here to form a collage of oral history and recollection.</p>
+      <p>Stories From The Hearth was a workshop held by sculptor and artist Brigitte Jurack in March 2017. Members of the Hulme History Society who had lived in the area before the slum clearances chose coloured pieces of paper with questions about their memories of the fireplaces in their terrace homes. Although the intention of this workshop was to etch words from these memories to ‘light up’ the two chimney breasts in the design of the Golden Terrace, the conversations are used here to form a collage of oral history and recollection.</p>
       <figure class="content-image content-image--floatright">
         <a href="<?php echo $assets?>/img/case-studies/stories-from-the-hearth/coke-collection.jpg">
           <img src="<?php echo $assets?>/img/case-studies/stories-from-the-hearth/coke-collection.jpg" alt="Women carrying bags of coal/coke in prams" width="250">
@@ -114,7 +114,7 @@ include('../../../assets/includes/header.php'); ?>
       <ul class="widget__submenu">
         <li class="widget__submenu-item"><a href="../research.php">Research</a></li>
         <li class="widget__submenu-item"><a href="../golden-terrace.php">Golden Terrace</a></li>
-        <li class="widget__submenu-item"><a href="../where-the-wind-blows.php">Where The Wind Blows</a></li>
+        <li class="widget__submenu-item"><a href="../where-the-wind-blows.php">Where the Wind Blows</a></li>
         <li class="widget__submenu-item"><a href="../thresholds.php">Thresholds</a></li>
         <li class="widget__submenu-item"><a href="../terrace-seating.php">Terrace Seating</a></li>
         <li class="widget__submenu-item"><a href="../the-bees.php">The Bees</a></li>

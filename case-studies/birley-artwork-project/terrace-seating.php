@@ -55,13 +55,13 @@ include('../../assets/includes/header.php'); ?>
 
       <h4>Project Proposal Summary</h4>
       <div class="serif-text">
-        <p>‘The Birley campus is just the latest layer to overlay onto the sites’ long architectural and cultural history. The use has changed from open fields, to farmland, to terrace housing, to high-density residential flats, and now the Manchester Met campus.</p>
+        <p>‘The Birley campus is just the latest layer to overlay onto the site’s long architectural and cultural history. The use has changed from open fields, to farmland, to terrace housing, to high-density residential flats, and now the Manchester Met campus.</p>
 
-        <p>This proposal is to develop seating that responds to the historical and layered blueprint of the Birley site to reveal the history of people and place to todays’ student and local community.</p>
+        <p>This proposal is to develop seating that responds to the historical and layered blueprint of the Birley site to reveal the history of people and place to today’s student and local community.</p>
 
-        <p>Inspired by historical maps of the area, and the written and spoken histories gathered as part of the archaeological investigations of Birley Fields, the sunken seating is an ambiguous reconstruction of the remains of the 1890’s terrace houses excavated and documented prior to the campus construction.</p>
+        <p>Inspired by historical maps of the area, and the written and spoken histories gathered as part of the archaeological investigations of the Birley site, the sunken seating is an ambiguous reconstruction of the remains of the 1890’s terrace houses excavated and documented prior to the campus construction.</p>
 
-        <p>Sunken 0.5m and entered via two small sets of steps, the seating installations share the footprints of the original buildings. The design uses reclaimed red brick in a four-stretcher English garden wall bond construction, and these walls are topped with sandstone slabs to become public seating The communication with the user is further developed via text incised onto the sandstone slabs that make up the seating surfaces. These speak of the street names, people and trades of the residents, recounting stories of life and community within these streets.</p>
+        <p>Sunken 0.5m and entered via two small sets of steps, the seating installations share the footprints of the original buildings. The design uses reclaimed red brick in a four-stretcher English garden wall bond construction, and these walls are topped with sandstone slabs to become public seating. The communication with the user is further developed via text incised onto the sandstone slabs that make up the seating surfaces. These speak of the street names, people and trades of the residents, recounting stories of life and community within these streets.</p>
 
         <p>Reclaimed cast-iron fire surrounds lie in the grass in their original locations, and tin-baths inhabit the back rooms. These additions become planters within each scheme - the red, orange and blue planting adding a whimsical engagement with the necessities of fire and water within the house. Archaeological measuring poles mark the corners of the houses, adding to the sense of ambiguity – are these new constructions or actual cellars and floor plans, revealed and re-purposed?</p>
 
@@ -85,7 +85,7 @@ include('../../assets/includes/header.php'); ?>
             <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/terrace-seating/terrace-seating3.jpg" alt="Design drawings site" width="250">
           </a>
           <a href="<?php echo $assets?>/img/case-studies/terrace-seating/terrace-seating-proposal.jpg" class="widget__image">
-            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/terrace-seating/terrace-seating-proposal_thumb.jpg" alt="Terrace seating proposal" width="250">
+            <img class="widget__thumbnail" src="<?php echo $assets?>/img/case-studies/terrace-seating/terrace-seating-proposal_thumb.jpg" alt="Terrace Seating proposal" width="250">
           </a>
         </div>
       </section>
@@ -95,9 +95,9 @@ include('../../assets/includes/header.php'); ?>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="research.php">Research</a></li>
           <li class="widget__submenu-item"><a href="golden-terrace.php">Golden Terrace</a></li>
-          <li class="widget__submenu-item"><a href="where-the-wind-blows.php">Where The Wind Blows</a></li>
+          <li class="widget__submenu-item"><a href="where-the-wind-blows.php">Where the Wind Blows</a></li>
           <li class="widget__submenu-item"><a href="thresholds.php">Thresholds</a></li>
-          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories from the Hearth</a></li>
+          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories From The Hearth</a></li>
           <li class="widget__submenu-item"><a href="the-bees.php">The Bees</a></li>
         </ul>
       </section>

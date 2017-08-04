@@ -50,14 +50,14 @@ include('../assets/includes/header.php'); ?>
         <p>Birley Archive</p><p>Archaeological Dig</p>
       </div>
 
-      <p>Between 2011 and 2012, the university commissioned an archaeological investigation on the site that was to become the Birley development.</p>
+      <p>Between 2011 and 2012, the University commissioned an archaeological investigation on the site that was to become the Birley development.</p>
       <figure class="content-image content-image--floatleft">
       <a href="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-6.jpg">
         <img src="<?php echo $assets?>/img/birley-archive/archaeological-dig/terraces-6_thumb.jpg" alt="Archaeological dig site" width="250">
       </a>
       <figcaption>Excavation</figcaption>
       </figure>
-      <p>The <a href="http://www2.mmu.ac.uk/media/mmuacuk/content/documents/birley-fields/Birley-Archaeological-Report-2012.pdf" class="content-text__link">fascinating report</a> reveals the layers of history that lie beneath the site of the university campus; its alternative foundations that take the site through agricultural land, industrial landscapes, beautiful churches and urban regeneration.</p>
+      <p>The <a href="http://www2.mmu.ac.uk/media/mmuacuk/content/documents/birley-fields/Birley-Archaeological-Report-2012.pdf" class="content-text__link">fascinating report</a> reveals the layers of history that lie beneath the site of the University campus; its alternative foundations that take the site through agricultural land, industrial landscapes, beautiful churches and urban regeneration.</p>
       <p>In March 2013, an exhibition - &ldquo;<i>Birley Fields: Exploring our past</i>&rdquo; was held of the finds. Further information can be found at the University’s <a href="http://www.specialcollections.mmu.ac.uk/" class="content-text__link">Special Collections</a>, based on the third floor of the Library at the All Saints Campus.</p>
 
     </section>

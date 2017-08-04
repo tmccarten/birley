@@ -58,9 +58,9 @@ include('../../assets/includes/header.php'); ?>
       <div class="serif-text">
         <p>As the doorway or entrance to Birley, to the Golden Terrace houses and the places to sit, the thresholds are crossed (over) as starting points to places / events as entries and exits from one place to another.</p>
 
-        <p>The Thresholds might be viewed as doormats: walked over and scattered at ground level on the Birley site (or communication portals). They playfully and aesthetically mediate moving from one site, one place into another. Gold brass detail will link with the golden terrace house project.</p>
+        <p>The Thresholds might be viewed as doormats: walked over and scattered at ground level on the Birley site (or communication portals). They playfully and aesthetically mediate moving from one site, one place into another. Gold brass detail will link with the Golden Terrace house project.</p>
 
-        <p>The codes will provide a distinctive surface pattern as crossing points. They will use as a starting point text contributions from community projects run by outreach projects supported by the university. [In this way] codes can also allow access to other information such as online blogs and web information or as a portal into archival information.</p>
+        <p>The codes will provide a distinctive surface pattern as crossing points. They will use as a starting point text contributions from community projects run by outreach projects supported by the University. [In this way] codes can also allow access to other information such as online blogs and web information or as a portal into archival information.</p>
 
         <p>These text contributions are words and sentences which will be incorporated into the structure as physical ‘tags’ or patterns, e.g. as made through a QR code generator.</p>
 
@@ -109,8 +109,8 @@ include('../../assets/includes/header.php'); ?>
         <ul class="widget__submenu">
           <li class="widget__submenu-item"><a href="research.php">Research</a></li>
           <li class="widget__submenu-item"><a href="golden-terrace.php">Golden Terrace</a></li>
-          <li class="widget__submenu-item"><a href="where-the-wind-blows.php">Where The Wind Blows</a></li>
-          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories from the Hearth</a></li>
+          <li class="widget__submenu-item"><a href="where-the-wind-blows.php">Where the Wind Blows</a></li>
+          <li class="widget__submenu-item"><a href="stories-from-the-hearth/">Stories From The Hearth</a></li>
           <li class="widget__submenu-item"><a href="terrace-seating.php">Terrace Seating</a></li>
           <li class="widget__submenu-item"><a href="the-bees.php">The Bees</a></li>
         </ul>
