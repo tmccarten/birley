@@ -50,29 +50,10 @@
 
 }
 
-
 @font-face {
 	font-family: 'Source Sans Pro';
 	src: url('../fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
 		url('../fonts/SourceSansPro-SemiBold.woff') format('woff');
 	font-weight: 600;
 	font-style: normal;
-}
-
-@font-face {
-    font-family: 'Catamaran';
-    src: url('../fonts/catamaran-light-webfont.woff2') format('woff2'),
-         url('../fonts/catamaran-light-webfont.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Catamaran';
-    src: url('../fonts/catamaran-regular-webfont.woff2') format('woff2'),
-         url('../fonts/catamaran-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }

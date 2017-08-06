@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Elderflower cake foraging recipe | Foraging Birley | Living Lines: Birley Archives";
+$pageTitle = "Elderflower cake foraging recipe | Foraging Birley | Birley Archive Project";
 $pageDescription = "Flourless elderflower, Nepalese raspberry and strawberry cake foraging recipe.";
 $pageKeywords = "Birley, Foraging, Cake, Sustainability";
 $activePage = "Grow";

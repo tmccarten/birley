@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Sweet potato wedges foraging recipe | Foraging Birley | Living Lines: Birley Archives";
+$pageTitle = "Sweet potato wedges foraging recipe | Foraging Birley | Birley Archive Project";
 $pageDescription = "Sweet potato wedges with herbs and cobnut pesto foraging recipe.";
 $pageKeywords = "Birley, Foraging, Sweet Potatoes, Sustainability";
 $activePage = "Grow";

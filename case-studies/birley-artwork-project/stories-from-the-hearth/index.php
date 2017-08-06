@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Stories From The Hearth | Birley Artwork | Living Lines: Birley Archives";
+$pageTitle = "Stories From The Hearth | Birley Artwork | Birley Archive Project";
 $pageDescription = "Stories from the hearth, stories about Birley, Hulme past and present.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "Case Studies";
@@ -82,7 +82,7 @@ include('../../../assets/includes/header.php'); ?>
       <blockquote>
         <p>&ldquo;After all, what is history if it is not an imagined past – a collection of facts which are viewed and interpreted in the light of our own experiences.&rdquo;</p>
         <footer>
-          <cite> - <a href="http://shirleybakerphotography.com/bio/" class="content-text__link">Shirley Baker, Photographer</a></cite>
+          <cite> - <a href="http://shirleybakerphotography.com/bio/">Shirley Baker, Photographer</a></cite>
         </footer>
       </blockquote>
 

@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Health and Wellbeing | Living Lines: Birley Archives";
+$pageTitle = "Sport and Wellbeing | Birley Archive Project";
 $pageDescription = "Clinics and health facilities in the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, Health, Clinics";
 $activePage = "Site";
@@ -50,7 +50,7 @@ include('../assets/includes/header.php'); ?>
       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend eros ut ultrices posuere. Donec mattis rutrum felis vel pharetra.</p>
-      <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a class="content-text__link" href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
+      <p>Mauris eget sollicitudin sapien, elementum aliquam lorem. Sed purus ante, <a href="#">eleifend faucibus</a> vestibulum id, iaculis nec orci. Integer porta arcu nec sem tincidunt, non viverra orci suscipit. Sed quis augue odio. Proin pretium convallis aliquam. Etiam cursus sagittis lobortis. Duis rutrum euismod nisl at convallis</p>
 
     </section>
 

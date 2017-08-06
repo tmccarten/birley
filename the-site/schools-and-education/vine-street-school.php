@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Vine Street School | Schools and Education | Living Lines: Birley Archives";
+$pageTitle = "Vine Street School | Schools and Education | Birley Archive Project";
 $pageDescription = "History of Vine Street School of Birley, Hulme, Manchester..";
 $pageKeywords = "Birley, History, Education, Highschool";
 $activePage = "Site";
@@ -66,7 +66,7 @@ include('../../assets/includes/header.php'); ?>
           <figcaption>Stone at Vine Street School</figcaption>
         </figure>
         <p>The foundation stone was retained and moved location following demolition of the school. It has since been recovered and there are plans to return it to the site in future.</p>
-        <p>The <a href="http://www.victoriansociety.org.uk/publications/manchester-board-schools/" class="content-text__link">Victorian Society</a> publication on Manchester School Boards contains more on the architectural detail of early schools.</p>
+        <p>The <a href="http://www.victoriansociety.org.uk/publications/manchester-board-schools/">Victorian Society</a> publication on Manchester School Boards contains more on the architectural detail of early schools.</p>
       </section>
 
       <aside class="sidebar">

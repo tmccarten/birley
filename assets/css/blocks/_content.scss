@@ -1,0 +1,16 @@
+/* -- Content -- */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: $desktopnav) {
+
+  .content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

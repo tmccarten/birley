@@ -19,7 +19,6 @@
 
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
-  //border: 1px dashed $lightborder;
   height: 60vh;
   transition: transform 700ms ease-in-out;
 
@@ -101,11 +100,11 @@
 .icon {
   position: absolute;
   padding: 2em;
-  font-size: .875em;
+  font-size: 1rem;
   line-height: 1.6em;
 
   a {
-    text-decoration: underline;
+    border-bottom: 0.0625em solid black;
     word-wrap: break-word;
   }
 
@@ -157,13 +156,15 @@
   visibility: hidden;
   transform: translate(-50%, -50%);
   border-radius: 10px;
+  font-size: 1rem;
 
   p:last-child {
     margin-bottom: 0;
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 0.0625em solid black;
   }
 }
 
@@ -222,7 +223,7 @@
 }
 
 .icon-info--farm {
-  background-color: #d0b36b;
+  background-color: #ecce82;
 }
 
 // Info pin icons
@@ -334,6 +335,7 @@
   visibility: visible;
   z-index: 9999999;
     @media screen and (min-width: 960px) {
+      display: none;
       visibility: hidden;
       z-index: 0;
   }
@@ -347,13 +349,14 @@
   top: 36.833333333333333333333333333333%;
 
   & .icon__brooks--hover {
-    display: none;
+    visibility: hidden;
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__brooks--hover {
       display: inline;
+      visibility: visible;
       position: absolute;
       border-radius: 20px;
       border-bottom-right-radius: 0;
@@ -364,6 +367,7 @@
       padding: 2em;
       background-color: #9bd7e6;
       color: black;
+      z-index: 999;
     }
   }
 }
@@ -377,13 +381,14 @@
   top: 33.499%;
 
   & .icon__vine--hover {
-    display: none;
+    visibility: hidden;
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__vine--hover {
       display: inline;
+      visibility: visible;
       position: absolute;
       border-radius: 20px;
       border-bottom-right-radius: 0;
@@ -394,6 +399,7 @@
       bottom: 50%;
       background-color: #efdca5;
       color: black;
+      z-index: 999;
     }
   }
 }
@@ -407,13 +413,14 @@
   top: 58.6955%;
 
   & .icon__energy--hover {
-    display: none;
+    visibility: hidden;
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__energy--hover {
       display: inline;
+      visibility: visible;
       position: absolute;
       box-shadow: 0 0 2px;
       border-radius: 20px;
@@ -425,6 +432,7 @@
       background-color: #8ba8b9;
       color: black;
       word-wrap: break-word;
+      z-index: 999;
     }
   }
 }
@@ -438,13 +446,14 @@
   top: 60.1365%;
 
   & .icon__birleyhigh--hover {
-    display: none;
+    visibility: hidden;
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__birleyhigh--hover {
       display: inline;
+      visibility: visible;
       position: absolute;
       box-shadow: 0 0 2px;
       border-radius: 20px;
@@ -455,6 +464,7 @@
       padding: 2em;
       background-color: #c6685a;
       color: black;
+      z-index: 999;
     }
   }
 }
@@ -468,13 +478,14 @@
   top: 55.66625%;
 
   & .icon__crescents--hover {
-    display: none;
+    visibility: hidden;
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__crescents--hover {
       display: inline;
+      visibility: visible;
       position: absolute;
       box-shadow: 0 0 2px;
       border-radius: 20px;
@@ -485,6 +496,7 @@
       padding: 2em;
       background-color: #dededa;
       color: #050606;
+      z-index: 999;
     }
   }
 }
@@ -498,13 +510,14 @@
   top: 35.518416666666666666666666666667%;
 
   & .icon__deckaccess--hover {
-    display: none;
+    visibility: hidden;
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__deckaccess--hover {
       display: inline;
+      visibility: visible;
       position: absolute;
       box-shadow: 0 0 2px;
       border-radius: 20px;
@@ -515,6 +528,7 @@
       padding: 2em;
       background-color: #dededa;
       color: #050606;
+      z-index: 999;
     }
   }
 }
@@ -528,13 +542,14 @@
   top: 28.136333333333333333333333333333%;
 
   & .icon__terraces--hover {
-    display: none;
+    visibility: hidden;
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__terraces--hover {
       display: inline;
+      visibility: visible;
       position: absolute;
       box-shadow: 0 0 2px;
       border-radius: 20px;
@@ -545,6 +560,7 @@
       padding: 2em;
       background-color: #dededa;
       color: #050606;
+      z-index: 999;
     }
   }
 }
@@ -558,13 +574,14 @@
   top: 46.346583333333333333333333333333%;
 
   & .icon__church--hover {
-    display: none;
+    visibility: hidden;
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__church--hover {
       display: inline;
+      visibility: visible;
       position: absolute;
       box-shadow: 0 0 2px;
       border-radius: 20px;
@@ -575,6 +592,7 @@
       padding: 2em;
       background-color: #dededa;
       color: #050606;
+      z-index: 999;
     }
   }
 }
@@ -588,13 +606,14 @@
   top: 29.629583333333333333333333333333%;
 
   & .icon__farm--hover {
-    display: none;
+    visibility: hidden;
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__farm--hover {
       display: inline;
+      visibility: visible;
       position: absolute;
       box-shadow: 0 0 2px;
       border-radius: 20px;
@@ -603,8 +622,9 @@
       right: 70%;
       bottom: 45%;
       padding: 2em;
-      background-color: #d0b36b;
+      background-color: #ecce82;
       color: black;
+      z-index: 999;
     }
   }
 }
@@ -622,7 +642,7 @@
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__orchard--hover {
       display: inline;
       position: absolute;
@@ -635,6 +655,7 @@
       padding: 2em;
       background-color: #c0cd92;
       color: black;
+      z-index: 999;
     }
   }
 }
@@ -652,7 +673,7 @@
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__mural--hover {
       display: inline;
       position: absolute;
@@ -665,6 +686,7 @@
       padding: 2em;
       background-color: #ac7a79;
       color: black;
+      z-index: 999;
     }
   }
 }
@@ -682,7 +704,7 @@
   }
 
   @media screen and (min-width: 960px) {
-  &:hover {
+  &:hover, &:focus, &:active {
     .icon__rolls-royce--hover {
       display: inline;
       position: absolute;
@@ -695,6 +717,7 @@
       padding: 2em;
       background-color: #ac7a79;
       color: black;
+      z-index: 999;
     }
   }
 }

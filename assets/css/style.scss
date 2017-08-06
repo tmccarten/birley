@@ -2,12 +2,16 @@
 
 @import 'global/global';
 
-@import 'site/header';
+@import 'blocks/header';
 @import 'site/maps';
 @import 'site/era-selectors';
+@import 'site/banner';
+@import 'blocks/content';
+@import 'site/content-text';
+@import 'site/breadcrumb';
+@import 'blocks/sidebar';
+@import 'pages/about';
 @import 'site/gallery';
-@import 'site/pages';
-@import 'site/sidebar';
 @import 'site/timeline';
 
-@import 'site/footer';
+@import 'blocks/footer';

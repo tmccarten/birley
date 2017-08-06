@@ -1,0 +1,204 @@
+
+.content-text {
+  text-align: center;
+  max-width: 33.5rem;
+  width: 100%;
+
+  a {
+    font-weight: 600;
+    text-decoration: none;
+    color: $linkcolour;
+    border-bottom: 0.08em solid $link_border_colour;
+    padding-bottom: 0.04em;
+    line-height: 1.6em;
+
+    &:hover {
+      text-decoration: none;
+      border-bottom-color: $linkcolour;
+    }
+  }
+
+  figcaption {
+    font-family: $serif;
+    padding: 0;
+  }
+
+  p:first-of-type {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+}
+
+.serif-text {
+  font-family: $serif;
+  font-weight: 300;
+  color: #393939;
+}
+
+.content-text__title {
+  line-height: 1.1;
+}
+
+.content-text__title--menus {
+  font-size: 1.5em;
+}
+
+.content-text__title--recipes {
+  color: $foragingcolour;
+  font-family: $seriftitle;
+}
+
+.content-text__title--poems {
+  color: $poemscolour;
+  font-family: $seriftitle;
+}
+
+.content-text--poem {
+  text-align: center;
+  max-width: none;
+  margin: 2em 0;
+  font-weight: 400;
+}
+
+.content-text__list, .content-text__recipe {
+  list-style-position: outside;
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.content-text__menu {
+  padding: 0;
+}
+
+.content-text__menu-item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  img {
+    margin-right: 1em;
+    min-width: 100px;
+  }
+}
+
+.content-text__recipe {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.content-text__list-item + *, .content-text__recipe-item {
+  margin-top: 1em;
+}
+
+.content-text__recipe-item {
+  font-weight: 400;
+
+  p {
+    display: inline;
+    font-weight: 300;
+  }
+}
+
+.content-image {
+  display: block;
+  margin: 2em auto;
+  max-width: 100%;
+
+  a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 580px) {
+
+  .content-text {
+    margin-bottom: 1em;
+  }
+
+  .content-text--poem {
+    margin: 4em 0;
+  }
+
+}
+
+@media screen and (min-width: $desktopnav) {
+
+  .content-text {
+    max-width: 30em;
+    margin-right: 2em;
+    font-weight: 300;
+    text-align: left;
+    flex: 2 2 auto;
+
+    a {
+      font-weight: 400;
+    }
+
+    blockquote {
+      margin-left: 0;
+    }
+
+    .small-bottom-margin {
+      margin-bottom: .25em;
+    }
+
+  }
+
+  .content-text--poem {
+    margin: 3em auto;
+    text-align: center;
+  }
+
+  .content-text__title {
+    margin: 1em 0;
+    padding-right: 1em;
+  }
+
+  .content-text__title--plain {
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+
+  .content-text__title--poems {
+    padding-right: 0;
+  }
+
+  .content-text__list {
+    text-align: left;
+  }
+
+  .content-text__recipe {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .content-image--floatright {
+    float: right;
+    margin: 0 0 0 2em;
+    clear: both;
+  }
+
+  .content-image--floatleft {
+    float: left;
+    margin: 0 2em 0 0;
+    clear: both;
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+  .content-text {
+    line-height: 1.3em;
+  }
+
+}

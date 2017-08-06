@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Al Baker shoots Hulme | Birley Photography | Living Lines: Birley Archives";
+$pageTitle = "Al Baker shoots Hulme | Birley Photography | Birley Archive Project";
 $pageDescription = "Al Baker photographs of Hulme in the 80s.";
 $pageKeywords = "Birley, Photography, Hulme";
 $activePage = "Archive";

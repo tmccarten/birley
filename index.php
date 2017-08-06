@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Home | Living Lines: Birley Archives";
+$pageTitle = "Home | Living Lines: Birley Archive Project";
 $pageDescription = "Archives, history and information on the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, History, Archives";
 $activePage = "Home";
@@ -36,33 +36,33 @@ include('assets/includes/header.php'); ?>
 
   <div class="era">
 
-    <div id="eraBlockOne" class="era__block">
+    <a id="eraBlockOne" class="era__block" role="button" aria-label="Pre-1800s" href="javascript:;" aria-selected="false">
       <div class="era__circle"></div>
       <div class="era__label">
         <p>Pre-1800s</p>
       </div>
-    </div>
+    </a>
 
-    <div id="eraBlockTwo" class="era__block">
+    <a id="eraBlockTwo" class="era__block" role="button" aria-label="1800s" href="javascript:;" aria-selected="false">
       <div class="era__circle"></div>
       <div class="era__label">
         <p>1800s</p>
       </div>
-    </div>
+    </a>
 
-    <div id="eraBlockThree" class="era__block">
+    <a id="eraBlockThree" class="era__block" role="button" aria-label="1960s-1980s" href="javascript:;" aria-selected="false">
       <div class="era__circle"></div>
       <div class="era__label">
         <p>1960s-1980s</p>
       </div>
-    </div>
+    </a>
 
-    <div id="eraBlockFour" class="era__block era__block--selected">
+    <a id="eraBlockFour" class="era__block era__block--selected" role="button" aria-label="Today" href="javascript:;" aria-selected="true">
       <div class="era__circle"></div>
       <div class="era__label">
         <p>Today</p>
       </div>
-    </div>
+    </a>
 
   </div><!-- era ends -->
 
@@ -72,10 +72,10 @@ include('assets/includes/header.php'); ?>
 
   <img src="assets/img/icons/ui/move-arrows.svg?2" width="100" alt="" id="moveArrows" class="movearrows">
 
-  <div class="icon-info icon-info--brooks">
+  <div class="icon-info icon-info--brooks" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Brooks building</h3>
@@ -88,10 +88,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--vine">
+  <div class="icon-info icon-info--vine" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Birley Residences</h3>
@@ -103,10 +103,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--energy">
+  <div class="icon-info icon-info--energy" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Energy centre</h3>
@@ -118,10 +118,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--mural">
+  <div class="icon-info icon-info--mural" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Hulme mural</h3>
@@ -133,10 +133,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--orchard">
+  <div class="icon-info icon-info--orchard" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Orchard</h3>
@@ -148,10 +148,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--deck">
+  <div class="icon-info icon-info--deck" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Deck Access flats</h3>
@@ -163,10 +163,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--crescents">
+  <div class="icon-info icon-info--crescents" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">The Crescents</h3>
@@ -178,10 +178,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--birley-high">
+  <div class="icon-info icon-info--birley-high" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Birley High School</h3>
@@ -194,10 +194,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--church">
+  <div class="icon-info icon-info--church" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Holy Trinity Church</h3>
@@ -210,10 +210,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--terraces">
+  <div class="icon-info icon-info--terraces" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Terraces</h3>
@@ -227,10 +227,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--rolls-royce">
+  <div class="icon-info icon-info--rolls-royce" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Rolls Royce</h3>
@@ -242,10 +242,10 @@ include('assets/includes/header.php'); ?>
 
   </div>
 
-  <div class="icon-info icon-info--farm">
+  <div class="icon-info icon-info--farm" tabindex="0">
 
     <div class="icon-info__close">
-      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon">
+      <img src="<?php echo $assets?>/img/icons/ui/close.svg" alt="Close icon" aria-hidden="true">
     </div>
 
     <h3 class="icon-info__title">Jackson's Farm</h3>
@@ -268,7 +268,7 @@ include('assets/includes/header.php'); ?>
 
 </div> <!-- site-wrapper ends -->
 
-
+<script src="<?php echo $assets?>/js/script.js?v=<?php echo $javaVersion?>"></script>
 <script src="<?php echo $assets?>/js/map.js?v=<?php echo $javaVersion?>"></script>
 
 </body>

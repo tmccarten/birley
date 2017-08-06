@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
 
-  <?php $cssVersion = "1.2" ?>
+  <?php $cssVersion = "1.3" ?>
 
-  <?php $javaVersion = "35" ?>
+  <?php $javaVersion = "39" ?>
 
   <title><?php echo $pageTitle; ?></title>
 

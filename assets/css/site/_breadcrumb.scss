@@ -1,0 +1,40 @@
+/* -- Breadcrumb -- */
+
+.breadcrumb {
+  display: none;
+}
+
+@media screen and (min-width: $desktopnav) {
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    margin: 0 0 2em 0;
+    padding: 0 .1em;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: grey;
+
+    p, a {
+      padding: 0 0 .5em 0;
+      margin: 0;
+      border-bottom: 2px dashed lightgray;
+      line-height: inherit;
+
+      &:not(:first-child):before {
+        content: ">";
+        margin: 0 .5em;
+        font-size: 1em;
+        font-weight: 200;
+      }
+    }
+
+    a:hover {
+      border-bottom: 2px solid;
+    }
+
+  }
+
+}

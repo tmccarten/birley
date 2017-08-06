@@ -1,6 +1,7 @@
   <div class="map__inner">
 
-    <div id="iconBrooks" class="icon icon__brooks">
+
+    <div id="iconBrooks" class="icon icon__brooks" tabindex="0">
 
       <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--brooks" width="32">
       <div class="icon__brooks--hover">
@@ -15,7 +16,8 @@
       </div>
     </div>
 
-    <div id="iconVine" class="icon icon__vine">
+
+    <div id="iconVine" class="icon icon__vine" tabindex="0">
 
       <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--vine" width="32">
       <div class="icon__vine--hover">
@@ -29,7 +31,7 @@
       </div>
     </div>
 
-    <div id="iconEnergy" class="icon icon__energy">
+    <div id="iconEnergy" class="icon icon__energy" tabindex="0">
 
       <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--energy" width="32">
       <div class="icon__energy--hover">
@@ -43,7 +45,7 @@
       </div>
     </div>
 
-    <div id="iconOrchard" class="icon icon__orchard">
+    <div id="iconOrchard" class="icon icon__orchard" tabindex="0">
 
       <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--orchard" width="32">
       <div class="icon__orchard--hover">
@@ -57,7 +59,7 @@
       </div>
     </div>
 
-    <div id="iconMural" class="icon icon__mural">
+    <div id="iconMural" class="icon icon__mural" tabindex="0">
 
       <img src="assets/img/icons/ui/information-pin.svg?2" alt="" class="information-pin information-pin--mural" width="32">
       <div class="icon__mural--hover">

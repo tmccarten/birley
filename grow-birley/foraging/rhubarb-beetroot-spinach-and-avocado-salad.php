@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Rhubarb salad foraging recipe | Foraging Birley | Living Lines: Birley Archives";
+$pageTitle = "Rhubarb salad foraging recipe | Foraging Birley | Birley Archive Project";
 $pageDescription = "Rhubarb, beetroot, spinach and avocado foraging recipe.";
 $pageKeywords = "Birley, Foraging, Rhubarb, Sustainability";
 $activePage = "Grow";

@@ -15,7 +15,7 @@
   }
 
   a {
-    text-decoration: underline;
+    border-bottom: 0.0625em solid black;
   }
 
   a + * {
@@ -52,5 +52,13 @@
       margin: 0 .5em;
     }
 }
+
+}
+
+@media screen and (min-width: $desktopnav) {
+
+  .main-footer {
+    font-size: 1rem;
+  }
 
 }
