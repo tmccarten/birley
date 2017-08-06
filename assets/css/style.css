@@ -674,7 +674,7 @@ h5 {
 }
 
 .icon a {
-	text-decoration: underline;
+	border-bottom: 0.0625em solid black;
 	word-wrap: break-word;
 }
 
@@ -738,7 +738,8 @@ h5 {
 }
 
 .icon-info a {
-	text-decoration: underline;
+	text-decoration: none;
+	border-bottom: 0.0625em solid black;
 }
 
 .icon-info__title {
@@ -1347,6 +1348,10 @@ h5 {
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 	margin: 1em 0 2em 0;
+}
+
+.era a:hover {
+	text-decoration: none;
 }
 
 .era__block {
@@ -2375,7 +2380,7 @@ figcaption {
 }
 
 .main-footer a {
-	text-decoration: underline;
+	border-bottom: 0.0625em solid black;
 }
 
 .main-footer a + * {

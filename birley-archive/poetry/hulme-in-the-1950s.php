@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Hulme in the 1950s poem | Birley Poetry | Living Lines: Birley Archives";
+$pageTitle = "Hulme in the 1950s poem | Birley Poetry | Birley Archive Project";
 $pageDescription = "Hulme in the 1950s, a poem by SuAndi - National Black Arts Alliance.";
 $pageKeywords = "Birley, Poetry, Hulme";
 $activePage = "Archive";

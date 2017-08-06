@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Birley High | Schools and Education | Living Lines: Birley Archives";
-$pageDescription = "History of former high school Birley High of Birley, Hulme, Manchester..";
+$pageTitle = "Birley High School | Schools and Education | Birley Archive Project";
+$pageDescription = "History of former high school Birley High of Birley, Hulme, Manchester.";
 $pageKeywords = "Birley, History, Education, Highschool";
 $activePage = "Site";
 $activeSubPage = "Schools and Education";

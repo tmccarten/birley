@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Research | Birley Artwork | Living Lines: Birley Archives";
-$pageDescription = "Birley artwork.";
+$pageTitle = "Research | Birley Artwork | Birley Archive Project";
+$pageDescription = "Information on the research that went into the Birley Artwork Project and project focus.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "Case Studies";
 $activeSubPage = "Birley Artwork Project";

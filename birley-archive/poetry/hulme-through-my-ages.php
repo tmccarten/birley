@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Hulme Through My Ages poem | Birley Poetry | Living Lines: Birley Archives";
+$pageTitle = "Hulme Through My Ages poem | Birley Poetry | Birley Archive Project";
 $pageDescription = "Hulme My Ages, a poem about Hulme, Manchester.";
 $pageKeywords = "Birley, Poetry, Hulme";
 $activePage = "Archive";

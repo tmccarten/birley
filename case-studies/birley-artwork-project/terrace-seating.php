@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Terrace Seating | Birley Artwork | Living Lines: Birley Archives";
-$pageDescription = "Birley artwork.";
+$pageTitle = "Terrace Seating | Birley Artwork | Birley Archive Project";
+$pageDescription = "Information on the Terrace Seating project proposal at Birley campus.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "Case Studies";
 $activeSubPage = "Birley Artwork Project";

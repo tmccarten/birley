@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Golden Terrace | Birley Artwork | Living Lines: Birley Archives";
-$pageDescription = "Birley artwork.";
+$pageTitle = "Golden Terrace | Birley Artwork | Birley Archive Project";
+$pageDescription = "Information on the Golden Terrace project proposal at Birley campus.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "Case Studies";
 $activeSubPage = "Birley Artwork Project";

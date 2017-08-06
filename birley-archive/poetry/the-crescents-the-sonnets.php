@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "The Crescents - Sonnets| Birley Poetry | Living Lines: Birley Archives";
+$pageTitle = "The Crescents - Sonnets| Birley Poetry | Birley Archive Project";
 $pageDescription = "Sonnets on The Crescents, Hulme, Manchester.";
 $pageKeywords = "Birley, Poetry, Hulme";
 $activePage = "Archive";

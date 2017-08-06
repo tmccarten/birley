@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Salmon foraging recipe | Foraging Birley | Living Lines: Birley Archives";
+$pageTitle = "Salmon foraging recipe | Foraging Birley | Birley Archive Project";
 $pageDescription = "Salmon with ostrich fern and wild garlic Birley foraging recipe.";
 $pageKeywords = "Birley, Foraging, Salmon, Sustainability";
 $activePage = "Grow";

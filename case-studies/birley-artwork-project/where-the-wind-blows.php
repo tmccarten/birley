@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Where the Wind Blows | Birley Artwork | Living Lines: Birley Archives";
-$pageDescription = "Birley artwork.";
+$pageTitle = "Where the Wind Blows | Birley Artwork | Birley Archive Project";
+$pageDescription = "Information on the Where The Wind Blows project proposal at Birley campus.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "Case Studies";
 $activeSubPage = "Birley Artwork Project";

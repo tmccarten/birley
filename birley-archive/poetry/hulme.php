@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Hulme poem | Birley Poetry | Living Lines: Birley Archives";
+$pageTitle = "Hulme poem | Birley Poetry | Birley Archive Project";
 $pageDescription = "A poem about Hulme.";
 $pageKeywords = "Birley, Poetry, Hulme";
 $activePage = "Archive";

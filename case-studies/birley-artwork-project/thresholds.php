@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Thresholds | Birley Artwork | Living Lines: Birley Archives";
-$pageDescription = "Birley artwork.";
+$pageTitle = "Thresholds | Birley Artwork | Birley Archive Project";
+$pageDescription = "Information on the Thresholds project proposal at Birley campus.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "Case Studies";
 $activeSubPage = "Birley Artwork Project";

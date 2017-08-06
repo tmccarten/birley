@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Birley Music | Living Lines: Birley Archives";
-$pageDescription = "Birley music history.";
+$pageTitle = "Birley Music | Birley Archive Project";
+$pageDescription = "Birley music history including Epping Bridge and Joy Division.";
 $pageKeywords = "Birley, Music, History";
 $activePage = "Archive";
 $activeSubPage = "Music";

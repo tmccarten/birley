@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Stories From The Hearth | Birley Artwork | Living Lines: Birley Archives";
+$pageTitle = "Stories From The Hearth | Birley Artwork | Birley Archive Project";
 $pageDescription = "Stories from the hearth, stories about Birley, Hulme past and present.";
 $pageKeywords = "Birley, Artwork, Hulme";
 $activePage = "Case Studies";

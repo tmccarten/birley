@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Foraging Birley | Living Lines: Birley Archives";
+$pageTitle = "Foraging Birley | Birley Archive Project";
 $pageDescription = "Foraging in Birley.";
 $pageKeywords = "Birley, Foraging, Sustainability";
 $activePage = "Grow";

@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Birley Dig | Living Lines: Birley Archives";
-$pageDescription = "Birley archaeological dig history.";
+$pageTitle = "Birley Dig | Birley Archive Project";
+$pageDescription = "Birley campus archaeological dig history.";
 $pageKeywords = "Birley, Dig, Archaeology, History";
 $activePage = "Archive";
 $activeSubPage = "Dig";

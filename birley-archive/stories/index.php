@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Birley Stories | Living Lines: Birley Archives";
+$pageTitle = "Birley Stories | Birley Archive Project";
 $pageDescription = "Birley stories.";
 $pageKeywords = "Birley, Stories, Hulme";
 $activePage = "Archive";

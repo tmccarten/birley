@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Bramble vinegar foraging recipe | Foraging Birley | Living Lines: Birley Archives";
+$pageTitle = "Bramble vinegar foraging recipe | Foraging Birley | Birley Archive Project";
 $pageDescription = "Bramble vinegar foraging recipe.";
 $pageKeywords = "Birley, Foraging, Vinegar, Sustainability";
 $activePage = "Grow";

@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Health and Wellbeing | Living Lines: Birley Archives";
+$pageTitle = "Sport and Wellbeing | Birley Archive Project";
 $pageDescription = "Clinics and health facilities in the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, Health, Clinics";
 $activePage = "Site";

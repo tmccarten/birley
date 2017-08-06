@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "Sport - Past and Present | Living Lines: Birley Archives";
-$pageDescription = "Sport past and present in Birley, Hulme, Manchester..";
+$pageTitle = "Site History | Birley Archive Project";
+$pageDescription = "History of Manchester Metropolitan University's Birley campus site.";
 $pageKeywords = "Birley, History, Sports";
 $activePage = "Site";
 $activeSubPage = "Site History";

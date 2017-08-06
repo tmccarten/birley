@@ -1,7 +1,7 @@
 <?php
 
-$pageTitle = "About | Living Lines: Birley Archives";
-$pageDescription = "About the Living Lines Birley project.";
+$pageTitle = "About | Birley Archive Project";
+$pageDescription = "About the Birley Archive Project by Manchester Metropolitan University.";
 $pageKeywords = "Birley, About";
 $activePage = "About";
 $activeSubPage = "";

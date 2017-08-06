@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Birley Site Photograph Archive | Birley Photography | Living Lines: Birley Archives";
+$pageTitle = "Birley Site Photograph Archive | Birley Photography | Birley Archive Project";
 $pageDescription = "Photographs of the vacant Birley site prior to construction.";
 $pageKeywords = "Birley, Photography, Hulme";
 $activePage = "Archive";

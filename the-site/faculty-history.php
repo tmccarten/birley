@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Birley Faculty History | Living Lines: Birley Archives";
+$pageTitle = "Birley Faculty History | Birley Archive Project";
 $pageDescription = "History of education around the Birley area of Hulme, Manchester.";
 $pageKeywords = "Birley, History, Education, Timeline, Faculty";
 $activePage = "Site";

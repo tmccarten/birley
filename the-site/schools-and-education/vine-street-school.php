@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Vine Street School | Schools and Education | Living Lines: Birley Archives";
+$pageTitle = "Vine Street School | Schools and Education | Birley Archive Project";
 $pageDescription = "History of Vine Street School of Birley, Hulme, Manchester..";
 $pageKeywords = "Birley, History, Education, Highschool";
 $activePage = "Site";

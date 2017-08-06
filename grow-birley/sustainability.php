@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Sustainability Birley | Living Lines: Birley Archives";
+$pageTitle = "Sustainability Birley | Birley Archive Project";
 $pageDescription = "Sustainability and plants and garden centres in Birley, Hulme, Manchester.";
 $pageKeywords = "Birley, Foraging, Bees, Sustainability";
 $activePage = "Grow";

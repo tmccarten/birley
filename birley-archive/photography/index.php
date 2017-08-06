@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Birley Photography | Living Lines: Birley Archives";
+$pageTitle = "Birley Photography | Birley Archive Project";
 $pageDescription = "Photographs of Hulme, Manchester throughout the ages.";
 $pageKeywords = "Birley, Photography, Hulme";
 $activePage = "Archive";
